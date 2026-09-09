@@ -4,7 +4,7 @@ Only nodes within 2m of the main ground route are used; inference is explicit.
 import json,pathlib,argparse,math,re
 from shapely.geometry import Polygon,LineString,Point
 from shapely.ops import unary_union,transform,nearest_points
-from shapely import constrained_delaunay_triangles
+from shapely import constrained_delaunay_triangles, set_precision
 from pyproj import Transformer
 p=argparse.ArgumentParser()
 for n in ['ground','crossings','routes','registration','out']:p.add_argument('--'+n,required=True)
@@ -59,6 +59,7 @@ for item in json.load(open(a.crossings))['crossings']:
   origin=(edge.x,edge.y);center=(edge.x+direction[0]*.8,edge.y+direction[1]*.8);poly=rectangle(center,v,direction,1.8,1.6).intersection(walk)
   if poly.area<1 or any(poly.intersection(r['geom']).area>.1 for r in ramps):continue
   ramps.append({'geom':poly,'origin':origin,'direction':direction,'osm_id':item['osm_id'],'status':'Estimated ramp from mapped crossing and sidewalk intersection; actual presence unverified'})
+stripes=parts(set_precision(unary_union(stripes).simplify(.005,preserve_topology=True),.01))
 cut=unary_union([r['geom'] for r in ramps]);walkcut=walk.difference(cut)
 # Rebuild the sidewalk and curbs around candidate ramps; original before-version remains available.
 curb=surface('GROUND_CURBS_ESTIMATED',.17).difference(cut.buffer(.02))
