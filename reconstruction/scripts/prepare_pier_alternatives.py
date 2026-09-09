@@ -10,6 +10,7 @@ report=json.load(open(R/'Worksheet04_05/stage45_check.json'));geo=json.load(open
 cp=json.load(open('/tmp/civic-ground-crossings/crossing_payload.json'))['meshes']['GROUND_CROSSWALK_MARKINGS_ESTIMATED'];vs=cp['vertices']
 mark=unary_union([Polygon([(vs[i][0],vs[i][1]) for i in f]) for f in cp['faces'] if len(f)==3 and all(abs(vs[i][2]-.005)<1e-6 for i in f)]).buffer(1.5)
 audit=json.load(open(R/'Stage03_Zhonglin/zhonglin_audit.json'));access=unary_union([LineString(r['live_xy']).buffer(3.5) for r in audit['routes']]);blocked=unary_union([mark,access])
+mm=json.load(open(R/'GroundFull/median_source/median_payload.json'))['mesh'];mv=mm['vertices'];median=unary_union([Polygon([(mv[i][0],mv[i][1]) for i in f]) for f in mm['faces'] if len(f)==3 and all(abs(mv[i][2]-.18)<1e-6 for i in f)])
 f=json.load(open(R/'registration.json'));g=f['live_to_twd97'];ang=math.radians(g['rotation_degrees']);origin=[f['origin_epsg3826'][i]+g['translation'][i] for i in (0,1)];tr=Transformer.from_crs(4326,3826,always_xy=True)
 def loc(q):
  x,y=tr.transform(*q);x-=origin[0];y-=origin[1];return ((math.cos(ang)*x+math.sin(ang)*y)/g['scale'],(-math.sin(ang)*x+math.cos(ang)*y)/g['scale'])
@@ -27,9 +28,9 @@ for entry in report['local_support_checks']:
  old=geom(0);conflict=old.intersection(blocked).area
  candidates=[]
  if conflict>.01:
-  for shift in [-5,5,-10,10,-15,15,-20,20]:
+  for shift in [sign*k for k in range(1,21) for sign in [-1,1]]:
    proposal=geom(shift);area=proposal.intersection(blocked).area
-   if area>.01:continue
+   if area>.01 or proposal.difference(median).area>.001:continue
    # Centerline envelope is only an initial broad check, not local deck support verification.
    lanes=t.get('lanes','3');width=(int(lanes) if str(lanes).isdigit() else 3)*3.25+2
    if any(Point(p[0]+v[0]*shift,p[1]+v[1]*shift).distance(line)>width/2-1 for p in points):continue
@@ -42,5 +43,7 @@ for r in groups:
  if r['selected_for_comparison']:
   d=r['selected_for_comparison']['delta_xy'];new=[xy[i]+d[i] for i in (0,1)];r['nearest_other_bent_after_m']=min(math.dist(new,[q['center_xy'][i]+(q['selected_for_comparison']['delta_xy'][i] if q['selected_for_comparison'] else 0) for i in (0,1)]) for q in others)
 summary={'bent_groups':len(groups),'groups_intersecting_modeled_exclusions':sum(r['original_overlap_m2']>.01 for r in groups),'groups_with_translation_candidate':sum(r['selected_for_comparison'] is not None for r in groups),'unresolved_groups':sum(r['original_overlap_m2']>.01 and r['selected_for_comparison'] is None for r in groups)}
-out={'summary':summary,'limitations':['Crossing markings are inferred, with 1.5m buffer','Only six mapped Zhonglin access lines included, with assumed 3.5m exclusion radius','Bridge centerline width is estimated','Translations move a whole bent and cap together; spans, bearing contact and foundation conflicts require redesign','No available alternative is not proof that original position is safe'],'groups':groups}
-p=R/'Worksheet04_05/pier_alternatives.json';p.write_text(json.dumps(out,ensure_ascii=False,indent=2));print(json.dumps(summary))
+out={'summary':summary,'limitations':['User-selected hard constraint: full pier footprint inside inferred median, shifts limited to +/-20m along bridge axis','Crossing markings are inferred, with 1.5m buffer','Only six mapped Zhonglin access lines included, with assumed 3.5m exclusion radius','Bridge centerline width is estimated','Translations move a whole bent and cap together; spans, bearing contact and foundation conflicts require redesign','No available alternative is not proof that original position is safe'],'groups':groups}
+p=R/'Worksheet04_05/pier_alternatives.json'
+if p.exists():(R/'Worksheet04_05/pier_alternatives_first_pass_REJECTED.json').write_text(p.read_text())
+p.write_text(json.dumps(out,ensure_ascii=False,indent=2));print(json.dumps(summary))

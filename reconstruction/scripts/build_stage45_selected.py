@@ -5,6 +5,9 @@ import bpy,json,pathlib,datetime,math
 from mathutils import Vector
 root=pathlib.Path(ROOT);main=bpy.context.scene;s=datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
 bpy.ops.wm.save_as_mainfile(filepath=str(root/('before_selected_'+s+'.blend')),copy=True)
+for scene_name in ['STAGE05_ALTERNATIVE_PIERS_REVIEW','STAGE04_B_SELECTED_OPEN_SECTION']:
+ old_scene=bpy.data.scenes.get(scene_name)
+ if old_scene:bpy.data.scenes.remove(old_scene)
 p=json.loads((root/'pier_alternatives.json').read_text());audit=json.loads((root.parent/'Stage03_Zhonglin/zhonglin_audit.json').read_text())
 def newcol(name):
  c=bpy.data.collections.get(name)
@@ -44,6 +47,7 @@ for group in p['groups']:
   if src is None:continue
   o=src.copy();o.data=src.data.copy();alt.objects.link(o);o.name='ALT_'+name;o.location+=delta;o.hide_render=False;o.hide_set(False);o['status']='Estimated alternative; not as-built. Structural redesign and foundation checks unresolved.'
   if d:o.data.materials.clear();o.data.materials.append(orange)
+  elif group['original_overlap_m2']>.01:o.data.materials.clear();o.data.materials.append(red);o['status']='UNRESOLVED CONFLICT: no candidate within inferred median under current search limits'
  if d:
   x,y=group['center_xy'];dx,dy=d['delta_xy'];length=math.hypot(dx,dy);box('SHIFT_'+group['cap'],(x+dx/2,y+dy/2,.35),(length,.35,.35),orange,math.atan2(dy,dx),markers)
 # Main remains original pier option; alternative excluded from main view layer only.
@@ -52,7 +56,7 @@ scene=bpy.data.scenes.new('STAGE05_ALTERNATIVE_PIERS_REVIEW')
 for name in ['04_Elevated_deck_estimated','05_Parapets_estimated','06_Steel_girders_estimated','GROUND_FULL_01_OFFICIAL_AND_ESTIMATED','GROUND_FULL_02_CROSSINGS_AND_RAMPS_ESTIMATED',alt.name,markers.name]:scene.collection.children.link(bpy.data.collections[name])
 camd=bpy.data.cameras.new('S45_ALT_CAMERA');cam=bpy.data.objects.new(camd.name,camd);scene.collection.objects.link(cam);scene.camera=cam;scene.world=main.world
 scene.render.engine='BLENDER_WORKBENCH';scene.display.shading.color_type='MATERIAL';scene.display.shading.show_cavity=True;scene.render.resolution_x=1700;scene.render.resolution_y=1100;scene.render.resolution_percentage=100;scene.render.image_settings.file_format='PNG'
-changed=[r for r in p['groups'] if r['selected_for_comparison']];focus=min(changed,key=lambda r:math.dist(r['center_xy'],[1208,726]))
+changed=[r for r in p['groups'] if r['selected_for_comparison']] or [r for r in p['groups'] if r['original_overlap_m2']>.01];focus=min(changed,key=lambda r:math.dist(r['center_xy'],[1208,726]))
 x,y=focus['center_xy'];cam.location=(x,y-85,65);cam.rotation_euler=(Vector((x,y,3))-cam.location).to_track_quat('-Z','Y').to_euler();camd.type='ORTHO';camd.ortho_scale=95
 scene.render.filepath=str(root/'pier_alternative.png');bpy.ops.render.render(write_still=True,scene=scene.name)
 # Same camera for original supports: exchange collection links only within comparison scene.
