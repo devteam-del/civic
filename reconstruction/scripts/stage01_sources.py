@@ -1,7 +1,7 @@
 """Acquire source plans and full named-road coverage; never invent elevations.
 Run with osmium, pypdfium2 and pillow installed. Source downloads are local only.
 """
-import argparse,json,pathlib,urllib.request,hashlib,math
+import argparse,json,pathlib,urllib.request,hashlib,math,subprocess
 import osmium
 import pypdfium2 as pdfium
 from PIL import Image, ImageDraw
@@ -21,7 +21,12 @@ def download(out):
         try:
             path=out/(key+'.pdf')
             if not path.exists():
-                data=urllib.request.urlopen(url,timeout=60).read()
+                try:
+                    data=urllib.request.urlopen(url,timeout=60).read()
+                except urllib.error.URLError:
+                    # macOS curl uses its certificate trust implementation. Do not disable TLS verification.
+                    subprocess.run(['curl','--fail','--location','--max-time','90',url,'-o',str(path)],check=True,capture_output=True)
+                    data=path.read_bytes()
                 if not data.startswith(b'%PDF'):raise ValueError('not a PDF')
                 path.write_bytes(data)
             rec['sha256']=hashlib.sha256(path.read_bytes()).hexdigest()
