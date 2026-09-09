@@ -43,9 +43,11 @@ for t,line in routes:
    choices.append((dist,other,q))
   if not choices:continue
   dist,other,q=min(choices,key=lambda x:x[0]);gap=dist-(width(t)+width(other))/2
-  if gap>12:wide+=1;continue
+  if gap>12:wide+=1
   if gap<.6:continue
   n=((q.x-p0.x)/dist,(q.y-p0.y)/dist);aa=(p0.x+n[0]*width(t)/2,p0.y+n[1]*width(t)/2);bb=(q.x-n[0]*width(other)/2,q.y-n[1]*width(other)/2)
+  if gap>12:
+   center=((aa[0]+bb[0])/2,(aa[1]+bb[1])/2);aa=(center[0]-n[0]*6,center[1]-n[1]*6);bb=(center[0]+n[0]*6,center[1]+n[1]*6)
   patch=Polygon([(aa[0]-v[0]*2.5,aa[1]-v[1]*2.5),(aa[0]+v[0]*2.5,aa[1]+v[1]*2.5),(bb[0]+v[0]*2.5,bb[1]+v[1]*2.5),(bb[0]-v[0]*2.5,bb[1]-v[1]*2.5)])
   if patch.is_valid:patches.append(patch)
 median=unary_union(patches).intersection(allowed);cuts=unary_union([Point(loc(*r['twd97'])).buffer(14) for r in json.load(open(a.crossings))['crossings'] if r['distance_to_ground_route_m']<2]);median=median.difference(cuts).buffer(-.01).buffer(.01)
@@ -62,5 +64,5 @@ for poly in parts(median):
   coords=list(ring.coords)
   for aa,bb in zip(coords,coords[1:]):
    i=len(vs);vs.extend([(*aa,0),(*bb,0),(*bb,.18),(*aa,.18)]);fs.append((i,i+1,i+2,i+3))
-r={'summary':{'median_working_area_m2':median.area,'median_components':len(parts(median)),'official_records_with_median_area':len(known),'wide_gap_samples_not_inferred':wide},'assumptions':{'height_m':.18,'max_gap_width_m':12,'crossing_clearance_radius_m':14,'lane_width_m':3.25,'status':'Estimated median location; official CEN_MEDIAN confirms area attribute only, not geometry'},'mesh':{'vertices':vs,'faces':fs}}
+r={'summary':{'median_working_area_m2':median.area,'median_components':len(parts(median)),'official_records_with_median_area':len(known),'wide_gap_samples_capped_at_12m':wide},'assumptions':{'height_m':.18,'max_gap_width_m':12,'crossing_clearance_radius_m':14,'lane_width_m':3.25,'status':'Estimated median location; official CEN_MEDIAN confirms area attribute only, not geometry'},'mesh':{'vertices':vs,'faces':fs}}
 out=pathlib.Path(a.out);out.mkdir(parents=True,exist_ok=True);(out/'median_payload.json').write_text(json.dumps(r));(out/'median_check.json').write_text(json.dumps({k:v for k,v in r.items() if k!='mesh'},ensure_ascii=False,indent=2));print(json.dumps(r['summary']))
