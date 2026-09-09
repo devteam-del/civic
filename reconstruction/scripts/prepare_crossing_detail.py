@@ -27,7 +27,7 @@ def parts(g):
  if g.is_empty:return []
  if g.geom_type=='Polygon':return [g]
  return sum([parts(q) for q in getattr(g,'geoms',[])],[])
-stripes=[];records=[];ramps=[];seen=[]
+stripes=[];records=[];ramps=[];seen=[];marking_footprints=[]
 for item in json.load(open(a.crossings))['crossings']:
  if item['distance_to_ground_route_m']>2:continue
  tags=item['tags']
@@ -49,7 +49,11 @@ for item in json.load(open(a.crossings))['crossings']:
   for k in range(math.ceil(span)):
    shift=low+k+.25
    localstripes.extend(parts(rectangle((xy[0]+n[0]*shift,xy[1]+n[1]*shift),v,n,4,.5).intersection(markable)))
- stripes+=localstripes;records.append({'osm_id':item['osm_id'],'section':t['name'],'source_xy':xy,'marking_tag':mark,'estimated_crossing_span_m':span,'stripe_pieces':len(localstripes),'status':'OSM point; orientation, width and pattern extents inferred'})
+ footprint=rectangle(centerxy,v,n,4,span)
+ duplicate=any(footprint.intersection(old).area>.5*min(footprint.area,old.area) for old in marking_footprints)
+ if duplicate:localstripes=[]
+ else:marking_footprints.append(footprint)
+ stripes+=localstripes;records.append({'osm_id':item['osm_id'],'section':t['name'],'source_xy':xy,'marking_tag':mark,'estimated_crossing_span_m':span,'stripe_pieces':len(localstripes),'duplicate_marking_suppressed':duplicate,'status':'OSM point; orientation, width and pattern extents inferred'})
  # Ramp candidates are recorded and cut only where the ray meets mapped sidewalk within 35m.
  for sign in [-1,1]:
   direction=(n[0]*sign,n[1]*sign);ray=LineString([xy,(xy[0]+direction[0]*35,xy[1]+direction[1]*35)]);hit=ray.intersection(walk)
