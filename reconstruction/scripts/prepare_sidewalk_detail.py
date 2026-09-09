@@ -4,7 +4,7 @@ No inferred stair/ramp openings. Real openings preserved; artificial crop bounda
 import argparse,json,pathlib,math
 from shapely.geometry import shape,box,LineString,Point,Polygon
 from shapely.ops import unary_union,substring,triangulate
-from shapely import affinity
+from shapely import affinity,constrained_delaunay_triangles
 from pyproj import Transformer
 p=argparse.ArgumentParser()
 for n in ['sidewalks','osm','registration','out']:p.add_argument('--'+n,required=True)
@@ -22,7 +22,7 @@ for ft in json.load(open(a.sidewalks))['features']:
 g=unary_union(polys).intersection(extent)
 from shapely import wkt
 rampcut=wkt.loads(pathlib.Path(a.ramp_cut).read_text()) if a.ramp_cut else Polygon()
-g=g.difference(rampcut);assert g.area>100
+precut_area=g.area;g=g.difference(rampcut);ramp_removed=precut_area-g.area;assert g.area>100
 ways=json.load(open(a.osm))['ways'];road=unary_union([LineString([loc(*q) for q in w['xy']]) for w in ways if w['tags'].get('name')=='市民大道二段' and w['tags'].get('bridge')!='yes'])
 def pieces(g):
  if g.is_empty:return []
@@ -56,7 +56,7 @@ def mesh(polygons,z0,z1):
  vs=[];fs=[];err=0
  for poly in polygons:
   poly=poly.simplify(0.00001,preserve_topology=True)
-  ts=[t for t in triangulate(poly) if poly.covers(t)];err+=abs(sum(t.area for t in ts)-poly.area)
+  ts=list(constrained_delaunay_triangles(poly).geoms);err+=abs(sum(t.area for t in ts)-poly.area)
   for t in ts:
    coords=list(t.exterior.coords)[:-1];n=len(vs);vs.extend([(x,y,z0) for x,y in coords]+[(x,y,z1) for x,y in coords]);fs.extend([(n+2,n+1,n),(n+3,n+4,n+5)])
   for ring in [poly.exterior]+list(poly.interiors):
@@ -66,5 +66,5 @@ def mesh(polygons,z0,z1):
  assert err<.01,('triangulation lost area',err)
  return {'vertices':vs,'faces':fs,'area_error_m2':err}
 params={'curb_width_m':.15,'curb_top_z_m':.17,'tile_size_m':[.6,.3],'tile_thickness_m':.02,'tile_bottom_z_m':.15,'joint_m':.006,'bond_rotation_degrees':rotation,'status':'ESTIMATED construction dimensions; ground datum assumed; NOT field-verified'}
-result={'parameters':params,'source_ids':sources,'summary':{'source_features':len(polys),'sidewalk_union_area_m2':g.area,'overlap_removed_m2':sum(q.intersection(extent).area for q in polys)-g.area,'curb_stones':len(curbs),'paving_tiles':len(tiles),'curb_area_m2':curb_union.area,'tile_area_m2':sum(t.area for t in tiles)},'meshes':{'CURB_STONES_ESTIMATED':mesh(curbs,0,.17),'PAVING_TILES_ESTIMATED':mesh(tiles,.15,.17)}}
+result={'parameters':params,'source_ids':sources,'summary':{'source_features':len(polys),'sidewalk_union_area_m2':g.area,'overlap_removed_m2':sum(q.intersection(extent).area for q in polys)-precut_area,'ramp_cut_area_m2':ramp_removed,'curb_stones':len(curbs),'paving_tiles':len(tiles),'curb_area_m2':curb_union.area,'tile_area_m2':sum(t.area for t in tiles)},'meshes':{'CURB_STONES_ESTIMATED':mesh(curbs,0,.17),'PAVING_TILES_ESTIMATED':mesh(tiles,.15,.17)}}
 (out/'detail_payload.json').write_text(json.dumps(result));(out/'parameters_and_check.json').write_text(json.dumps({k:v for k,v in result.items() if k!='meshes'},ensure_ascii=False,indent=2));print(json.dumps(result['summary']))
