@@ -11,3 +11,5 @@
 ```sh
 python3 reconstruction/scripts/audit_scope.py --model-root MODEL_FOLDER --corridor CORRIDOR_GEOJSON --output reconstruction/reports
 ```
+
+首批遠端備份：c6a607adc69a58faa5a2116e64461147e83996f8。備份完成後執行 audit_scope.py 成功：93 features；WGS84 bounds 121.5037481,25.0439955,121.5658228,25.050951。產生範圍圖、資產 SHA256 與檢查JSON。py_compile 因沙盒外快取寫入受限失敗；改用不寫檔 ast.parse 語法檢查通過。SVG XML檢查通過。Blender 幾何未修改。關卡A範圍選項已送使用者確認。
