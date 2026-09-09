@@ -4,6 +4,7 @@ Working extents are clipped to 70m around named ground routes; never interpreted
 import argparse,json,pathlib,re,math,collections
 import shapefile
 from shapely.geometry import shape,LineString,Point,box
+from shapely import constrained_delaunay_triangles
 from shapely.ops import unary_union,transform,triangulate
 from pyproj import Transformer
 p=argparse.ArgumentParser()
@@ -51,12 +52,13 @@ def mesh(g,z0,z1):
  vs=[];fs=[];area=0;lost=0
  for poly in parts(g):
   if poly.area<.001:continue
-  poly=poly.simplify(.001,preserve_topology=True);ts=[t for t in triangulate(poly) if poly.covers(t)];area+=poly.area;lost+=abs(poly.area-sum(t.area for t in ts))
+  poly=poly.simplify(.001,preserve_topology=True);ts=list(constrained_delaunay_triangles(poly).geoms);area+=poly.area;lost+=abs(poly.area-sum(t.area for t in ts))
   for t in ts:
    pts=list(t.exterior.coords)[:-1];i=len(vs);vs.extend([(*q,z0) for q in pts]+[(*q,z1) for q in pts]);fs.extend([(i+2,i+1,i),(i+3,i+4,i+5)])
   for ring in [poly.exterior]+list(poly.interiors):
    for aa,bb in zip(list(ring.coords),list(ring.coords)[1:]):
     i=len(vs);vs.extend([(*aa,z0),(*bb,z0),(*bb,z1),(*aa,z1)]);fs.append((i,i+1,i+2,i+3))
+ assert lost<0.01,('area loss',lost)
  return {'vertices':vs,'faces':fs,'area_m2':area,'triangulation_area_loss_m2':lost}
 # Curbs along road-facing boundary only; sampling filters back edges and crop edges.
 carriage=unary_union([official,est]).difference(walk);curb=[]
