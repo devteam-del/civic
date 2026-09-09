@@ -23,7 +23,7 @@ def lines(g):
  return []
 civic=[w for w in d['ways'] if w['tags'].get('name')=='市民大道二段' and w['tags'].get('bridge')!='yes' and w['tags'].get('highway') in ['primary','secondary','tertiary','residential','unclassified']]
 road=unary_union([LineString(w['xy']) for w in civic]);cross=[]
-for label,ids in [('Zhongshan N',[515156296,515156298]),('Tianjin',[232106525]),('Linsen N',[1347363384])]:
+for label,ids in [('Zhongshan N',[264551743]),('Tianjin',[232106525]),('Linsen N',[1347363384])]:
  ws=[w for w in d['ways'] if w['id'] in ids];g=unary_union([LineString(w['xy']) for w in ws]).intersection(road)
  pts=list(g.geoms) if hasattr(g,'geoms') else [g];pts=[q for q in pts if q.geom_type=='Point' and not q.is_empty and extent.contains(q)]
  if not pts:raise RuntimeError('No surface intersection: '+label)
