@@ -1,5 +1,5 @@
 """Blender: physical pilot paving and curbs. Preserve originals and save versioned result."""
-import bpy,json,pathlib,datetime
+import bpy,json,pathlib,datetime,bmesh
 from mathutils import Vector
 p=json.loads(pathlib.Path(PAYLOAD).read_text());root=pathlib.Path(ROOT);root.mkdir(parents=True,exist_ok=True);s=datetime.datetime.now().strftime('%Y%m%d_%H%M%S');sc=bpy.context.scene
 bpy.ops.wm.save_as_mainfile(filepath=str(root/('before_detail_'+s+'.blend')),copy=True)
@@ -10,6 +10,7 @@ if old:
 c=bpy.data.collections.new(name);sc.collection.children.link(c)
 for key,data in p['meshes'].items():
  me=bpy.data.meshes.new(key);me.from_pydata(data['vertices'],[],data['faces']);me.update();o=bpy.data.objects.new(key,me);c.objects.link(o)
+ bm=bmesh.new();bm.from_mesh(me);bmesh.ops.remove_doubles(bm,verts=list(bm.verts),dist=0.000001);bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));o['nonmanifold_edges']=sum(not e.is_manifold for e in bm.edges);bm.to_mesh(me);bm.free();me.update()
  mat=bpy.data.materials.new(key+'_MATERIAL');mat.diffuse_color=(.58,.54,.46,1) if key.startswith('PAVING') else (.78,.78,.74,1);o.data.materials.append(mat);o['source']='Taipei sidewalk GIS XY; road-facing curb classification from OSM';o['parameters']=json.dumps(p['parameters']);o['source_ids']=json.dumps(p['source_ids']);o['physical_piece_count']=p['summary']['paving_tiles' if key.startswith('PAVING') else 'curb_stones']
 c['status']='Physical detailed pilot started; dimensions estimated, not verified as-built';c['known_missing']='Kerb ramps, tactile routes, drains and underground entrances need position evidence'
 cam=bpy.data.objects.get('DETAIL_CAMERA')
