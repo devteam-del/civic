@@ -1,0 +1,7 @@
+# The severance pipeline. No network access is used or required.
+osmium>=4.0        # reads the local .osm.pbf extract
+shapely>=2.0       # all geometry
+pyproj>=3.5        # EPSG:4326 <-> EPSG:3826 (TWD97 TM2)
+numpy>=1.24
+scipy>=1.10        # cKDTree for snapping and point-cloud registration
+networkx>=3.0      # pedestrian routing graph

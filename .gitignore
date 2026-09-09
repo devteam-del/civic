@@ -1,0 +1,15 @@
+# Regenerable build artifacts. Everything here comes back from
+# `cd src && sh run_all.sh` (plus the Blender exports when the model changes).
+data/raw/
+data/processed/
+data/blend/
+output/
+*.npy
+__pycache__/
+*.pyc
+
+# The overlay tool inlines its whole dataset (1.83 MB) so it opens offline as a
+# single file, which makes it a build artifact rather than source.
+tools/civic_blvd_severance.html
+
+.DS_Store
