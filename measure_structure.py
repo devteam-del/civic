@@ -17,10 +17,10 @@ from shapely.ops import unary_union
 from geo import to_m, to_deg, ll_to_m
 import pedgraph
 
-axis = json.load(open("../data/processed/axis.json"))
+axis = json.load(open("../../data/processed/axis.json"))
 axis_m = LineString(axis["axis_m"])
-ways  = json.load(open("../data/processed/osm_ways.json"))
-areas = json.load(open("../data/processed/osm_areas.json"))
+ways  = json.load(open("../../data/processed/osm_ways.json"))
+areas = json.load(open("../../data/processed/osm_areas.json"))
 CIVIC = set(axis["civic_way_ids"])
 X0, X1 = axis_m.bounds[0], axis_m.bounds[2]
 
@@ -178,5 +178,5 @@ json.dump({"severed_civic": civic_sev, "severed_controls": sev_controls,
            "rail_axis_share_pct": round(RAIL_SHARE,1),
            "rail_covered_m": round(rail_cov*STEP,1),
            "named_boundaries": named_bnd},
-          open("../data/processed/c_structure.json","w"), ensure_ascii=False)
+          open("../../data/processed/c_structure.json","w"), ensure_ascii=False)
 print("\nwrote data/processed/c_structure.json")

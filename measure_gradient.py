@@ -23,11 +23,11 @@ from sectors import classify, SECTOR_KEYS
 BINW, RANGE = 25.0, 600.0
 ACTIVE = {"餐飲","零售","便利超市","夜生活","商辦","金融","旅宿","醫療"}
 
-axis = json.load(open("../data/processed/axis.json"))
+axis = json.load(open("../../data/processed/axis.json"))
 A = LineString(axis["axis_m"])
-nodes = json.load(open("../data/processed/osm_nodes.json"))
-areas = json.load(open("../data/processed/osm_areas.json"))
-ways  = json.load(open("../data/processed/osm_ways.json"))
+nodes = json.load(open("../../data/processed/osm_nodes.json"))
+areas = json.load(open("../../data/processed/osm_areas.json"))
+ways  = json.load(open("../../data/processed/osm_ways.json"))
 X0, X1 = A.bounds[0], A.bounds[2]
 
 pois = []
@@ -132,5 +132,5 @@ for lo,hi in ((0,100),(100,200),(200,400),(400,600)):
     nn = d[(c>lo)&(c<=hi)].mean(); ss = d[(c<-lo)&(c>=-hi)].mean()
     print(f"  {lo:3d}-{hi:3d} m   north {nn:7.2f} /ha   south {ss:7.2f} /ha   N/S {nn/ss:5.2f}")
 
-json.dump(res, open("../data/processed/g_gradient.json","w"), ensure_ascii=False)
+json.dump(res, open("../../data/processed/g_gradient.json","w"), ensure_ascii=False)
 print("\nwrote data/processed/g_gradient.json")

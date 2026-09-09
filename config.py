@@ -1,10 +1,12 @@
 """Shared configuration for the 市民大道 north/south severance analysis.
 
-Asks whether the elevated expressway **severs** the city north from south,
-judged against five parallel arterials run through identical code.
+Companion to ../config.py (the activity-heatmap pipeline). Same project, a
+different question: that pipeline asks *how busy* the corridor is, this one
+asks whether the elevated expressway **severs** the city north from south.
 
-SCOPE. Severance is a property of the elevated structure, not of any one
-section, so this pipeline covers the whole
+SCOPE DIFFERS FROM ../config.py ON PURPOSE. That pipeline is scoped to
+市民大道一段 (Datong, 環河北路–中山北路, 2 km radius). The severance question
+is a property of the elevated structure, so this pipeline covers the whole
 6,533 m elevated deck, 忠孝橋/環河北路 to 基隆路一段 (NOT to 光復南路,
 which sits at chainage 5,188 m, 1.3 km short of the east end). 市民大道 as a street runs 13.6 km,
 but 六～八段 (toward 南港) has no elevated deck and is therefore outside the
@@ -14,7 +16,8 @@ NO NETWORK ACCESS IS REQUIRED. CLAUDE.md records that data.taipei,
 overpass-api.de and nominatim are all blocked by egress policy. Every input
 here is a local file, so the whole pipeline runs offline.
 
-Paths are relative to this directory: run scripts with `cd src`.
+Paths are relative to this directory: run scripts with `cd src/severance`,
+matching the `cd src` convention the heatmap pipeline uses.
 """
 
 import os
@@ -65,9 +68,9 @@ PDF_ZONES = [
 ]
 
 # --- output paths ----------------------------------------------------------
-DATA_RAW = "../data/raw"
-DATA_PROCESSED = "../data/processed"
-DATA_BLEND = "../data/blend"
-OUTPUT = "../output"
+DATA_RAW = "../../data/raw"
+DATA_PROCESSED = "../../data/processed"
+DATA_BLEND = "../../data/blend"
+OUTPUT = "../../output"
 # The interactive tool ships next to the project's other standalone tools.
-OVERLAY_TOOL_PATH = "../tools/civic_blvd_severance.html"
+OVERLAY_TOOL_PATH = "../../tools/civic_blvd_severance.html"

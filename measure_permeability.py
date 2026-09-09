@@ -18,9 +18,9 @@ from shapely.geometry import LineString, Point, MultiPoint
 from shapely.strtree import STRtree
 from geo import to_m, to_deg, ll_to_m
 
-axis = json.load(open("../data/processed/axis.json"))
-ways = json.load(open("../data/processed/osm_ways.json"))
-nodes = json.load(open("../data/processed/osm_nodes.json"))
+axis = json.load(open("../../data/processed/axis.json"))
+ways = json.load(open("../../data/processed/osm_ways.json"))
+nodes = json.load(open("../../data/processed/osm_nodes.json"))
 axis_m = LineString(axis["axis_m"])
 CIVIC_IDS = set(axis["civic_way_ids"])
 X0, X1 = axis_m.bounds[0], axis_m.bounds[2]
@@ -182,5 +182,5 @@ for c in CONTROLS:
           f" ({r['walkable_per_km']}/km) | mean gap {r['gap_mean_m']} m | max gap {r['gap_max_m']} m")
 
 json.dump({"civic": civic_rep, "controls": control_reps},
-          open("../data/processed/a1_crossings.json","w"), ensure_ascii=False)
+          open("../../data/processed/a1_crossings.json","w"), ensure_ascii=False)
 print("\nwrote data/processed/a1_crossings.json")

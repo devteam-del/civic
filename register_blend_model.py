@@ -20,7 +20,7 @@ from shapely.geometry import LineString
 from geo import ll_to_m, to_deg
 
 # --- target cloud: OSM major roads in EPSG:3826 ------------------------------
-ways = json.load(open("../data/processed/osm_ways.json"))
+ways = json.load(open("../../data/processed/osm_ways.json"))
 MAJ = {"motorway","trunk","primary","secondary","tertiary",
        "motorway_link","trunk_link","primary_link","secondary_link","tertiary_link"}
 tgt = np.array([ll_to_m(lo, la) for w in ways
@@ -29,7 +29,7 @@ print(f"target (OSM major roads, EPSG:3826): {len(tgt):,} vertices")
 tree = cKDTree(tgt)
 
 # --- source cloud: the same object as Blender holds it ----------------------
-src_all = np.load("../data/blend/OSM_Major_Roads.npy").astype(np.float64)
+src_all = np.load("../../data/blend/OSM_Major_Roads.npy").astype(np.float64)
 # subsample for speed, but keep it spatially spread
 rng = np.random.default_rng(0)
 src = src_all[rng.choice(len(src_all), size=min(8000, len(src_all)), replace=False)]
@@ -89,5 +89,5 @@ json.dump({"tx": float(t[0]), "ty": float(t[1]),
            "fitted_scale": round(scale,6), "fitted_rotation_deg": round(rot,4),
            "crs": "EPSG:3826", "method": "NN median translation fit vs OSM major roads",
            "n_src": int(len(src_all)), "n_tgt": int(len(tgt))},
-          open("../data/processed/blend_georef.json","w"), indent=1)
+          open("../../data/processed/blend_georef.json","w"), indent=1)
 print("\nwrote data/processed/blend_georef.json")

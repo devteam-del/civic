@@ -35,7 +35,7 @@ def walkable(t):
     return hw in PED_HW
 
 
-def build(ways_path="../data/processed/osm_ways.json", verbose=True):
+def build(ways_path="../../data/processed/osm_ways.json", verbose=True):
     ways = json.load(open(ways_path))
     G = nx.Graph()
     coord = {}

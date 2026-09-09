@@ -29,9 +29,9 @@ G, ids, pts, tree, coord = pedgraph.build()
 GIANT = pedgraph.giant(G)
 print(f'  snapping restricted to giant component: {len(GIANT):,} nodes')
 
-axis = json.load(open("../data/processed/axis.json"))
+axis = json.load(open("../../data/processed/axis.json"))
 axis_m = LineString(axis["axis_m"])
-ways = json.load(open("../data/processed/osm_ways.json"))
+ways = json.load(open("../../data/processed/osm_ways.json"))
 X0, X1 = axis_m.bounds[0], axis_m.bounds[2]
 
 
@@ -152,5 +152,5 @@ for c in ["八德路","忠孝東路","南京東路","長安東路","民生東路
           f"extra walk {r['extra_walk_mean_m']:6.1f} m | >2x {r['share_over_2x']*100:.0f}%")
 
 json.dump({"civic": civic, "civic_offsets": civic_offsets, "controls": controls},
-          open("../data/processed/b_detour.json","w"), ensure_ascii=False)
+          open("../../data/processed/b_detour.json","w"), ensure_ascii=False)
 print("\nwrote data/processed/b_detour.json")

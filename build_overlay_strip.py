@@ -35,7 +35,7 @@ from shapely.geometry import LineString, Point
 from config import DATA_PROCESSED
 from sectors import classify
 
-TOOL = "../tools/boundary_overlay_map.html"
+TOOL = "../../tools/boundary_overlay_map.html"
 
 # --- strip geometry, read off the tool's existing SVG ----------------------
 VB_W, VB_H = 1000, 620
@@ -131,7 +131,7 @@ heat_svg = ('        <g fill="var(--heat)" filter="url(#blurSoft2)">\n'
             + "\n".join(heat) + "\n        </g>")
 
 # --- mass: building heights (real-height subset only) ---------------------
-bundle = json.load(open("../output/bundle.json"))
+bundle = json.load(open("../../output/bundle.json"))
 mass = []
 hs = []
 for i, h in enumerate(bundle["building_h"]):

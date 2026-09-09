@@ -15,9 +15,9 @@ import numpy as np
 from shapely.geometry import LineString, Point
 from geo import to_deg
 
-G = json.load(open("../data/processed/blend_georef.json"))
+G = json.load(open("../../data/processed/blend_georef.json"))
 TX, TY = G["tx"], G["ty"]
-axis = json.load(open("../data/processed/axis.json"))
+axis = json.load(open("../../data/processed/axis.json"))
 A = LineString(axis["axis_m"])
 SEG = 200.0
 n_seg = int(round(A.length/SEG))
@@ -36,7 +36,7 @@ def side_chain(x, y, line=A, eps=15.0):
 out = {"georef": G}
 
 # =============================================================== H 物理阻隔 ==
-piers = json.load(open("../data/blend/piers.json"))
+piers = json.load(open("../../data/blend/piers.json"))
 P = xf([[p["cx"], p["cy"]] for p in piers])
 rows = []
 for p, (x, y) in zip(piers, P):
@@ -75,7 +75,7 @@ underdeck = [r for r in rows if r["d"] <= 30]
 print(f"  columns standing directly under the deck (<=30 m from centreline): "
       f"{len(underdeck)}, {sum(r['area'] for r in underdeck):,.0f} m2 of ground taken")
 
-lin = json.load(open("../data/blend/linear_elements.json"))
+lin = json.load(open("../../data/blend/linear_elements.json"))
 deck = lin["Civic_Blvd_Elevated_Deck"]; med = lin["Civic_Blvd_Median_分隔島"]
 gr = lin["Guardrail_1.1m_Civic_Blvd_Elevated_Deck"]; sw = lin["Soundwall_3.0m_Civic_Blvd_Elevated_Deck"]
 gr_h, sw_h = gr["z1"]-gr["z0"], sw["z1"]-sw["z0"]
@@ -95,7 +95,7 @@ if same_geom:
           "vertex count -> in this model they are the SAME generated edge at two "
           "heights, i.e. a design option, not two separately surveyed objects.")
 
-infra = json.load(open("../data/blend/infra_points.json"))
+infra = json.load(open("../../data/blend/infra_points.json"))
 inf_sum = {}
 for k, items in infra.items():
     if not items: continue
@@ -147,7 +147,7 @@ out["piers"] = [{"ll": r["ll"], "s": round(r["s"],1), "d": round(r["d"],1),
 out["bents"] = [{"s": round(float(np.mean(b)),1), "n_cols": len(b)} for b in bents]
 
 # ============================================================ I 建築量體 ====
-B = np.load("../data/blend/buildings_parts.npy").astype(np.float64)
+B = np.load("../../data/blend/buildings_parts.npy").astype(np.float64)
 XY = xf(B[:, :2]); h = B[:,3]-B[:,2]; fp = B[:,4]*B[:,5]
 DEFAULT_H = 12.0
 is_default = np.round(h,1) == DEFAULT_H
@@ -216,8 +216,8 @@ out["massing"] = {"n_buildings": int(len(B)),
                             "fallback for 42% of masses; not surveyed heights"}
 
 # ========================================================== J 樹冠 REJECTED =
-can = np.load("../data/blend/canopy_parts.npy").astype(np.float64)
-trk = np.load("../data/blend/trunk_parts.npy").astype(np.float64)
+can = np.load("../../data/blend/canopy_parts.npy").astype(np.float64)
+trk = np.load("../../data/blend/trunk_parts.npy").astype(np.float64)
 uni = {"canopy_width_std": float(can[:,4].std()), "canopy_depth_std": float(can[:,5].std()),
        "canopy_ztop_std": float(can[:,3].std()), "canopy_zbot_std": float(can[:,2].std()),
        "trunk_height_std": float((trk[:,3]-trk[:,2]).std())}
@@ -244,5 +244,5 @@ out["canopy"] = {"status": "REJECTED_PLACEHOLDER_GEOMETRY",
                  "note": "positions usable; canopy dimensions are placeholders, "
                          "so canopy area and volume are not reported"}
 
-json.dump(out, open("../data/processed/h_blend.json","w"), ensure_ascii=False)
+json.dump(out, open("../../data/processed/h_blend.json","w"), ensure_ascii=False)
 print("\nwrote data/processed/h_blend.json")
