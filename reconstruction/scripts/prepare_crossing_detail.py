@@ -50,7 +50,7 @@ for item in json.load(open(a.crossings))['crossings']:
    shift=low+k+.25
    localstripes.extend(parts(rectangle((xy[0]+n[0]*shift,xy[1]+n[1]*shift),v,n,4,.5).intersection(markable)))
  footprint=rectangle(centerxy,v,n,4,span)
- duplicate=any(footprint.intersection(old).area>.5*min(footprint.area,old.area) for old in marking_footprints)
+ duplicate=any(footprint.intersection(old).area>.15*min(footprint.area,old.area) for old in marking_footprints)
  if duplicate:localstripes=[]
  else:marking_footprints.append(footprint)
  stripes+=localstripes;records.append({'osm_id':item['osm_id'],'section':t['name'],'source_xy':xy,'marking_tag':mark,'estimated_crossing_span_m':span,'stripe_pieces':len(localstripes),'duplicate_marking_suppressed':duplicate,'status':'OSM point; orientation, width and pattern extents inferred'})
