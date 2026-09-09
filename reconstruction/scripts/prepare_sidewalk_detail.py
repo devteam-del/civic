@@ -2,13 +2,13 @@
 No inferred stair/ramp openings. Real openings preserved; artificial crop boundaries excluded from curbs.
 """
 import argparse,json,pathlib,math
-from shapely.geometry import shape,box,LineString,Point
+from shapely.geometry import shape,box,LineString,Point,Polygon
 from shapely.ops import unary_union,substring,triangulate
 from shapely import affinity
 from pyproj import Transformer
 p=argparse.ArgumentParser()
 for n in ['sidewalks','osm','registration','out']:p.add_argument('--'+n,required=True)
-a=p.parse_args();out=pathlib.Path(a.out);out.mkdir(parents=True,exist_ok=True);reg=json.load(open(a.registration));f=reg['live_to_twd97'];ang=math.radians(f['rotation_degrees']);org=[reg['origin_epsg3826'][i]+f['translation'][i] for i in (0,1)];tr=Transformer.from_crs(4326,3826,always_xy=True)
+p.add_argument('--ramp-cut');a=p.parse_args();out=pathlib.Path(a.out);out.mkdir(parents=True,exist_ok=True);reg=json.load(open(a.registration));f=reg['live_to_twd97'];ang=math.radians(f['rotation_degrees']);org=[reg['origin_epsg3826'][i]+f['translation'][i] for i in (0,1)];tr=Transformer.from_crs(4326,3826,always_xy=True)
 def loc(x,y,z=None):
  x,y=x-org[0],y-org[1];return ((math.cos(ang)*x+math.sin(ang)*y)/f['scale'],(-math.sin(ang)*x+math.cos(ang)*y)/f['scale'])
 from shapely.ops import transform
@@ -19,7 +19,10 @@ for ft in json.load(open(a.sidewalks))['features']:
  g=transform(loc,shape(ft['geometry']))
  if not g.is_valid:g=g.buffer(0)
  if g.intersects(extent):polys.append(g);sources.append(ft['properties']['ID'])
-g=unary_union(polys).intersection(extent);assert g.area>100
+g=unary_union(polys).intersection(extent)
+from shapely import wkt
+rampcut=wkt.loads(pathlib.Path(a.ramp_cut).read_text()) if a.ramp_cut else Polygon()
+g=g.difference(rampcut);assert g.area>100
 ways=json.load(open(a.osm))['ways'];road=unary_union([LineString([loc(*q) for q in w['xy']]) for w in ways if w['tags'].get('name')=='市民大道二段' and w['tags'].get('bridge')!='yes'])
 def pieces(g):
  if g.is_empty:return []
@@ -32,7 +35,7 @@ for poly in pieces(g):
   seg=substring(line,k+.003,min(k+.997,line.length))
   if seg.geom_type!='LineString' or seg.length<.04:continue
   mid=seg.interpolate(.5,normalized=True)
-  if mid.distance(extent.boundary)<.02:continue
+  if mid.distance(extent.boundary)<.02 or (not rampcut.is_empty and mid.distance(rampcut)<.03):continue
   aa=seg.interpolate(.4,normalized=True);bb=seg.interpolate(.6,normalized=True);dx,dy=bb.x-aa.x,bb.y-aa.y;norm=math.hypot(dx,dy)
   if norm<1e-8:continue
   q1=Point(mid.x-dy/norm*.1,mid.y+dx/norm*.1);q2=Point(mid.x+dy/norm*.1,mid.y-dx/norm*.1)
