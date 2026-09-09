@@ -10,7 +10,7 @@ if old:
 c=bpy.data.collections.new(name);sc.collection.children.link(c)
 for key,data in p['meshes'].items():
  me=bpy.data.meshes.new(key);me.from_pydata(data['vertices'],[],data['faces']);me.update();o=bpy.data.objects.new(key,me);c.objects.link(o)
- bm=bmesh.new();bm.from_mesh(me);bmesh.ops.remove_doubles(bm,verts=list(bm.verts),dist=0.000001);bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));o['nonmanifold_edges']=sum(not e.is_manifold for e in bm.edges);bm.to_mesh(me);bm.free();me.update()
+ bm=bmesh.new();bm.from_mesh(me);bmesh.ops.remove_doubles(bm,verts=list(bm.verts),dist=0.000001);bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));boundary=[e for e in bm.edges if e.is_boundary];assert all(abs(e.verts[0].co.z-e.verts[1].co.z)<1e-6 for e in boundary),'Non-planar hole requires inspection';bmesh.ops.holes_fill(bm,edges=boundary,sides=0) if boundary else None;bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));o['nonmanifold_edges']=sum(not e.is_manifold for e in bm.edges);assert o['nonmanifold_edges']==0,'Detail mesh not closed';bm.to_mesh(me);bm.free();me.update()
  mat=bpy.data.materials.new(key+'_MATERIAL');mat.diffuse_color=(.58,.54,.46,1) if key.startswith('PAVING') else (.78,.78,.74,1);o.data.materials.append(mat);o['source']='Taipei sidewalk GIS XY; road-facing curb classification from OSM';o['parameters']=json.dumps(p['parameters']);o['source_ids']=json.dumps(p['source_ids']);o['physical_piece_count']=p['summary']['paving_tiles' if key.startswith('PAVING') else 'curb_stones']
 c['status']='Physical detailed pilot started; dimensions estimated, not verified as-built';c['known_missing']='Kerb ramps, tactile routes, drains and underground entrances need position evidence'
 cam=bpy.data.objects.get('DETAIL_CAMERA')
