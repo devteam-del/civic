@@ -16,7 +16,7 @@ def local(q):
 bs=[];gs=[]
 for w in d['ways']:
  if 'building' not in w['tags'] or len(w['xy'])<4 or w['xy'][0]!=w['xy'][-1]:continue
- g=Polygon(w['xy'])
+ g=Polygon(w['xy'],w.get('holes_xy',[]))
  if not g.is_valid:g=g.buffer(0)
  if g.is_empty or g.distance(axis)>200:continue
  bs.append(w);gs.append(g)
@@ -40,7 +40,7 @@ def height(tags):
 records=[]
 for i,hh in sorted(hits.items(),key=lambda z:min(x['station_m'] for x in z[1])):
  w=bs[i];g=gs[i];tags=w['tags'];h=height(tags);parts=list(g.geoms) if hasattr(g,'geoms') else [g]
- records.append(dict(osm_id=str(w['id']),name=tags.get('name',''),tags=tags,height_m=h,height_status='OSM explicit height; unverified' if h else 'UNKNOWN; levels not converted',levels=tags.get('building:levels'),area_m2=round(g.area,2),side=sorted(set(x['side'] for x in hh)),rays_hit=len(hh),min_axis_gap_m=min(x['gap_from_axis_m'] for x in hh),stable_at_5m=i in coarse,stable_at_100m=i in short,rings=[{'outer':[local(q) for q in part.exterior.coords],'holes':[[local(q) for q in ring.coords] for ring in part.interiors]} for part in parts],status='First-hit frontage candidate, not verified building frontage'))
+ records.append(dict(osm_id=(('relation/'+tags['_source_relation_id']+'/part/'+tags['_part_index']) if tags.get('_source_type')=='relation' else str(w['id'])),name=tags.get('name',''),tags=tags,height_m=h,height_status='OSM explicit height; unverified' if h else 'UNKNOWN; levels not converted',levels=tags.get('building:levels'),area_m2=round(g.area,2),side=sorted(set(x['side'] for x in hh)),rays_hit=len(hh),min_axis_gap_m=min(x['gap_from_axis_m'] for x in hh),stable_at_5m=i in coarse,stable_at_100m=i in short,rings=[{'outer':[local(q) for q in part.exterior.coords],'holes':[[local(q) for q in ring.coords] for ring in part.interiors]} for part in parts],status='First-hit frontage candidate, not verified building frontage'))
 summary={'candidate_buildings':len(records),'explicit_height':sum(r['height_m'] is not None for r in records),'levels_only':sum(r['height_m'] is None and r['levels'] is not None for r in records),'no_height_or_levels':sum(r['height_m'] is None and r['levels'] is None for r in records),'sampling_sensitive':sum(not r['stable_at_5m'] for r in records),'search_depth_sensitive':sum(not r['stable_at_100m'] for r in records),'axis_length_m':axis.length,'scope':'Zhonglin only, Zhongshan eastern carriageway to Linsen; full corridor pending'}
 result={'summary':summary,'method':{'ray_spacing_m':2,'max_search_m':200,'sensitivity_spacing_m':5,'sensitivity_search_m':100,'note':'Search reach is not a fixed-buffer selection. Only first polygon intersections are candidates; open spaces may expose setback buildings. OSM missing or merged buildings remain a limitation.'},'buildings':records}
 (out/'first_row.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
