@@ -52,6 +52,7 @@ for j in range(math.floor(ymin/.3),math.ceil(ymax/.3)):
 def mesh(polygons,z0,z1):
  vs=[];fs=[];err=0
  for poly in polygons:
+  poly=poly.simplify(0.00001,preserve_topology=True)
   ts=[t for t in triangulate(poly) if poly.covers(t)];err+=abs(sum(t.area for t in ts)-poly.area)
   for t in ts:
    coords=list(t.exterior.coords)[:-1];n=len(vs);vs.extend([(x,y,z0) for x,y in coords]+[(x,y,z1) for x,y in coords]);fs.extend([(n+2,n+1,n),(n+3,n+4,n+5)])
