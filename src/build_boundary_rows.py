@@ -28,7 +28,7 @@ import pedgraph
 from config import BAND_M, DATA_PROCESSED, OUTPUT
 from geo import to_deg
 
-TOOL = "../../tools/boundary_comparison.html"
+TOOL = "../tools/boundary_comparison.html"
 
 axis = json.load(open(f"{DATA_PROCESSED}/axis.json"))
 A = LineString(axis["axis_m"])

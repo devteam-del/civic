@@ -7,12 +7,12 @@ against the hypothesis stay in the table.
 import json
 import numpy as np
 
-a1 = json.load(open("../../data/processed/a1_crossings.json"))
-b  = json.load(open("../../data/processed/b_detour.json"))
-c  = json.load(open("../../data/processed/c_structure.json"))
-f  = json.load(open("../../data/processed/f_industry.json"))
-g  = json.load(open("../../data/processed/g_gradient.json"))
-h  = json.load(open("../../data/processed/h_blend.json"))
+a1 = json.load(open("../data/processed/a1_crossings.json"))
+b  = json.load(open("../data/processed/b_detour.json"))
+c  = json.load(open("../data/processed/c_structure.json"))
+f  = json.load(open("../data/processed/f_industry.json"))
+g  = json.load(open("../data/processed/g_gradient.json"))
+h  = json.load(open("../data/processed/h_blend.json"))
 
 CTRL = ["八德路","忠孝東路","南京東路","長安東路","民生東路"]
 ev = []
@@ -188,5 +188,5 @@ json.dump({"evidence": ev,
            "n_supports": len(sup),
            "n_contradicts": sum(1 for e in ev if e["verdict"]=="CONTRADICTS"),
            "n_neutral": sum(1 for e in ev if e["verdict"]=="NEUTRAL")},
-          open("../../data/processed/verdict.json","w"), ensure_ascii=False, indent=1)
+          open("../data/processed/verdict.json","w"), ensure_ascii=False, indent=1)
 print("wrote data/processed/verdict.json")

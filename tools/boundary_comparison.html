@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<title>市民大道分界儀</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #eceef0;
+    --surface: #ffffff;
+    --surface-2: #f4f5f6;
+    --ink: #1b1f23;
+    --ink-muted: #5b6470;
+    --ink-faint: #939ba3;
+    --border: #dadde1;
+    --north: #1f6f78;
+    --north-soft: #d4ecee;
+    --north-text: #17565d;
+    --south: #b9852e;
+    --south-soft: #f4e6cb;
+    --south-text: #8c5f1e;
+    --road: #34383e;
+    --road-line: #d9b23c;
+    --pill-bg: #eef0f2;
+    --shadow: 0 1px 2px rgba(20,22,25,.06), 0 10px 24px -16px rgba(20,22,25,.28);
+    --radius: 12px;
+    color-scheme: light;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14161a;
+      --surface: #1d2024;
+      --surface-2: #24272c;
+      --ink: #edeef0;
+      --ink-muted: #a9b0b8;
+      --ink-faint: #6f767e;
+      --border: #33373c;
+      --north: #52bcc7;
+      --north-soft: #163539;
+      --north-text: #86d7e0;
+      --south: #e0a94a;
+      --south-soft: #3a2c14;
+      --south-text: #f0c37f;
+      --road: #0f1113;
+      --road-line: #e0b84e;
+      --pill-bg: #24272c;
+      --shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 28px -16px rgba(0,0,0,.7);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14161a;
+    --surface: #1d2024;
+    --surface-2: #24272c;
+    --ink: #edeef0;
+    --ink-muted: #a9b0b8;
+    --ink-faint: #6f767e;
+    --border: #33373c;
+    --north: #52bcc7;
+    --north-soft: #163539;
+    --north-text: #86d7e0;
+    --south: #e0a94a;
+    --south-soft: #3a2c14;
+    --south-text: #f0c37f;
+    --road: #0f1113;
+    --road-line: #e0b84e;
+    --pill-bg: #24272c;
+    --shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 28px -16px rgba(0,0,0,.7);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", "Noto Sans TC", system-ui, sans-serif;
+    line-height: 1.6;
+  }
+  .page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 40px 20px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  h1, h2, h3 {
+    font-family: "Archivo", "Noto Sans TC", sans-serif;
+    text-wrap: balance;
+    margin: 0;
+  }
+  .eyebrow {
+    margin: 0 0 8px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .78rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  h1 { font-size: clamp(1.7rem, 4vw, 2.3rem); font-weight: 800; letter-spacing: -.01em; }
+  .lede {
+    max-width: 62ch;
+    color: var(--ink-muted);
+    font-size: .98rem;
+  }
+  .hero { padding-top: 4px; }
+
+  .tile {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 22px 24px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    flex-wrap: wrap;
+  }
+  .tile-number {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 1;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .tile-unit { font-size: 1.1rem; color: var(--ink-faint); margin-left: 2px; }
+  .tile-meta { flex: 1; min-width: 220px; }
+  .verdict-pill {
+    display: inline-block;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .78rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 999px;
+    background: var(--pill-bg);
+    color: var(--ink);
+    border: 1px solid var(--border);
+    margin-bottom: 6px;
+  }
+  .tile-desc { margin: 0; color: var(--ink-muted); font-size: .88rem; max-width: 48ch; }
+
+  .comparison {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 20px 20px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .comparison-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .comparison-head h2 { font-size: 1.05rem; font-weight: 700; }
+
+  .col-headers {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 0 2px;
+  }
+  .col-h {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .72rem;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .col-h.north { justify-self: start; color: var(--north-text); }
+  .col-h.south { justify-self: end; color: var(--south-text); }
+  .road-chip {
+    font-size: .72rem;
+    font-weight: 600;
+    color: #f2e7c4;
+    background: var(--road);
+    border-radius: 999px;
+    padding: 3px 10px;
+    white-space: nowrap;
+    background-image: repeating-linear-gradient(
+      90deg,
+      var(--road-line) 0 6px,
+      transparent 6px 12px
+    );
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .rows { display: flex; flex-direction: column; gap: 10px; }
+  .row {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .row-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .name-input {
+    flex: 1;
+    min-width: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-size: .95rem;
+  }
+  .unit-input {
+    width: 108px;
+    flex-shrink: 0;
+    text-align: right;
+    font-size: .8rem;
+    color: var(--ink-muted);
+  }
+  input.name-input, input.unit-input, input.val-input {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 4px 6px;
+    color: var(--ink);
+    font-family: inherit;
+  }
+  input.name-input:hover, input.unit-input:hover, input.val-input:hover {
+    border-color: var(--border);
+  }
+  input:focus-visible {
+    outline: 2px solid var(--north);
+    outline-offset: 1px;
+    border-color: transparent;
+  }
+  .del-row {
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--ink-faint);
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .del-row:hover { color: var(--ink); border-color: var(--ink-faint); }
+
+  .row-bar { display: flex; align-items: center; gap: 10px; }
+  .val-input {
+    width: 74px;
+    flex-shrink: 0;
+    font-family: "IBM Plex Mono", monospace;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+  }
+  .val-input.north { text-align: right; color: var(--north-text); }
+  .val-input.south { text-align: left; color: var(--south-text); }
+
+  .bar-track {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 4px 1fr;
+    align-items: center;
+    height: 20px;
+  }
+  .bar-fill { height: 100%; }
+  .bar-fill.north {
+    justify-self: end;
+    background: var(--north);
+    border-radius: 5px 0 0 5px;
+  }
+  .bar-fill.south {
+    justify-self: start;
+    background: var(--south);
+    border-radius: 0 5px 5px 0;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .bar-fill { transition: width .18s ease; }
+  }
+  .road-divider {
+    width: 4px;
+    height: 22px;
+    background: var(--road);
+    background-image: repeating-linear-gradient(
+      to bottom,
+      var(--road-line) 0 4px,
+      transparent 4px 8px
+    );
+  }
+
+  .row-bottom {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .diff-badge {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .74rem;
+    color: var(--ink-faint);
+  }
+
+  .row-actions {
+    display: flex;
+    gap: 10px;
+    padding-top: 2px;
+  }
+  button.add-row, button.reset-rows {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: .85rem;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  button.add-row {
+    background: var(--ink);
+    color: var(--bg);
+    border: 1px solid var(--ink);
+  }
+  button.add-row:hover { opacity: .88; }
+  button.reset-rows {
+    background: transparent;
+    color: var(--ink-muted);
+    border: 1px solid var(--border);
+  }
+  button.reset-rows:hover { color: var(--ink); border-color: var(--ink-faint); }
+
+  .notes {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 22px;
+    font-size: .88rem;
+    color: var(--ink-muted);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .notes h3 { font-size: .95rem; color: var(--ink); font-weight: 700; }
+  .notes ul { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 6px; }
+  .persist-note { margin: 0; font-size: .8rem; color: var(--ink-faint); }
+  .src-note { font-size: .72rem; color: var(--ink-faint); }
+  .diff-badge.no-data { opacity: .62; font-style: italic; }
+  .tile-count { font-size: .78rem; color: var(--ink-faint); margin: 4px 0 0; }
+  .method-callout {
+    border-left: 3px solid var(--road);
+    padding: 12px 14px;
+    font-size: .84rem;
+    line-height: 1.6;
+    background: rgba(0,0,0,.03);
+    border-radius: 0 8px 8px 0;
+  }
+  .method-callout strong { color: var(--ink); }
+
+  @media (max-width: 520px) {
+    .val-input { width: 58px; font-size: .82rem; }
+    .unit-input { width: 78px; }
+  }
+  .regen-note { color: var(--ink-faint); font-size: .82em; }
+  .regen-note code { font-size: .95em; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="hero">
+    <p class="eyebrow">研究工具 · 假說檢驗</p>
+    <h1>市民大道分界儀</h1>
+    <p class="lede">
+      市民大道是沿著老鐵路廊帶(鐵路地下化後)蓋起來的高架快速道路,把台北切出一條長長的
+      東西向縫隙。這張表逐項比較它南北兩側的差異。<strong>前六項是實測值</strong>,
+      由 <code>src/severance/build_boundary_rows.py</code> 從 OSM 與基地模型算出,
+      每一列下方標了資料來源;<strong>後四項需要商業登記、建物年份或問卷資料,我們沒有,
+      所以留白</strong>,不填假數字。你可以自己補上或增列。
+    </p>
+  </header>
+
+  <section class="tile" aria-live="polite">
+    <div class="tile-number"><span id="score">0</span><span class="tile-unit">/ 100</span></div>
+    <div class="tile-meta">
+      <span class="verdict-pill" id="verdict">—</span>
+      <p class="tile-count" id="scoreCount">—</p>
+      <p class="tile-desc">這個指數是各項「南北相對差異」的平均,只計入兩側都有資料的列。
+      它衡量的是<strong>兩側有多不一樣</strong>,不等於<strong>市民大道造成了分隔</strong>——
+      密集市區裡任兩條相鄰街帶都會不一樣。因果判斷請看
+      <a href="civic_blvd_severance.html">市民大道南北分隔</a>（<span class="regen-note">未產生時請先跑 <code>sh src/severance/run_all.sh</code></span>）。</p>
+    </div>
+  </section>
+
+  <section class="comparison">
+    <div class="comparison-head">
+      <h2>逐項比較</h2>
+    </div>
+    <p class="method-callout">
+      <strong>讀這張表之前:</strong>南北數值差得開,只證明兩側不一樣,不證明是市民大道造成的。
+      要看因果,用<a href="civic_blvd_severance.html">南北分隔分析</a>裡的路緣凹陷與繞路係數
+      ——那兩項是把市民大道跟五條平行幹道並列後,唯一符號相反的判準。
+    </p>
+
+    <div class="col-headers">
+      <span class="col-h north">市民大道以北</span>
+      <span class="road-chip">市民大道</span>
+      <span class="col-h south">市民大道以南</span>
+    </div>
+
+    <div class="rows" id="rows"></div>
+
+    <div class="row-actions">
+      <button class="add-row" id="addRow" type="button">+ 新增比較項目</button>
+      <button class="reset-rows" id="resetRows" type="button">還原成範例資料</button>
+    </div>
+  </section>
+
+  <footer class="notes">
+    <h3>怎麼用這張表</h3>
+    <ul>
+      <li>前六項是<strong>實測值</strong>(OSM tag 分類的 POI、可步行路網拓樸的 degree≥3 路口、
+        Blender 量體高度),不是範例數字。後四項標「待補資料」的是<strong>真的沒有資料</strong>,
+        不是還沒填——需要商業登記、建物執照年份或實地問卷才能補。</li>
+      <li><strong>這個指數不能單獨用來證明分隔。</strong>
+        <code>measure_industry.py</code> 做過 placebo 檢定:把同樣的南北比較搬到偏移 ±300／±450 m
+        的假想線上(整條都在同一側),分歧度是 0.145–0.263,而真實軸線是 0.213——落在區間之內,
+        偏北 300 m 的假想線甚至更分歧。也就是說「兩側不一樣」在市中心是常態,不是市民大道的特徵。
+        真正把市民大道和其他五條平行幹道區分開的是<strong>路緣活動凹陷</strong>
+        (市民大道 +67%,八德路 −93%、忠孝東路 −107%、南京東路 −99%)與
+        <strong>行人繞路成本</strong>(多走 209 m vs 對照組 145–173 m)。</li>
+      <li>對應兩個驗證面向:①土地使用、商業型態、街道活動在兩側是否長成不同的區;②居民認知地圖裡,市民大道是否成為「我平常會去的範圍」的心理邊界(可用受訪者比例當作一列)。</li>
+      <li>每一列的長條各自以該列數值較大的一邊為滿格基準,方便你看清同一指標的南北落差;不同列之間的長條長度不能互相比較,只有百分比、差距數字才能跨列比較。</li>
+    </ul>
+    <p class="persist-note">你的編輯會存在這個瀏覽器的 localStorage 裡,重新整理不會消失;清除瀏覽器資料或換一台裝置就會回到實測值。</p>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var STORAGE_KEY = "minsheng-boundary-rows-v2-measured";
+
+  var seedRows = [
+    { id: 1, name: "商家密度（餐飲＋零售＋超商＋夜生活）", unit: "家 / km²", north: 351, south: 508, src: "OSM tag 分類，軸線兩側 300 m 帶" },
+    { id: 2, name: "路口密度（人行網路 degree≥3 節點）", unit: "個 / km²", north: 658, south: 896, src: "OSM 可步行路網拓樸，非道路寬度代理" },
+    { id: 3, name: "建物平均樓高（貼線 0–50 m）", unit: "m", north: 18.15, south: 12.19, src: "Blender 量體，已排除 12.0 m 預設值" },
+    { id: 4, name: "建物平均樓高（走廊 0–400 m）", unit: "m", north: 17.58, south: 18.29, src: "同上；注意 200 m 外南北關係反轉" },
+    { id: 5, name: "停車設施佔 POI 比例", unit: "%", north: 24.5, south: 12.1, src: "OSM tag 分類；北側被停車佔據是走廊最不對稱的類別" },
+    { id: 6, name: "綠地佔 POI 比例", unit: "%", north: 5.6, south: 13.1, src: "OSM tag 分類" },
+    { id: 7, name: "連鎖品牌店占比", unit: "%", north: null, south: null, src: "無資料：OSM brand tag 覆蓋率過低，需要商業登記或實地清點" },
+    { id: 8, name: "建物平均樓齡", unit: "年", north: null, south: null, src: "無資料：需要建物執照年份資料集" },
+    { id: 9, name: "騎樓／招牌型態一致度", unit: "分(0–10)", north: null, south: null, src: "無資料：需要實地觀察評分" },
+    { id: 10, name: "認知地圖：視市民大道為活動邊界的受訪者比例", unit: "%", north: null, south: null, src: "無資料：需要問卷調查" }
+  ];
+
+  var rowsEl = document.getElementById("rows");
+  var scoreEl = document.getElementById("score");
+  var verdictEl = document.getElementById("verdict");
+  var addBtn = document.getElementById("addRow");
+  var resetBtn = document.getElementById("resetRows");
+
+  var rows = loadRows();
+  var uid = rows.reduce(function (m, r) { return Math.max(m, r.id || 0); }, 0) + 1;
+
+  function cloneSeed() {
+    return seedRows.map(function (r) { return Object.assign({}, r); });
+  }
+
+  function loadRows() {
+    try {
+      var raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return cloneSeed();
+      var parsed = JSON.parse(raw);
+      if (Array.isArray(parsed) && parsed.length) return parsed;
+      return cloneSeed();
+    } catch (e) {
+      return cloneSeed();
+    }
+  }
+
+  function saveRows() {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(rows));
+    } catch (e) {
+      /* private mode / storage disabled: edits just won't persist */
+    }
+  }
+
+  function formatNum(v) {
+    if (!isFinite(v)) return "0";
+    return Number.isInteger(v) ? String(v) : String(Math.round(v * 10) / 10);
+  }
+
+  function relDiff(n, s) {
+    var denom = (Math.abs(n) + Math.abs(s)) / 2;
+    if (denom === 0) return 0;
+    return Math.min(100, (Math.abs(n - s) / denom) * 100);
+  }
+
+  function updateSummary() {
+    // Only rows with data on BOTH sides count. Averaging in a blank row as if
+    // it were 0% difference would drag the index down and misrepresent it as
+    // a measurement over more evidence than actually exists.
+    var scored = rows.filter(hasData);
+    var countEl = document.getElementById("scoreCount");
+    if (!scored.length) {
+      scoreEl.textContent = "—";
+      verdictEl.textContent = "尚無資料";
+      if (countEl) countEl.textContent = "0 / " + rows.length + " 項有資料";
+      return;
+    }
+    var total = scored.reduce(function (sum, r) { return sum + relDiff(Number(r.north) || 0, Number(r.south) || 0); }, 0);
+    var score = Math.round(total / scored.length);
+    scoreEl.textContent = String(score);
+    verdictEl.textContent = score < 15 ? "兩側落差小"
+      : score < 35 ? "兩側有落差"
+      : "兩側明顯不同";
+    if (countEl) countEl.textContent = scored.length + " / " + rows.length + " 項有資料";
+  }
+
+  function hasData(row) {
+    return row.north !== null && row.north !== undefined && row.north !== "" &&
+           row.south !== null && row.south !== undefined && row.south !== "";
+  }
+
+  function updateRowBar(rowEl, row) {
+    var badge = rowEl.querySelector(".diff-badge");
+    if (!hasData(row)) {
+      rowEl.querySelector(".bar-fill.north").style.width = "0%";
+      rowEl.querySelector(".bar-fill.south").style.width = "0%";
+      badge.textContent = "待補資料 · 不計入指數";
+      badge.classList.add("no-data");
+      return;
+    }
+    badge.classList.remove("no-data");
+    var n = Number(row.north) || 0;
+    var s = Number(row.south) || 0;
+    var max = Math.max(Math.abs(n), Math.abs(s)) || 1;
+    var nPct = n === 0 ? 0 : Math.max(4, (Math.abs(n) / max) * 100);
+    var sPct = s === 0 ? 0 : Math.max(4, (Math.abs(s) / max) * 100);
+    rowEl.querySelector(".bar-fill.north").style.width = nPct + "%";
+    rowEl.querySelector(".bar-fill.south").style.width = sPct + "%";
+    badge.textContent = "南北相差 " + Math.round(relDiff(n, s)) + "%";
+  }
+
+  function buildRowEl(row) {
+    var el = document.createElement("div");
+    el.className = "row";
+    el.dataset.id = row.id;
+    el.innerHTML =
+      '<div class="row-top">' +
+        '<input class="name-input" type="text" value="" placeholder="比較項目名稱" />' +
+        '<input class="unit-input" type="text" value="" placeholder="單位" />' +
+        '<button class="del-row" type="button" aria-label="刪除這一列">×</button>' +
+      '</div>' +
+      '<div class="row-bar">' +
+        '<input class="val-input north" type="number" step="any" />' +
+        '<div class="bar-track">' +
+          '<div class="bar-fill north"></div>' +
+          '<div class="road-divider"></div>' +
+          '<div class="bar-fill south"></div>' +
+        '</div>' +
+        '<input class="val-input south" type="number" step="any" />' +
+      '</div>' +
+      '<div class="row-bottom"><span class="diff-badge"></span><span class="src-note"></span></div>';
+
+    var nameInput = el.querySelector(".name-input");
+    var unitInput = el.querySelector(".unit-input");
+    var northInput = el.querySelector(".val-input.north");
+    var southInput = el.querySelector(".val-input.south");
+    var delBtn = el.querySelector(".del-row");
+
+    nameInput.value = row.name;
+    unitInput.value = row.unit;
+    el.querySelector(".src-note").textContent = row.src || "";
+    // A null value means "we have no data for this", which is different from
+    // zero. Render it as an empty field so the tool never shows a measured-
+    // looking number the project cannot back up.
+    northInput.value = row.north === null || row.north === undefined ? "" : formatNum(Number(row.north));
+    southInput.value = row.south === null || row.south === undefined ? "" : formatNum(Number(row.south));
+
+    nameInput.addEventListener("input", function () { row.name = nameInput.value; saveRows(); });
+    unitInput.addEventListener("input", function () { row.unit = unitInput.value; saveRows(); });
+    northInput.addEventListener("input", function () {
+      row.north = northInput.value === "" ? null : parseFloat(northInput.value);
+      updateRowBar(el, row);
+      updateSummary();
+      saveRows();
+    });
+    southInput.addEventListener("input", function () {
+      row.south = southInput.value === "" ? null : parseFloat(southInput.value);
+      updateRowBar(el, row);
+      updateSummary();
+      saveRows();
+    });
+    delBtn.addEventListener("click", function () {
+      rows = rows.filter(function (r) { return r.id !== row.id; });
+      saveRows();
+      render();
+    });
+
+    updateRowBar(el, row);
+    return el;
+  }
+
+  function render() {
+    rowsEl.innerHTML = "";
+    rows.forEach(function (row) { rowsEl.appendChild(buildRowEl(row)); });
+    updateSummary();
+  }
+
+  addBtn.addEventListener("click", function () {
+    var newRow = { id: uid++, name: "", unit: "", north: null, south: null, src: "" };
+    rows.push(newRow);
+    saveRows();
+    render();
+    var last = rowsEl.querySelector(".row:last-child .name-input");
+    if (last) last.focus();
+  });
+
+  resetBtn.addEventListener("click", function () {
+    rows = cloneSeed();
+    uid = rows.reduce(function (m, r) { return Math.max(m, r.id || 0); }, 0) + 1;
+    saveRows();
+    render();
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

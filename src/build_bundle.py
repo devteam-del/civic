@@ -13,18 +13,18 @@ from config import PDF_ZONES
 from geo import to_m, to_deg, ll_to_m, TO_M
 from sectors import classify, SECTOR_KEYS
 
-axis = json.load(open("../../data/processed/axis.json"))
+axis = json.load(open("../data/processed/axis.json"))
 A = LineString(axis["axis_m"])
-ways  = json.load(open("../../data/processed/osm_ways.json"))
-areas = json.load(open("../../data/processed/osm_areas.json"))
-nodes = json.load(open("../../data/processed/osm_nodes.json"))
-verdict = json.load(open("../../data/processed/verdict.json"))
-b_det = json.load(open("../../data/processed/b_detour.json"))
-g_grad = json.load(open("../../data/processed/g_gradient.json"))
-f_ind = json.load(open("../../data/processed/f_industry.json"))
-c_str = json.load(open("../../data/processed/c_structure.json"))
-h_bl  = json.load(open("../../data/processed/h_blend.json"))
-a1    = json.load(open("../../data/processed/a1_crossings.json"))
+ways  = json.load(open("../data/processed/osm_ways.json"))
+areas = json.load(open("../data/processed/osm_areas.json"))
+nodes = json.load(open("../data/processed/osm_nodes.json"))
+verdict = json.load(open("../data/processed/verdict.json"))
+b_det = json.load(open("../data/processed/b_detour.json"))
+g_grad = json.load(open("../data/processed/g_gradient.json"))
+f_ind = json.load(open("../data/processed/f_industry.json"))
+c_str = json.load(open("../data/processed/c_structure.json"))
+h_bl  = json.load(open("../data/processed/h_blend.json"))
+a1    = json.load(open("../data/processed/a1_crossings.json"))
 
 # clip zones (metres from the axis)
 Z = {"wide": 1600.0, "mid": 900.0, "near": 950.0}
@@ -108,8 +108,8 @@ for a in areas:
 # (nearest-centroid within 25 m; None when no mass is close enough, and flagged
 # when the height is the model's 12.0 m default rather than a real value)
 from scipy.spatial import cKDTree
-_G = json.load(open("../../data/processed/blend_georef.json"))
-_B = np.load("../../data/blend/buildings_parts.npy").astype(np.float64)
+_G = json.load(open("../data/processed/blend_georef.json"))
+_B = np.load("../data/blend/buildings_parts.npy").astype(np.float64)
 _BXY = _B[:, :2].copy(); _BXY[:,0] += _G["tx"]; _BXY[:,1] += _G["ty"]
 _BH = _B[:,3] - _B[:,2]
 _btree = cKDTree(_BXY)
@@ -291,7 +291,7 @@ bundle["zones"] = {
 }
 bundle["verdict"] = verdict
 
-out = "../../output/bundle.json"
+out = "../output/bundle.json"
 json.dump(bundle, open(out, "w"), ensure_ascii=False, separators=(",", ":"))
 import os
 print(f"\nwrote {out}: {os.path.getsize(out)/1e6:.2f} MB")

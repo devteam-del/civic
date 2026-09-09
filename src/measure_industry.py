@@ -27,10 +27,10 @@ from sectors import classify, SECTOR_KEYS
 BAND = 300.0
 SEG  = 200.0
 
-axis = json.load(open("../../data/processed/axis.json"))
+axis = json.load(open("../data/processed/axis.json"))
 A = LineString(axis["axis_m"])
-nodes = json.load(open("../../data/processed/osm_nodes.json"))
-areas = json.load(open("../../data/processed/osm_areas.json"))
+nodes = json.load(open("../data/processed/osm_nodes.json"))
+areas = json.load(open("../data/processed/osm_areas.json"))
 
 # ------------------------------------------------------------- POI table ----
 pois = []
@@ -169,10 +169,10 @@ json.dump({
     "chi2_p": float(pval), "chi2_dof": int(dof),
     "placebos": placebos, "segments": seg_rows,
     "n_poi_total": len(pois),
-}, open("../../data/processed/f_industry.json","w"), ensure_ascii=False)
+}, open("../data/processed/f_industry.json","w"), ensure_ascii=False)
 
 # also dump the POI point table for the map (lon/lat + sector only)
 pt = [{"ll":[round(v,6) for v in to_deg(Point(p["x"],p["y"])).coords[0]],
        "s":p["sec"], "n":p["name"]} for p in pois]
-json.dump(pt, open("../../data/processed/poi_points.json","w"), ensure_ascii=False)
+json.dump(pt, open("../data/processed/poi_points.json","w"), ensure_ascii=False)
 print(f"\nwrote data/processed/f_industry.json and poi_points.json ({len(pt):,} points)")

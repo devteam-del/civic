@@ -18,7 +18,7 @@ import numpy as np
 from shapely.geometry import LineString, MultiLineString, Point
 from geo import to_m, to_deg, ll_to_m
 
-ways = json.load(open("../../data/processed/osm_ways.json"))
+ways = json.load(open("../data/processed/osm_ways.json"))
 civic = [w for w in ways if w["t"].get("name","").startswith("市民大道")]
 SEC = tuple(f"市民大道{c}段" for c in "一二三四五六七八")
 
@@ -96,7 +96,7 @@ out = {
     "civic_way_ids": [w["id"] for w in civic],
     "counts": {"elevated_ways": len(elev), "atgrade_ways": len(grade), "ramp_ways": len(ramps)},
 }
-json.dump(out, open("../../data/processed/axis.json","w"))
+json.dump(out, open("../data/processed/axis.json","w"))
 print(f"segments: {len(segments)} x {SEGLEN:.0f} m")
 print(f"at-grade carriageway total centreline length (both dirs summed): "
       f"{sum(g.length for g in grade_m):,.0f} m")
