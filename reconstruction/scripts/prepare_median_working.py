@@ -5,7 +5,7 @@ import json,math,re,pathlib,argparse
 import shapefile
 from shapely.geometry import shape,LineString,Point,Polygon
 from shapely.ops import unary_union,transform
-from shapely import constrained_delaunay_triangles
+from shapely import constrained_delaunay_triangles, set_precision
 from pyproj import Transformer
 p=argparse.ArgumentParser()
 for n in ['routes','roads','crossings','registration','out']:p.add_argument('--'+n,required=True)
@@ -51,6 +51,7 @@ for t,line in routes:
   patch=Polygon([(aa[0]-v[0]*2.5,aa[1]-v[1]*2.5),(aa[0]+v[0]*2.5,aa[1]+v[1]*2.5),(bb[0]+v[0]*2.5,bb[1]+v[1]*2.5),(bb[0]-v[0]*2.5,bb[1]-v[1]*2.5)])
   if patch.is_valid:patches.append(patch)
 median=unary_union(patches).intersection(allowed);cuts=unary_union([Point(loc(*r['twd97'])).buffer(14) for r in json.load(open(a.crossings))['crossings'] if r['distance_to_ground_route_m']<2]);median=median.difference(cuts).buffer(-.01).buffer(.01)
+median=set_precision(median.simplify(.02,preserve_topology=True),.01)
 def parts(g):
  if g.is_empty:return []
  if g.geom_type=='Polygon':return [g]
