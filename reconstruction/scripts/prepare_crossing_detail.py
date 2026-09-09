@@ -8,12 +8,15 @@ from shapely import constrained_delaunay_triangles
 from pyproj import Transformer
 p=argparse.ArgumentParser()
 for n in ['ground','crossings','routes','registration','out']:p.add_argument('--'+n,required=True)
+p.add_argument('--median',required=True)
 a=p.parse_args();d=json.load(open(a.ground));reg=json.load(open(a.registration));tr=Transformer.from_crs(4326,3826,always_xy=True);f=reg['live_to_twd97'];ang=math.radians(f['rotation_degrees']);org=[reg['origin_epsg3826'][i]+f['translation'][i] for i in (0,1)]
 def loc(q):
  x,y=q[0]-org[0],q[1]-org[1];return ((math.cos(ang)*x+math.sin(ang)*y)/f['scale'],(-math.sin(ang)*x+math.cos(ang)*y)/f['scale'])
 def surface(name,z):
  m=d['meshes'][name];vs=m['vertices'];return unary_union([Polygon([(vs[i][0],vs[i][1]) for i in face]) for face in m['faces'] if len(face)==3 and all(abs(vs[i][2]-z)<1e-7 for i in face)])
 road=unary_union([surface('GROUND_ROADS_OFFICIAL_XY',0),surface('GROUND_ROADS_ESTIMATED_GAPS',0)]);walk=surface('GROUND_SIDEWALKS_OFFICIAL_XY',.15)
+md=json.load(open(a.median))['mesh'];mv=md['vertices'];median=unary_union([Polygon([(mv[i][0],mv[i][1]) for i in face]) for face in md['faces'] if len(face)==3 and all(abs(mv[i][2]-.18)<1e-7 for i in face)])
+markable=road.difference(median)
 routes=[]
 for ft in json.load(open(a.routes))['features']:
  t=ft['properties']
@@ -34,13 +37,18 @@ for item in json.load(open(a.crossings))['crossings']:
  v=(dx/norm,dy/norm);n=(-v[1],v[0]);ln=t.get('lanes','');lanes=int(ln) if str(ln).isdigit() else (2 if t.get('oneway')=='yes' else 4);span=lanes*3.25
  if any(q.distance(old)<2 for old in seen):continue
  seen.append(q);mark=tags.get('crossing:markings') or tags.get('crossing_ref') or 'estimated_zebra'
+ limits=[]
+ for sign in [-1,1]:
+  ray=LineString([xy,(xy[0]+n[0]*sign*35,xy[1]+n[1]*sign*35)]);hit=ray.intersection(walk)
+  limits.append(q.distance(nearest_points(q,hit)[1]) if not hit.is_empty else span/2)
+ low,high=-limits[0],limits[1];span=high-low;centerxy=(xy[0]+n[0]*(low+high)/2,xy[1]+n[1]*(low+high)/2)
  localstripes=[]
  if mark=='lines':
-  for shift in [-2,2]:localstripes.extend(parts(rectangle((xy[0]+v[0]*shift,xy[1]+v[1]*shift),v,n,.15,span).intersection(road)))
+  for shift in [-2,2]:localstripes.extend(parts(rectangle((centerxy[0]+v[0]*shift,centerxy[1]+v[1]*shift),v,n,.15,span).intersection(markable)))
  else:
   for k in range(math.ceil(span)):
-   shift=-span/2+k+.25
-   localstripes.extend(parts(rectangle((xy[0]+n[0]*shift,xy[1]+n[1]*shift),v,n,4,.5).intersection(road)))
+   shift=low+k+.25
+   localstripes.extend(parts(rectangle((xy[0]+n[0]*shift,xy[1]+n[1]*shift),v,n,4,.5).intersection(markable)))
  stripes+=localstripes;records.append({'osm_id':item['osm_id'],'section':t['name'],'source_xy':xy,'marking_tag':mark,'estimated_crossing_span_m':span,'stripe_pieces':len(localstripes),'status':'OSM point; orientation, width and pattern extents inferred'})
  # Ramp candidates are recorded and cut only where the ray meets mapped sidewalk within 35m.
  for sign in [-1,1]:
