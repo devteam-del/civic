@@ -7,6 +7,8 @@ if start==0:
  source=bpy.data.scenes['CIVIC_COMPLETE_WORKING_ASSEMBLY'];sc=bpy.data.scenes.new('CIVIC_BLOCKS_FACADES_WORKING')
  for c in source.collection.children:
   if c.name not in ['COMPLETION_FRONTAGE','COMPLETION_ISSUE_MARKERS']:sc.collection.children.link(c)
+ for o in source.collection.objects:
+  if o.name not in sc.objects:sc.collection.objects.link(o)
  for name in ['BLOCK_BUILDING_CORES','BLOCK_RECESSED_FACADES','BLOCK_ROOFS','BLOCK_FACADE_ASSETS']:
   c=bpy.data.collections.new(name);sc.collection.children.link(c)
  sc.world=source.world.copy();sc.render.engine='BLENDER_WORKBENCH';sc.render.resolution_x=1280;sc.render.resolution_y=720;sc.render.resolution_percentage=100;sc.camera=source.camera
