@@ -2,6 +2,7 @@
 import json,runpy,math
 from pathlib import Path
 from shapely.geometry import Polygon,Point,LineString
+from shapely import set_precision
 from shapely.ops import unary_union,nearest_points
 helpers=runpy.run_path('/tmp/civic-stage00/reconstruction/scripts/prepare_mall_shells.py');mesh=helpers['mesh'];root=Path('/tmp/civic-mall');original=next(x for x in json.load(open(root/'legacy.json')) if x['name']=='Taipei_Station_Underground');polys=[]
 for f in original['faces']:
@@ -27,6 +28,7 @@ for r in json.load(open(root/'entries.json')):
  entries.append({**r,'built':True,'lower_landing_xy':list(end.coords[0]),'flight_run_m':7.2,'width_m':2.4,'riser_m':.15,'tread_m':.3,'note':'Straight stair direction from nearest footprint edge, not measured. Last drop 0.15m to floor; landing and branch assumed.'})
 full=unary_union([g,*branches]);opening=unary_union(cuts);walls=full.difference(full.buffer(-.2)).difference(opening)
 def addpieces(name,kind,poly,z0,z1):
+ poly=set_precision(poly,0.0001)
  for i,q in enumerate([poly] if poly.geom_type=='Polygon' else poly.geoms):
   if q.area>.0001:parts.append({'name':name+'_'+str(i),'kind':kind,'mesh':mesh(q,z0,z1)})
 addpieces('Y_WORKING_FLOOR','floor',full,-3.9,-3.6);addpieces('Y_WORKING_WALL','wall',walls,-3.6,-.8);addpieces('Y_REMOVABLE_ROOF','roof',full.difference(opening),-.8,-.55)
