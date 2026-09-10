@@ -45,6 +45,8 @@ for o in bpy.data.objects:
   if o.name not in sc.objects:sc.collection.objects.link(o)
 cam=bpy.data.objects.get('FRONTAGE_HEIGHT_CAMERA');sc.collection.objects.link(cam);sc.camera=cam
 sc.render.engine='BLENDER_WORKBENCH';sc.display.shading.color_type='MATERIAL';sc.display.shading.show_shadows=False;sc.display.shading.show_cavity=True;sc.render.resolution_x=1600;sc.render.resolution_y=1000;sc.render.resolution_percentage=100
+bpy.context.window.scene=sc
+sc.view_layers[0].update()
 cols['REMOVABLE_ROOFS']['instructions']='Toggle collection for above-ground / underground cutaway; roof heights assumed.';sc.view_layers[0].layer_collection.children[cols['REMOVABLE_ROOFS'].name].exclude=True
 old=cam.matrix_world.copy();scale=cam.data.ortho_scale
 try:
