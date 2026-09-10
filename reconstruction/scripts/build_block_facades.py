@@ -56,7 +56,7 @@ for r in payload[start:end]:
  org=Vector(allv[0]);vs=[];fs=[]
  for c in r['cores']:
   off=len(vs);vs.extend([tuple(Vector(v)-org) for v in c['vertices']]);fs.extend([[i+off for i in f] for f in c['faces']])
- m=bpy.data.meshes.new(name+'_CORE');m.from_pydata(vs,[],fs);m.materials.append(mats[0]);m.update();o=bpy.data.objects.new(name+'_CORE',m);o.location=org;corecol.objects.link(o)
+ m=bpy.data.meshes.new(name+'_CORE');m.from_pydata(vs,[],fs);m.materials.append(mats[0]);m.update();o=bpy.data.objects.new(name+'_CORE',m);o.location=org;corecol.objects.link(o);core_obj=o
  for k in ['osm_id','name','block_id','height_m','height_status','facade_status','is_building_part','first_row']:
   if r[k] is not None:o[k]=r[k]
  pts=r['points']
@@ -66,8 +66,8 @@ for r in payload[start:end]:
    a=m.attributes.new(name=key,type=typ,domain='POINT')
    if typ=='INT':a.data.foreach_set('value',[p[source] for p in pts])
    else:a.data.foreach_set('vector',[x for p in pts for x in p[source]])
-  o=bpy.data.objects.new(name+'_FACADE',m);o.location=org;faccol.objects.link(o);mod=o.modifiers.new('Recessed facade modules','NODES');mod.node_group=bpy.data.node_groups['CIVIC_RECESSED_FACADE_INSTANCES'];o['osm_id']=r['osm_id'];o['status']=r['facade_status'];o['instance_count']=len(pts)
+  o=bpy.data.objects.new(name+'_FACADE',m);o.parent=core_obj;o.location=(0,0,0);faccol.objects.link(o);mod=o.modifiers.new('Recessed facade modules','NODES');mod.node_group=bpy.data.node_groups['CIVIC_RECESSED_FACADE_INSTANCES'];o['osm_id']=r['osm_id'];o['status']=r['facade_status'];o['instance_count']=len(pts)
  for j,roof in enumerate(r['roofs']):
-  m=bpy.data.meshes.new(name+'_ROOF'+str(j));m.from_pydata([tuple(Vector(v)-org) for v in roof['vertices']],[],roof['faces']);m.materials.append(mats[3]);m.update();o=bpy.data.objects.new(name+'_ROOF'+str(j),m);o.location=org;roofcol.objects.link(o);o['status']=roof['status']
+  m=bpy.data.meshes.new(name+'_ROOF'+str(j));m.from_pydata([tuple(Vector(v)-org) for v in roof['vertices']],[],roof['faces']);m.materials.append(mats[3]);m.update();o=bpy.data.objects.new(name+'_ROOF'+str(j),m);o.parent=core_obj;o.location=(0,0,0);roofcol.objects.link(o);o['status']=roof['status']
  built.append(r['osm_id'])
 sc['facade_status']='All facade modules estimated; mapped building parts retained; full site completeness not verified';sc.view_layers[0].update();(out/('build_batch_'+str(start)+'.json')).write_text(json.dumps({'start':start,'end':end,'built':built,'total':len(payload)},ensure_ascii=False));result={'built':len(built),'core_objects':len(corecol.objects),'facade_objects':len(faccol.objects),'total_payload':len(payload),'range':[start,end]}
