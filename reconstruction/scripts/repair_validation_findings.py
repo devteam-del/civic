@@ -15,21 +15,23 @@ def replace(o,vs,fs,reason):
 o=bpy.data.objects['GROUND_ROADS_OFFICIAL_XY'];vs=[tuple(v.co) for v in o.data.vertices];fs=[list(f.vertices) for f in o.data.polygons];edgefaces=collections.defaultdict(list)
 for j,f in enumerate(fs):
  for a,b in zip(f,f[1:]+f[:1]):edgefaces[tuple(sorted((a,b)))].append(j)
-adj=collections.defaultdict(list)
-for ff in edgefaces.values():
- if len(ff)==2:adj[ff[0]].append(ff[1]);adj[ff[1]].append(ff[0])
-seen=set();nvs=[];nfs=[]
-for seed in range(len(fs)):
- if seed in seen:continue
- stack=[seed];seen.add(seed);mapping={}
- while stack:
-  j=stack.pop();face=[]
-  for i in fs[j]:
-   if i not in mapping:mapping[i]=len(nvs);nvs.append(vs[i])
-   face.append(mapping[i])
-  nfs.append(face)
-  for k in adj[j]:
-   if k not in seen:seen.add(k);stack.append(k)
+# Split local face fans at nonmanifold edge endpoints; global shells may connect elsewhere.
+nvs=list(vs);nfs=[list(f) for f in fs]
+targets={v for e,ff in edgefaces.items() if len(ff)>2 for v in e}
+for v in targets:
+ incident={j for j,f in enumerate(fs) if v in f};adj=collections.defaultdict(list)
+ for e,ff in edgefaces.items():
+  if v in e and len(ff)==2:adj[ff[0]].append(ff[1]);adj[ff[1]].append(ff[0])
+ seen=set();fan=0
+ for seed in incident:
+  if seed in seen:continue
+  idx=v if fan==0 else len(nvs)
+  if fan:nvs.append(vs[v])
+  fan+=1;stack=[seed];seen.add(seed)
+  while stack:
+   j=stack.pop();nfs[j]=[idx if i==v else i for i in nfs[j]]
+   for k in adj[j]:
+    if k not in seen:seen.add(k);stack.append(k)
 replace(o,nvs,nfs,'Split edge-touching road shells; no coordinate displacement')
 # Collapse only exact-coincident vertex pairs on the identified degenerate building face.
 o=bpy.data.objects['Buildings_context__OSM_XY__HEIGHTS_UNVERIFIED'];vs=[tuple(v.co) for v in o.data.vertices];remap={}
