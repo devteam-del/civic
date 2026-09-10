@@ -2,7 +2,7 @@ import bpy,bmesh,json,pathlib
 from mathutils import Vector
 root=pathlib.Path('/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934');out=root/'Y26PhotoVariant';e=next(e for e in json.load(open(root/'YMallEntrances/source/y_entrance_payload.json'))['entries'] if e['ref']=='Y26');a=Vector(e['live_xy']);d=(Vector(e['lower_landing_xy'])-a).normalized();n=Vector((-d.y,d.x));col=bpy.data.collections['Y26_PHOTO_CONFIGURATION_ESTIMATED']
 for o in col.objects:
- if o.name.startswith('Y26_ESC_BALUSTRADE_'):o.hide_render=True;o.hide_set(True)
+ if o.name.startswith('Y26_ESC_BALUSTRADE_'):o.hide_render=True;o.hide_viewport=True
 for side in [.68,1.92]:
  vs=[]
  for upper in [False,True]:
