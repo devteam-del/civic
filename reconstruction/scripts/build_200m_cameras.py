@@ -5,7 +5,7 @@ import bpy,json,pathlib,datetime
 from mathutils import Vector
 from mathutils.bvhtree import BVHTree
 ROOT='/Users/ktlu/Desktop/Civic_Rebuild_20260909_201934/Cameras_200m'
-root=pathlib.Path(ROOT);p=json.loads((root/'camera_stations.json').read_text());sc=bpy.context.scene;s=datetime.datetime.now().strftime('%Y%m%d_%H%M%S');prior=sc.camera
+root=pathlib.Path(ROOT);p=json.loads((root/'camera_stations.json').read_text());sc=bpy.context.scene;s=datetime.datetime.now().strftime('%Y%m%d_%H%M%S');prior=sc.camera.name if sc.camera else None
 bpy.ops.wm.save_as_mainfile(filepath=str(root/('before_cameras_'+s+'.blend')),copy=True)
 # Preserve parking cameras and retain distinct review views. Remove replaced route cameras and unused camera objects.
 protected={o.name:tuple(o.matrix_world[i][j] for i in range(4) for j in range(4)) for o in bpy.data.objects if o.type=='CAMERA' and (any('PARKING' in c.name or 'UNDERGROUND_RAMP_CAMERAS'==c.name for c in o.users_collection) or o.name=='RAMP_ENTRY_CAMERA')}
@@ -42,6 +42,6 @@ for st in p['stations']:
   ph,pn,pi,pdist=piers.ray_cast(o.location,direction,30)
   frame=1001+st['index']*2+(side=='S');m=sc.timeline_markers.new('CIVIC200_'+st['label']+'_'+side,frame=int(frame));m.camera=o
   rows.append({'camera':name,'chainage_m':st['chainage_m'],'section':st['section'],'position':list(o.location),'direction':list(direction),'timeline_frame':int(frame),'modeled_surface_hit':hit is not None,'pier_obstruction_within_30m':float(pdist) if ph is not None else None})
-sc.camera=prior if prior and prior.name in bpy.data.objects else c.objects[0];sc.frame_end=max(sc.frame_end,1106);sc['CIVIC200_USAGE']='Camera collection CIVIC_CAMERAS_200M_NORTH_SOUTH. Timeline camera markers frame1001=N at0m, frame1002=S at0m, then200m pairs. End station separately tagged. Analysis chainage only.'
+sc.camera=bpy.data.objects.get(prior) if prior and prior in bpy.data.objects else c.objects[0];sc.frame_end=max(sc.frame_end,1106);sc['CIVIC200_USAGE']='Camera collection CIVIC_CAMERAS_200M_NORTH_SOUTH. Timeline camera markers frame1001=N at0m, frame1002=S at0m, then200m pairs. End station separately tagged. Analysis chainage only.'
 assert all(n in bpy.data.objects and tuple(bpy.data.objects[n].matrix_world[i][j] for i in range(4) for j in range(4))==v for n,v in protected.items())
 file=root/('CIVIC_CAMERAS_200M_'+s+'.blend');bpy.ops.wm.save_as_mainfile(filepath=str(file));result={'file':str(file),'station_pairs':len(p['stations']),'camera_count':len(rows),'route_length_m':p['route_length_m'],'cameras':rows,'unresolved_pier_groups_retained':7,'removed_camera_names':removed,'preserved_parking_camera_names':list(protected),'underground_mall_working_floor_z':-3.6,'underground_mall_working_clear_height':2.8,'mall_geometry_changed_by_this_script':False};(root/'camera_build_check.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));result={k:v for k,v in result.items() if k!='cameras'}
