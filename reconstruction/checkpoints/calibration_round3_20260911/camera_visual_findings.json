@@ -24,7 +24,8 @@
         "林金_B1_B2_CAMERA"
       ],
       "issue": "Patchy or overlapping surfaces visible in parking-ramp views; possible coplanar surfaces require isolation",
-      "action": "Retain conflict markers; identify surface layers before altering elevations"
+      "action": "Retain conflict markers; identify surface layers before altering elevations",
+      "resolution": "Streaks disappear with Workbench shadows off and cavity on. Five legacy slabs separately trimmed. 22 parking views refreshed; remaining geometry issues not claimed fixed."
     }
   ],
   "scope": "All eight 16-frame contact sheets visually screened; six Jingfu-adjacent cameras refreshed separately. Screening is not full-resolution review or street-photo matching.",
