@@ -1,0 +1,7 @@
+import bpy,json,os,pathlib
+out=pathlib.Path(os.environ['CIVIC_MODEL_ROOT'])/'CalibrationRound3';sc=bpy.data.scenes['CIVIC_BLOCKS_FACADES_WORKING'];bpy.context.window.scene=sc;report=json.load(open(out/'current_completion_audit_0912.json'));vent=json.load(open(out/'mapped_vent_shell_report.json'));replacements={x['osm_id']:x['new_object'] for x in vent['items']};replacements['w1342705709']='RAILWAY_CHIMNEY_45M_BODY';replacements['w268396843']='HUASHAN_WEST_PLINTH';resolved=[];unresolved=[]
+for r in report['missing_exact_core_names']:
+ name=replacements.get(r['osm_id']);o=sc.objects.get(name) if name else None
+ if o and o.visible_get():resolved.append({'osm_id':r['osm_id'],'replacement':name,'first_row':r['first_row']})
+ else:unresolved.append(r)
+r={'source_records':report['source_building_records'],'original_cores_visible':report['visible_core_matches'],'visible_replacements':resolved,'unresolved_missing_geometry':unresolved,'scope':'Coverage of selected OSM records including photo-informed Huashan replacement, 19 other ventilation-shaft replacements and railway chimney. Not address-level completeness or photo-calibrated facade certification.'};(out/'current_building_coverage_0912.json').write_text(json.dumps(r,ensure_ascii=False,indent=2));result={'source_records':r['source_records'],'original_visible':r['original_cores_visible'],'replacement_visible':len(resolved),'missing':len(unresolved)}
