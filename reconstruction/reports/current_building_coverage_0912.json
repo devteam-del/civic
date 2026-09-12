@@ -14,42 +14,42 @@
     },
     {
       "osm_id": "w552658460",
-      "replacement": "MAPPED_VENT_w552658460",
+      "replacement": "STATION_VENT_w552658460_BASE",
       "first_row": false
     },
     {
       "osm_id": "w552658461",
-      "replacement": "MAPPED_VENT_w552658461",
+      "replacement": "STATION_VENT_w552658461_BASE",
       "first_row": false
     },
     {
       "osm_id": "w552658462",
-      "replacement": "MAPPED_VENT_w552658462",
+      "replacement": "STATION_VENT_w552658462_BASE",
       "first_row": false
     },
     {
       "osm_id": "w552658463",
-      "replacement": "MAPPED_VENT_w552658463",
+      "replacement": "STATION_VENT_w552658463_BASE",
       "first_row": false
     },
     {
       "osm_id": "w875067960",
-      "replacement": "MAPPED_VENT_w875067960",
+      "replacement": "SMALL_STATION_VENT_w875067960_BASE",
       "first_row": false
     },
     {
       "osm_id": "w875067963",
-      "replacement": "MAPPED_VENT_w875067963",
+      "replacement": "SMALL_STATION_VENT_w875067963_BASE",
       "first_row": false
     },
     {
       "osm_id": "w875067964",
-      "replacement": "MAPPED_VENT_w875067964",
+      "replacement": "SMALL_STATION_VENT_w875067964_BASE",
       "first_row": true
     },
     {
       "osm_id": "w875067965",
-      "replacement": "MAPPED_VENT_w875067965",
+      "replacement": "SMALL_STATION_VENT_w875067965_BASE",
       "first_row": true
     },
     {
@@ -109,5 +109,5 @@
     }
   ],
   "unresolved_missing_geometry": [],
-  "scope": "Coverage of selected OSM records including photo-informed Huashan replacement, 19 other ventilation-shaft replacements and railway chimney. Not address-level completeness or photo-calibrated facade certification."
+  "scope": "Coverage of selected OSM records including photo-informed Huashan replacement, eight station photo shells and 11 other ventilation-shaft replacements and railway chimney. Not address-level completeness or photo-calibrated facade certification."
 }
