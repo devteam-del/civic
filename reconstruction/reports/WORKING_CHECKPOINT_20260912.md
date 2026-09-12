@@ -1,17 +1,13 @@
-# Full corridor working checkpoint, 2026-09-12
+# Civic corridor working model — 2026-09-12
 
-File: CIVIC_FULL_CORRIDOR_WORKING_20260912.blend. Scene: CIVIC_BLOCKS_FACADES_WORKING. This is an estimated work model under calibration, not a completed survey reconstruction.
+The current Blender scene is CIVIC_BLOCKS_FACADES_WORKING in CIVIC_FULL_CORRIDOR_WORKING_20260912.blend. The scene contains roads, sidewalks, medians, elevated roadway, parking and underground-mall working geometry, first-row building facades and equipment. This is an estimated reconstruction, not completed field calibration.
 
-All 3,604 selected building/part/equipment records, including 1,106 first-row candidates, reconcile to visible geometry. This does not establish address-level or cadastral completeness.
+Coverage: 3,604 selected source records including 1,106 first-row records; 3,580 original visible cores and 24 visible replacements; zero unresolved missing source models. Source-record coverage does not prove that every real building is represented. Current scene: 21,601 visible objects, 21,445 visible meshes.
 
-Closed 16 generated stair voids across eight lowest parking floors. Clipped 12 unsupported parking markings. Added ten B1 opening guard runs with 195 posts in five sections. All 975 sampled guard baseplate points have slab support. Of 1,296 bottom-stair support samples, 13 points from two cores remain outside the estimated footprint and are marked, without expanding the footprint.
+Latest changes: preserved original geometry and replaced the Miramar hotel 6.6m estimate with a 51.2m working shell (height uncertainty approximately 6m; bay counts and canopy position estimated), and replaced two Zhonglun station 26.4m blocks with a 5.6m canopy and 4.4m service/wash shelter. Contractor photos and April 2025 street imagery informed morphology; no surveyed dimensions are claimed. Total new components: 3,930; closed-edge and finite-coordinate checks passed. A further 13 ventilation assets have photo-informed or neighboring estimates; all 16 current replacements total 6,494 validated component meshes.
 
-Thirteen ventilation assets now have photo-informed or nearby-type-inferred shells/facades. Their 2,564 component meshes passed finite-coordinate and closed-edge checks. Thirteen does not mean thirteen independently photo-verified assets: individual reports distinguish direct views, partial occlusion and neighbor inference. Seven remaining generic vents carry pending-calibration markers.
+Animation: 106 distinct road cameras, 24fps, frames 1–2544, camera switches every 24 frames from east to west; 22 underground cameras retained. 106 road views and 22 underground views reviewed, with eight affected road views rerendered after the latest replacements. Five road views retain marked occlusions.
 
-Huashan: stepped 7.2/4.2m estimated roof heights, stone walls and localized louvers from August2019 imagery. Station groups:7.2m and5.4m estimates from March2025 imagery and group inference. Southwest plant:2.7m enclosure and4.8m total estimated height with four visible upper equipment forms. Tile-faced shaft:6m estimate from December2024 image proportions against approximately3.3m mapped frontage. Heights, hidden faces, machine dimensions, tile modules and many individual details remain unmeasured. Earlier proxies and snapshots retained.
+Open issues retained for calibration: 15 obstructed sampled paths in the main scene; the separate unadopted Gongzhong comparison has nine. Thirteen lowest-floor support misses remain at two estimated core edges. Dunyan/Yanji overlap remains as requested. Seven ventilation shafts, multiple pier positions, basement elevations, equipment dimensions and most individual facades still require site-specific calibration. Their working geometry is present; they must not be described as measured or fully verified.
 
-The main-scene full headroom sampling has15 blocked paths; the separate unadopted Gongzhong comparison has9. Dunyan/Yanji outline overlap, some pier positions, many facades, equipment dimensions and entrances remain unresolved. Neither source coverage nor closed meshes certify field accuracy or access clearance.
-
-Route animation retains106 cameras at24fps, frames1-2544, switching each second east to west with both sides facing the boulevard axis. Pier occlusions remain review issues.
-
-GitHub holds scripts, public source links and text reports only. No blend files, raw large datasets or street-view photos are uploaded. Scripts require local stage data and CIVIC_MODEL_ROOT.
+Backups contain scripts, public-source references and reports only. Large source data, images and .blend files remain local. Stage 01 holds facade work, stage 02 entrance/equipment work, and stage 03 the integrated validation checkpoint. Main and severance-pipeline were not changed.

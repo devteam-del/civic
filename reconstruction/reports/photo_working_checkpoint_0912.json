@@ -1,6 +1,7 @@
 {
   "photo_informed_or_neighbor_inferred_vent_records": 13,
-  "component_meshes_checked": 2564,
+  "photo_or_inferred_assets_total": 16,
+  "component_meshes_checked": 6494,
   "geometry_errors": [],
   "items": [
     {
@@ -93,6 +94,27 @@
       "bottom_z_m": 0.0,
       "top_z_m": 5.400000095367432,
       "source_report": "additional_small_vent_photo_report.json"
+    },
+    {
+      "osm_id": "w238513441",
+      "parts": 3872,
+      "bottom_z_m": 0.0,
+      "top_z_m": 51.20000076293945,
+      "source_report": "miramar_photo_shell_report.json"
+    },
+    {
+      "osm_id": "w270524576",
+      "parts": 31,
+      "bottom_z_m": 0.0,
+      "top_z_m": 5.599999904632568,
+      "source_report": "zhonglun_station_photo_report.json"
+    },
+    {
+      "osm_id": "w270524575",
+      "parts": 27,
+      "bottom_z_m": 0.0,
+      "top_z_m": 4.400000095367432,
+      "source_report": "zhonglun_station_photo_report.json"
     }
   ],
   "remaining_generic_vents": [
