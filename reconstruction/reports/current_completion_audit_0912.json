@@ -1,13 +1,34 @@
 {
-  "visible_objects": 17677,
-  "visible_meshes": 17521,
+  "visible_objects": 21601,
+  "visible_meshes": 21445,
   "source_building_records": 3604,
-  "visible_core_matches": 3583,
+  "visible_core_matches": 3580,
   "missing_exact_core_names": [
+    {
+      "osm_id": "w238513441",
+      "first_row": true,
+      "name": "美麗信花園酒店",
+      "core_visible": false,
+      "height_status": "Preserved previous neighbor-height estimate"
+    },
     {
       "osm_id": "w268396843",
       "first_row": true,
       "name": "華山鐵路地下化引道換氣口",
+      "core_visible": false,
+      "height_status": "Preserved previous neighbor-height estimate"
+    },
+    {
+      "osm_id": "w270524575",
+      "first_row": true,
+      "name": "中油洗車服務",
+      "core_visible": false,
+      "height_status": "Preserved previous neighbor-height estimate"
+    },
+    {
+      "osm_id": "w270524576",
+      "first_row": true,
+      "name": "台灣中油 中崙站",
       "core_visible": false,
       "height_status": "Preserved previous neighbor-height estimate"
     },

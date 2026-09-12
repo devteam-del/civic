@@ -1,10 +1,25 @@
 {
   "source_records": 3604,
-  "original_cores_visible": 3583,
+  "original_cores_visible": 3580,
   "visible_replacements": [
+    {
+      "osm_id": "w238513441",
+      "replacement": "MIRAMAR_BASE.001",
+      "first_row": true
+    },
     {
       "osm_id": "w268396843",
       "replacement": "HUASHAN_WEST_PLINTH",
+      "first_row": true
+    },
+    {
+      "osm_id": "w270524575",
+      "replacement": "ZHONGLUN_w270524575_ROOF",
+      "first_row": true
+    },
+    {
+      "osm_id": "w270524576",
+      "replacement": "ZHONGLUN_w270524576_ROOF",
       "first_row": true
     },
     {
