@@ -6,7 +6,7 @@
       "x_end": -600,
       "prior_streetview_status": "not_reviewed",
       "camera_observations": [],
-      "coverage_status": "no_new_camera_observation",
+      "coverage_status": "no_camera_observation",
       "full_visibility_verified": false,
       "dimensions_verified": false,
       "prior_panorama_refs": []
@@ -17,7 +17,7 @@
       "x_end": -500,
       "prior_streetview_status": "not_reviewed",
       "camera_observations": [],
-      "coverage_status": "no_new_camera_observation",
+      "coverage_status": "no_camera_observation",
       "full_visibility_verified": false,
       "dimensions_verified": false,
       "prior_panorama_refs": []
@@ -27,8 +27,13 @@
       "x_start": -500,
       "x_end": -400,
       "prior_streetview_status": "partial_ground_view",
-      "camera_observations": [],
-      "coverage_status": "prior_partial_observation_without_camera_projection",
+      "camera_observations": [
+        "kh_wcLZksG1guzaOg1PXFA",
+        "SBVIjhNhgPYIqGro8I2Sgg",
+        "5u3VeX7pm9GqXDQ_C5FKZw",
+        "AlMN8Axcpjv5CIgtHUi5gg"
+      ],
+      "coverage_status": "partial_camera_observation",
       "full_visibility_verified": false,
       "dimensions_verified": false,
       "prior_panorama_refs": [
@@ -53,8 +58,10 @@
       "x_start": -300,
       "x_end": -200,
       "prior_streetview_status": "partial_ground_view",
-      "camera_observations": [],
-      "coverage_status": "prior_partial_observation_without_camera_projection",
+      "camera_observations": [
+        "bv8E256QgS9eQ5HFGPisGw"
+      ],
+      "coverage_status": "partial_camera_observation",
       "full_visibility_verified": false,
       "dimensions_verified": false,
       "prior_panorama_refs": [
@@ -80,7 +87,7 @@
       "x_end": 0,
       "prior_streetview_status": "not_reviewed",
       "camera_observations": [],
-      "coverage_status": "no_new_camera_observation",
+      "coverage_status": "no_camera_observation",
       "full_visibility_verified": false,
       "dimensions_verified": false,
       "prior_panorama_refs": []
@@ -779,8 +786,10 @@
       "x_start": 5100,
       "x_end": 5200,
       "prior_streetview_status": "not_reviewed",
-      "camera_observations": [],
-      "coverage_status": "no_new_camera_observation",
+      "camera_observations": [
+        "jdlNrNM-B5BHPzABvdUkgg"
+      ],
+      "coverage_status": "partial_camera_observation",
       "full_visibility_verified": false,
       "dimensions_verified": false,
       "prior_panorama_refs": []
@@ -790,8 +799,10 @@
       "x_start": 5200,
       "x_end": 5300,
       "prior_streetview_status": "not_reviewed",
-      "camera_observations": [],
-      "coverage_status": "no_new_camera_observation",
+      "camera_observations": [
+        "YG-Zb3gLNXKXoozUWgo3pg"
+      ],
+      "coverage_status": "partial_camera_observation",
       "full_visibility_verified": false,
       "dimensions_verified": false,
       "prior_panorama_refs": []
@@ -801,8 +812,10 @@
       "x_start": 5300,
       "x_end": 5400,
       "prior_streetview_status": "not_reviewed",
-      "camera_observations": [],
-      "coverage_status": "no_new_camera_observation",
+      "camera_observations": [
+        "Vw0HgmC2TlqgbfIYaH_j2g"
+      ],
+      "coverage_status": "partial_camera_observation",
       "full_visibility_verified": false,
       "dimensions_verified": false,
       "prior_panorama_refs": []
@@ -813,7 +826,7 @@
       "x_end": 5500,
       "prior_streetview_status": "not_reviewed",
       "camera_observations": [],
-      "coverage_status": "no_new_camera_observation",
+      "coverage_status": "no_camera_observation",
       "full_visibility_verified": false,
       "dimensions_verified": false,
       "prior_panorama_refs": []
@@ -824,7 +837,7 @@
       "x_end": 5600,
       "prior_streetview_status": "not_reviewed",
       "camera_observations": [],
-      "coverage_status": "no_new_camera_observation",
+      "coverage_status": "no_camera_observation",
       "full_visibility_verified": false,
       "dimensions_verified": false,
       "prior_panorama_refs": []
@@ -835,7 +848,7 @@
       "x_end": 5700,
       "prior_streetview_status": "not_reviewed",
       "camera_observations": [],
-      "coverage_status": "no_new_camera_observation",
+      "coverage_status": "no_camera_observation",
       "full_visibility_verified": false,
       "dimensions_verified": false,
       "prior_panorama_refs": []
@@ -846,7 +859,7 @@
       "x_end": 5800,
       "prior_streetview_status": "not_reviewed",
       "camera_observations": [],
-      "coverage_status": "no_new_camera_observation",
+      "coverage_status": "no_camera_observation",
       "full_visibility_verified": false,
       "dimensions_verified": false,
       "prior_panorama_refs": []
@@ -857,15 +870,15 @@
       "x_end": 5900,
       "prior_streetview_status": "not_reviewed",
       "camera_observations": [],
-      "coverage_status": "no_new_camera_observation",
+      "coverage_status": "no_camera_observation",
       "full_visibility_verified": false,
       "dimensions_verified": false,
       "prior_panorama_refs": []
     }
   ],
   "segment_count": 66,
-  "panorama_count": 71,
-  "strips_with_camera_observation": 46,
+  "panorama_count": 79,
+  "strips_with_camera_observation": 51,
   "fully_verified_segments": 0,
   "full_corridor_complete": false,
   "limits": [
@@ -874,5 +887,5 @@
     "Original mapped object counts are not a verified real-world inventory",
     "Occluded and opposite-side objects require further review"
   ],
-  "strips_with_any_partial_observation": 55
+  "strips_with_any_partial_observation": 58
 }

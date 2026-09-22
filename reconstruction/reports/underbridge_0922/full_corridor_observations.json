@@ -1502,7 +1502,13 @@
       "at-grade divided road, tree and hedge strip"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      5159.16,
+      611.028
+    ],
+    "camera_easting_strip": "UB_X+051",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "YG-Zb3gLNXKXoozUWgo3pg",
@@ -1514,7 +1520,13 @@
       "road sign frame, hedge, at-grade road"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      5243.221,
+      646.125
+    ],
+    "camera_easting_strip": "UB_X+052",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "Vw0HgmC2TlqgbfIYaH_j2g",
@@ -1526,6 +1538,110 @@
       "at-grade avenue, grass median with trees and shrubs"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      5331.229,
+      683.177
+    ],
+    "camera_easting_strip": "UB_X+053",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "bv8E256QgS9eQ5HFGPisGw",
+    "lat": 25.0504235,
+    "lon": 121.5078964,
+    "date": "2024-12",
+    "heading": 41.95,
+    "observed": [
+      "two blue utility cabinets",
+      "cabinet support legs",
+      "low under-ramp passage",
+      "landscape boulders",
+      "low shrubs",
+      "grey pole-mounted cabinet"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      -249.06,
+      999.248
+    ],
+    "camera_easting_strip": "UB_X-003",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "kh_wcLZksG1guzaOg1PXFA",
+    "lat": 25.0509795,
+    "lon": 121.5060287,
+    "date": "2025-03",
+    "heading": 180,
+    "observed": [
+      "grass and paved paths beneath curved ramps",
+      "row of concrete benches",
+      "curved lamp posts",
+      "round columns without guards"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      -437.744,
+      1060.127
+    ],
+    "camera_easting_strip": "UB_X-005",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "SBVIjhNhgPYIqGro8I2Sgg",
+    "lat": 25.0509479,
+    "lon": 121.5062365,
+    "date": "2025-02",
+    "heading": 270,
+    "observed": [
+      "grass islands, paths, curved ramps, round columns and lamps"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      -416.763,
+      1056.705
+    ],
+    "camera_easting_strip": "UB_X-005",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "5u3VeX7pm9GqXDQ_C5FKZw",
+    "lat": 25.0510637,
+    "lon": 121.5058385,
+    "date": "2025-03",
+    "heading": 180,
+    "observed": [
+      "curved ramps, benches, paths and lamps"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      -456.97,
+      1069.382
+    ],
+    "camera_easting_strip": "UB_X-005",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "AlMN8Axcpjv5CIgtHUi5gg",
+    "lat": 25.0508485,
+    "lon": 121.506211,
+    "date": "2025-03",
+    "heading": 180,
+    "observed": [
+      "park paths, lamp bases, boulder, bollards and trees under outer ramps"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      -419.295,
+      1045.686
+    ],
+    "camera_easting_strip": "UB_X-005",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   }
 ]

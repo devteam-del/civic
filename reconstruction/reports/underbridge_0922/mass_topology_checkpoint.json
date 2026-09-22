@@ -147,9 +147,16 @@
       "non_closed_meshes": [],
       "source_tagged": 9,
       "dimensions_verified": false
+    },
+    {
+      "collection": "UB_RIVERSIDE_FURNITURE_EST",
+      "mesh_count": 15,
+      "non_closed_meshes": [],
+      "source_tagged": 15,
+      "dimensions_verified": false
     }
   ],
-  "total_meshes": 200,
+  "total_meshes": 215,
   "full_corridor_complete": false,
   "limits": [
     "Geometry checks do not establish measured dimensions, real-world coverage or occluded inventory.",
