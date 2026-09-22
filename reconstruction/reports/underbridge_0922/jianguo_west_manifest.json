@@ -1,4 +1,5 @@
 {
+  "batch_name": "UB_JIANGUO_WEST_023_025_EST",
   "observations": [
     {
       "segment": "UB_X+005",
@@ -579,82 +580,217 @@
       ],
       "dimensions_verified": false,
       "status": "partial_ground_view"
+    }
+  ],
+  "masses": [
+    {
+      "id": "MEDIAN_WEST",
+      "center": [
+        2352,
+        436,
+        0.09
+      ],
+      "size": [
+        100,
+        10,
+        0.18
+      ],
+      "angle": -17,
+      "pano": "Jp9c0sgxTssnLaOMpx-aNg",
+      "material": "stone",
+      "kind": "box",
+      "segment": "UB_X+023_025",
+      "placement_note": "Estimated from observed proportions and registered road context; missing median rebuilt as comparison; not surveyed"
     },
     {
-      "pano": "3Vq9E0LHU4N9sIW2U3PM2A",
-      "lat": 25.04465,
-      "lon": 121.5363069,
-      "observed": [
-        "建國北路一段 elevated junction",
-        "open traffic crossing",
-        "parking under transverse bridge",
-        "parking entry signs",
-        "bollards",
-        "broad transverse piers"
+      "id": "HEDGE_WEST",
+      "center": [
+        2352,
+        431.9,
+        0.505
       ],
-      "date": "2025-04",
-      "heading": 100,
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
+      "size": [
+        96,
+        1.2,
+        0.65
+      ],
+      "angle": -17,
+      "pano": "Jp9c0sgxTssnLaOMpx-aNg",
+      "material": "shrub",
+      "kind": "box",
+      "segment": "UB_X+023_025",
+      "placement_note": "Estimated from observed proportions and registered road context; missing median rebuilt as comparison; not surveyed"
     },
     {
-      "pano": "Y3YXY7-SlZ5-QFp9zNLfSA",
-      "lat": 25.0446354,
-      "lon": 121.536824,
-      "observed": [
-        "stepped stone median wall",
-        "planted junction nose",
-        "blue equipment cabinet"
+      "id": "YELLOW_CABINET",
+      "center": [
+        2327,
+        447,
+        1
       ],
-      "date": "2025-04",
-      "heading": 100,
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
+      "size": [
+        1.4,
+        1.2,
+        1.65
+      ],
+      "angle": -17,
+      "pano": "Jp9c0sgxTssnLaOMpx-aNg",
+      "material": "stone",
+      "kind": "box",
+      "segment": "UB_X+023_025",
+      "placement_note": "Estimated from observed proportions and registered road context; missing median rebuilt as comparison; not surveyed"
     },
     {
-      "pano": "C0ErFunaxlWpr9M3Oo4Hyg",
-      "lat": 25.0446099,
-      "lon": 121.5372814,
-      "observed": [
-        "tall stone-faced enclosure wall",
-        "light coping",
-        "raised equipment behind wall",
-        "hedge after wall"
+      "id": "LOW_ENCLOSURE_WEST",
+      "center": [
+        2346,
+        438,
+        1.08
       ],
-      "date": "2025-04",
-      "heading": 100,
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
+      "size": [
+        5,
+        2.8,
+        1.8
+      ],
+      "angle": -17,
+      "pano": "Jp9c0sgxTssnLaOMpx-aNg",
+      "material": "stone",
+      "kind": "box",
+      "segment": "UB_X+023_025",
+      "placement_note": "Estimated from observed proportions and registered road context; missing median rebuilt as comparison; not surveyed"
     },
     {
-      "pano": "qcnBLenMbFh4WolbZO5JUA",
-      "lat": 25.0445533,
-      "lon": 121.5382546,
-      "observed": [
-        "ramp side retaining wall",
-        "painted blue screen",
-        "painted columns",
-        "narrow hedge"
+      "id": "MEDIAN_EAST",
+      "center": [
+        2527,
+        401,
+        0.09
       ],
-      "date": "2025-04",
-      "heading": 100,
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
+      "size": [
+        173,
+        10,
+        0.18
+      ],
+      "angle": -11,
+      "pano": "UPKfuf0v1ndm02e9vSLrcA",
+      "material": "stone",
+      "kind": "box",
+      "segment": "UB_X+023_025",
+      "placement_note": "Estimated from observed proportions and registered road context; missing median rebuilt as comparison; not surveyed"
     },
     {
-      "pano": "NfN9c34laNEaExIh-8h8xA",
-      "lat": 25.0445263,
-      "lon": 121.5389795,
-      "date": "2025-04",
-      "heading": 100,
-      "observed": [
-        "continuous dark panel fence beneath ramp",
-        "light acoustic screen above",
-        "painted columns without base guard",
-        "narrow soil strip"
+      "id": "HEDGE_EAST",
+      "center": [
+        2527,
+        396.9,
+        0.505
       ],
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
+      "size": [
+        168,
+        1.2,
+        0.65
+      ],
+      "angle": -11,
+      "pano": "UPKfuf0v1ndm02e9vSLrcA",
+      "material": "shrub",
+      "kind": "box",
+      "segment": "UB_X+023_025",
+      "placement_note": "Estimated from observed proportions and registered road context; missing median rebuilt as comparison; not surveyed"
+    },
+    {
+      "id": "EQUIPMENT_HOUSE",
+      "center": [
+        2472,
+        412,
+        1.58
+      ],
+      "size": [
+        8,
+        4,
+        2.8
+      ],
+      "angle": -11,
+      "pano": "TmJaZc2pavLdf2zfcodVMA",
+      "material": "stone",
+      "kind": "box",
+      "segment": "UB_X+023_025",
+      "placement_note": "Estimated from observed proportions and registered road context; missing median rebuilt as comparison; not surveyed"
+    },
+    {
+      "id": "EQUIPMENT_COPING",
+      "center": [
+        2472,
+        412,
+        3.08
+      ],
+      "size": [
+        8.5,
+        4.5,
+        0.2
+      ],
+      "angle": -11,
+      "pano": "TmJaZc2pavLdf2zfcodVMA",
+      "material": "stone",
+      "kind": "box",
+      "segment": "UB_X+023_025",
+      "placement_note": "Estimated from observed proportions and registered road context; missing median rebuilt as comparison; not surveyed"
+    },
+    {
+      "id": "MESSAGE_BOARD",
+      "center": [
+        2536,
+        400,
+        4.8
+      ],
+      "size": [
+        0.35,
+        4.5,
+        1.6
+      ],
+      "angle": -11,
+      "pano": "UPKfuf0v1ndm02e9vSLrcA",
+      "material": "louvre",
+      "kind": "box",
+      "segment": "UB_X+023_025",
+      "placement_note": "Estimated from observed proportions and registered road context; missing median rebuilt as comparison; not surveyed"
+    },
+    {
+      "id": "MESSAGE_MAST",
+      "center": [
+        2536,
+        400,
+        2.1
+      ],
+      "size": [
+        0.3,
+        0.3,
+        3.9
+      ],
+      "angle": -11,
+      "pano": "UPKfuf0v1ndm02e9vSLrcA",
+      "material": "stone",
+      "kind": "box",
+      "segment": "UB_X+023_025",
+      "placement_note": "Estimated from observed proportions and registered road context; missing median rebuilt as comparison; not surveyed"
+    },
+    {
+      "id": "LOW_ENCLOSURE_EAST",
+      "center": [
+        2569,
+        393,
+        1.03
+      ],
+      "size": [
+        10,
+        3,
+        1.7
+      ],
+      "angle": -11,
+      "pano": "kVbZzJzuhXHaoWM-anP_DQ",
+      "material": "stone",
+      "kind": "box",
+      "segment": "UB_X+023_025",
+      "placement_note": "Estimated from observed proportions and registered road context; missing median rebuilt as comparison; not surveyed"
     }
   ],
   "full_corridor_complete": false

@@ -1,4 +1,5 @@
 {
+  "batch_name": "UB_LINSEN_MESSAGE_BOARD_EST",
   "observations": [
     {
       "segment": "UB_X+005",
@@ -437,224 +438,46 @@
         "signal poles"
       ],
       "dimensions_verified": false
+    }
+  ],
+  "masses": [
+    {
+      "id": "014_MESSAGE_BOARD",
+      "segment": "UB_X+014",
+      "pano": "g1qfNHBGxt8bQ9Mxtk4-WQ",
+      "center": [
+        1470,
+        706,
+        4.8
+      ],
+      "size": [
+        0.5,
+        5.5,
+        1.5
+      ],
+      "angle": -13,
+      "kind": "box",
+      "material": "louvre",
+      "placement_note": "Visible electronic board; position, panel size and support arrangement approximate, not surveyed"
     },
     {
-      "segment": "UB_X+021",
-      "pano": "TdNRoe2SIvYRDGd1pR5XNg",
-      "lat": 25.0457327,
-      "lon": 121.5314468,
-      "date": "2025-04",
-      "heading": 100,
-      "status": "partial_ground_view",
-      "observed": [
-        "paired stone faced enclosures foreground median",
-        "long low clipped hedges",
-        "column base guards",
-        "rear of electronic message sign"
+      "id": "014_BOARD_MAST",
+      "segment": "UB_X+014",
+      "pano": "g1qfNHBGxt8bQ9Mxtk4-WQ",
+      "center": [
+        1470,
+        706,
+        2.2
       ],
-      "dimensions_verified": false
-    },
-    {
-      "segment": "UB_X+022",
-      "pano": "BTsQuxiakoKbtWbDIMst0w",
-      "lat": 25.0455241,
-      "lon": 121.5321124,
-      "date": "2025-04",
-      "heading": 100,
-      "status": "partial_ground_view",
-      "observed": [
-        "tall vine-covered rectangular enclosure masses",
-        "landscape boulders",
-        "low hedge border",
-        "small fenced planting pocket",
-        "column guard"
+      "size": [
+        0.35,
+        0.35,
+        4
       ],
-      "dimensions_verified": false
-    },
-    {
-      "segment": "UB_X+022",
-      "pano": "htQxClxGohJNBfAvFaUo2g",
-      "lat": 25.0453892,
-      "lon": 121.5325893,
-      "date": "2025-04",
-      "heading": 100,
-      "status": "partial_junction_view",
-      "observed": [
-        "open Songjiang/Xinsheng junction",
-        "no median in intersection",
-        "signal poles",
-        "column guards beyond junction"
-      ],
-      "dimensions_verified": false
-    },
-    {
-      "segment": "UB_X+023",
-      "pano": "mg8uGWmROsxmOz9X-JTgZQ",
-      "lat": 25.0452729,
-      "lon": 121.5330776,
-      "date": "2025-04",
-      "heading": 100,
-      "status": "partial_ground_view",
-      "observed": [
-        "long low hedge median",
-        "tall column picket guard",
-        "road narrowing sign",
-        "lamp poles"
-      ],
-      "dimensions_verified": false
-    },
-    {
-      "pano": "Jp9c0sgxTssnLaOMpx-aNg",
-      "lat": 25.0451146,
-      "lon": 121.5336574,
-      "observed": [
-        "yellow equipment cabinet",
-        "small stone enclosure between piers",
-        "parallel hedge bands",
-        "column picket guards"
-      ],
-      "date": "2025-04",
-      "heading": 100,
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
-    },
-    {
-      "pano": "mc4ARoq6Vr6H2le74g1BDQ",
-      "lat": 25.0449686,
-      "lon": 121.5341636,
-      "observed": [
-        "八德路二段 junction",
-        "hedge ends at crossing",
-        "column guards",
-        "traffic signals",
-        "south sidewalk hydrant"
-      ],
-      "date": "2025-04",
-      "heading": 100,
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
-    },
-    {
-      "pano": "TmJaZc2pavLdf2zfcodVMA",
-      "lat": 25.0448352,
-      "lon": 121.5346834,
-      "observed": [
-        "stone equipment house beyond median nose",
-        "overhanging coping",
-        "planted nose",
-        "column guards",
-        "convex mirror"
-      ],
-      "date": "2025-04",
-      "heading": 100,
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
-    },
-    {
-      "pano": "UPKfuf0v1ndm02e9vSLrcA",
-      "lat": 25.0447459,
-      "lon": 121.5352844,
-      "observed": [
-        "electronic message board on narrow mast",
-        "continuous low hedge",
-        "near-side column without visible base picket guard",
-        "far-side column guards"
-      ],
-      "date": "2025-04",
-      "heading": 100,
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
-    },
-    {
-      "pano": "kVbZzJzuhXHaoWM-anP_DQ",
-      "lat": 25.044704,
-      "lon": 121.5356764,
-      "date": "2025-04",
-      "heading": 100,
-      "observed": [
-        "long low flat stone enclosure on median",
-        "low hedge border",
-        "transverse bridge ahead",
-        "bus shelter on south sidewalk"
-      ],
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
-    },
-    {
-      "pano": "3Vq9E0LHU4N9sIW2U3PM2A",
-      "lat": 25.04465,
-      "lon": 121.5363069,
-      "observed": [
-        "建國北路一段 elevated junction",
-        "open traffic crossing",
-        "parking under transverse bridge",
-        "parking entry signs",
-        "bollards",
-        "broad transverse piers"
-      ],
-      "date": "2025-04",
-      "heading": 100,
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
-    },
-    {
-      "pano": "Y3YXY7-SlZ5-QFp9zNLfSA",
-      "lat": 25.0446354,
-      "lon": 121.536824,
-      "observed": [
-        "stepped stone median wall",
-        "planted junction nose",
-        "blue equipment cabinet"
-      ],
-      "date": "2025-04",
-      "heading": 100,
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
-    },
-    {
-      "pano": "C0ErFunaxlWpr9M3Oo4Hyg",
-      "lat": 25.0446099,
-      "lon": 121.5372814,
-      "observed": [
-        "tall stone-faced enclosure wall",
-        "light coping",
-        "raised equipment behind wall",
-        "hedge after wall"
-      ],
-      "date": "2025-04",
-      "heading": 100,
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
-    },
-    {
-      "pano": "qcnBLenMbFh4WolbZO5JUA",
-      "lat": 25.0445533,
-      "lon": 121.5382546,
-      "observed": [
-        "ramp side retaining wall",
-        "painted blue screen",
-        "painted columns",
-        "narrow hedge"
-      ],
-      "date": "2025-04",
-      "heading": 100,
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
-    },
-    {
-      "pano": "NfN9c34laNEaExIh-8h8xA",
-      "lat": 25.0445263,
-      "lon": 121.5389795,
-      "date": "2025-04",
-      "heading": 100,
-      "observed": [
-        "continuous dark panel fence beneath ramp",
-        "light acoustic screen above",
-        "painted columns without base guard",
-        "narrow soil strip"
-      ],
-      "dimensions_verified": false,
-      "status": "partial_ground_view"
+      "angle": -13,
+      "kind": "box",
+      "material": "stone",
+      "placement_note": "Simplified support mass; actual fastening detail unresolved"
     }
   ],
   "full_corridor_complete": false
