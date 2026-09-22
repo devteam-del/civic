@@ -1,0 +1,75 @@
+{
+  "full_corridor_complete": false,
+  "recovered_from_session_observations": true,
+  "views": [
+    {
+      "segment": "UB_X-005",
+      "pano": "SBVIjhNhgPYIqGro8I2Sgg",
+      "date": "2025-02",
+      "status": "partial_ground_view",
+      "observed": [
+        "round piers",
+        "paths",
+        "grass islands",
+        "lamps",
+        "curbs",
+        "drainage"
+      ]
+    },
+    {
+      "segment": "UB_X-004",
+      "pano": "M2SHdeR6iDydeEFqEEYfJA",
+      "date": "2025-02",
+      "status": "partial_ground_view",
+      "observed": [
+        "trees",
+        "shrubs",
+        "floodwall",
+        "adjacent canopy"
+      ]
+    },
+    {
+      "segment": "UB_X-003",
+      "pano": "bv8E256QgS9eQ5HFGPisGw",
+      "date": "2024-12",
+      "status": "partial_ground_view",
+      "observed": [
+        "low ramp",
+        "blue cabinets",
+        "small utility boxes",
+        "foundation masses",
+        "pedestrian passage"
+      ]
+    },
+    {
+      "segment": "UB_X-002",
+      "pano": "6r1uoT9hQu2JROltO-9XRw",
+      "date": "2024-12",
+      "status": "partial_ground_view",
+      "observed": [
+        "columns",
+        "base fences",
+        "sunken opening sidewall",
+        "shrubs",
+        "sign frame"
+      ]
+    },
+    {
+      "segment": "UB_X+000",
+      "pano": "m8uPsNjtR14tfM0vA6DBXA",
+      "date": "2025-02",
+      "status": "partial_ground_view_revisited_20260922",
+      "observed": [
+        "large louvred tower",
+        "low four-hood equipment row",
+        "plinth",
+        "maintenance steps"
+      ]
+    }
+  ],
+  "dimensions_verified": false,
+  "rejected_as_ground_coverage": [
+    "bu_z1d2wQKazI-6TiDmr2g",
+    "0Op4JpC313xYjh7xdzONMA"
+  ]
+}
