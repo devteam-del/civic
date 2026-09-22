@@ -59,7 +59,7 @@ for ob in created:
    candidates.append([ob.name,q.name]);tree=tree or bvh(ob)
    if q.name not in cache:cache[q.name]=bvh(q)
    if tree.overlap(cache[q.name]):conflicts.append([ob.name,q.name]);ob['surface_intersection']=q.name
-med=[o for o in working.objects if o.type=='MESH' and o.name.startswith('CAL_GROUND_MEDIAN_WORKING')]
+med=[o for o in working.objects if o.type=='MESH' and (o.name.startswith('CAL_GROUND_MEDIAN_WORKING') or o.get('original_preserved','').startswith('CAL_GROUND_MEDIAN_WORKING'))]
 outside=[]
 for ob in created:
  pts=[ob.data.vertices[i].co for i in range(min(4,len(ob.data.vertices)))];bad=0
