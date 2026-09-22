@@ -10,7 +10,13 @@
       "opposite viaduct",
       "low roofs beneath opposite span"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      550.89,
+      821.746
+    ],
+    "camera_easting_strip": "UB_X+005",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+006",
@@ -27,7 +33,13 @@
       "low retaining wall",
       "curb"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      651.007,
+      800.651
+    ],
+    "camera_easting_strip": "UB_X+006",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+007",
@@ -44,7 +56,13 @@
       "raised curb",
       "Y6 entrance and bus shelter opposite road"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      700.935,
+      792.711
+    ],
+    "camera_easting_strip": "UB_X+007",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+007",
@@ -61,7 +79,13 @@
       "cobbled paving",
       "column guards"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      771.242,
+      780.408
+    ],
+    "camera_easting_strip": "UB_X+007",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+008",
@@ -78,7 +102,13 @@
       "column picket guard",
       "road sign"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      811.215,
+      773.926
+    ],
+    "camera_easting_strip": "UB_X+008",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+008",
@@ -94,7 +124,13 @@
       "flat top enclosure with dark louvre panels",
       "column perimeter fence"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      846.129,
+      768.389
+    ],
+    "camera_easting_strip": "UB_X+008",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+009",
@@ -110,7 +146,13 @@
       "narrow planted curb strip",
       "round bridge columns with guards"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      901.128,
+      758.93
+    ],
+    "camera_easting_strip": "UB_X+009",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+009",
@@ -126,7 +168,13 @@
       "picket guard at end",
       "small median trees further east"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      951.481,
+      750.683
+    ],
+    "camera_easting_strip": "UB_X+009",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+009",
@@ -141,7 +189,13 @@
       "roadside no-turn sign",
       "median ends before Zhongshan junction"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      993.922,
+      742.904
+    ],
+    "camera_easting_strip": "UB_X+009",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+010",
@@ -156,7 +210,13 @@
       "low stone enclosure between portal columns",
       "separate turning opening west of island"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1083.052,
+      726.975
+    ],
+    "camera_easting_strip": "UB_X+010",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+011",
@@ -172,7 +232,13 @@
       "yellow railing at parking opening",
       "column guard"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1133.127,
+      720.168
+    ],
+    "camera_easting_strip": "UB_X+011",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+012",
@@ -188,7 +254,13 @@
       "parking direction boards",
       "blurred/occluded foreground"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1209.039,
+      714.723
+    ],
+    "camera_easting_strip": "UB_X+012",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+012",
@@ -204,7 +276,13 @@
       "continuous narrow hedge outside ramp",
       "roadside frame/sign"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1285.137,
+      713.289
+    ],
+    "camera_easting_strip": "UB_X+012",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+013",
@@ -220,7 +298,13 @@
       "beige equipment cabinet between first columns east",
       "signals"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1388.221,
+      703.276
+    ],
+    "camera_easting_strip": "UB_X+013",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+014",
@@ -236,7 +320,13 @@
       "picket column guards",
       "electronic message board and steel support"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1436.346,
+      697.038
+    ],
+    "camera_easting_strip": "UB_X+014",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+015",
@@ -252,7 +342,13 @@
       "small dark freestanding information board",
       "painted column without visible base guard"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1526.71,
+      678.115
+    ],
+    "camera_easting_strip": "UB_X+015",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+016",
@@ -268,7 +364,13 @@
       "U-turn direction sign",
       "low curb"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1616.296,
+      651.702
+    ],
+    "camera_easting_strip": "UB_X+016",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+017",
@@ -284,7 +386,13 @@
       "low enclosure between columns",
       "Linjin parking pedestrian entrance 5 across road"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1707.635,
+      620.976
+    ],
+    "camera_easting_strip": "UB_X+017",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+018",
@@ -301,7 +409,13 @@
       "narrow hedge bands",
       "guarded portal columns"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1799.223,
+      590.983
+    ],
+    "camera_easting_strip": "UB_X+017",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+019",
@@ -318,7 +432,13 @@
       "park perimeter fence"
     ],
     "dimensions_verified": false,
-    "limits": "Under-ramp space partly obscured"
+    "limits": "Under-ramp space partly obscured",
+    "camera_model_xy": [
+      1890.443,
+      552.272
+    ],
+    "camera_easting_strip": "UB_X+018",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+019",
@@ -335,7 +455,13 @@
       "ramp screen",
       "park fence and retaining wall"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1914.344,
+      545.321
+    ],
+    "camera_easting_strip": "UB_X+019",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+019",
@@ -351,7 +477,13 @@
       "park fence",
       "ramp side screen"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1934.825,
+      538.4
+    ],
+    "camera_easting_strip": "UB_X+019",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+019",
@@ -367,7 +499,13 @@
       "motorcycle parking gaps",
       "under-ramp side road"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1967.042,
+      528.701
+    ],
+    "camera_easting_strip": "UB_X+019",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+019",
@@ -384,7 +522,13 @@
       "linear drain along park path",
       "motorcycle parking"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      1983.06,
+      520.113
+    ],
+    "camera_easting_strip": "UB_X+019",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+020",
@@ -401,7 +545,13 @@
       "signals",
       "open paved park edge"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      2008.186,
+      509.777
+    ],
+    "camera_easting_strip": "UB_X+020",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+020",
@@ -418,7 +568,13 @@
       "signal poles",
       "transverse bridge pier"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      2020.85,
+      507.146
+    ],
+    "camera_easting_strip": "UB_X+020",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+020",
@@ -435,7 +591,13 @@
       "open south sidewalk",
       "signal poles"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      2063.271,
+      496.912
+    ],
+    "camera_easting_strip": "UB_X+020",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+021",
@@ -451,7 +613,13 @@
       "column base guards",
       "rear of electronic message sign"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      2129.255,
+      488.797
+    ],
+    "camera_easting_strip": "UB_X+021",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+022",
@@ -468,7 +636,13 @@
       "small fenced planting pocket",
       "column guard"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      2196.509,
+      465.955
+    ],
+    "camera_easting_strip": "UB_X+021",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+022",
@@ -484,7 +658,13 @@
       "signal poles",
       "column guards beyond junction"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      2244.69,
+      451.202
+    ],
+    "camera_easting_strip": "UB_X+022",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "segment": "UB_X+023",
@@ -500,7 +680,13 @@
       "road narrowing sign",
       "lamp poles"
     ],
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      2294.013,
+      438.514
+    ],
+    "camera_easting_strip": "UB_X+022",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "Jp9c0sgxTssnLaOMpx-aNg",
@@ -515,7 +701,13 @@
     "date": "2025-04",
     "heading": 100,
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      2352.587,
+      421.21
+    ],
+    "camera_easting_strip": "UB_X+023",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "mc4ARoq6Vr6H2le74g1BDQ",
@@ -531,7 +723,13 @@
     "date": "2025-04",
     "heading": 100,
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      2403.73,
+      405.24
+    ],
+    "camera_easting_strip": "UB_X+024",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "TmJaZc2pavLdf2zfcodVMA",
@@ -547,7 +745,13 @@
     "date": "2025-04",
     "heading": 100,
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      2456.239,
+      390.671
+    ],
+    "camera_easting_strip": "UB_X+024",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "UPKfuf0v1ndm02e9vSLrcA",
@@ -562,7 +766,13 @@
     "date": "2025-04",
     "heading": 100,
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      2516.923,
+      381.02
+    ],
+    "camera_easting_strip": "UB_X+025",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "kVbZzJzuhXHaoWM-anP_DQ",
@@ -577,7 +787,13 @@
       "bus shelter on south sidewalk"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      2556.497,
+      376.535
+    ],
+    "camera_easting_strip": "UB_X+025",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "3Vq9E0LHU4N9sIW2U3PM2A",
@@ -594,7 +810,13 @@
     "date": "2025-04",
     "heading": 100,
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      2620.142,
+      370.806
+    ],
+    "camera_easting_strip": "UB_X+026",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "Y3YXY7-SlZ5-QFp9zNLfSA",
@@ -608,7 +830,13 @@
     "date": "2025-04",
     "heading": 100,
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      2672.327,
+      369.396
+    ],
+    "camera_easting_strip": "UB_X+026",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "C0ErFunaxlWpr9M3Oo4Hyg",
@@ -623,7 +851,13 @@
     "date": "2025-04",
     "heading": 100,
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      2718.493,
+      366.754
+    ],
+    "camera_easting_strip": "UB_X+027",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "qcnBLenMbFh4WolbZO5JUA",
@@ -638,7 +872,13 @@
     "date": "2025-04",
     "heading": 100,
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      2816.721,
+      360.875
+    ],
+    "camera_easting_strip": "UB_X+028",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "NfN9c34laNEaExIh-8h8xA",
@@ -653,7 +893,13 @@
       "narrow soil strip"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      2889.88,
+      358.176
+    ],
+    "camera_easting_strip": "UB_X+028",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "qlNEhY2vapGKjolnhyIrxQ",
@@ -667,7 +913,13 @@
       "small planted traffic island"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      2913.889,
+      347.283
+    ],
+    "camera_easting_strip": "UB_X+029",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "dMVEE6UYTNXGPO74I7fYNw",
@@ -681,7 +933,13 @@
       "columns"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      2970.031,
+      353.156
+    ],
+    "camera_easting_strip": "UB_X+029",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "4Ucq9xiovJvNR2OeItBkag",
@@ -695,7 +953,13 @@
       "concrete bollards"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      3061.693,
+      341.371
+    ],
+    "camera_easting_strip": "UB_X+030",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "D93ruj14fi2oZZ0vJUEfBw",
@@ -709,7 +973,13 @@
       "white picket guards"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      3100.182,
+      350.874
+    ],
+    "camera_easting_strip": "UB_X+031",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "eky2lmiChtmPW0J836_p-w",
@@ -723,7 +993,13 @@
       "vehicle-occluded hedge"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      3196.588,
+      358.903
+    ],
+    "camera_easting_strip": "UB_X+031",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "GNaYshgbXGqT6PZXF7RvSw",
@@ -737,7 +1013,13 @@
       "stone perimeter walls"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      3271.605,
+      368.353
+    ],
+    "camera_easting_strip": "UB_X+032",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "4NKKDkj7LTh70nLelXcPqw",
@@ -752,7 +1034,13 @@
       "equipment house east"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      3362.459,
+      379.418
+    ],
+    "camera_easting_strip": "UB_X+033",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "W7yVqpmB3_GRMjErCguLjQ",
@@ -768,7 +1056,13 @@
       "column guard"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      3400.544,
+      386.272
+    ],
+    "camera_easting_strip": "UB_X+034",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "qO9vy2z0l826vmFLb83htg",
@@ -783,7 +1077,13 @@
     "date": "2024-12",
     "heading": 67.32,
     "status": "partial_ground_view",
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      3482.523,
+      396.15
+    ],
+    "camera_easting_strip": "UB_X+034",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "2882lEnxh46OedwtnsGNQg",
@@ -798,7 +1098,13 @@
     "date": "2024-12",
     "heading": 67.32,
     "status": "partial_ground_view",
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      3573.891,
+      407.174
+    ],
+    "camera_easting_strip": "UB_X+035",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "V1Ms-Pwo1NGzX82d62EMhA",
@@ -814,7 +1120,13 @@
     "date": "2024-12",
     "heading": 67.32,
     "status": "partial_ground_view",
-    "dimensions_verified": false
+    "dimensions_verified": false,
+    "camera_model_xy": [
+      3644.648,
+      412.19
+    ],
+    "camera_easting_strip": "UB_X+036",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "uKMagVCBFOMP5Zreqyt1Gg",
@@ -830,7 +1142,13 @@
     ],
     "visible_pier_label": "P247",
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      3706.45,
+      408.042
+    ],
+    "camera_easting_strip": "UB_X+037",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "Qe2dOHcJSmTRKLtsEIicjg",
@@ -845,7 +1163,13 @@
       "lamp poles"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      3776.422,
+      400.106
+    ],
+    "camera_easting_strip": "UB_X+037",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "SZqEPEzJAb3DnwU1bIR4jA",
@@ -859,7 +1183,13 @@
       "signals"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      3868.652,
+      390.245
+    ],
+    "camera_easting_strip": "UB_X+038",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "yrWNNlTILLiGU7aAPbWlLw",
@@ -876,7 +1206,13 @@
       "zebra crossing"
     ],
     "dimensions_verified": false,
-    "status": "partial_ground_view"
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      3915.541,
+      393.326
+    ],
+    "camera_easting_strip": "UB_X+039",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
   },
   {
     "pano": "ijgLhCuoC7XsOHBS4Y0R3Q",
@@ -889,6 +1225,305 @@
       "column planting bed",
       "electronic message board",
       "motorcycle parking on south sidewalk"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      3950.678,
+      378.36
+    ],
+    "camera_easting_strip": "UB_X+039",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+    "lat": 25.0446013,
+    "lon": 121.5501896,
+    "date": "2025-04",
+    "heading": 90,
+    "observed": [
+      "pitched parking canopy",
+      "gate equipment",
+      "ramp walls",
+      "low shrubs"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      4021.02,
+      371.036
+    ],
+    "camera_easting_strip": "UB_X+040",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "qW5wQ6xlNLKJE7jPZ8_Beg",
+    "lat": 25.0444841,
+    "lon": 121.5511214,
+    "date": "2025-04",
+    "heading": 90,
+    "observed": [
+      "segmented stone planting curbs",
+      "cobbled median",
+      "unguarded portal piers"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      4115.098,
+      358.437
+    ],
+    "camera_easting_strip": "UB_X+041",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "Mqs5MSupW4FSCi88KmNx9Q",
+    "lat": 25.0446461,
+    "lon": 121.5553056,
+    "date": "2025-05",
+    "heading": 90,
+    "observed": [
+      "paired louvred equipment houses flanking central road"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      4537.239,
+      378.108
+    ],
+    "camera_easting_strip": "UB_X+045",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "rZ15HNibSMZkMVtt7zegbw",
+    "lat": 25.044413,
+    "lon": 121.5518025,
+    "date": "2024-12",
+    "heading": 90,
+    "observed": [
+      "parking ramp hedge and sign"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      4183.858,
+      350.842
+    ],
+    "camera_easting_strip": "UB_X+041",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "EtE1zVxTgl8sNr_LOvrrfA",
+    "lat": 25.0443434,
+    "lon": 121.5526809,
+    "date": "2025-05",
+    "heading": 90,
+    "observed": [
+      "ramp red coping, narrow hedge, lamp and signal"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      4272.526,
+      343.494
+    ],
+    "camera_easting_strip": "UB_X+042",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "uJj_8PV86O1kGT1blAVpkA",
+    "lat": 25.0440325,
+    "lon": 121.5535411,
+    "date": "2025-02",
+    "heading": 90,
+    "observed": [
+      "landscaped traffic island, notice board and temple frontage"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      4359.467,
+      309.412
+    ],
+    "camera_easting_strip": "UB_X+043",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "WFFTmS80iciUSGSbmrjuFw",
+    "lat": 25.0444487,
+    "lon": 121.5543649,
+    "date": "2025-05",
+    "heading": 90,
+    "observed": [
+      "descending ramp, white side railings and crossing beams"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      4442.406,
+      355.853
+    ],
+    "camera_easting_strip": "UB_X+044",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "LBdnHvU6GYBVYHWf7_yI6Q",
+    "lat": 25.0448998,
+    "lon": 121.5562076,
+    "date": "2025-01",
+    "heading": 90,
+    "observed": [
+      "broad hedge, column drainage, small electrical cabinet"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      4628.141,
+      406.583
+    ],
+    "camera_easting_strip": "UB_X+046",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "GZMhNyE7IicA0gM0V4WQJg",
+    "lat": 25.0450688,
+    "lon": 121.5569551,
+    "date": "2025-01",
+    "heading": 90,
+    "observed": [
+      "louvred service enclosure, arched hood and picket fence"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      4703.492,
+      425.613
+    ],
+    "camera_easting_strip": "UB_X+047",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "_G36_NzKikasV2eh0nq9jg",
+    "lat": 25.0452025,
+    "lon": 121.5576563,
+    "date": "2025-01",
+    "heading": 90,
+    "observed": [
+      "open Guangfu junction, guarded portal piers on separate islands"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      4774.187,
+      440.713
+    ],
+    "camera_easting_strip": "UB_X+047",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "-mhyRldoDgcRnniHnvmIoQ",
+    "lat": 25.0453575,
+    "lon": 121.5581797,
+    "date": "2025-01",
+    "heading": 90,
+    "observed": [
+      "diverging ramps, hedge, column guard, white construction fence"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      4826.93,
+      458.1
+    ],
+    "camera_easting_strip": "UB_X+048",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "YVcanWSyhNmp1yfyOvNtTA",
+    "lat": 25.0457006,
+    "lon": 121.5590708,
+    "date": "2025-01",
+    "heading": 90,
+    "observed": [
+      "single ramp pier guard, cobbled median, construction fence and opposite shelter"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      4916.691,
+      496.475
+    ],
+    "camera_easting_strip": "UB_X+049",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "XI0GRYZUJORiWeuIYeH4Qg",
+    "lat": 25.046,
+    "lon": 121.5597489,
+    "date": "2025-01",
+    "heading": 90,
+    "observed": [
+      "retaining wall, acoustic panels, drain pipe, low-space fence"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      4984.978,
+      529.921
+    ],
+    "camera_easting_strip": "UB_X+049",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "qPXPdnQ2g8461_pjGwlepg",
+    "lat": 25.0463656,
+    "lon": 121.5605868,
+    "date": "2025-01",
+    "heading": 74.64,
+    "observed": [
+      "at-grade road east of ramp, low dividing curb, perimeter wall"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view",
+    "camera_model_xy": [
+      5069.359,
+      570.768
+    ],
+    "camera_easting_strip": "UB_X+050",
+    "coverage_limit": "Camera strip is not visibility coverage or measured object position"
+  },
+  {
+    "pano": "jdlNrNM-B5BHPzABvdUkgg",
+    "lat": 25.0467257,
+    "lon": 121.5614784,
+    "date": "2025-01",
+    "heading": 74.64,
+    "observed": [
+      "at-grade divided road, tree and hedge strip"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view"
+  },
+  {
+    "pano": "YG-Zb3gLNXKXoozUWgo3pg",
+    "lat": 25.0470394,
+    "lon": 121.5623129,
+    "date": "2025-04",
+    "heading": 74.64,
+    "observed": [
+      "road sign frame, hedge, at-grade road"
+    ],
+    "dimensions_verified": false,
+    "status": "partial_ground_view"
+  },
+  {
+    "pano": "Vw0HgmC2TlqgbfIYaH_j2g",
+    "lat": 25.0473706,
+    "lon": 121.5631866,
+    "date": "2025-04",
+    "heading": 74.64,
+    "observed": [
+      "at-grade avenue, grass median with trees and shrubs"
     ],
     "dimensions_verified": false,
     "status": "partial_ground_view"
