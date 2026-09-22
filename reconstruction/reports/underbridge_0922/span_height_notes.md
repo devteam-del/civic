@@ -35,3 +35,7 @@
 在 Blender 工作場景執行 measure_support_spans.py，再執行 export_span_station_heights.py。
 create_span_height_review.py 產生標記與 HTML；請先檢查既有集合，以免重複執行生成重複物件。
 完整逐點 span_height_audit.json 約 3.8MB 保留本機，可由腳本重建；GitHub 僅備份逐跨摘要、檢查紀錄與腳本；完整逐點 JSON、每站 CSV、輸入 context 和 HTML 保留本機。
+
+## 完整性補查
+另有柱位 598、621 未組成跨段，13 條橋面路徑無柱間量測；見 span_height_coverage_gaps.json。
+新增獨立缺口標記集合 UB_SPAN_HEIGHT_COVERAGE_GAPS（15 個），沒有更改橋體。
