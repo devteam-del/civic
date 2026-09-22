@@ -65,6 +65,52 @@
         "plinth",
         "maintenance steps"
       ]
+    },
+    {
+      "segment": "UB_X+001",
+      "pano": "DhbR1c0EQE4zelfovgpoCw",
+      "date": "2024-12",
+      "status": "partial_ground_view",
+      "observed": [
+        "round column",
+        "shrub beds",
+        "rock landscape",
+        "narrow pedestrian passage",
+        "low vent wall",
+        "traffic signal pole"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+002",
+      "pano": "rOneZw1Hy2btmcnrLp2cjQ",
+      "date": "2024-12",
+      "source_url": "https://www.google.com/maps/@25.0494753,121.5128275,3a,90y,20h,90t/data=!3m4!1e1!3m2!1srOneZw1Hy2btmcnrLp2cjQ!2e0",
+      "status": "partial_ground_view",
+      "observed": [
+        "round column without visible base fence",
+        "irregular shrub patches",
+        "exposed soil",
+        "landscape rocks",
+        "low masonry enclosure"
+      ],
+      "dimensions_verified": false
+    },
+    {
+      "segment": "UB_X+003",
+      "pano": "moMq0z-UBTjiDjOudI-lmw",
+      "date": "2025-05",
+      "source_url": "https://www.google.com/maps/@25.0494051,121.5138901,3a,90y,193h,90t/data=!3m4!1e1!3m2!1smoMq0z-UBTjiDjOudI-lmw!2e0",
+      "status": "partial_ground_view",
+      "observed": [
+        "round column with picket base guard",
+        "shrub median",
+        "drainage openings in curb",
+        "low masonry enclosure",
+        "bridge pipework",
+        "traffic signals"
+      ],
+      "dimensions_verified": false
     }
   ],
   "dimensions_verified": false,
