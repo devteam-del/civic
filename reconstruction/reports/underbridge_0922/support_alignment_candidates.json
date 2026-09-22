@@ -1,0 +1,1514 @@
+{
+  "basis": "Rigid pair translation in 0.5m increments up to 12m, full base footprint plus 0.1m margin inside existing estimated median and bridge deck. No Street View coordinates inferred by this calculation.",
+  "groups": [
+    {
+      "group": 16,
+      "piers": [
+        "UNVERIFIED_Pier_016",
+        "UNVERIFIED_Pier_017"
+      ],
+      "original_road_overlap_m2": 3.1058037877082825,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 20,
+      "piers": [
+        "UNVERIFIED_Pier_020",
+        "UNVERIFIED_Pier_021"
+      ],
+      "original_road_overlap_m2": 3.1058037877082825,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        7.5,
+        8.0
+      ],
+      "distance_m": 10.965856099730654,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 36,
+      "piers": [
+        "UNVERIFIED_Pier_036",
+        "UNVERIFIED_Pier_037"
+      ],
+      "original_road_overlap_m2": 5.760522368545974,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        -8.0,
+        1.5
+      ],
+      "distance_m": 8.139410298049853,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 42,
+      "piers": [
+        "UNVERIFIED_Pier_042",
+        "UNVERIFIED_Pier_043"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 48,
+      "piers": [
+        "UNVERIFIED_Pier_048",
+        "UNVERIFIED_Pier_049"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 54,
+      "piers": [
+        "UNVERIFIED_Pier_054",
+        "UNVERIFIED_Pier_055"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 60,
+      "piers": [
+        "UNVERIFIED_Pier_060",
+        "UNVERIFIED_Pier_061"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 66,
+      "piers": [
+        "UNVERIFIED_Pier_066",
+        "UNVERIFIED_Pier_067"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 74,
+      "piers": [
+        "UNVERIFIED_Pier_074",
+        "UNVERIFIED_Pier_075"
+      ],
+      "original_road_overlap_m2": 5.63704232812186,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 78,
+      "piers": [
+        "UNVERIFIED_Pier_078",
+        "UNVERIFIED_Pier_079"
+      ],
+      "original_road_overlap_m2": 5.2487255785350655,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 82,
+      "piers": [
+        "UNVERIFIED_Pier_082",
+        "UNVERIFIED_Pier_083"
+      ],
+      "original_road_overlap_m2": 4.804773046891776,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 86,
+      "piers": [
+        "UNVERIFIED_Pier_086",
+        "UNVERIFIED_Pier_087"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 90,
+      "piers": [
+        "UNVERIFIED_Pier_090",
+        "UNVERIFIED_Pier_091"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 94,
+      "piers": [
+        "UNVERIFIED_Pier_094",
+        "UNVERIFIED_Pier_095"
+      ],
+      "original_road_overlap_m2": 4.854089864777917,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        -2.5,
+        -10.0
+      ],
+      "distance_m": 10.307764064044152,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 98,
+      "piers": [
+        "UNVERIFIED_Pier_098",
+        "UNVERIFIED_Pier_099"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        3.5,
+        -6.0
+      ],
+      "distance_m": 6.946221994724902,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 102,
+      "piers": [
+        "UNVERIFIED_Pier_102",
+        "UNVERIFIED_Pier_103"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        -6.0
+      ],
+      "distance_m": 6.0,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 106,
+      "piers": [
+        "UNVERIFIED_Pier_106",
+        "UNVERIFIED_Pier_107"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 110,
+      "piers": [
+        "UNVERIFIED_Pier_110",
+        "UNVERIFIED_Pier_111"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 114,
+      "piers": [
+        "UNVERIFIED_Pier_114",
+        "UNVERIFIED_Pier_115"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 118,
+      "piers": [
+        "UNVERIFIED_Pier_118",
+        "UNVERIFIED_Pier_119"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 122,
+      "piers": [
+        "UNVERIFIED_Pier_122",
+        "UNVERIFIED_Pier_123"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 202,
+      "piers": [
+        "UNVERIFIED_Pier_202",
+        "UNVERIFIED_Pier_203"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 206,
+      "piers": [
+        "UNVERIFIED_Pier_206",
+        "UNVERIFIED_Pier_207"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 210,
+      "piers": [
+        "UNVERIFIED_Pier_210",
+        "UNVERIFIED_Pier_211"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 214,
+      "piers": [
+        "UNVERIFIED_Pier_214",
+        "UNVERIFIED_Pier_215"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 218,
+      "piers": [
+        "UNVERIFIED_Pier_218",
+        "UNVERIFIED_Pier_219"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 234,
+      "piers": [
+        "UNVERIFIED_Pier_234",
+        "UNVERIFIED_Pier_235"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 238,
+      "piers": [
+        "UNVERIFIED_Pier_238",
+        "UNVERIFIED_Pier_239"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 242,
+      "piers": [
+        "UNVERIFIED_Pier_242",
+        "UNVERIFIED_Pier_243"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 246,
+      "piers": [
+        "UNVERIFIED_Pier_246",
+        "UNVERIFIED_Pier_247"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 250,
+      "piers": [
+        "UNVERIFIED_Pier_250",
+        "UNVERIFIED_Pier_251"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 254,
+      "piers": [
+        "UNVERIFIED_Pier_254",
+        "UNVERIFIED_Pier_255"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 258,
+      "piers": [
+        "UNVERIFIED_Pier_259"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 280,
+      "piers": [
+        "UNVERIFIED_Pier_280",
+        "UNVERIFIED_Pier_281"
+      ],
+      "original_road_overlap_m2": 3.105818673968315,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        -5.0
+      ],
+      "distance_m": 5.0,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 282,
+      "piers": [
+        "UNVERIFIED_Pier_282",
+        "UNVERIFIED_Pier_283"
+      ],
+      "original_road_overlap_m2": 3.105818673968315,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        -5.0
+      ],
+      "distance_m": 5.0,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 288,
+      "piers": [
+        "UNVERIFIED_Pier_288",
+        "UNVERIFIED_Pier_289"
+      ],
+      "original_road_overlap_m2": 6.21163734793663,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        -7.5,
+        -4.5
+      ],
+      "distance_m": 8.74642784226795,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 294,
+      "piers": [
+        "UNVERIFIED_Pier_294",
+        "UNVERIFIED_Pier_295"
+      ],
+      "original_road_overlap_m2": 3.105818673968315,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        -1.5,
+        -4.0
+      ],
+      "distance_m": 4.272001872658765,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 306,
+      "piers": [
+        "UNVERIFIED_Pier_306",
+        "UNVERIFIED_Pier_307"
+      ],
+      "original_road_overlap_m2": 3.1058287173509598,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        -5.5
+      ],
+      "distance_m": 5.5,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 310,
+      "piers": [
+        "UNVERIFIED_Pier_310"
+      ],
+      "original_road_overlap_m2": 3.1058287173509598,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        -2.0,
+        -4.5
+      ],
+      "distance_m": 4.924428900898052,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 312,
+      "piers": [
+        "UNVERIFIED_Pier_312",
+        "UNVERIFIED_Pier_313"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 318,
+      "piers": [
+        "UNVERIFIED_Pier_318",
+        "UNVERIFIED_Pier_319"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 324,
+      "piers": [
+        "UNVERIFIED_Pier_324",
+        "UNVERIFIED_Pier_325"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 330,
+      "piers": [
+        "UNVERIFIED_Pier_330",
+        "UNVERIFIED_Pier_331"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 336,
+      "piers": [
+        "UNVERIFIED_Pier_336",
+        "UNVERIFIED_Pier_337"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 338,
+      "piers": [
+        "UNVERIFIED_Pier_338",
+        "UNVERIFIED_Pier_339"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 340,
+      "piers": [
+        "UNVERIFIED_Pier_340",
+        "UNVERIFIED_Pier_341"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 342,
+      "piers": [
+        "UNVERIFIED_Pier_342",
+        "UNVERIFIED_Pier_343"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 344,
+      "piers": [
+        "UNVERIFIED_Pier_344",
+        "UNVERIFIED_Pier_345"
+      ],
+      "original_road_overlap_m2": 6.2116574347019196,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 346,
+      "piers": [
+        "UNVERIFIED_Pier_346",
+        "UNVERIFIED_Pier_347"
+      ],
+      "original_road_overlap_m2": 6.2116574347019196,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 348,
+      "piers": [
+        "UNVERIFIED_Pier_348",
+        "UNVERIFIED_Pier_349"
+      ],
+      "original_road_overlap_m2": 3.3438465291588058,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 350,
+      "piers": [
+        "UNVERIFIED_Pier_350",
+        "UNVERIFIED_Pier_351"
+      ],
+      "original_road_overlap_m2": 4.018541385723243,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 352,
+      "piers": [
+        "UNVERIFIED_Pier_352",
+        "UNVERIFIED_Pier_353"
+      ],
+      "original_road_overlap_m2": 4.845760898127198,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 356,
+      "piers": [
+        "UNVERIFIED_Pier_357"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 362,
+      "piers": [
+        "UNVERIFIED_Pier_362",
+        "UNVERIFIED_Pier_363"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 368,
+      "piers": [
+        "UNVERIFIED_Pier_368",
+        "UNVERIFIED_Pier_369"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 374,
+      "piers": [
+        "UNVERIFIED_Pier_374",
+        "UNVERIFIED_Pier_375"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 380,
+      "piers": [
+        "UNVERIFIED_Pier_380",
+        "UNVERIFIED_Pier_381"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 386,
+      "piers": [
+        "UNVERIFIED_Pier_386",
+        "UNVERIFIED_Pier_387"
+      ],
+      "original_road_overlap_m2": 1.514958661672419,
+      "streetview_verified": false,
+      "status": "HOLD_STREETVIEW_PORTAL_MAPPING",
+      "delta_xy": [
+        -0.5,
+        1.0
+      ],
+      "distance_m": 1.118033988749895,
+      "new_road_outside_median_m2": 0.0,
+      "streetview_note": "2025-01 panorama -mhyRldoDgcRnniHnvmIoQ heading180: large rectangular supports at separate islands; the calculated 1.12m translation does not establish correspondence."
+    },
+    {
+      "group": 392,
+      "piers": [
+        "UNVERIFIED_Pier_392",
+        "UNVERIFIED_Pier_393"
+      ],
+      "original_road_overlap_m2": 3.1058037877082825,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        1.0,
+        -5.5
+      ],
+      "distance_m": 5.5901699437494745,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 394,
+      "piers": [
+        "UNVERIFIED_Pier_394",
+        "UNVERIFIED_Pier_395"
+      ],
+      "original_road_overlap_m2": 3.1058037877082825,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        -6.0
+      ],
+      "distance_m": 6.0,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 396,
+      "piers": [
+        "UNVERIFIED_Pier_396",
+        "UNVERIFIED_Pier_397"
+      ],
+      "original_road_overlap_m2": 3.1058037877082825,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.5,
+        -6.5
+      ],
+      "distance_m": 6.519202405202649,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 398,
+      "piers": [
+        "UNVERIFIED_Pier_398",
+        "UNVERIFIED_Pier_399"
+      ],
+      "original_road_overlap_m2": 3.1058037877082825,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        -6.0
+      ],
+      "distance_m": 6.0,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 400,
+      "piers": [
+        "UNVERIFIED_Pier_400",
+        "UNVERIFIED_Pier_401"
+      ],
+      "original_road_overlap_m2": 3.1058037877082825,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        2.0,
+        -5.0
+      ],
+      "distance_m": 5.385164807134504,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 402,
+      "piers": [
+        "UNVERIFIED_Pier_402",
+        "UNVERIFIED_Pier_403"
+      ],
+      "original_road_overlap_m2": 3.1058037877082825,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        2.0,
+        -5.0
+      ],
+      "distance_m": 5.385164807134504,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 404,
+      "piers": [
+        "UNVERIFIED_Pier_404",
+        "UNVERIFIED_Pier_405"
+      ],
+      "original_road_overlap_m2": 3.1058037877082825,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        1.0,
+        -7.0
+      ],
+      "distance_m": 7.0710678118654755,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 408,
+      "piers": [
+        "UNVERIFIED_Pier_408",
+        "UNVERIFIED_Pier_409"
+      ],
+      "original_road_overlap_m2": 6.211607575416565,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 412,
+      "piers": [
+        "UNVERIFIED_Pier_412",
+        "UNVERIFIED_Pier_413"
+      ],
+      "original_road_overlap_m2": 6.211607575416565,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 414,
+      "piers": [
+        "UNVERIFIED_Pier_414",
+        "UNVERIFIED_Pier_415"
+      ],
+      "original_road_overlap_m2": 6.211607575416565,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 416,
+      "piers": [
+        "UNVERIFIED_Pier_416",
+        "UNVERIFIED_Pier_417"
+      ],
+      "original_road_overlap_m2": 6.211607575416565,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 418,
+      "piers": [
+        "UNVERIFIED_Pier_418",
+        "UNVERIFIED_Pier_419"
+      ],
+      "original_road_overlap_m2": 6.211607575416565,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 420,
+      "piers": [
+        "UNVERIFIED_Pier_420",
+        "UNVERIFIED_Pier_421"
+      ],
+      "original_road_overlap_m2": 6.211607575416565,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 422,
+      "piers": [
+        "UNVERIFIED_Pier_422",
+        "UNVERIFIED_Pier_423"
+      ],
+      "original_road_overlap_m2": 6.208717686423723,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        -8.5,
+        -7.0
+      ],
+      "distance_m": 11.01135777277262,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 424,
+      "piers": [
+        "UNVERIFIED_Pier_424",
+        "UNVERIFIED_Pier_425"
+      ],
+      "original_road_overlap_m2": 3.2995659530642936,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        -7.0
+      ],
+      "distance_m": 7.0,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 426,
+      "piers": [
+        "UNVERIFIED_Pier_426",
+        "UNVERIFIED_Pier_427"
+      ],
+      "original_road_overlap_m2": 3.1058037877082825,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        -5.5
+      ],
+      "distance_m": 5.5,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 428,
+      "piers": [
+        "UNVERIFIED_Pier_428",
+        "UNVERIFIED_Pier_429"
+      ],
+      "original_road_overlap_m2": 6.211607575416565,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        7.5,
+        -6.5
+      ],
+      "distance_m": 9.924716620639604,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 430,
+      "piers": [
+        "UNVERIFIED_Pier_430",
+        "UNVERIFIED_Pier_431"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        -0.5,
+        -5.0
+      ],
+      "distance_m": 5.024937810560445,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 432,
+      "piers": [
+        "UNVERIFIED_Pier_432",
+        "UNVERIFIED_Pier_433"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 434,
+      "piers": [
+        "UNVERIFIED_Pier_434",
+        "UNVERIFIED_Pier_435"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        -1.0,
+        -5.5
+      ],
+      "distance_m": 5.5901699437494745,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 438,
+      "piers": [
+        "UNVERIFIED_Pier_438",
+        "UNVERIFIED_Pier_439"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 440,
+      "piers": [
+        "UNVERIFIED_Pier_440",
+        "UNVERIFIED_Pier_441"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        -1.0,
+        -6.0
+      ],
+      "distance_m": 6.082762530298219,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 458,
+      "piers": [
+        "UNVERIFIED_Pier_458",
+        "UNVERIFIED_Pier_459"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 460,
+      "piers": [
+        "UNVERIFIED_Pier_460"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        1.5,
+        -3.0
+      ],
+      "distance_m": 3.3541019662496847,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 464,
+      "piers": [
+        "UNVERIFIED_Pier_464",
+        "UNVERIFIED_Pier_465"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 470,
+      "piers": [
+        "UNVERIFIED_Pier_470",
+        "UNVERIFIED_Pier_471"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 472,
+      "piers": [
+        "UNVERIFIED_Pier_472"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 476,
+      "piers": [
+        "UNVERIFIED_Pier_476",
+        "UNVERIFIED_Pier_477"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 492,
+      "piers": [
+        "UNVERIFIED_Pier_492",
+        "UNVERIFIED_Pier_493"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 498,
+      "piers": [
+        "UNVERIFIED_Pier_498",
+        "UNVERIFIED_Pier_499"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 504,
+      "piers": [
+        "UNVERIFIED_Pier_504",
+        "UNVERIFIED_Pier_505"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 510,
+      "piers": [
+        "UNVERIFIED_Pier_510",
+        "UNVERIFIED_Pier_511"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 518,
+      "piers": [
+        "UNVERIFIED_Pier_518",
+        "UNVERIFIED_Pier_519"
+      ],
+      "original_road_overlap_m2": 6.2116574347019196,
+      "streetview_verified": false,
+      "status": "HOLD_UTURN_STREETVIEW_MAPPING"
+    },
+    {
+      "group": 522,
+      "piers": [
+        "UNVERIFIED_Pier_522",
+        "UNVERIFIED_Pier_523"
+      ],
+      "original_road_overlap_m2": 3.1058287173509598,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        1.0,
+        5.5
+      ],
+      "distance_m": 5.5901699437494745,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 524,
+      "piers": [
+        "UNVERIFIED_Pier_524",
+        "UNVERIFIED_Pier_525"
+      ],
+      "original_road_overlap_m2": 3.1058287173509598,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 526,
+      "piers": [
+        "UNVERIFIED_Pier_526",
+        "UNVERIFIED_Pier_527"
+      ],
+      "original_road_overlap_m2": 3.1058287173509598,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        1.5,
+        5.5
+      ],
+      "distance_m": 5.70087712549569,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 528,
+      "piers": [
+        "UNVERIFIED_Pier_528",
+        "UNVERIFIED_Pier_529"
+      ],
+      "original_road_overlap_m2": 6.21163734793663,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 534,
+      "piers": [
+        "UNVERIFIED_Pier_534",
+        "UNVERIFIED_Pier_535"
+      ],
+      "original_road_overlap_m2": 3.105818673968315,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 540,
+      "piers": [
+        "UNVERIFIED_Pier_540",
+        "UNVERIFIED_Pier_541"
+      ],
+      "original_road_overlap_m2": 3.105818673968315,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        -0.5,
+        6.5
+      ],
+      "distance_m": 6.519202405202649,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 576,
+      "piers": [
+        "UNVERIFIED_Pier_577"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 582,
+      "piers": [
+        "UNVERIFIED_Pier_582",
+        "UNVERIFIED_Pier_583"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 598,
+      "piers": [
+        "UNVERIFIED_Pier_598"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 620,
+      "piers": [
+        "UNVERIFIED_Pier_621"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 622,
+      "piers": [
+        "UNVERIFIED_Pier_623"
+      ],
+      "original_road_overlap_m2": 2.6292790042258956,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        1.0,
+        11.5
+      ],
+      "distance_m": 11.543396380615196,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 624,
+      "piers": [
+        "UNVERIFIED_Pier_624",
+        "UNVERIFIED_Pier_625"
+      ],
+      "original_road_overlap_m2": 3.3869357672050047,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 642,
+      "piers": [
+        "UNVERIFIED_Pier_642",
+        "UNVERIFIED_Pier_643"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        4.5
+      ],
+      "distance_m": 4.5,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 648,
+      "piers": [
+        "UNVERIFIED_Pier_648",
+        "UNVERIFIED_Pier_649"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        3.0
+      ],
+      "distance_m": 3.0,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 658,
+      "piers": [
+        "UNVERIFIED_Pier_658",
+        "UNVERIFIED_Pier_659"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        1.5,
+        -3.0
+      ],
+      "distance_m": 3.3541019662496847,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 660,
+      "piers": [
+        "UNVERIFIED_Pier_660",
+        "UNVERIFIED_Pier_661"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.5,
+        -3.5
+      ],
+      "distance_m": 3.5355339059327378,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 666,
+      "piers": [
+        "UNVERIFIED_Pier_666",
+        "UNVERIFIED_Pier_667"
+      ],
+      "original_road_overlap_m2": 6.211169809103012,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 672,
+      "piers": [
+        "UNVERIFIED_Pier_672",
+        "UNVERIFIED_Pier_673"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        -6.0
+      ],
+      "distance_m": 6.0,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 674,
+      "piers": [
+        "UNVERIFIED_Pier_674"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    },
+    {
+      "group": 680,
+      "piers": [
+        "UNVERIFIED_Pier_680",
+        "UNVERIFIED_Pier_681"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 684,
+      "piers": [
+        "UNVERIFIED_Pier_684",
+        "UNVERIFIED_Pier_685"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 688,
+      "piers": [
+        "UNVERIFIED_Pier_688",
+        "UNVERIFIED_Pier_689"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 692,
+      "piers": [
+        "UNVERIFIED_Pier_692",
+        "UNVERIFIED_Pier_693"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 694,
+      "piers": [
+        "UNVERIFIED_Pier_694",
+        "UNVERIFIED_Pier_695"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 700,
+      "piers": [
+        "UNVERIFIED_Pier_700"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 706,
+      "piers": [
+        "UNVERIFIED_Pier_706",
+        "UNVERIFIED_Pier_707"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 714,
+      "piers": [
+        "UNVERIFIED_Pier_714",
+        "UNVERIFIED_Pier_715"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 718,
+      "piers": [
+        "UNVERIFIED_Pier_718",
+        "UNVERIFIED_Pier_719"
+      ],
+      "original_road_overlap_m2": 0.0,
+      "streetview_verified": false,
+      "status": "NO_MOVE_REQUESTED"
+    },
+    {
+      "group": 726,
+      "piers": [
+        "UNVERIFIED_Pier_726",
+        "UNVERIFIED_Pier_727"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        3.5
+      ],
+      "distance_m": 3.5,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 728,
+      "piers": [
+        "UNVERIFIED_Pier_728",
+        "UNVERIFIED_Pier_729"
+      ],
+      "original_road_overlap_m2": 4.982335698609516,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        3.5,
+        3.5
+      ],
+      "distance_m": 4.949747468305833,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 730,
+      "piers": [
+        "UNVERIFIED_Pier_730",
+        "UNVERIFIED_Pier_731"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        4.5
+      ],
+      "distance_m": 4.5,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 732,
+      "piers": [
+        "UNVERIFIED_Pier_732",
+        "UNVERIFIED_Pier_733"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        0.0,
+        3.0
+      ],
+      "distance_m": 3.0,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 734,
+      "piers": [
+        "UNVERIFIED_Pier_734",
+        "UNVERIFIED_Pier_735"
+      ],
+      "original_road_overlap_m2": 3.105584904551506,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        9.0,
+        1.5
+      ],
+      "distance_m": 9.12414379544733,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 736,
+      "piers": [
+        "UNVERIFIED_Pier_736",
+        "UNVERIFIED_Pier_737"
+      ],
+      "original_road_overlap_m2": 3.09512310969434,
+      "streetview_verified": false,
+      "status": "CONSTRAINED_ESTIMATE_NOT_ADOPTED",
+      "delta_xy": [
+        1.0,
+        2.0
+      ],
+      "distance_m": 2.23606797749979,
+      "new_road_outside_median_m2": 0.0
+    },
+    {
+      "group": 738,
+      "piers": [
+        "UNVERIFIED_Pier_738",
+        "UNVERIFIED_Pier_739"
+      ],
+      "original_road_overlap_m2": 3.015094535198522,
+      "streetview_verified": false,
+      "status": "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M"
+    }
+  ],
+  "counts": {
+    "CONSTRAINED_ESTIMATE_NOT_ADOPTED": 41,
+    "HOLD_STREETVIEW_PORTAL_MAPPING": 1,
+    "HOLD_UTURN_STREETVIEW_MAPPING": 1,
+    "NO_FEASIBLE_MEDIAN_POSITION_WITHIN_12M": 43,
+    "NO_MOVE_REQUESTED": 40
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "input_decks": 30,
+  "connected_components": 1,
+  "polygon_areas_m2": [
+    133647.738243
+  ],
+  "nonmanifold_edges": 0,
+  "scope": "Union of overlapping existing deck footprints at unchanged estimated top 8m and bottom 7.65m; no gaps bridged, no ramp elevations inferred",
+  "real_world_verified": false,
+  "blender_nonmanifold_edges": 0,
+  "blender_zeroarea_faces": 0,
+  "xy_cleanup_tolerance_m": 0.001,
+  "source_scene_preserved": true,
+  "limitations": "Bridge deck shell only. Girders, parapets and physical ramp elevations are not rebuilt by this union."
+}
