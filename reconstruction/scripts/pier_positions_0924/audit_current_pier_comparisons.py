@@ -8,10 +8,13 @@ source=json.loads((base/'Underbridge_20260922'/'pier_road_footprints.json').read
 review=json.loads((base/'Underbridge_20260922'/'pier_road_overlap_review.json').read_text())
 patch=json.loads((r24/'p246_247_median_comparison.json').read_text())
 def geo(o):return unary_union([Polygon(f).buffer(0) for f in o['faces'] if len(f)>=3])
-road=unary_union([geo(o) for o in source['roads']]);median=unary_union([geo(o) for o in source['medians'] if o['name']!=patch['source_median']]+[shape(patch['comparison_footprint'])])
+entry=json.loads((r24/'fudun_entry_plan.json').read_text())
+road=unary_union([geo(o) for o in source['roads'] if o['name']!=entry['source_road']]+[shape(entry['road_footprint'])]);median=unary_union([geo(o) for o in source['medians'] if o['name']!=patch['source_median']]+[shape(entry['median_footprint'])])
 records={}
 for p in [r23/'fuxing_642_position_review.json',r24/'p246_position_review.json',r24/'p247_position_review.json',r24/'p246_north_position_review.json',r24/'p247_north_position_review.json']:
  d=json.loads(p.read_text());records[d['model_pier_candidate']]=d
+for filename in ['p248_position_review.json','east248_position_review.json']:
+ for rec in json.loads((r24/filename).read_text())['targets']:records[rec['model_pier_candidate']]=rec
 suspects={r['pier'] for r in review['piers'] if r['status']=='ROAD_OVERLAP_REVIEW'}
 rows=[]
 for o in source['piers']:

@@ -1,0 +1,132 @@
+{
+  "targets": [
+    {
+      "id": "P248_SOUTH",
+      "actual_visible_label": "P248",
+      "model_pier_candidate": "UNVERIFIED_Pier_734",
+      "target": "Roadside shaft with green underground parking sign, beside ramp entrance",
+      "views": [
+        {
+          "pano": "jI0jLIDZ4n5L8HGK8J0vrw",
+          "lat": 25.0449369,
+          "lon": 121.5471761,
+          "heading": 82.4,
+          "date": "2024-12",
+          "camera_xy": [
+            3716.787710075867,
+            406.9761202537162
+          ],
+          "direction": [
+            0.9906725536690228,
+            0.13626405031003955
+          ],
+          "forward_distance_m": 25.26606584757763,
+          "perpendicular_ray_residual_m": 1.199040866595169e-14
+        },
+        {
+          "pano": "xcMTnVSJPM35_LllKKVJ2w",
+          "lat": 25.0449147,
+          "lon": 121.5473797,
+          "heading": 37.8,
+          "date": "2024-12",
+          "camera_xy": [
+            3737.342205813087,
+            404.6002196009413
+          ],
+          "direction": [
+            0.6097052170592155,
+            0.7926282535279542
+          ],
+          "forward_distance_m": 7.3410922392268745,
+          "perpendicular_ray_residual_m": 2.930988785010413e-14
+        }
+      ],
+      "candidate_model_xy": [
+        3741.8181080502563,
+        410.4189767215073
+      ],
+      "intersection_angle_deg": 44.600088569177515,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.8010933433283219,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3746.80126953125,
+        408.857177734375
+      ],
+      "delta_xy": [
+        -4.983161480993658,
+        1.5617989871323061
+      ],
+      "comparison_object": "SV_XY_EST_P248_SOUTH_MODEL734",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "P248_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_735",
+      "target": "North-side same-span shaft opposite visible P248, behind hedge and picket guard",
+      "views": [
+        {
+          "pano": "jI0jLIDZ4n5L8HGK8J0vrw",
+          "lat": 25.0449369,
+          "lon": 121.5471761,
+          "heading": 59.9,
+          "date": "2024-12",
+          "camera_xy": [
+            3716.787710075867,
+            406.9761202537162
+          ],
+          "direction": [
+            0.8631160885851715,
+            0.5050055619747511
+          ],
+          "forward_distance_m": 30.54219109499632,
+          "perpendicular_ray_residual_m": 2.6645352591003757e-14
+        },
+        {
+          "pano": "xcMTnVSJPM35_LllKKVJ2w",
+          "lat": 25.0449147,
+          "lon": 121.5473797,
+          "heading": 18.3,
+          "date": "2024-12",
+          "camera_xy": [
+            3737.342205813087,
+            404.6002196009413
+          ],
+          "direction": [
+            0.3101486768486986,
+            0.9506880656918973
+          ],
+          "forward_distance_m": 18.723151865474712,
+          "perpendicular_ray_residual_m": 5.1514348342607263e-14
+        }
+      ],
+      "candidate_model_xy": [
+        3743.149166590601,
+        422.4000966315851
+      ],
+      "intersection_angle_deg": 41.60008774639096,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.2738433680471437,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3747.460693359375,
+        414.82086181640625
+      ],
+      "delta_xy": [
+        -4.3115267687740015,
+        7.579234815178836
+      ],
+      "comparison_object": "SV_XY_EST_P248_NORTH_MODEL735",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks",
+  "remaining_issue": "Parking-ramp mouth and local median edges require matching; no third-view crosscheck yet. No clearance claim."
+}
