@@ -1,0 +1,151 @@
+{
+  "targets": [
+    {
+      "id": "WEST245_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_726",
+      "target": "Pair at minor junction west of readable P245 and east of underground parking entrance.",
+      "views": [
+        {
+          "pano": "V1Ms-Pwo1NGzX82d62EMhA",
+          "lat": 25.0449866,
+          "lon": 121.5464614,
+          "date": "2024-12",
+          "view_heading": 280,
+          "target_pixel_x": 666,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 284.1308562332764,
+          "camera_xy": [
+            3644.6476602220855,
+            412.1897127430541
+          ],
+          "direction": [
+            -0.9707188385559408,
+            0.2402185181716958
+          ],
+          "forward_distance_m": 22.768425803222144,
+          "perpendicular_ray_residual_m": 5.5067062021407764e-14
+        },
+        {
+          "pano": "gnC9jHOlJgRhTQKjyIFeaQ",
+          "lat": 25.0449532,
+          "lon": 121.5458605,
+          "date": "2024-12",
+          "view_heading": 70,
+          "target_pixel_x": 681,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 76.49735746437149,
+          "camera_xy": [
+            3584.027950428281,
+            408.24536053387214
+          ],
+          "direction": [
+            0.9714092092491898,
+            0.23741134805620337
+          ],
+          "forward_distance_m": 39.6516417340991,
+          "perpendicular_ray_residual_m": 3.552713678800501e-14
+        }
+      ],
+      "candidate_model_xy": [
+        3622.5459203706346,
+        417.65911025060626
+      ],
+      "intersection_angle_deg": 27.633244072019238,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.285842681762241,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3603.804443359375,
+        415.91766357421875
+      ],
+      "delta_xy": [
+        18.741477011259576,
+        1.7414466763875112
+      ],
+      "comparison_object": "SV_XY_EST_WEST245_SOUTH_MODEL726",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "WEST245_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_727",
+      "target": "Pair at minor junction west of readable P245 and east of underground parking entrance.",
+      "views": [
+        {
+          "pano": "V1Ms-Pwo1NGzX82d62EMhA",
+          "lat": 25.0449866,
+          "lon": 121.5464614,
+          "date": "2024-12",
+          "view_heading": 280,
+          "target_pixel_x": 826,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 307.3238913013465,
+          "camera_xy": [
+            3644.6476602220855,
+            412.1897127430541
+          ],
+          "direction": [
+            -0.7976631818414615,
+            0.6031031821625182
+          ],
+          "forward_distance_m": 28.175879367154124,
+          "perpendicular_ray_residual_m": 7.638334409421077e-14
+        },
+        {
+          "pano": "gnC9jHOlJgRhTQKjyIFeaQ",
+          "lat": 25.0449532,
+          "lon": 121.5458605,
+          "date": "2024-12",
+          "view_heading": 70,
+          "target_pixel_x": 586,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 61.46923439005187,
+          "camera_xy": [
+            3584.027950428281,
+            408.24536053387214
+          ],
+          "direction": [
+            0.8766265841025058,
+            0.4811713125746091
+          ],
+          "forward_distance_m": 43.513223188037124,
+          "perpendicular_ray_residual_m": 3.552713678800501e-14
+        }
+      ],
+      "candidate_model_xy": [
+        3622.1727986349,
+        429.1826752496119
+      ],
+      "intersection_angle_deg": 65.85440174962507,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.1618483997801727,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3603.51416015625,
+        421.9106140136719
+      ],
+      "delta_xy": [
+        18.65863847865012,
+        7.272061235940043
+      ],
+      "comparison_object": "SV_XY_EST_WEST245_NORTH_MODEL727",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
