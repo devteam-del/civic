@@ -1,20 +1,22 @@
-"""Build explicit 124-suspect progress ledger, never count model clearance as field validation."""
-import bpy,json
+"""Refresh the original 124-case ledger from current comparison audit; never mark field verification."""
+import json
 from pathlib import Path
-base=Path(bpy.data.filepath).parent;root=base/'PierPositions_20260924'
-raw=json.loads((base/'Underbridge_20260922'/'pier_road_overlap_review.json').read_text())
-rows=[]
-for r in raw['piers']:
- if r['status']!='ROAD_OVERLAP_REVIEW':continue
- rows.append({'model_pier':r['pier'],'original_xy':r['xy'],'original_overlap_m2':r['road_outside_median_m2'],'state':'awaiting_object_matched_streetview','actual_label':None,'field_verified':False,'resolved':False})
-assert len(rows)==124
-for r in rows:
- if r['model_pier']=='UNVERIFIED_Pier_642':
-  r.update(state='provisional_xy_applied_model_clearance_only',record='../PierPositions_20260923/fuxing_642_position_review.json')
- if r['model_pier']=='UNVERIFIED_Pier_732':
-  r.update(state='provisional_xy_applied_ground_boundary_conflict',actual_label='P247',record='p247_position_review.json')
- if r['model_pier']=='UNVERIFIED_Pier_730':
-  r.update(state='provisional_xy_applied_ground_boundary_conflict',actual_label='P246',record='p246_position_review.json')
-data={'scope':'124 road-overlap suspects only; other 117 are outside this queue','total':124,'fully_resolved':0,'field_verified':0,'provisional_xy_applied':3,'height_and_deck_edits_paused':True,'rows':rows}
-(root/'conflict124_progress.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
-result={'total':124,'provisional_xy_applied':3,'fully_resolved':0}
+def update(root):
+ root=Path(root)
+ a=json.loads((root/'current_pier_comparison_audit.json').read_text())
+ d=json.loads((root/'conflict124_progress.json').read_text())
+ lookup={x['pier']:x for x in a['rows']}
+ for row in d['rows']:
+  x=lookup[row['model_pier']]
+  row['current_model_mask_clear']=x['model_mask_clear']
+  if x['streetview_xy_comparison']:
+   row['state']='provisional_xy_comparison_model_clearance_only' if x['model_mask_clear'] else 'provisional_xy_comparison_overlap_remaining'
+   row['current_xy']=x['xy']
+  row['resolved']=False;row['field_verified']=False
+ d.update(provisional_xy_applied=a['suspects_with_xy_comparison'],total_xy_comparisons_including_companions=a['total_xy_comparisons'],remaining_model_mask_overlaps=a['remaining_model_mask_overlaps'],fully_resolved=0,field_verified=0)
+ (root/'conflict124_progress.json').write_text(json.dumps(d,indent=2))
+ (root/'pier_progress_summary.json').write_text(json.dumps({k:v for k,v in a.items() if k!='rows'},indent=2))
+ return {k:v for k,v in a.items() if k!='rows'}
+if __name__=='__main__':
+ import sys
+ update(sys.argv[1])
