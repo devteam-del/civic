@@ -1,0 +1,1501 @@
+{
+  "scope": "124 road-overlap suspects only; other 117 are outside this queue",
+  "total": 124,
+  "fully_resolved": 0,
+  "field_verified": 0,
+  "provisional_xy_applied": 3,
+  "height_and_deck_edits_paused": true,
+  "rows": [
+    {
+      "model_pier": "UNVERIFIED_Pier_016",
+      "original_xy": [
+        4419.99462890625,
+        342.83013916015625
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_020",
+      "original_xy": [
+        4489.34033203125,
+        356.1986083984375
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_036",
+      "original_xy": [
+        4763.50048828125,
+        420.03338623046875
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_037",
+      "original_xy": [
+        4761.97314453125,
+        425.83575439453125
+      ],
+      "original_overlap_m2": 2.654718580837691,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_074",
+      "original_xy": [
+        3158.332275390625,
+        381.727783203125
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_075",
+      "original_xy": [
+        3158.767822265625,
+        375.7436218261718
+      ],
+      "original_overlap_m2": 2.531457423570354,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_078",
+      "original_xy": [
+        3088.09521484375,
+        378.335205078125
+      ],
+      "original_overlap_m2": 2.1431406739835595,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_079",
+      "original_xy": [
+        3088.08837890625,
+        372.335205078125
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_082",
+      "original_xy": [
+        3017.6962890625,
+        380.34103393554693
+      ],
+      "original_overlap_m2": 1.6991881423402697,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_083",
+      "original_xy": [
+        3017.443603515625,
+        374.34637451171875
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_086",
+      "original_xy": [
+        2947.253662109375,
+        383.74362182617193
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_087",
+      "original_xy": [
+        2946.926025390625,
+        377.7525024414063
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_090",
+      "original_xy": [
+        2876.638916015625,
+        386.2960815429688
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_091",
+      "original_xy": [
+        2876.51220703125,
+        380.2973937988282
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_094",
+      "original_xy": [
+        2806.09130859375,
+        387.7852172851563
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_095",
+      "original_xy": [
+        2805.964599609375,
+        381.78659057617193
+      ],
+      "original_overlap_m2": 1.748504960226411,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_098",
+      "original_xy": [
+        2735.634521484375,
+        389.345947265625
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_102",
+      "original_xy": [
+        2665.158203125,
+        392.8528442382813
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_106",
+      "original_xy": [
+        2594.7353515625,
+        396.88107299804693
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_107",
+      "original_xy": [
+        2594.38671875,
+        390.8911743164063
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_110",
+      "original_xy": [
+        2524.7197265625,
+        403.2793273925782
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_111",
+      "original_xy": [
+        2523.917236328125,
+        397.3332824707032
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_114",
+      "original_xy": [
+        2455.245361328125,
+        414.8031616210938
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_115",
+      "original_xy": [
+        2454.185302734375,
+        408.8974914550782
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_118",
+      "original_xy": [
+        2387.587646484375,
+        433.5051574707032
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_119",
+      "original_xy": [
+        2385.849365234375,
+        427.7624816894532
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_122",
+      "original_xy": [
+        2320.014404296875,
+        453.85031127929693
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_123",
+      "original_xy": [
+        2318.287353515625,
+        448.10421752929693
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_202",
+      "original_xy": [
+        2282.232666015625,
+        447.6338195800782
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_203",
+      "original_xy": [
+        2283.987548828125,
+        453.3715209960937
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_206",
+      "original_xy": [
+        2349.96484375,
+        426.9172973632813
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_207",
+      "original_xy": [
+        2351.7197265625,
+        432.6549682617188
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_210",
+      "original_xy": [
+        2418.677490234375,
+        409.1223449707032
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_211",
+      "original_xy": [
+        2420.103271484375,
+        414.9504699707032
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_214",
+      "original_xy": [
+        2488.106689453125,
+        394.28707885742193
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_215",
+      "original_xy": [
+        2489.169921875,
+        400.19210815429693
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_218",
+      "original_xy": [
+        2558.525146484375,
+        385.003173828125
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_219",
+      "original_xy": [
+        2559.1162109375,
+        390.9739379882813
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_234",
+      "original_xy": [
+        2841.277587890625,
+        366.79083251953125
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_238",
+      "original_xy": [
+        2911.93701171875,
+        361.47317504882807
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_242",
+      "original_xy": [
+        2982.722412109375,
+        357.565673828125
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_246",
+      "original_xy": [
+        3053.57177734375,
+        354.78216552734375
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_250",
+      "original_xy": [
+        3124.5546875,
+        355.3046875
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_254",
+      "original_xy": [
+        3195.174072265625,
+        364.0004577636718
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_280",
+      "original_xy": [
+        1337.798828125,
+        728.0443725585939
+      ],
+      "original_overlap_m2": 3.105818673968315,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_282",
+      "original_xy": [
+        1302.7940673828125,
+        730.1119384765625
+      ],
+      "original_overlap_m2": 3.105818673968315,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_288",
+      "original_xy": [
+        1197.7796630859377,
+        736.3148803710939
+      ],
+      "original_overlap_m2": 3.105818673968315,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_289",
+      "original_xy": [
+        1197.4259033203125,
+        730.3252563476562
+      ],
+      "original_overlap_m2": 3.105818673968315,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_294",
+      "original_xy": [
+        1093.2020263671873,
+        744.6162719726562
+      ],
+      "original_overlap_m2": 3.105818673968315,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_306",
+      "original_xy": [
+        886.4453735351564,
+        783.0196533203125
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_310",
+      "original_xy": [
+        817.3285522460938,
+        794.9066772460938
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_344",
+      "original_xy": [
+        562.3233032226561,
+        817.680908203125
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_345",
+      "original_xy": [
+        563.4102172851561,
+        823.5816040039064
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_346",
+      "original_xy": [
+        598.1119995117188,
+        811.088623046875
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_347",
+      "original_xy": [
+        599.1989135742188,
+        816.9893188476564
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_348",
+      "original_xy": [
+        633.900634765625,
+        804.4964599609375
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_349",
+      "original_xy": [
+        634.987548828125,
+        810.3970336914064
+      ],
+      "original_overlap_m2": 0.23801781180784604,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_350",
+      "original_xy": [
+        669.6892700195312,
+        797.9041748046875
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_351",
+      "original_xy": [
+        670.7761840820312,
+        803.8048095703125
+      ],
+      "original_overlap_m2": 0.9127126683722829,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_352",
+      "original_xy": [
+        705.4779663085938,
+        791.3119506835938
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_353",
+      "original_xy": [
+        706.5648803710938,
+        797.2126464843749
+      ],
+      "original_overlap_m2": 1.7399321807762385,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_387",
+      "original_xy": [
+        4827.19091796875,
+        438.8498840332031
+      ],
+      "original_overlap_m2": 1.5149586616724189,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_392",
+      "original_xy": [
+        4722.45654296875,
+        426.9399719238281
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_394",
+      "original_xy": [
+        4688.205078125,
+        419.3933410644531
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_396",
+      "original_xy": [
+        4653.95458984375,
+        411.84674072265625
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_398",
+      "original_xy": [
+        4619.70361328125,
+        404.3001708984375
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_400",
+      "original_xy": [
+        4585.45361328125,
+        396.75360107421875
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_402",
+      "original_xy": [
+        4551.18701171875,
+        389.4211730957031
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_404",
+      "original_xy": [
+        4516.86376953125,
+        382.2126770019531
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_408",
+      "original_xy": [
+        4448.24853515625,
+        369.1070556640625
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_409",
+      "original_xy": [
+        4448.93115234375,
+        363.1460266113281
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_412",
+      "original_xy": [
+        4378.599609375,
+        362.28411865234375
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_413",
+      "original_xy": [
+        4378.99609375,
+        356.2971496582031
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_414",
+      "original_xy": [
+        4343.916015625,
+        360.7277526855469
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_415",
+      "original_xy": [
+        4343.66943359375,
+        354.73284912109375
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_416",
+      "original_xy": [
+        4308.87353515625,
+        362.1691589355469
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_417",
+      "original_xy": [
+        4308.626953125,
+        356.17425537109375
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_418",
+      "original_xy": [
+        4274.00927734375,
+        364.7056884765625
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_419",
+      "original_xy": [
+        4273.53857421875,
+        358.7241516113281
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_420",
+      "original_xy": [
+        4239.08740234375,
+        367.5829772949219
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_421",
+      "original_xy": [
+        4238.55419921875,
+        361.606689453125
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_422",
+      "original_xy": [
+        4204.15380859375,
+        370.6982727050781
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_423",
+      "original_xy": [
+        4203.62060546875,
+        364.7219543457031
+      ],
+      "original_overlap_m2": 3.1029138987154408,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_424",
+      "original_xy": [
+        4169.40380859375,
+        374.3378601074219
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_425",
+      "original_xy": [
+        4168.62255859375,
+        368.3888854980469
+      ],
+      "original_overlap_m2": 0.19376216535601126,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_426",
+      "original_xy": [
+        4134.62939453125,
+        378.903564453125
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_428",
+      "original_xy": [
+        4099.85595703125,
+        383.4692687988281
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_429",
+      "original_xy": [
+        4099.07470703125,
+        377.52032470703125
+      ],
+      "original_overlap_m2": 3.1058037877082825,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_430",
+      "original_xy": [
+        4065.08251953125,
+        388.0350341796875
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_432",
+      "original_xy": [
+        4030.3088378906255,
+        392.6007690429688
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_434",
+      "original_xy": [
+        3995.5354003906255,
+        397.16647338867193
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_438",
+      "original_xy": [
+        3925.86572265625,
+        405.73095703125
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_439",
+      "original_xy": [
+        3925.1889648437495,
+        399.769287109375
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_440",
+      "original_xy": [
+        3891.0178222656236,
+        409.6898193359375
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_458",
+      "original_xy": [
+        3576.27001953125,
+        429.802001953125
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_460",
+      "original_xy": [
+        3541.4982910156255,
+        425.22433471679693
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_518",
+      "original_xy": [
+        849.4542236328125,
+        769.6283569335938
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_519",
+      "original_xy": [
+        850.4009399414064,
+        775.5531616210938
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_522",
+      "original_xy": [
+        921.5497436523436,
+        758.10986328125
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_524",
+      "original_xy": [
+        957.5626220703125,
+        752.2216796875
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_526",
+      "original_xy": [
+        993.3065185546874,
+        745.3995361328125
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_528",
+      "original_xy": [
+        1029.0927734375,
+        738.1542358398439
+      ],
+      "original_overlap_m2": 3.105818673968315,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_529",
+      "original_xy": [
+        1030.2690429687502,
+        744.0376586914062
+      ],
+      "original_overlap_m2": 3.105818673968315,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_534",
+      "original_xy": [
+        1137.6199951171873,
+        721.7642822265625
+      ],
+      "original_overlap_m2": 3.105818673968315,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_540",
+      "original_xy": [
+        1246.9932861328125,
+        714.978271484375
+      ],
+      "original_overlap_m2": 3.105818673968315,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_623",
+      "original_xy": [
+        742.1947631835938,
+        790.6451416015626
+      ],
+      "original_overlap_m2": 2.6292790042258956,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_624",
+      "original_xy": [
+        777.4603271484375,
+        780.0347290039064
+      ],
+      "original_overlap_m2": 3.1058287173509598,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_625",
+      "original_xy": [
+        778.229736328125,
+        785.9852905273438
+      ],
+      "original_overlap_m2": 0.2811070498540447,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_642",
+      "original_xy": [
+        3305.7265625,
+        379.1428527832032
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "provisional_xy_applied_model_clearance_only",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false,
+      "record": "../PierPositions_20260923/fuxing_642_position_review.json"
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_648",
+      "original_xy": [
+        3419.107666015625,
+        393.97409057617193
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_658",
+      "original_xy": [
+        3506.75146484375,
+        421.10470581054693
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_660",
+      "original_xy": [
+        3471.96533203125,
+        416.9802551269532
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_666",
+      "original_xy": [
+        3367.609130859375,
+        404.60690307617193
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_667",
+      "original_xy": [
+        3368.31591796875,
+        398.64865112304693
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_672",
+      "original_xy": [
+        3263.252197265625,
+        392.23361206054693
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_674",
+      "original_xy": [
+        3228.466796875,
+        388.109130859375
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_726",
+      "original_xy": [
+        3603.8044433593745,
+        415.9176635742188
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_728",
+      "original_xy": [
+        3639.5209960937495,
+        416.910400390625
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_729",
+      "original_xy": [
+        3639.68603515625,
+        422.9081420898438
+      ],
+      "original_overlap_m2": 1.8767507940580106,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_730",
+      "original_xy": [
+        3675.3869628906255,
+        415.5393676757813
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "provisional_xy_applied_ground_boundary_conflict",
+      "actual_label": "P246",
+      "field_verified": false,
+      "resolved": false,
+      "record": "p246_position_review.json"
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_732",
+      "original_xy": [
+        3711.0544433593745,
+        412.8064270019532
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "provisional_xy_applied_ground_boundary_conflict",
+      "actual_label": "P247",
+      "field_verified": false,
+      "resolved": false,
+      "record": "p247_position_review.json"
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_734",
+      "original_xy": [
+        3746.80126953125,
+        408.857177734375
+      ],
+      "original_overlap_m2": 3.105584904551506,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_736",
+      "original_xy": [
+        3782.5490722656236,
+        404.90792846679693
+      ],
+      "original_overlap_m2": 3.09512310969434,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    },
+    {
+      "model_pier": "UNVERIFIED_Pier_738",
+      "original_xy": [
+        3818.2131347656236,
+        400.5797729492188
+      ],
+      "original_overlap_m2": 3.0150945351985214,
+      "state": "awaiting_object_matched_streetview",
+      "actual_label": null,
+      "field_verified": false,
+      "resolved": false
+    }
+  ]
+}
