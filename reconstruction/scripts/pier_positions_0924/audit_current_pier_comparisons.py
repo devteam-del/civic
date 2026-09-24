@@ -1,6 +1,6 @@
 import json,sys
 from pathlib import Path
-from shapely.geometry import Polygon,shape
+from shapely.geometry import Polygon,shape,Point
 from shapely.ops import unary_union
 from shapely import affinity
 base=Path(sys.argv[1]);out=Path(sys.argv[2]);r24=base/'PierPositions_20260924';r23=base/'PierPositions_20260923'
@@ -10,14 +10,14 @@ patch=json.loads((r24/'p246_247_median_comparison.json').read_text())
 def geo(o):return unary_union([Polygon(f).buffer(0) for f in o['faces'] if len(f)>=3])
 entry=json.loads((r24/'fudun_entry_plan.json').read_text())
 road=unary_union([geo(o) for o in source['roads'] if o['name']!=entry['source_road']]+[shape(entry['road_footprint'])]);median=unary_union([geo(o) for o in source['medians'] if o['name']!=patch['source_median']]+[shape(entry['median_footprint'])])
-junction=json.loads((r24/'guangfu_east_ground_comparison.json').read_text())
+junction=json.loads((r24/'fudun_west_ground_comparison.json').read_text())
 median=unary_union([geo(o) for o in source['medians'] if o['name'] not in [patch['source_median'],'CAL_GROUND_MEDIAN_WORKING_ESTIMATED_13',*junction['omit_from_working_scene']]]+[shape(p['footprint']) for p in junction['patches'] if 'MEDIAN' in p['new_name']])
-road=unary_union([geo(o) for o in source['roads'] if o['name']!=entry['source_road']]+[shape(p['footprint']) for p in junction['patches'] if p['new_name']=='SV_YANJI_ROAD_OPENINGS_EST'])
+road=unary_union([geo(o) for o in source['roads'] if o['name']!=entry['source_road']]+[shape(p['footprint']) for p in junction['patches'] if p['new_name']=='SV_FUDUN_WEST_ROAD_EST'])
 openings=unary_union([Polygon(ring) for poly in (median.geoms if median.geom_type=='MultiPolygon' else [median]) for ring in poly.interiors])
 records={}
 for p in [r23/'fuxing_642_position_review.json',r24/'p246_position_review.json',r24/'p247_position_review.json',r24/'p246_north_position_review.json',r24/'p247_north_position_review.json']:
  d=json.loads(p.read_text());records[d['model_pier_candidate']]=d
-for filename in ['p248_position_review.json','east248_position_review.json','p250_position_review.json','dunhua_junction_position_review.json','east252_position_review.json','p254_position_review.json','east254_position_review.json','east254_next_position_review.json','p257_position_review.json','east257_position_review.json','p259_position_review.json','east259_position_review.json','east260_position_review.json','p262_position_review.json','east262_position_review.json','yanji_west_position_review.json','yanji_east_position_review.json','east265_position_review.json','p267_position_review.json','p268_position_review.json','p269_position_review.json','p270_position_review.json','p271_position_review.json','east271_position_review.json','east272_position_review.json','p274_position_review.json','guangfu_west_position_review.json','guangfu_east_position_review.json','p245_position_review.json','p244_position_review.json','p243_position_review.json']:
+for filename in ['p248_position_review.json','east248_position_review.json','p250_position_review.json','dunhua_junction_position_review.json','east252_position_review.json','p254_position_review.json','east254_position_review.json','east254_next_position_review.json','p257_position_review.json','east257_position_review.json','p259_position_review.json','east259_position_review.json','east260_position_review.json','p262_position_review.json','east262_position_review.json','yanji_west_position_review.json','yanji_east_position_review.json','east265_position_review.json','p267_position_review.json','p268_position_review.json','p269_position_review.json','p270_position_review.json','p271_position_review.json','east271_position_review.json','east272_position_review.json','p274_position_review.json','guangfu_west_position_review.json','guangfu_east_position_review.json','p245_position_review.json','p244_position_review.json','p243_position_review.json','p242_position_review.json']:
  for rec in json.loads((r24/filename).read_text())['targets']:records[rec['model_pier_candidate']]=rec
 suspects={r['pier'] for r in review['piers'] if r['status']=='ROAD_OVERLAP_REVIEW'}
 rows=[]
@@ -27,5 +27,11 @@ for o in source['piers']:
   new=d['candidate_model_xy'];p=affinity.translate(p,new[0]-xy[0],new[1]-xy[1]);xy=new
  area=p.intersection(road).difference(median).area
  rows.append({'pier':name,'xy':xy,'original_suspect':name in suspects,'streetview_xy_comparison':bool(d),'road_outside_comparison_median_m2':area,'model_mask_clear':area<1e-5,'median_opening_overlap_m2':p.intersection(openings).area,'real_world_verified':False,'resolved':False})
-result={'scope':'Current comparison geometry only. Model-mask clearance is not independent field validation.','original_suspects':len(suspects),'suspects_with_xy_comparison':sum(r['original_suspect'] and r['streetview_xy_comparison'] for r in rows),'total_xy_comparisons':len(records),'remaining_model_mask_overlaps':sum(r['road_outside_comparison_median_m2']>1e-5 for r in rows),'remaining_median_opening_overlaps':sum(r['median_opening_overlap_m2']>1e-5 for r in rows),'added_missing_support_comparisons':2,'field_verified':0,'rows':rows}
-out.write_text(json.dumps(result,indent=2));print(json.dumps({k:v for k,v in result.items() if k!='rows'}))
+added_rows=[]
+for f in r24.glob('*missing*review.json'):
+ for rec in json.loads(f.read_text()).get('targets',[]):
+  if rec.get('comparison_object') and not rec.get('model_pier_candidate'):
+   p=Point(*rec['candidate_model_xy']).buffer(1)
+   added_rows.append({'object':rec['comparison_object'],'road_outside_comparison_median_m2':p.intersection(road).difference(median).area,'median_opening_overlap_m2':p.intersection(openings).area,'proxy_radius_m':1,'real_world_verified':False})
+result={'scope':'Current comparison geometry only. Model-mask clearance is not independent field validation.','original_suspects':len(suspects),'suspects_with_xy_comparison':sum(r['original_suspect'] and r['streetview_xy_comparison'] for r in rows),'total_xy_comparisons':len(records),'remaining_model_mask_overlaps':sum(r['road_outside_comparison_median_m2']>1e-5 for r in rows),'remaining_median_opening_overlaps':sum(r['median_opening_overlap_m2']>1e-5 for r in rows),'added_missing_support_comparisons':len(added_rows),'added_support_rows':added_rows,'field_verified':0,'rows':rows}
+out.write_text(json.dumps(result,indent=2));print(json.dumps({k:v for k,v in result.items() if k not in ['rows','added_support_rows']}))

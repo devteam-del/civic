@@ -1,0 +1,99 @@
+{
+  "targets": [
+    {
+      "id": "WEST243_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_460",
+      "target": "First circular pair west of P243, beside the underground ramp. Legacy south counterpart not yet found.",
+      "views": [
+        {
+          "pano": "M-hpqPH5dK9LozqOXrFHlw",
+          "lat": 25.0451748,
+          "lon": 121.5457485,
+          "date": "2025-05",
+          "view_heading": 210,
+          "target_pixel_x": 784,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 231.80140948635182,
+          "camera_xy": [
+            3572.62742301845,
+            432.7455007553342
+          ],
+          "direction": [
+            -0.7833713139693275,
+            -0.6215540076694618
+          ],
+          "forward_distance_m": 13.450299555121031,
+          "perpendicular_ray_residual_m": 5.062616992290714e-14
+        },
+        {
+          "pano": "2882lEnxh46OedwtnsGNQg",
+          "lat": 25.0449439,
+          "lon": 121.54576,
+          "date": "2024-12",
+          "view_heading": 300,
+          "target_pixel_x": 814,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 325.7960264944999,
+          "camera_xy": [
+            3573.891013502712,
+            407.174326088654
+          ],
+          "direction": [
+            -0.5654723254811739,
+            0.8247672696675792
+          ],
+          "forward_distance_m": 20.867810480375752,
+          "perpendicular_ray_residual_m": 7.283063041541027e-14
+        },
+        {
+          "pano": "TjppeHVXKgBWG-ylrekPyw",
+          "lat": 25.0451831,
+          "lon": 121.5458468,
+          "date": "2025-05",
+          "view_heading": 250,
+          "target_pixel_x": 611,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 245.39445157422713,
+          "camera_xy": [
+            3582.5427942325005,
+            433.7048730645422
+          ],
+          "direction": [
+            -0.9075085760939698,
+            -0.42003355141690224
+          ],
+          "forward_distance_m": 22.474805908008033,
+          "perpendicular_ray_residual_m": 0.13301542715722015
+        }
+      ],
+      "candidate_model_xy": [
+        3562.0908441826737,
+        424.385413162494
+      ],
+      "intersection_angle_deg": 86.00539149995835,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.4479111959282787,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3541.498291015625,
+        425.2243347167969
+      ],
+      "delta_xy": [
+        20.592553167048663,
+        -0.8389215543028854
+      ],
+      "comparison_object": "SV_XY_EST_WEST243_NORTH_MODEL460",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ]
+}
