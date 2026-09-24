@@ -1,0 +1,151 @@
+{
+  "targets": [
+    {
+      "id": "EAST260_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_419",
+      "target": "Mainline pair beside parking entrance gantry; next pair east of EAST259; own label unread",
+      "views": [
+        {
+          "pano": "PaupLKvd-D3WDkkovcQkEQ",
+          "lat": 25.0443833,
+          "lon": 121.552307,
+          "date": "2024-12",
+          "view_heading": 70,
+          "target_pixel_x": 761,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 88.5780687072168,
+          "camera_xy": [
+            4234.778916714694,
+            347.75976562062834
+          ],
+          "direction": [
+            0.9995824390041301,
+            0.028895460448910067
+          ],
+          "forward_distance_m": 24.985805286829283,
+          "perpendicular_ray_residual_m": 1.1102230246251565e-16
+        },
+        {
+          "pano": "EtE1zVxTgl8sNr_LOvrrfA",
+          "lat": 25.0443434,
+          "lon": 121.5526809,
+          "date": "2025-05",
+          "view_heading": 310,
+          "target_pixel_x": 520,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 291.565051177078,
+          "camera_xy": [
+            4272.526071259501,
+            343.494268579253
+          ],
+          "direction": [
+            -0.9314945229089675,
+            0.3637553488137254
+          ],
+          "forward_distance_m": 13.71106543474976,
+          "perpendicular_ray_residual_m": 1.3855583347321954e-13
+        }
+      ],
+      "candidate_model_xy": [
+        4259.754288903785,
+        348.4817419690781
+      ],
+      "intersection_angle_deg": 22.98682320757021,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.6976658007380552,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4273.53857421875,
+        358.7241516113281
+      ],
+      "delta_xy": [
+        -13.784285314965018,
+        -10.242409642250038
+      ],
+      "comparison_object": "SV_XY_EST_EAST260_SOUTH_MODEL419",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "EAST260_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_418",
+      "target": "Mainline pair beside parking entrance gantry; next pair east of EAST259; own label unread",
+      "views": [
+        {
+          "pano": "PaupLKvd-D3WDkkovcQkEQ",
+          "lat": 25.0443833,
+          "lon": 121.552307,
+          "date": "2024-12",
+          "view_heading": 70,
+          "target_pixel_x": 616,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 66.18592516570965,
+          "camera_xy": [
+            4234.778916714694,
+            347.75976562062834
+          ],
+          "direction": [
+            0.9132046502357474,
+            0.40750124759049033
+          ],
+          "forward_distance_m": 29.051914041002103,
+          "perpendicular_ray_residual_m": 1.5987211554602254e-13
+        },
+        {
+          "pano": "EtE1zVxTgl8sNr_LOvrrfA",
+          "lat": 25.0443434,
+          "lon": 121.5526809,
+          "date": "2025-05",
+          "view_heading": 310,
+          "target_pixel_x": 739,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 325.3762512488262,
+          "camera_xy": [
+            4272.526071259501,
+            343.494268579253
+          ],
+          "direction": [
+            -0.5715416087258472,
+            0.8205730860167609
+          ],
+          "forward_distance_m": 19.625537971453863,
+          "perpendicular_ray_residual_m": 3.872457909892546e-13
+        }
+      ],
+      "candidate_model_xy": [
+        4261.309259715186,
+        359.59845683722824
+      ],
+      "intersection_angle_deg": 79.19016651116067,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.6749483746868526,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4274.00927734375,
+        364.7056884765625
+      ],
+      "delta_xy": [
+        -12.700017628563728,
+        -5.107231639334259
+      ],
+      "comparison_object": "SV_XY_EST_EAST260_NORTH_MODEL418",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
