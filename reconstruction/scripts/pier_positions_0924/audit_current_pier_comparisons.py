@@ -16,7 +16,7 @@ road=unary_union([geo(o) for o in source['roads'] if o['name']!=entry['source_ro
 records={}
 for p in [r23/'fuxing_642_position_review.json',r24/'p246_position_review.json',r24/'p247_position_review.json',r24/'p246_north_position_review.json',r24/'p247_north_position_review.json']:
  d=json.loads(p.read_text());records[d['model_pier_candidate']]=d
-for filename in ['p248_position_review.json','east248_position_review.json','p250_position_review.json','dunhua_junction_position_review.json','east252_position_review.json','p254_position_review.json','east254_position_review.json','east254_next_position_review.json','p257_position_review.json','east257_position_review.json','p259_position_review.json','east259_position_review.json','east260_position_review.json','p262_position_review.json','east262_position_review.json']:
+for filename in ['p248_position_review.json','east248_position_review.json','p250_position_review.json','dunhua_junction_position_review.json','east252_position_review.json','p254_position_review.json','east254_position_review.json','east254_next_position_review.json','p257_position_review.json','east257_position_review.json','p259_position_review.json','east259_position_review.json','east260_position_review.json','p262_position_review.json','east262_position_review.json','yanji_west_position_review.json','yanji_east_position_review.json']:
  for rec in json.loads((r24/filename).read_text())['targets']:records[rec['model_pier_candidate']]=rec
 suspects={r['pier'] for r in review['piers'] if r['status']=='ROAD_OVERLAP_REVIEW'}
 rows=[]
