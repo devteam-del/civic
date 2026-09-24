@@ -1,0 +1,71 @@
+{
+  "scope": "Current comparison geometry only. Model-mask clearance is not independent field validation.",
+  "original_suspects": 124,
+  "suspects_with_xy_comparison": 3,
+  "total_xy_comparisons": 5,
+  "remaining_model_mask_overlaps": 121,
+  "field_verified": 0,
+  "median": {
+    "checks": [
+      {
+        "pier": "UNVERIFIED_Pier_730",
+        "xy": [
+          3682.222410814464,
+          416.33840280041875
+        ],
+        "old_mask_overlap_m2": 3.105584904551506,
+        "comparison_mask_overlap_m2": 0,
+        "boundary_clearance_m": 0.7154886083299586
+      },
+      {
+        "pier": "UNVERIFIED_Pier_731",
+        "xy": [
+          3682.919631769857,
+          428.44398190866804
+        ],
+        "old_mask_overlap_m2": 0.005278865005275114,
+        "comparison_mask_overlap_m2": 0,
+        "boundary_clearance_m": 0.576743593347716
+      },
+      {
+        "pier": "UNVERIFIED_Pier_732",
+        "xy": [
+          3711.8750375114078,
+          413.80484597904604
+        ],
+        "old_mask_overlap_m2": 2.769717424046457,
+        "comparison_mask_overlap_m2": 0,
+        "boundary_clearance_m": 0.7923176073516228
+      },
+      {
+        "pier": "UNVERIFIED_Pier_733",
+        "xy": [
+          3713.0961023439195,
+          425.56607498128665
+        ],
+        "old_mask_overlap_m2": 0.1006045801734766,
+        "comparison_mask_overlap_m2": 0,
+        "boundary_clearance_m": 0.7962994335211457
+      }
+    ],
+    "pair_spacing_m": [
+      12.125640709122157,
+      11.82444531334737
+    ],
+    "assumptions": {
+      "curb_height_m": 0.18,
+      "retained_shaft_radius_m": 1,
+      "island_end_and_curbs": "estimated from photographs relative to retained shaft diameter; not independently triangulated",
+      "scope_x": [
+        3662,
+        3732
+      ]
+    },
+    "unchanged_outside_zone": true,
+    "opening_model_x": [
+      3687,
+      3705.5
+    ]
+  },
+  "backup_scope": "Scripts, source observations and summary only. Full local geometry and 241-row audit intentionally excluded from this public backup."
+}
