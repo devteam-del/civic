@@ -33,7 +33,7 @@
           "pano": "fG5hVpN-mJmRD0Dfs3OjFA",
           "lat": 25.044582,
           "lon": 121.5546229,
-          "date": "2025-05",
+          "date": "2025-01",
           "view_heading": 150,
           "target_pixel_x": 639,
           "image_width": 1280,
@@ -50,6 +50,28 @@
           ],
           "forward_distance_m": 17.019946047132777,
           "perpendicular_ray_residual_m": 2.291500322826323e-13
+        },
+        {
+          "pano": "ZXJHKhQHvHEclNDHIsMnCw",
+          "lat": 25.0444496,
+          "lon": 121.5550735,
+          "date": "2025-05",
+          "view_heading": 280,
+          "target_pixel_x": 578,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 270.22825264797916,
+          "camera_xy": [
+            4513.907846754283,
+            356.2459685071553
+          ],
+          "direction": [
+            -0.9999999929445245,
+            -0.00011878952379014294
+          ],
+          "forward_distance_m": 36.91765567399878,
+          "perpendicular_ray_residual_m": 0.19748872480988638
         }
       ],
       "candidate_model_xy": [
@@ -72,7 +94,8 @@
       ],
       "comparison_object": "SV_XY_EST_P267_SOUTH_MODEL020",
       "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
-      "resolved": false
+      "resolved": false,
+      "additional_south_side_check": "Direct south carriageway panorama ray residual0.1975m; this is consistency only, not absolute accuracy."
     },
     {
       "id": "P267_NORTH",
@@ -107,7 +130,7 @@
           "pano": "qxTY4M4Ymib4X5Vb-SNF-A",
           "lat": 25.0446009,
           "lon": 121.5547212,
-          "date": "2025-05",
+          "date": "2025-01",
           "view_heading": 200,
           "target_pixel_x": 725,
           "image_width": 1280,
