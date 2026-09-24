@@ -1,6 +1,6 @@
 # Dunhua junction XY comparison
 
-Four shafts were matched provisionally by ordered bridge-station sequence and road side: old model441/440 to the west island end;439/438 to the east island end. Actual pier labels remain unread. P250 is the preceding labelled station. This association corrects an old generated pair inside the crossing; it is not an as-built identity match.
+Four shafts were matched provisionally by ordered bridge-station sequence and road side: old model441/440 to the west island end;439/438 to the east island end. The east south shaft was later read as P252; the other junction shaft labels remain unread. P250 is the preceding labelled station. This association corrects an old generated pair inside the crossing; it is not an as-built identity match.
 
 West views: January2025 pano SZqEPEzJAb3DnwU1bIR4jA and May2025 pano p6Nzhctd0Mr5qxprGn2BzA. East views: January2025 same intersection pano and May2025 GbJKRc8OwOpiB_OT3Pcgyg. Bearings and camera coordinates are in dunhua_junction_position_review.json. Street View GPS, heading and model registration uncertainty are unquantified. Navigation animation can temporarily display an image before the URL changes; final measurements used explicitly loaded pano IDs with centered targets. The intermediate8H-hFeDKCS-VC1_3XrNWrA view was not used as a primary ray.
 

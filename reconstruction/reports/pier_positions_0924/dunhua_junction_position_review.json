@@ -128,7 +128,7 @@
     },
     {
       "id": "DUNHUA_EAST_SOUTH",
-      "actual_visible_label": null,
+      "actual_visible_label": "P252",
       "model_pier_candidate": "UNVERIFIED_Pier_439",
       "target": "East edge of Dunhua intersection, at beginning of raised ramp; own label unread",
       "views": [
@@ -187,7 +187,15 @@
       ],
       "comparison_object": "SV_XY_EST_DUNHUA_EAST_SOUTH_MODEL439",
       "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
-      "resolved": false
+      "resolved": false,
+      "label_observation": {
+        "pano": "9qXinbwjRCQlWqaTDpGXyg",
+        "lat": 25.0446858,
+        "lon": 121.5492392,
+        "date": "2025-04",
+        "heading": 88,
+        "note": "P252 clearly visible on east junction south shaft, left foreground; not a triangulation view for this target"
+      }
     },
     {
       "id": "DUNHUA_EAST_NORTH",
@@ -254,5 +262,5 @@
     }
   ],
   "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks",
-  "association_note": "Provisional ordered correspondence: P250 comparison, west junction edge pair 441/440, east junction edge pair 439/438. Original 441/440 lie in the intersection. No actual pier labels read for junction pairs."
+  "association_note": "Provisional ordered correspondence: P250 comparison, west junction edge pair 441/440, east junction edge pair 439/438. Original 441/440 lie in the intersection. No actual pier labels read for junction pairs. Later close view confirms east south shaft P252; west labels still unread."
 }
