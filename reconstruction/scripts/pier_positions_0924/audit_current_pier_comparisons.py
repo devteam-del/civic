@@ -13,7 +13,7 @@ road=unary_union([geo(o) for o in source['roads'] if o['name']!=entry['source_ro
 records={}
 for p in [r23/'fuxing_642_position_review.json',r24/'p246_position_review.json',r24/'p247_position_review.json',r24/'p246_north_position_review.json',r24/'p247_north_position_review.json']:
  d=json.loads(p.read_text());records[d['model_pier_candidate']]=d
-for filename in ['p248_position_review.json','east248_position_review.json']:
+for filename in ['p248_position_review.json','east248_position_review.json','p250_position_review.json']:
  for rec in json.loads((r24/filename).read_text())['targets']:records[rec['model_pier_candidate']]=rec
 suspects={r['pier'] for r in review['piers'] if r['status']=='ROAD_OVERLAP_REVIEW'}
 rows=[]
