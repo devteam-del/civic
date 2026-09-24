@@ -10,13 +10,13 @@ patch=json.loads((r24/'p246_247_median_comparison.json').read_text())
 def geo(o):return unary_union([Polygon(f).buffer(0) for f in o['faces'] if len(f)>=3])
 entry=json.loads((r24/'fudun_entry_plan.json').read_text())
 road=unary_union([geo(o) for o in source['roads'] if o['name']!=entry['source_road']]+[shape(entry['road_footprint'])]);median=unary_union([geo(o) for o in source['medians'] if o['name']!=patch['source_median']]+[shape(entry['median_footprint'])])
-junction=json.loads((r24/'east_corridor_median_comparison.json').read_text())
+junction=json.loads((r24/'yanji_median_comparison.json').read_text())
 median=unary_union([geo(o) for o in source['medians'] if o['name'] not in [patch['source_median'],'CAL_GROUND_MEDIAN_WORKING_ESTIMATED_13',*junction['omit_from_working_scene']]]+[shape(p['footprint']) for p in junction['patches'] if 'MEDIAN' in p['new_name']])
-road=unary_union([geo(o) for o in source['roads'] if o['name']!=entry['source_road']]+[shape(p['footprint']) for p in junction['patches'] if p['new_name']=='SV_DUNHUA_ROAD_EST'])
+road=unary_union([geo(o) for o in source['roads'] if o['name']!=entry['source_road']]+[shape(p['footprint']) for p in junction['patches'] if p['new_name']=='SV_YANJI_ROAD_OPENINGS_EST'])
 records={}
 for p in [r23/'fuxing_642_position_review.json',r24/'p246_position_review.json',r24/'p247_position_review.json',r24/'p246_north_position_review.json',r24/'p247_north_position_review.json']:
  d=json.loads(p.read_text());records[d['model_pier_candidate']]=d
-for filename in ['p248_position_review.json','east248_position_review.json','p250_position_review.json','dunhua_junction_position_review.json','east252_position_review.json','p254_position_review.json','east254_position_review.json','east254_next_position_review.json','p257_position_review.json','east257_position_review.json','p259_position_review.json','east259_position_review.json','east260_position_review.json','p262_position_review.json','east262_position_review.json','yanji_west_position_review.json','yanji_east_position_review.json']:
+for filename in ['p248_position_review.json','east248_position_review.json','p250_position_review.json','dunhua_junction_position_review.json','east252_position_review.json','p254_position_review.json','east254_position_review.json','east254_next_position_review.json','p257_position_review.json','east257_position_review.json','p259_position_review.json','east259_position_review.json','east260_position_review.json','p262_position_review.json','east262_position_review.json','yanji_west_position_review.json','yanji_east_position_review.json','east265_position_review.json','p267_position_review.json']:
  for rec in json.loads((r24/filename).read_text())['targets']:records[rec['model_pier_candidate']]=rec
 suspects={r['pier'] for r in review['piers'] if r['status']=='ROAD_OVERLAP_REVIEW'}
 rows=[]
