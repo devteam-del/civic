@@ -1,0 +1,105 @@
+{
+  "omit_from_working_scene": [
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_14",
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_15"
+  ],
+  "replaced_original_medians": [
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_12",
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_13",
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_14",
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_15"
+  ],
+  "checks": [
+    {
+      "pier": "UNVERIFIED_Pier_433",
+      "contained": true,
+      "outside_area": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_432",
+      "contained": true,
+      "outside_area": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_431",
+      "contained": true,
+      "outside_area": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_430",
+      "contained": true,
+      "outside_area": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_429",
+      "contained": true,
+      "outside_area": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_428",
+      "contained": true,
+      "outside_area": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_427",
+      "contained": true,
+      "outside_area": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_426",
+      "contained": true,
+      "outside_area": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_425",
+      "contained": true,
+      "outside_area": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_424",
+      "contained": true,
+      "outside_area": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_423",
+      "contained": true,
+      "outside_area": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_422",
+      "contained": true,
+      "outside_area": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    }
+  ],
+  "preserved_opening_bounds": [
+    [
+      4009.955078125,
+      378.1390075683594,
+      4050.14501953125,
+      388.69500732421875
+    ]
+  ],
+  "scope_x": [
+    4005,
+    4210
+  ],
+  "assumptions": "Curb profiles estimated2m from Street View shaft centers. Existing verified/unverified openings retained; old gap4085-4102 replaced by continuous pedestrian median visible in opposite Street View perspectives. Not surveyed dimensions. Unmodeled ramp-opening correspondence remains a separate issue.",
+  "field_verified": false,
+  "replacement_names": [
+    "SV_DUNHUA_WEST_MEDIAN_EST",
+    "SV_DUNHUA_ROAD_EST",
+    "SV_EAST_CORRIDOR_MEDIAN_EST"
+  ]
+}
