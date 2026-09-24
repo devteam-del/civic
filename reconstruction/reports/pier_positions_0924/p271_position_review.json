@@ -1,0 +1,175 @@
+{
+  "targets": [
+    {
+      "id": "P271_SOUTH",
+      "actual_visible_label": "P271",
+      "model_pier_candidate": "UNVERIFIED_Pier_399",
+      "target": "P271 rectangular pair after equipment wall and before parking pedestrian entrance; both shafts visible from south, north near view provides extra crosscheck.",
+      "observed_shape": "Rectangular mainline shafts; existing circular mesh retained during XY stage",
+      "views": [
+        {
+          "pano": "90f6gcZcsG1W7m908skBEA",
+          "lat": 25.0446527,
+          "lon": 121.5560081,
+          "date": "2025-04",
+          "view_heading": 350,
+          "target_pixel_x": 1028,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 37.143760865223385,
+          "camera_xy": [
+            4608.12299462749,
+            379.12978385556323
+          ],
+          "direction": [
+            0.6005360834653273,
+            0.7995976566099513
+          ],
+          "forward_distance_m": 7.538628069367567,
+          "perpendicular_ray_residual_m": 1.532107773982716e-13
+        },
+        {
+          "pano": "NPDAE5CGhoeZiAaYt-GcEQ",
+          "lat": 25.0446718,
+          "lon": 121.5561072,
+          "date": "2025-04",
+          "view_heading": 310,
+          "target_pixel_x": 612,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 305.5526151499095,
+          "camera_xy": [
+            4618.114157670095,
+            381.2865137536674
+          ],
+          "direction": [
+            -0.8159649451343902,
+            0.5781013823818723
+          ],
+          "forward_distance_m": 6.696298535502917,
+          "perpendicular_ray_residual_m": 1.2034817586936697e-13
+        }
+      ],
+      "candidate_model_xy": [
+        4612.65021280297,
+        385.15765319388345
+      ],
+      "intersection_angle_deg": 88.40881304223741,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.17845496559955326,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4620.99560546875,
+        398.4407043457031
+      ],
+      "delta_xy": [
+        -8.34539266578031,
+        -13.283051151819677
+      ],
+      "comparison_object": "SV_XY_EST_P271_SOUTH_MODEL399",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "P271_NORTH",
+      "actual_visible_label": "P271",
+      "model_pier_candidate": "UNVERIFIED_Pier_398",
+      "target": "P271 rectangular pair after equipment wall and before parking pedestrian entrance; both shafts visible from south, north near view provides extra crosscheck.",
+      "observed_shape": "Rectangular mainline shafts; existing circular mesh retained during XY stage",
+      "views": [
+        {
+          "pano": "90f6gcZcsG1W7m908skBEA",
+          "lat": 25.0446527,
+          "lon": 121.5560081,
+          "date": "2025-04",
+          "view_heading": 350,
+          "target_pixel_x": 750,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 6.990823291986146,
+          "camera_xy": [
+            4608.12299462749,
+            379.12978385556323
+          ],
+          "direction": [
+            0.11763035206672974,
+            0.9930574506405242
+          ],
+          "forward_distance_m": 17.380649369984607,
+          "perpendicular_ray_residual_m": 2.48245868306185e-13
+        },
+        {
+          "pano": "NPDAE5CGhoeZiAaYt-GcEQ",
+          "lat": 25.0446718,
+          "lon": 121.5561072,
+          "date": "2025-04",
+          "view_heading": 310,
+          "target_pixel_x": 789,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 332.4841200185772,
+          "camera_xy": [
+            4618.114157670095,
+            381.2865137536674
+          ],
+          "direction": [
+            -0.4656358642458018,
+            0.8849764075544981
+          ],
+          "forward_distance_m": 17.06627806888696,
+          "perpendicular_ray_residual_m": 2.113864638886298e-13
+        },
+        {
+          "pano": "f4kZKCZxihZdNR5DCQZVGg",
+          "lat": 25.0448585,
+          "lon": 121.5560081,
+          "date": "2025-01",
+          "view_heading": 180,
+          "target_pixel_x": 490,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 157.38013505195957,
+          "camera_xy": [
+            4608.029315301245,
+            401.9254387584666
+          ],
+          "direction": [
+            0.38840546880834037,
+            -0.9214885738845454
+          ],
+          "forward_distance_m": 5.931535480530522,
+          "perpendicular_ray_residual_m": 0.17978474500936859
+        }
+      ],
+      "candidate_model_xy": [
+        4610.167486532029,
+        396.389767209397
+      ],
+      "intersection_angle_deg": 34.50674496562756,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.0739817695203357,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4619.70361328125,
+        404.3001708984375
+      ],
+      "delta_xy": [
+        -9.536126749220784,
+        -7.910403689040493
+      ],
+      "comparison_object": "SV_XY_EST_P271_NORTH_MODEL398",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
