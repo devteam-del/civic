@@ -2,7 +2,7 @@
   "targets": [
     {
       "id": "WEST243_NORTH",
-      "actual_visible_label": null,
+      "actual_visible_label": "P242",
       "model_pier_candidate": "UNVERIFIED_Pier_460",
       "target": "First circular pair west of P243, beside the underground ramp. Legacy south counterpart not yet found.",
       "views": [
@@ -93,7 +93,13 @@
       ],
       "comparison_object": "SV_XY_EST_WEST243_NORTH_MODEL460",
       "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
-      "resolved": false
+      "resolved": false,
+      "label_observation": {
+        "pano": "fEqGsb3uB05XPwUivDZodg",
+        "date": "2025-05",
+        "view_heading": 230,
+        "note": "P242 legible on north shaft; this observation adds identification only."
+      }
     }
   ]
 }
