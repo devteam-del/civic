@@ -1,11 +1,11 @@
 {
   "scope": "Current comparison geometry only. Model-mask clearance is not independent field validation.",
   "original_suspects": 124,
-  "suspects_with_xy_comparison": 49,
-  "total_xy_comparisons": 72,
-  "remaining_model_mask_overlaps": 75,
+  "suspects_with_xy_comparison": 51,
+  "total_xy_comparisons": 76,
+  "remaining_model_mask_overlaps": 73,
   "remaining_median_opening_overlaps": 1,
-  "added_missing_support_comparisons": 5,
+  "added_missing_support_comparisons": 7,
   "added_support_rows": [
     {
       "object": "SV_ADDED_EST_WEST243_SOUTH",
@@ -23,6 +23,20 @@
     },
     {
       "object": "SV_ADDED_EST_P241_SOUTH",
+      "road_outside_comparison_median_m2": 0.0,
+      "median_opening_overlap_m2": 0.0,
+      "proxy_radius_m": 1,
+      "real_world_verified": false
+    },
+    {
+      "object": "SV_ADDED_EST_WEST239_NORTH",
+      "road_outside_comparison_median_m2": 0.0,
+      "median_opening_overlap_m2": 0.0,
+      "proxy_radius_m": 1,
+      "real_world_verified": false
+    },
+    {
+      "object": "SV_ADDED_EST_WEST239_SOUTH",
       "road_outside_comparison_median_m2": 0.0,
       "median_opening_overlap_m2": 0.0,
       "proxy_radius_m": 1,
