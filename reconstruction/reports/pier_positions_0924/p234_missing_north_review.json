@@ -1,0 +1,114 @@
+{
+  "targets": [
+    {
+      "id": "P234_NORTH",
+      "actual_visible_label": "P234",
+      "model_pier_candidate": null,
+      "geometry_template": "SV_XY_EST_WEST236_NORTH_MODEL643",
+      "views": [
+        {
+          "pano": "BwdbNYEooNtfbZuww25r8g",
+          "lat": 25.0448844,
+          "lon": 121.5432474,
+          "date": "2025-02",
+          "view_heading": 230,
+          "target_pixel_x": 772,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 250.13630342824814,
+          "camera_xy": [
+            3320.380095430868,
+            399.56338159419926
+          ],
+          "direction": [
+            -0.939131727138674,
+            -0.34355727190896607
+          ],
+          "forward_distance_m": 27.18362547009579,
+          "perpendicular_ray_residual_m": 8.348877145181177e-14
+        },
+        {
+          "pano": "GNaYshgbXGqT6PZXF7RvSw",
+          "lat": 25.0446044,
+          "lon": 121.5427628,
+          "date": "2025-04",
+          "view_heading": 70,
+          "target_pixel_x": 487,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 46.97450799147197,
+          "camera_xy": [
+            3271.6052651060245,
+            368.3526742085381
+          ],
+          "direction": [
+            0.7283070713918147,
+            0.6852509100765047
+          ],
+          "forward_distance_m": 31.917615660106406,
+          "perpendicular_ray_residual_m": 1.4921397450962104e-13
+        },
+        {
+          "pano": "8gp92s-Oet4WF_j0WKorfw",
+          "lat": 25.0446434,
+          "lon": 121.5428595,
+          "date": "2025-04",
+          "view_heading": 30,
+          "target_pixel_x": 696,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 38.84181456019167,
+          "camera_xy": [
+            3281.3456047349373,
+            372.711691958574
+          ],
+          "direction": [
+            0.6240421994918618,
+            0.7813906406230876
+          ],
+          "forward_distance_m": 22.112141381035624,
+          "perpendicular_ray_residual_m": 0.3755148440907732
+        },
+        {
+          "pano": "DR6MCGZceRhZANA1l07MJQ",
+          "lat": 25.044861,
+          "lon": 121.5430394,
+          "date": "2025-02",
+          "view_heading": 190,
+          "target_pixel_x": 791,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 212.75534240080808,
+          "camera_xy": [
+            3299.401963683563,
+            396.8872012333675
+          ],
+          "direction": [
+            -0.5376731191387706,
+            -0.8431533768867829
+          ],
+          "forward_distance_m": 8.064772639793311,
+          "perpendicular_ray_residual_m": 0.2545941649745038
+        }
+      ],
+      "candidate_model_xy": [
+        3294.851090293246,
+        390.224249387098
+      ],
+      "intersection_angle_deg": 23.16159186109752,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.569364819987127,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "comparison_object": "SV_ADDED_EST_P234_NORTH",
+      "resolved": false,
+      "geometry_status": "Inherited template dimensions and height; pending calibration"
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
