@@ -1,0 +1,216 @@
+{
+  "targets": [
+    {
+      "id": "HUAISHENG_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_074",
+      "occlusion_note": "North-side close view Wsy shows both shafts and fenced underground opening. South-side distant observations use visible upper north shaft; 2024 crosscheck has ~1.13m ray residual.",
+      "views": [
+        {
+          "pano": "WsyJgHLp7lDi0b0JbF74_w",
+          "lat": 25.0447127,
+          "lon": 121.5417251,
+          "date": "2025-02",
+          "view_heading": 190,
+          "target_pixel_x": 803,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 214.35996102768706,
+          "camera_xy": [
+            3166.846415742595,
+            379.928959913765
+          ],
+          "direction": [
+            -0.5610804968676358,
+            -0.8277612433756287
+          ],
+          "forward_distance_m": 7.022804334110676,
+          "perpendicular_ray_residual_m": 1.4832579608992091e-13
+        },
+        {
+          "pano": "prIvsXdMJmC7MzOTUvY5jg",
+          "lat": 25.0445186,
+          "lon": 121.542209,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 554,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 286.5644766376808,
+          "camera_xy": [
+            3215.761254158368,
+            358.6248967203462
+          ],
+          "direction": [
+            -0.9596343387979942,
+            0.2812506636431931
+          ],
+          "forward_distance_m": 55.07847606533596,
+          "perpendicular_ray_residual_m": 5.861977570020827e-14
+        },
+        {
+          "pano": "HhT6fQxs2JpRtB7S3Gmd2A",
+          "lat": 25.0447685,
+          "lon": 121.542231,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 622,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 257.1375947738882,
+          "camera_xy": [
+            3217.870266778525,
+            386.31418987054724
+          ],
+          "direction": [
+            -0.9740074898169793,
+            -0.22651580470339636
+          ],
+          "forward_distance_m": 56.298690170317975,
+          "perpendicular_ray_residual_m": 0.5688949100498011
+        },
+        {
+          "pano": "e64C-LcarkOTVDYM11183A",
+          "lat": 25.0444806,
+          "lon": 121.5421431,
+          "date": "2024-09",
+          "view_heading": 320,
+          "target_pixel_x": 449,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 292.0515655107047,
+          "camera_xy": [
+            3209.128368188975,
+            354.38914549410873
+          ],
+          "direction": [
+            -0.9283432986830995,
+            0.3717239833400336
+          ],
+          "forward_distance_m": 50.24302639790066,
+          "perpendicular_ray_residual_m": 1.1311238696638348
+        }
+      ],
+      "candidate_model_xy": [
+        3162.9060571974082,
+        374.11575466617774
+      ],
+      "intersection_angle_deg": 72.20430812402908,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.072763712490131,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3158.332275390625,
+        381.727783203125
+      ],
+      "delta_xy": [
+        4.573781806783245,
+        -7.612028536947264
+      ],
+      "comparison_object": "SV_XY_EST_HUAISHENG_NORTH_MODEL074",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "HUAISHENG_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_075",
+      "views": [
+        {
+          "pano": "WsyJgHLp7lDi0b0JbF74_w",
+          "lat": 25.0447127,
+          "lon": 121.5417251,
+          "date": "2025-02",
+          "view_heading": 190,
+          "target_pixel_x": 636,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 189.36340642403653,
+          "camera_xy": [
+            3166.846415742595,
+            379.928959913765
+          ],
+          "direction": [
+            -0.15874398759457736,
+            -0.9873197792015375
+          ],
+          "forward_distance_m": 18.63536209683367,
+          "perpendicular_ray_residual_m": 1.7763568394002505e-14
+        },
+        {
+          "pano": "prIvsXdMJmC7MzOTUvY5jg",
+          "lat": 25.0445186,
+          "lon": 121.542209,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 460,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 273.434948822922,
+          "camera_xy": [
+            3215.761254158368,
+            358.6248967203462
+          ],
+          "direction": [
+            -0.9984355616782576,
+            0.055914480917041445
+          ],
+          "forward_distance_m": 51.9543695119396,
+          "perpendicular_ray_residual_m": 2.9753977059954195e-14
+        },
+        {
+          "pano": "e64C-LcarkOTVDYM11183A",
+          "lat": 25.0444806,
+          "lon": 121.5421431,
+          "date": "2024-09",
+          "view_heading": 320,
+          "target_pixel_x": 335,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 279.7279878188422,
+          "camera_xy": [
+            3209.128368188975,
+            354.38914549410873
+          ],
+          "direction": [
+            -0.9862902036430331,
+            0.1650201024050838
+          ],
+          "forward_distance_m": 45.798337913118736,
+          "perpendicular_ray_residual_m": 0.4226885575825845
+        }
+      ],
+      "candidate_model_xy": [
+        3163.888164053075,
+        361.5298983229785
+      ],
+      "intersection_angle_deg": 84.07133516676066,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.014330181179105,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3158.767822265625,
+        375.7436218261719
+      ],
+      "delta_xy": [
+        5.120341787449888,
+        -14.213723503193364
+      ],
+      "comparison_object": "SV_XY_EST_HUAISHENG_SOUTH_MODEL075",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
