@@ -2,7 +2,7 @@
   "targets": [
     {
       "id": "FUXING_WEST_EDGE_NORTH",
-      "actual_visible_label": null,
+      "actual_visible_label": "P236",
       "model_pier_candidate": "UNVERIFIED_Pier_666",
       "views": [
         {
@@ -70,6 +70,28 @@
           ],
           "forward_distance_m": 67.10401715582626,
           "perpendicular_ray_residual_m": 0.4889439463460974
+        },
+        {
+          "pano": "efw7QdLH4Fwg1c4wRUSrMQ",
+          "lat": 25.0449504,
+          "lon": 121.5438378,
+          "date": "2025-05",
+          "view_heading": 230,
+          "target_pixel_x": 745,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 246.26020470831196,
+          "camera_xy": [
+            3379.9258616304774,
+            407.11327134933987
+          ],
+          "direction": [
+            -0.913757589220536,
+            -0.4062598529782067
+          ],
+          "forward_distance_m": 25.461571803011363,
+          "perpendicular_ray_residual_m": 0.022756615904555133
         }
       ],
       "candidate_model_xy": [
@@ -92,7 +114,12 @@
       ],
       "comparison_object": "SV_XY_EST_FUXING_WEST_EDGE_NORTH_MODEL666",
       "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
-      "resolved": false
+      "resolved": false,
+      "label_observation": {
+        "pano": "e86yI9pGg39FFiWmFEuuCw",
+        "date": "2025-02",
+        "view_heading": 250
+      }
     },
     {
       "id": "FUXING_WEST_EDGE_SOUTH",
@@ -186,6 +213,28 @@
           ],
           "forward_distance_m": 67.54818561590848,
           "perpendicular_ray_residual_m": 0.08282607414992782
+        },
+        {
+          "pano": "efw7QdLH4Fwg1c4wRUSrMQ",
+          "lat": 25.0449504,
+          "lon": 121.5438378,
+          "date": "2025-05",
+          "view_heading": 230,
+          "target_pixel_x": 629,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 228.24984016467582,
+          "camera_xy": [
+            3379.9258616304774,
+            407.11327134933987
+          ],
+          "direction": [
+            -0.7433729380803796,
+            -0.6688771747710814
+          ],
+          "forward_distance_m": 28.5666764967974,
+          "perpendicular_ray_residual_m": 0.2978654411326733
         }
       ],
       "candidate_model_xy": [
