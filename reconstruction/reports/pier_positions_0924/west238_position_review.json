@@ -2,7 +2,7 @@
   "targets": [
     {
       "id": "WEST238_NORTH",
-      "actual_visible_label": null,
+      "actual_visible_label": "P237",
       "model_pier_candidate": "UNVERIFIED_Pier_649",
       "target_note": "South shaft base is occluded by service building in north-side views; visible upper shaft centerline used, crosschecked against visible south-side shaft.",
       "views": [
@@ -93,7 +93,12 @@
       ],
       "comparison_object": "SV_XY_EST_WEST238_NORTH_MODEL649",
       "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
-      "resolved": false
+      "resolved": false,
+      "label_observation": {
+        "pano": "tpp-jEtiCHg_5I-NJkrQZg",
+        "date": "2025-05",
+        "view_heading": 270
+      }
     },
     {
       "id": "WEST238_SOUTH",
