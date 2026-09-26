@@ -1,0 +1,18 @@
+{
+  "scope": "Model-only plan check; ramp entrance XY remains unverified from field dimensions",
+  "checks": [
+    {
+      "object": "SV_XY_EST_WEST244_SOUTH_MODEL459",
+      "ramp_overlap_m2": 0.0,
+      "ramp_clearance_m": 4.243965592666744
+    },
+    {
+      "object": "SV_XY_EST_WEST244_NORTH_MODEL458",
+      "ramp_overlap_m2": 0.0,
+      "ramp_clearance_m": 1.6713599278495983
+    }
+  ],
+  "status": "No model plan overlap between observed P243 comparison shafts and existing ramp mesh",
+  "supersedes": "Earlier suspicion based on bounding ranges was not supported by polygon intersection; no ramp shift applied.",
+  "next_action": "Review curb and entry alignment as proportional geometry; do not move this ramp merely to clear P243."
+}

@@ -1,0 +1,241 @@
+{
+  "targets": [
+    {
+      "id": "WEST244_SOUTH",
+      "actual_visible_label": "P243",
+      "model_pier_candidate": "UNVERIFIED_Pier_459",
+      "target": "Circular pair immediately east of underground parking entrance canopy, west of minor-junction pair.",
+      "views": [
+        {
+          "pano": "2882lEnxh46OedwtnsGNQg",
+          "lat": 25.0449439,
+          "lon": 121.54576,
+          "date": "2024-12",
+          "view_heading": 70,
+          "target_pixel_x": 612,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 65.55261514990951,
+          "camera_xy": [
+            3573.891013502712,
+            407.174326088654
+          ],
+          "direction": [
+            0.9086648681497761,
+            0.417526235571311
+          ],
+          "forward_distance_m": 21.225200349119618,
+          "perpendicular_ray_residual_m": 9.237055564881302e-14
+        },
+        {
+          "pano": "ZSfVnofhfQk6MkCSSPibKQ",
+          "lat": 25.0449621,
+          "lon": 121.5459614,
+          "date": "2024-12",
+          "view_heading": 350,
+          "target_pixel_x": 650,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 351.5911402711946,
+          "camera_xy": [
+            3594.205427275366,
+            409.27225903265736
+          ],
+          "direction": [
+            -0.15022678232203737,
+            0.9886515634302953
+          ],
+          "forward_distance_m": 6.8417886616615355,
+          "perpendicular_ray_residual_m": 2.0805579481475434e-13
+        },
+        {
+          "pano": "gnC9jHOlJgRhTQKjyIFeaQ",
+          "lat": 25.0449532,
+          "lon": 121.5458605,
+          "date": "2024-12",
+          "view_heading": 70,
+          "target_pixel_x": 508,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 49.86369657175186,
+          "camera_xy": [
+            3584.027950428281,
+            408.24536053387214
+          ],
+          "direction": [
+            0.761906172887524,
+            0.647687412040628
+          ],
+          "forward_distance_m": 12.017340948608542,
+          "perpendicular_ray_residual_m": 0.009926546668856062
+        },
+        {
+          "pano": "TjppeHVXKgBWG-ylrekPyw",
+          "lat": 25.0451831,
+          "lon": 121.5458468,
+          "date": "2025-05",
+          "view_heading": 140,
+          "target_pixel_x": 701,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 149.6171055672287,
+          "camera_xy": [
+            3582.5427942325005,
+            433.7048730645422
+          ],
+          "direction": [
+            0.5092524711113585,
+            -0.8606171742807454
+          ],
+          "forward_distance_m": 20.62159271788756,
+          "perpendicular_ray_residual_m": 0.15479135327767146
+        }
+      ],
+      "candidate_model_xy": [
+        3593.1776073793976,
+        416.03640408966874
+      ],
+      "intersection_angle_deg": 73.96156252621351,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.44479194273477085,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "review_note": "North XY uses two close north-carriageway views; earlier distant south-side observations retained as crosschecks. Existing parking ramp opening still needs XY calibration.",
+      "original_xy": [
+        3577.05419921875,
+        423.8533020019531
+      ],
+      "delta_xy": [
+        16.123408160647614,
+        -7.816897912284389
+      ],
+      "comparison_object": "SV_XY_EST_WEST244_SOUTH_MODEL459",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "WEST244_NORTH",
+      "actual_visible_label": "P243",
+      "model_pier_candidate": "UNVERIFIED_Pier_458",
+      "target": "Circular pair immediately east of underground parking entrance canopy, west of minor-junction pair.",
+      "views": [
+        {
+          "pano": "4Djk8NBsd9ThzH0yGvGDHQ",
+          "lat": 25.0451911,
+          "lon": 121.5459453,
+          "date": "2025-05",
+          "view_heading": 180,
+          "target_pixel_x": 656,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 182.5448043798131,
+          "camera_xy": [
+            3592.478479540868,
+            434.6311042529718
+          ],
+          "direction": [
+            -0.04036909651933211,
+            -0.999184835776751
+          ],
+          "forward_distance_m": 7.177966800771476,
+          "perpendicular_ray_residual_m": 1.7985612998927536e-13
+        },
+        {
+          "pano": "TjppeHVXKgBWG-ylrekPyw",
+          "lat": 25.0451831,
+          "lon": 121.5458468,
+          "date": "2025-05",
+          "view_heading": 140,
+          "target_pixel_x": 531,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 123.15485391811167,
+          "camera_xy": [
+            3582.5427942325005,
+            433.7048730645422
+          ],
+          "direction": [
+            0.8393951401120419,
+            -0.5435216635574754
+          ],
+          "forward_distance_m": 11.491509555901683,
+          "perpendicular_ray_residual_m": 9.50350909079134e-14
+        },
+        {
+          "pano": "gnC9jHOlJgRhTQKjyIFeaQ",
+          "lat": 25.0449532,
+          "lon": 121.5458605,
+          "date": "2024-12",
+          "view_heading": 70,
+          "target_pixel_x": 258,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 23.301700843663788,
+          "camera_xy": [
+            3584.027950428281,
+            408.24536053387214
+          ],
+          "direction": [
+            0.3918640279090637,
+            0.920023142986569
+          ],
+          "forward_distance_m": 20.87489125641937,
+          "perpendicular_ray_residual_m": 0.021040657572029886
+        },
+        {
+          "pano": "2882lEnxh46OedwtnsGNQg",
+          "lat": 25.0449439,
+          "lon": 121.54576,
+          "date": "2024-12",
+          "view_heading": 70,
+          "target_pixel_x": 435,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 40.3408907640049,
+          "camera_xy": [
+            3573.891013502712,
+            407.174326088654
+          ],
+          "direction": [
+            0.644254022245211,
+            0.7648115812544075
+          ],
+          "forward_distance_m": 27.302310403682334,
+          "perpendicular_ray_residual_m": 0.925815882968573
+        }
+      ],
+      "candidate_model_xy": [
+        3592.1887115062755,
+        427.45898867393197
+      ],
+      "intersection_angle_deg": 59.3899104671224,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.3420027173019237,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "review_note": "North XY uses two close north-carriageway views; earlier distant south-side observations retained as crosschecks. Existing parking ramp opening still needs XY calibration.",
+      "original_xy": [
+        3576.27001953125,
+        429.802001953125
+      ],
+      "delta_xy": [
+        15.918691975025467,
+        -2.3430132791930305
+      ],
+      "comparison_object": "SV_XY_EST_WEST244_NORTH_MODEL458",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

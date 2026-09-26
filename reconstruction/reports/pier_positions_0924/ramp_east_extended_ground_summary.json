@@ -1,0 +1,301 @@
+{
+  "omit_from_working_scene": [
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_14",
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_15",
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_16",
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_17"
+  ],
+  "checks": [
+    {
+      "pier": "UNVERIFIED_Pier_421",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_420",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_419",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_418",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_417",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_416",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_415",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_414",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_413",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_412",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_016",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_017",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_409",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_408",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    }
+  ],
+  "scope_x": [
+    4210,
+    4446
+  ],
+  "opening_estimates": {
+    "yanji_crossing": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            4375.0,
+            330.0
+          ],
+          [
+            4400.0,
+            330.0
+          ],
+          [
+            4397.0,
+            380.0
+          ],
+          [
+            4372.0,
+            380.0
+          ],
+          [
+            4375.0,
+            330.0
+          ]
+        ]
+      ]
+    },
+    "parking_ramp": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            4210.0,
+            357.5
+          ],
+          [
+            4219.631538144531,
+            355.67329287879016
+          ],
+          [
+            4259.754288903785,
+            350.7817419690781
+          ],
+          [
+            4300.028991844905,
+            346.5207487235593
+          ],
+          [
+            4301.0,
+            346.7
+          ],
+          [
+            4301.0,
+            353.4
+          ],
+          [
+            4300.921072676868,
+            353.49004868029704
+          ],
+          [
+            4261.309259715186,
+            357.29845683722823
+          ],
+          [
+            4221.4991144011865,
+            361.9936349106441
+          ],
+          [
+            4210.0,
+            363.3
+          ],
+          [
+            4210.0,
+            357.5
+          ]
+        ]
+      ]
+    }
+  },
+  "assumptions": "Street View establishes parking ramp, planted strips and Yanji through crossing. Curbs offset2m from estimated shafts, ramp inner walls offset2.3m, opening endpoints and crossing widths are proportional assumptions awaiting independent curb picks. Existing holes retained. This is not surveyed and model clearance is not field verification. Additional ramp-east curb envelope uses2m shaft offsets based on visible planted strip proportions. Preserve prior local crossing and existing holes. Not independent field clearance proof.",
+  "field_verified": false,
+  "vehicle_opening_estimate": {
+    "footprint": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            4666.0,
+            350.0
+          ],
+          [
+            4666.0,
+            450.0
+          ],
+          [
+            4650.0,
+            450.0
+          ],
+          [
+            4650.0,
+            350.0
+          ],
+          [
+            4666.0,
+            350.0
+          ]
+        ]
+      ]
+    },
+    "evidence_pano": "SRliI6cnVt8aqMGLY_raqg",
+    "note": "Visible vehicle opening;16m longitudinal width is proportional estimate, not measured. Preserved before rebuilding curb envelope."
+  },
+  "ramp_east_checks": [
+    {
+      "pier": "UNVERIFIED_Pier_020",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_021",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_405",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_404",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_403",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_402",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_401",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_400",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_399",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_398",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_397",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_396",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_395",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_394",
+      "outside_median_m2": 0.0,
+      "vehicle_opening_overlap_m2": 0.0,
+      "preserved_opening_overlap_m2": 0.0
+    }
+  ],
+  "ramp_east_scope_x": [
+    4457,
+    4680
+  ]
+}

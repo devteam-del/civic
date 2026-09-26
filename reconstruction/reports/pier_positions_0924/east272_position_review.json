@@ -1,0 +1,153 @@
+{
+  "targets": [
+    {
+      "id": "EAST272_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_395",
+      "target": "Rectangular mainline pair after vehicle median opening and west of readable P274. Southern near shaft partially obscured by signal pole; shaft edges visible.",
+      "observed_shape": "Rectangular, XY only; road opening and utility enclosure remain separate review targets",
+      "views": [
+        {
+          "pano": "GZMhNyE7IicA0gM0V4WQJg",
+          "lat": 25.0450688,
+          "lon": 121.5569551,
+          "date": "2025-01",
+          "view_heading": 250,
+          "target_pixel_x": 489,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 227.24465759919192,
+          "camera_xy": [
+            4703.491959857641,
+            425.6125800785933
+          ],
+          "direction": [
+            -0.7314584342871383,
+            -0.6818860307340283
+          ],
+          "forward_distance_m": 39.32950466190213,
+          "perpendicular_ray_residual_m": 1.9539925233402755e-13
+        },
+        {
+          "pano": "T0EgGWHqzspQw5naWWI5-Q",
+          "lat": 25.0448161,
+          "lon": 121.556843,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 466,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 274.2039735055001,
+          "camera_xy": [
+            4692.29555196915,
+            397.5754334012576
+          ],
+          "direction": [
+            -0.9976026582680759,
+            0.06920214025930531
+          ],
+          "forward_distance_m": 17.613716109476737,
+          "perpendicular_ray_residual_m": 3.064215547965432e-14
+        }
+      ],
+      "candidate_model_xy": [
+        4674.724061956357,
+        398.79434025395324
+      ],
+      "intersection_angle_deg": 46.95936260615631,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.3156517972987014,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4689.49658203125,
+        413.5339050292969
+      ],
+      "delta_xy": [
+        -14.772520074892782,
+        -14.739564775343638
+      ],
+      "comparison_object": "SV_XY_EST_EAST272_SOUTH_MODEL395",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "EAST272_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_394",
+      "target": "Rectangular mainline pair after vehicle median opening and west of readable P274. Southern near shaft partially obscured by signal pole; shaft edges visible.",
+      "observed_shape": "Rectangular, XY only; road opening and utility enclosure remain separate review targets",
+      "views": [
+        {
+          "pano": "SRliI6cnVt8aqMGLY_raqg",
+          "lat": 25.0449406,
+          "lon": 121.5564088,
+          "date": "2025-01",
+          "view_heading": 100,
+          "target_pixel_x": 593,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 92.56178811251782,
+          "camera_xy": [
+            4648.425183996569,
+            411.1855548013125
+          ],
+          "direction": [
+            0.9991759677669614,
+            -0.04058799621755435
+          ],
+          "forward_distance_m": 24.663900518309816,
+          "perpendicular_ray_residual_m": 1.1102230246251565e-14
+        },
+        {
+          "pano": "GZMhNyE7IicA0gM0V4WQJg",
+          "lat": 25.0450688,
+          "lon": 121.5569551,
+          "date": "2025-01",
+          "view_heading": 250,
+          "target_pixel_x": 598,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 243.3455749539934,
+          "camera_xy": [
+            4703.491959857641,
+            425.6125800785933
+          ],
+          "direction": [
+            -0.8918742383662275,
+            -0.4522834763051395
+          ],
+          "forward_distance_m": 34.11153488132126,
+          "perpendicular_ray_residual_m": 1.0658141036401503e-13
+        }
+      ],
+      "candidate_model_xy": [
+        4673.068760665859,
+        410.1844965003652
+      ],
+      "intersection_angle_deg": 29.216443933118967,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.0353669995060275,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4688.205078125,
+        419.3933410644531
+      ],
+      "delta_xy": [
+        -15.136317459140628,
+        -9.20884456408794
+      ],
+      "comparison_object": "SV_XY_EST_EAST272_NORTH_MODEL394",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

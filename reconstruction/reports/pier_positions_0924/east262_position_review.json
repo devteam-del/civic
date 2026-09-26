@@ -1,0 +1,151 @@
+{
+  "targets": [
+    {
+      "id": "EAST262_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_415",
+      "target": "Next mainline pair east of labeled P262, paired shaft seen across temple forecourt; lower shaft partially screened by landscaping",
+      "views": [
+        {
+          "pano": "xtJDxoL8Z8n-PTgLRyw_0w",
+          "lat": 25.0442745,
+          "lon": 121.5529236,
+          "date": "2022-03",
+          "view_heading": 70,
+          "target_pixel_x": 715,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 81.76828893202064,
+          "camera_xy": [
+            4297.047380463087,
+            335.96255125455014
+          ],
+          "direction": [
+            0.9891037640713958,
+            0.14722005264160404
+          ],
+          "forward_distance_m": 43.44525694603406,
+          "perpendicular_ray_residual_m": 3.2862601528904634e-14
+        },
+        {
+          "pano": "uJj_8PV86O1kGT1blAVpkA",
+          "lat": 25.0440325,
+          "lon": 121.5535411,
+          "date": "2025-02",
+          "view_heading": 330,
+          "target_pixel_x": 638,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 329.68169338854864,
+          "camera_xy": [
+            4359.467136063873,
+            309.4119567172527
+          ],
+          "direction": [
+            -0.5083309112819518,
+            0.8611618225602319
+          ],
+          "forward_distance_m": 38.25832345188101,
+          "perpendicular_ray_residual_m": 1.5987211554602254e-13
+        }
+      ],
+      "candidate_model_xy": [
+        4340.019247639459,
+        342.3585642691733
+      ],
+      "intersection_angle_deg": 67.913142333622,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.2775847319385727,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4343.66943359375,
+        354.73284912109375
+      ],
+      "delta_xy": [
+        -3.6501859542913735,
+        -12.374284851920436
+      ],
+      "comparison_object": "SV_XY_EST_EAST262_SOUTH_MODEL415",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "EAST262_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_414",
+      "target": "Next mainline pair east of labeled P262, paired shaft seen across temple forecourt; lower shaft partially screened by landscaping",
+      "views": [
+        {
+          "pano": "xtJDxoL8Z8n-PTgLRyw_0w",
+          "lat": 25.0442745,
+          "lon": 121.5529236,
+          "date": "2022-03",
+          "view_heading": 70,
+          "target_pixel_x": 622,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 67.13759477388825,
+          "camera_xy": [
+            4297.047380463087,
+            335.96255125455014
+          ],
+          "direction": [
+            0.9198450933524903,
+            0.3922817918733272
+          ],
+          "forward_distance_m": 47.12395208261815,
+          "perpendicular_ray_residual_m": 8.526512829121202e-14
+        },
+        {
+          "pano": "uJj_8PV86O1kGT1blAVpkA",
+          "lat": 25.0440325,
+          "lon": 121.5535411,
+          "date": "2025-02",
+          "view_heading": 330,
+          "target_pixel_x": 686,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 337.2816688075351,
+          "camera_xy": [
+            4359.467136063873,
+            309.4119567172527
+          ],
+          "direction": [
+            -0.3899717435908822,
+            0.9208268236757046
+          ],
+          "forward_distance_m": 48.90872175144273,
+          "perpendicular_ray_residual_m": 1.5987211554602254e-13
+        }
+      ],
+      "candidate_model_xy": [
+        4340.3941165656615,
+        354.44841961767247
+      ],
+      "intersection_angle_deg": 89.85618735599445,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.2081136082578747,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4343.916015625,
+        360.7277526855469
+      ],
+      "delta_xy": [
+        -3.521899059338466,
+        -6.279333067874404
+      ],
+      "comparison_object": "SV_XY_EST_EAST262_NORTH_MODEL414",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

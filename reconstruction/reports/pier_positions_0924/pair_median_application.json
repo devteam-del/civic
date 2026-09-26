@@ -1,0 +1,16 @@
+{
+  "north_piers": [
+    {
+      "object": "SV_XY_EST_P246_NORTH_MODEL731",
+      "world_z_unchanged": true
+    },
+    {
+      "object": "SV_XY_EST_P247_NORTH_MODEL733",
+      "world_z_unchanged": true
+    }
+  ],
+  "median_nonmanifold_edges": 0,
+  "median_zero_area_faces": 0,
+  "source_objects_preserved": true,
+  "remaining": "Curb coordinates and pairing provisional. Caps, bearings, heights and deck alignment deferred. No claim of survey validation."
+}

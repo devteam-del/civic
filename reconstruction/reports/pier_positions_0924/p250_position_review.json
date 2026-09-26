@@ -1,0 +1,131 @@
+{
+  "targets": [
+    {
+      "id": "P250_SOUTH",
+      "actual_visible_label": "P250",
+      "model_pier_candidate": "UNVERIFIED_Pier_738",
+      "target": "Roadside shaft with P250 label and picket guard, west of Dunhua junction and sculpture",
+      "views": [
+        {
+          "pano": "Qe2dOHcJSmTRKLtsEIicjg",
+          "lat": 25.0448727,
+          "lon": 121.5477668,
+          "heading": 82.9,
+          "date": "2024-12",
+          "camera_xy": [
+            3776.4219242802965,
+            400.10613733107635
+          ],
+          "direction": [
+            0.9918233892733392,
+            0.12761804139833088
+          ],
+          "forward_distance_m": 24.68169110637162,
+          "perpendicular_ray_residual_m": 2.220446049250313e-15
+        },
+        {
+          "pano": "ERMxCLQmKUr0MnUD4DjbyA",
+          "lat": 25.0448506,
+          "lon": 121.5479569,
+          "heading": 44,
+          "date": "2024-12",
+          "camera_xy": [
+            3795.6141601489076,
+            397.7358854631728
+          ],
+          "direction": [
+            0.6917393004831166,
+            0.7221473119572825
+          ],
+          "forward_distance_m": 7.64398184954238,
+          "perpendicular_ray_residual_m": 3.5083047578154947e-14
+        }
+      ],
+      "candidate_model_xy": [
+        3800.9018028064156,
+        403.2559664084701
+      ],
+      "intersection_angle_deg": 38.900082616015105,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.9049872844681469,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3818.213134765625,
+        400.57977294921875
+      ],
+      "delta_xy": [
+        -17.311331959209383,
+        2.676193459251351
+      ],
+      "comparison_object": "SV_XY_EST_P250_SOUTH_MODEL738",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "P250_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_739",
+      "target": "North companion of visibly labelled P250; own number unread; same-span association provisional",
+      "views": [
+        {
+          "pano": "Qe2dOHcJSmTRKLtsEIicjg",
+          "lat": 25.0448727,
+          "lon": 121.5477668,
+          "heading": 60.7,
+          "date": "2024-12",
+          "camera_xy": [
+            3776.4219242802965,
+            400.10613733107635
+          ],
+          "direction": [
+            0.8700807879882315,
+            0.4929091421081355
+          ],
+          "forward_distance_m": 30.225417403287057,
+          "perpendicular_ray_residual_m": 6.039613253960852e-14
+        },
+        {
+          "pano": "ERMxCLQmKUr0MnUD4DjbyA",
+          "lat": 25.0448506,
+          "lon": 121.5479569,
+          "heading": 22.6,
+          "date": "2024-12",
+          "camera_xy": [
+            3795.6141601489076,
+            397.7358854631728
+          ],
+          "direction": [
+            0.380553096982195,
+            0.9247590715301256
+          ],
+          "forward_distance_m": 18.673659941983644,
+          "perpendicular_ray_residual_m": 1.412203687323199e-13
+        }
+      ],
+      "candidate_model_xy": [
+        3802.7204792718217,
+        415.00452189319094
+      ],
+      "intersection_angle_deg": 38.10008197948302,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.3812147313883056,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3818.948974609375,
+        406.53448486328125
+      ],
+      "delta_xy": [
+        -16.22849533755334,
+        8.47003702990969
+      ],
+      "comparison_object": "SV_XY_EST_P250_NORTH_MODEL739",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

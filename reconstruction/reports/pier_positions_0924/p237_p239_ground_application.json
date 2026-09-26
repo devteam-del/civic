@@ -1,0 +1,17 @@
+{
+  "mesh_checks": [
+    {
+      "object": "SV_P237_P239_MEDIAN_EST",
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    {
+      "object": "SV_P237_P239_ROAD_EST",
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  ],
+  "source_preserved": true,
+  "median14_omitted_only_from_working_scene": true,
+  "curbs_estimated": true
+}

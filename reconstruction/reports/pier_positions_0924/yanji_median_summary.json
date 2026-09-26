@@ -1,0 +1,184 @@
+{
+  "omit_from_working_scene": [
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_14",
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_15",
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_16"
+  ],
+  "checks": [
+    {
+      "pier": "UNVERIFIED_Pier_421",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_420",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_419",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_418",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_417",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_416",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_415",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_414",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_413",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_412",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_016",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_017",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_409",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_408",
+      "outside_median_m2": 0.0,
+      "ramp_overlap_m2": 0.0,
+      "crossing_overlap_m2": 0.0
+    }
+  ],
+  "scope_x": [
+    4210,
+    4446
+  ],
+  "opening_estimates": {
+    "yanji_crossing": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            4375.0,
+            330.0
+          ],
+          [
+            4400.0,
+            330.0
+          ],
+          [
+            4397.0,
+            380.0
+          ],
+          [
+            4372.0,
+            380.0
+          ],
+          [
+            4375.0,
+            330.0
+          ]
+        ]
+      ]
+    },
+    "parking_ramp": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            4210.0,
+            357.5
+          ],
+          [
+            4219.631538144531,
+            355.67329287879016
+          ],
+          [
+            4259.754288903785,
+            350.7817419690781
+          ],
+          [
+            4300.028991844905,
+            346.5207487235593
+          ],
+          [
+            4301.0,
+            346.7
+          ],
+          [
+            4301.0,
+            353.4
+          ],
+          [
+            4300.921072676868,
+            353.49004868029704
+          ],
+          [
+            4261.309259715186,
+            357.29845683722823
+          ],
+          [
+            4221.4991144011865,
+            361.9936349106441
+          ],
+          [
+            4210.0,
+            363.3
+          ],
+          [
+            4210.0,
+            357.5
+          ]
+        ]
+      ]
+    }
+  },
+  "assumptions": "Street View establishes parking ramp, planted strips and Yanji through crossing. Curbs offset2m from estimated shafts, ramp inner walls offset2.3m, opening endpoints and crossing widths are proportional assumptions awaiting independent curb picks. Existing holes retained. This is not surveyed and model clearance is not field verification.",
+  "field_verified": false,
+  "patch_names": [
+    "SV_DUNHUA_WEST_MEDIAN_EST",
+    "SV_YANJI_MEDIAN_OPENINGS_EST",
+    "SV_YANJI_ROAD_OPENINGS_EST"
+  ]
+}

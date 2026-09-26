@@ -1,0 +1,28 @@
+{
+  "checks": [
+    {
+      "object": "SV_FUDUN_ENTRY_ROAD_EST",
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    {
+      "object": "SV_FUDUN_ENTRY_MEDIAN_EST",
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    {
+      "object": "SV_ENTRY_XY_COMP_ACCESS_\u5fa9\u6566_2",
+      "world_z_unchanged": true
+    },
+    {
+      "object": "SV_ENTRY_XY_COMP_ACCESS_\u5fa9\u6566_2_WALL_-1",
+      "world_z_unchanged": true
+    },
+    {
+      "object": "SV_ENTRY_XY_COMP_ACCESS_\u5fa9\u6566_2_WALL_1",
+      "world_z_unchanged": true
+    }
+  ],
+  "replaced_only_in_working_scene": true,
+  "remaining": "Ramp XY and road cuts provisional. Underground roof/floor connections and all heights remain unverified."
+}

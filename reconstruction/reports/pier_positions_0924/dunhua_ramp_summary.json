@@ -1,0 +1,59 @@
+{
+  "omit_from_working_scene": [
+    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_14"
+  ],
+  "checks": [
+    {
+      "id": "DUNHUA_WEST_SOUTH",
+      "inside_comparison_median": true,
+      "estimated_edge_clearance_m": 1.0731528788756044
+    },
+    {
+      "id": "DUNHUA_WEST_NORTH",
+      "inside_comparison_median": true,
+      "estimated_edge_clearance_m": 1.2115389812063715
+    },
+    {
+      "id": "DUNHUA_EAST_SOUTH",
+      "inside_comparison_median": true,
+      "estimated_edge_clearance_m": 1.2053592894225633
+    },
+    {
+      "id": "DUNHUA_EAST_NORTH",
+      "inside_comparison_median": true,
+      "estimated_edge_clearance_m": 1.0010384255731515
+    },
+    {
+      "id": "EAST252_SOUTH",
+      "inside_comparison_median": true,
+      "estimated_edge_clearance_m": 1.032243012092353
+    },
+    {
+      "id": "EAST252_NORTH",
+      "inside_comparison_median": true,
+      "estimated_edge_clearance_m": 1.0334839141356005
+    }
+  ],
+  "assumptions": "Street View proportional curb estimates relative to unverified 2m shaft diameter. Junction opening follows visible west/east island ends; central original median14 absent in observed crossing. Not surveyed curb coordinates.",
+  "healed_road_holes": [
+    [
+      3860.14306640625,
+      407.43798828125,
+      3865.035888671875,
+      411.63800048828125
+    ],
+    [
+      3914.552001953125,
+      402.2099914550781,
+      3919.865966796875,
+      406.90301513671875
+    ]
+  ],
+  "height_changed": false,
+  "field_verified": false,
+  "replacement_names": [
+    "SV_DUNHUA_WEST_MEDIAN_EST",
+    "SV_DUNHUA_EAST_MEDIAN_RAMP_EST",
+    "SV_DUNHUA_ROAD_EST"
+  ]
+}
