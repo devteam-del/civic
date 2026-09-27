@@ -1,0 +1,217 @@
+{
+  "targets": [
+    {
+      "id": "WEST_FOOTBRIDGE_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_247",
+      "shape_note": "Rectangular portal support; existing cylinder retained as XY proxy pending shape calibration.",
+      "views": [
+        {
+          "pano": "QdCKjzsViuN1iOIzhYfjRg",
+          "lat": 25.0446533,
+          "lon": 121.5409144,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 650,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 261.5911402711946,
+          "camera_xy": [
+            3085.0677892139574,
+            373.02216648784935
+          ],
+          "direction": [
+            -0.9886571836201024,
+            -0.1501897908526647
+          ],
+          "forward_distance_m": 26.61999119653871,
+          "perpendicular_ray_residual_m": 1.4210854715202004e-14
+        },
+        {
+          "pano": "D93ruj14fi2oZZ0vJUEfBw",
+          "lat": 25.0444528,
+          "lon": 121.5410633,
+          "date": "2024-12",
+          "view_heading": 280,
+          "target_pixel_x": 729,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 293.88635295437683,
+          "camera_xy": [
+            3100.1815930929074,
+            350.87368602028573
+          ],
+          "direction": [
+            -0.9159624260983172,
+            0.40126404520724834
+          ],
+          "forward_distance_m": 45.23313208359125,
+          "perpendicular_ray_residual_m": 8.881784197001252e-14
+        },
+        {
+          "pano": "-eKnxlJ-NUtGP3SOnk8K7A",
+          "lat": 25.0446552,
+          "lon": 121.5407102,
+          "date": "2025-02",
+          "view_heading": 210,
+          "target_pixel_x": 819,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 236.43758580446533,
+          "camera_xy": [
+            3064.4618240354757,
+            373.15025829831467
+          ],
+          "direction": [
+            -0.8310680381531975,
+            -0.5561707615114223
+          ],
+          "forward_distance_m": 7.0419673459413445,
+          "perpendicular_ray_residual_m": 0.2522132603105285
+        }
+      ],
+      "candidate_model_xy": [
+        3058.7497436895956,
+        369.0241155775414
+      ],
+      "intersection_angle_deg": 32.295149232147196,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.4053964839490694,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3053.730224609375,
+        360.780029296875
+      ],
+      "delta_xy": [
+        5.019519080220562,
+        8.244086280666409
+      ],
+      "comparison_object": "SV_XY_EST_WEST_FOOTBRIDGE_NORTH_MODEL247",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "WEST_FOOTBRIDGE_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_246",
+      "shape_note": "Rectangular portal support; existing cylinder retained as XY proxy pending shape calibration.",
+      "views": [
+        {
+          "pano": "QdCKjzsViuN1iOIzhYfjRg",
+          "lat": 25.0446533,
+          "lon": 121.5409144,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 507,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 239.72352940577522,
+          "camera_xy": [
+            3085.0677892139574,
+            373.02216648784935
+          ],
+          "direction": [
+            -0.8615801274588077,
+            -0.5076215952538512
+          ],
+          "forward_distance_m": 31.25671936659674,
+          "perpendicular_ray_residual_m": 4.263256414560601e-14
+        },
+        {
+          "pano": "D93ruj14fi2oZZ0vJUEfBw",
+          "lat": 25.0444528,
+          "lon": 121.5410633,
+          "date": "2024-12",
+          "view_heading": 280,
+          "target_pixel_x": 632,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 278.7269699799433,
+          "camera_xy": [
+            3100.1815930929074,
+            350.87368602028573
+          ],
+          "direction": [
+            -0.9890214301373398,
+            0.14777215816618183
+          ],
+          "forward_distance_m": 42.51067858957129,
+          "perpendicular_ray_residual_m": 2.042810365310288e-14
+        },
+        {
+          "pano": "4Ucq9xiovJvNR2OeItBkag",
+          "lat": 25.0443684,
+          "lon": 121.5406815,
+          "date": "2025-05",
+          "view_heading": 320,
+          "target_pixel_x": 830,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 347.82409638425327,
+          "camera_xy": [
+            3061.6927563383765,
+            341.3710326547872
+          ],
+          "direction": [
+            -0.21481838498561462,
+            0.9766540131859247
+          ],
+          "forward_distance_m": 16.179750675098898,
+          "perpendicular_ray_residual_m": 0.0813261090096229
+        },
+        {
+          "pano": "-eKnxlJ-NUtGP3SOnk8K7A",
+          "lat": 25.0446552,
+          "lon": 121.5407102,
+          "date": "2025-02",
+          "view_heading": 210,
+          "target_pixel_x": 588,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 201.78079075110094,
+          "camera_xy": [
+            3064.4618240354757,
+            373.15025829831467
+          ],
+          "direction": [
+            -0.3673424854290832,
+            -0.9300857478742397
+          ],
+          "forward_distance_m": 17.19957011508352,
+          "perpendicular_ray_residual_m": 0.00652654119496443
+        }
+      ],
+      "candidate_model_xy": [
+        3058.137620958141,
+        357.1555807405756
+      ],
+      "intersection_angle_deg": 39.003376720875686,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.0311418673543447,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3053.57177734375,
+        354.78216552734375
+      ],
+      "delta_xy": [
+        4.565843614390815,
+        2.3734152132318513
+      ],
+      "comparison_object": "SV_XY_EST_WEST_FOOTBRIDGE_SOUTH_MODEL246",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
