@@ -1,0 +1,195 @@
+{
+  "targets": [
+    {
+      "id": "BLUE_PORTAL_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_086",
+      "shape_note": "Painted rectangular support with multiple deck levels; crossbeam/deck association pending.",
+      "views": [
+        {
+          "pano": "Fpipa2wH3w1q9zHYUYBXPw",
+          "lat": 25.0446825,
+          "lon": 121.5398964,
+          "date": "2025-02",
+          "view_heading": 250,
+          "target_pixel_x": 735,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 264.78272604261565,
+          "camera_xy": [
+            2982.3319863108595,
+            375.8462318940627
+          ],
+          "direction": [
+            -0.9954862393491672,
+            -0.0949059917310418
+          ],
+          "forward_distance_m": 22.8038860397507,
+          "perpendicular_ray_residual_m": 7.993605777301127e-15
+        },
+        {
+          "pano": "dMVEE6UYTNXGPO74I7fYNw",
+          "lat": 25.0444781,
+          "lon": 121.5397736,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 877,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 333.35824239704294,
+          "camera_xy": [
+            2970.0309875972116,
+            353.1562481314407
+          ],
+          "direction": [
+            -0.4519730402785021,
+            0.8920315974568432
+          ],
+          "forward_distance_m": 23.01012475479131,
+          "perpendicular_ray_residual_m": 1.865174681370263e-13
+        },
+        {
+          "pano": "7N5_IRJhW2ZGXvhHpGXbdg",
+          "lat": 25.0446872,
+          "lon": 121.539795,
+          "date": "2025-02",
+          "view_heading": 230,
+          "target_pixel_x": 838,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 258.81079374297303,
+          "camera_xy": [
+            2972.0979852996634,
+            376.3260051696941
+          ],
+          "direction": [
+            -0.9802097279425437,
+            -0.19796183785468457
+          ],
+          "forward_distance_m": 12.743640179777321,
+          "perpendicular_ray_residual_m": 0.12369216622910928
+        }
+      ],
+      "candidate_model_xy": [
+        2959.631031554601,
+        373.6820064741385
+      ],
+      "intersection_angle_deg": 68.5755662861062,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.7284103757080879,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2947.253662109375,
+        383.7436218261719
+      ],
+      "delta_xy": [
+        12.377369445226122,
+        -10.061615352033357
+      ],
+      "comparison_object": "SV_XY_EST_BLUE_PORTAL_NORTH_MODEL086",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "BLUE_PORTAL_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_087",
+      "shape_note": "Painted rectangular support with multiple deck levels; crossbeam/deck association pending.",
+      "views": [
+        {
+          "pano": "Fpipa2wH3w1q9zHYUYBXPw",
+          "lat": 25.0446825,
+          "lon": 121.5398964,
+          "date": "2025-02",
+          "view_heading": 250,
+          "target_pixel_x": 575,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 239.7651972365768,
+          "camera_xy": [
+            2982.3319863108595,
+            375.8462318940627
+          ],
+          "direction": [
+            -0.8619528740489455,
+            -0.5069884051127429
+          ],
+          "forward_distance_m": 27.8779422493607,
+          "perpendicular_ray_residual_m": 7.815970093361102e-14
+        },
+        {
+          "pano": "dMVEE6UYTNXGPO74I7fYNw",
+          "lat": 25.0444781,
+          "lon": 121.5397736,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 680,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 306.3401917459099,
+          "camera_xy": [
+            2970.0309875972116,
+            353.1562481314407
+          ],
+          "direction": [
+            -0.8078705003783858,
+            0.5893600381925945
+          ],
+          "forward_distance_m": 14.517764573982795,
+          "perpendicular_ray_residual_m": 3.4638958368304884e-14
+        },
+        {
+          "pano": "7N5_IRJhW2ZGXvhHpGXbdg",
+          "lat": 25.0446872,
+          "lon": 121.539795,
+          "date": "2025-02",
+          "view_heading": 230,
+          "target_pixel_x": 603,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 224.13187143458953,
+          "camera_xy": [
+            2972.0979852996634,
+            376.3260051696941
+          ],
+          "direction": [
+            -0.6934430965327965,
+            -0.7205113960729606
+          ],
+          "forward_distance_m": 20.095615812636748,
+          "perpendicular_ray_residual_m": 0.19388259977394462
+        }
+      ],
+      "candidate_model_xy": [
+        2958.3025138664525,
+        361.71243841523426
+      ],
+      "intersection_angle_deg": 66.5750440189197,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.7061752985806242,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2946.926025390625,
+        377.75250244140625
+      ],
+      "delta_xy": [
+        11.3764884758275,
+        -16.04006402617199
+      ],
+      "comparison_object": "SV_XY_EST_BLUE_PORTAL_SOUTH_MODEL087",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
