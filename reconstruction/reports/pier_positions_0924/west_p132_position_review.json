@@ -1,0 +1,103 @@
+{
+  "targets": [
+    {
+      "id": "WEST_P132_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_623",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "X0tZ4SIfYR7RWXFKeqwIcw",
+          "lat": 25.0484869,
+          "lon": 121.5175521,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 468,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 39.8664685452262,
+          "camera_xy": [
+            726.0363243733401,
+            788.4319127135084
+          ],
+          "direction": [
+            0.6380593067187844,
+            0.7699872213936697
+          ],
+          "forward_distance_m": 21.190736254890005,
+          "perpendicular_ray_residual_m": 8.881784197001252e-15
+        },
+        {
+          "pano": "dT6rsCF6QU3LC81ufbpmZQ",
+          "lat": 25.0484129,
+          "lon": 121.5179998,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 689,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 307.7509610405304,
+          "camera_xy": [
+            771.2420746727665,
+            780.4081607348991
+          ],
+          "direction": [
+            -0.7930178688983335,
+            0.6091983745939787
+          ],
+          "forward_distance_m": 39.95471610215733,
+          "perpendicular_ray_residual_m": 6.039613253960852e-14
+        },
+        {
+          "pano": "WoTp__lI-8855U_79CL80A",
+          "lat": 25.0485264,
+          "lon": 121.5173035,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 721,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 72.68038349181981,
+          "camera_xy": [
+            700.9350579777249,
+            792.7112083720384
+          ],
+          "direction": [
+            0.9535135199187669,
+            0.30135024030540175
+          ],
+          "forward_distance_m": 40.454245538725566,
+          "perpendicular_ray_residual_m": 0.16108439115047268
+        }
+      ],
+      "shape_note": "Variable rectangular shaft with flared upper section immediately east of P130; not a uniform cylinder.",
+      "candidate_model_xy": [
+        739.5572708569958,
+        804.7485088416972
+      ],
+      "intersection_angle_deg": 87.88430413240783,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.8018269089291519,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        742.1947631835938,
+        790.6451416015625
+      ],
+      "delta_xy": [
+        -2.6374923265979078,
+        14.10336724013473
+      ],
+      "comparison_object": "SV_XY_EST_WEST_P132_NORTH_MODEL623",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
