@@ -1,0 +1,195 @@
+{
+  "status": "Provisional visible shaft lengths; GPS registration and front-face radius uncertainties unquantified. Do not label as surveyed heights.",
+  "anchors": [
+    {
+      "record": "p233_position_review.json",
+      "target": "P233_SOUTH",
+      "endpoint_definition": "ground-side visible front of shaft to underside of transverse concrete head",
+      "views": [
+        {
+          "pano": "GNaYshgbXGqT6PZXF7RvSw",
+          "date": "2025-04",
+          "heading": 309,
+          "pitch": 20,
+          "top_px": [
+            636,
+            132
+          ],
+          "base_px": [
+            637,
+            574
+          ],
+          "front_radius_est_m": 1.0,
+          "range_to_axis_m": 9.38901390322793,
+          "range_to_visible_front_est_m": 8.38901390322793,
+          "shaft_height_est_m": 12.460923748515333,
+          "axis_range_height_upper_variant_m": 13.946309741703473
+        },
+        {
+          "pano": "8gp92s-Oet4WF_j0WKorfw",
+          "date": "2025-04",
+          "heading": 275,
+          "pitch": 20,
+          "top_px": [
+            642,
+            263
+          ],
+          "base_px": [
+            623,
+            530
+          ],
+          "front_radius_est_m": 1.0,
+          "occlusion_note": "Base partly obscured by equipment room; visible left shaft edge used.",
+          "range_to_axis_m": 17.156665314228853,
+          "range_to_visible_front_est_m": 16.156665314228853,
+          "shaft_height_est_m": 12.837488772862743,
+          "axis_range_height_upper_variant_m": 13.632051792098961
+        }
+      ],
+      "xy": [
+        3264.2529112721063,
+        374.19189292133484
+      ],
+      "mean_height_est_m": 12.649206260689038,
+      "view_spread_m": 0.37656502434741057,
+      "survey_verified": false
+    },
+    {
+      "record": "station_access_west_position_review.json",
+      "target": "STATION_ACCESS_WEST_SOUTH",
+      "views": [
+        {
+          "pano": "thep3S5iPBSW9exGL5CO_g",
+          "date": "2025-05",
+          "heading": 68,
+          "pitch": 20,
+          "top_px": [
+            642,
+            300
+          ],
+          "base_px": [
+            641,
+            562
+          ],
+          "front_radius_est_m": 1.0,
+          "range_to_axis_m": 12.557684527169267,
+          "range_to_visible_front_est_m": 11.557684527169267,
+          "shaft_height_est_m": 8.420936157922089,
+          "axis_range_height_upper_variant_m": 9.149536781872893
+        },
+        {
+          "pano": "isUGYM-ykX0CZ-qSQPSprA",
+          "date": "2025-05",
+          "heading": 15,
+          "pitch": 20,
+          "top_px": [
+            645,
+            158
+          ],
+          "base_px": [
+            646,
+            675
+          ],
+          "front_radius_est_m": 1.0,
+          "endpoint_note": "visible collar junction; base visible behind protection posts",
+          "range_to_axis_m": 6.487869896267493,
+          "range_to_visible_front_est_m": 5.487869896267493,
+          "shaft_height_est_m": 8.505382958593119,
+          "axis_range_height_upper_variant_m": 10.05523437988464
+        }
+      ],
+      "occlusion_note": "Second eastern view PdYrpyY5JzRWty-6BTCaYw: truck hides base; do not use it for a height measurement.",
+      "xy": [
+        822.8583568837136,
+        778.6305864674583
+      ],
+      "mean_height_est_m": 8.463159558257605,
+      "view_spread_m": 0.08444680067102972,
+      "survey_verified": false
+    },
+    {
+      "record": "p254_position_review.json",
+      "target": "P254_SOUTH",
+      "views": [
+        {
+          "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+          "date": "2025-04",
+          "heading": 317,
+          "pitch": 20,
+          "top_px": [
+            643,
+            166
+          ],
+          "base_px": [
+            644,
+            599
+          ],
+          "front_radius_est_m": 1.0,
+          "range_to_axis_m": 9.271868145984877,
+          "range_to_visible_front_est_m": 8.271868145984877,
+          "shaft_height_est_m": 11.288005877414106,
+          "axis_range_height_upper_variant_m": 12.65263182142087
+        },
+        {
+          "pano": "9eaEniJRlculGW1g9j3R_g",
+          "date": "2025-04",
+          "heading": 31,
+          "pitch": 20,
+          "top_px": [
+            638,
+            85
+          ],
+          "base_px": [
+            641,
+            652
+          ],
+          "front_radius_est_m": 1.0,
+          "range_to_axis_m": 6.623547750580548,
+          "range_to_visible_front_est_m": 5.623547750580548,
+          "shaft_height_est_m": 10.726204745003459,
+          "axis_range_height_upper_variant_m": 12.633578029758823
+        }
+      ],
+      "xy": [
+        4014.6071413733516,
+        377.73230929570303
+      ],
+      "mean_height_est_m": 11.007105311208782,
+      "view_spread_m": 0.5618011324106469,
+      "survey_verified": false
+    },
+    {
+      "record": "guangfu_west_position_review.json",
+      "target": "GUANGFU_WEST_SOUTH",
+      "views": [
+        {
+          "pano": "NnKjizwkfo4CsLvitAR74g",
+          "date": "2025-04",
+          "heading": 287,
+          "pitch": 20,
+          "top_px": [
+            644,
+            307
+          ],
+          "base_px": [
+            643,
+            584
+          ],
+          "front_radius_est_m": 1.0,
+          "range_to_axis_m": 9.708706377010891,
+          "range_to_visible_front_est_m": 8.708706377010891,
+          "shaft_height_est_m": 6.537215659516217,
+          "axis_range_height_upper_variant_m": 7.287868555194623
+        }
+      ],
+      "occlusion_note": "Opposite view has vehicles and equipment obscuring south base; single-view estimate only. Rectangular front-face offset assumed 1m.",
+      "xy": [
+        4765.3699255741485,
+        419.07585804586375
+      ],
+      "mean_height_est_m": 6.537215659516217,
+      "view_spread_m": 0.0,
+      "survey_verified": false
+    }
+  ]
+}

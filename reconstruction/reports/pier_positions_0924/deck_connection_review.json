@@ -1,0 +1,204 @@
+{
+  "deck_objects": 30,
+  "mapped_shared_endpoint_pairs": 28,
+  "gapped_pairs": 0,
+  "joints": [
+    {
+      "a": "VC_EST_DECK_48776359",
+      "b": "VC_EST_DECK_1272682373",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_48776359",
+      "b": "VC_EST_DECK_1272682374",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_48776360",
+      "b": "VC_EST_DECK_51362369",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_48776360",
+      "b": "VC_EST_DECK_906806087",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_48776372",
+      "b": "VC_EST_DECK_204711194",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_48776372",
+      "b": "VC_EST_DECK_906806085",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_48793405",
+      "b": "VC_EST_DECK_160053390",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_48793405",
+      "b": "VC_EST_DECK_1272682373",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_51362369",
+      "b": "VC_EST_DECK_668070774",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_51919155",
+      "b": "VC_EST_DECK_668070788",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_51919155",
+      "b": "VC_EST_DECK_1272718725",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_51919180",
+      "b": "VC_EST_DECK_616091807",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_51919180",
+      "b": "VC_EST_DECK_713760137",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_51919192",
+      "b": "VC_EST_DECK_616091807",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_160053377",
+      "b": "VC_EST_DECK_906806087",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_160053377",
+      "b": "VC_EST_DECK_1272677946",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_204711191",
+      "b": "VC_EST_DECK_204711199",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_204711191",
+      "b": "VC_EST_DECK_668070775",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_204711194",
+      "b": "VC_EST_DECK_668070788",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_204711199",
+      "b": "VC_EST_DECK_668070774",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_252494927",
+      "b": "VC_EST_DECK_1272677946",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_262844199",
+      "b": "VC_EST_DECK_668070775",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_262844199",
+      "b": "VC_EST_DECK_1119664466",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_713760137",
+      "b": "VC_EST_DECK_1272718725",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_906806085",
+      "b": "VC_EST_DECK_1272682374",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_909274073",
+      "b": "VC_EST_DECK_1119664467",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_1119664466",
+      "b": "VC_EST_DECK_1538959317",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    },
+    {
+      "a": "VC_EST_DECK_1119664467",
+      "b": "VC_EST_DECK_1538959317",
+      "mapped_endpoint_distance_m": 0.0,
+      "footprint_gap_m": 0.0,
+      "connected_within_1cm": true
+    }
+  ],
+  "scope": "Mapped shared endpoints only. Parallel carriageways and unconnected OSM endpoints not forcibly bridged. Z continuity follows the same continuous height function; not field verification."
+}

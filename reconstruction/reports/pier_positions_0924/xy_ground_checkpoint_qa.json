@@ -1,0 +1,10 @@
+{
+  "scene": "CIVIC_XY_GROUND_CHECKPOINT_20260929",
+  "counts": {
+    "pier": 44,
+    "road": 3,
+    "median": 5
+  },
+  "image": "xy_ground_checkpoint_qa.png",
+  "survey_verified": false
+}

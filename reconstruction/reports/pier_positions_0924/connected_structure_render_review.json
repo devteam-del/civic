@@ -1,0 +1,20 @@
+{
+  "renders": [
+    {
+      "scene": "VC_QA_P233_20260929",
+      "objects": 179,
+      "image": "connected_p233_qa.png"
+    },
+    {
+      "scene": "VC_QA_STATION_20260929",
+      "objects": 205,
+      "image": "connected_station_qa.png"
+    },
+    {
+      "scene": "VC_QA_P215_20260929",
+      "objects": 131,
+      "image": "connected_p215_qa.png"
+    }
+  ],
+  "survey_verified": false
+}
