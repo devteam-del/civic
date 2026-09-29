@@ -1,0 +1,5 @@
+{
+  "targets": [],
+  "superseded_by": "west_screen_white_missing_review.json",
+  "reason": "Legacy 230/231 shaft names do not exist. No original model change was applied with those names."
+}
