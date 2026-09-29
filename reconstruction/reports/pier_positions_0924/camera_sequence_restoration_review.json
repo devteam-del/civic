@@ -1,0 +1,8 @@
+{
+  "linked_existing_cameras": 133,
+  "markers": 106,
+  "fps": 24,
+  "one_camera_per_second": true,
+  "sequence": "Existing east-to-west alternating north/south sequence; camera transforms unchanged.",
+  "parking_cameras_preserved": true
+}

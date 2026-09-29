@@ -1,0 +1,10 @@
+{
+  "summary": {
+    "candidate_spans": 252,
+    "boundary_spans": 13,
+    "spans_with_ground_gaps": 108,
+    "spans_over_60m": 31,
+    "field_verified": 0
+  },
+  "basis": "Integrated Blender geometry. Sparse estimated street-view anchors, interpolated heights. 11x9 samples per candidate span; sampled minimum is not a continuous clearance guarantee. Missing ground remains unknown."
+}
