@@ -1,0 +1,28 @@
+{
+  "name": "SV_BLUE_HUAISHENG_PROFILE_MEDIAN_EST",
+  "source_object": "SV_HUAISHENG_PROFILE_MEDIAN_EST",
+  "z_min": 0,
+  "z_max": 0.18,
+  "source_records": [
+    "blue_portal_position_review.json",
+    "ramp_merge_position_review.json",
+    "west_portal_position_review.json",
+    "west_footbridge_position_review.json",
+    "huaisheng_footbridge_position_review.json",
+    "huaisheng_west_position_review.json",
+    "huaisheng_position_review.json",
+    "antong_west_position_review.json"
+  ],
+  "sources": [
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=D93ruj14fi2oZZ0vJUEfBw&heading=60&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=eV_i_SzovWajM8hzjh1XTw&heading=220&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=prIvsXdMJmC7MzOTUvY5jg&heading=300&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=dMVEE6UYTNXGPO74I7fYNw&heading=300&pitch=0&fov=90"
+  ],
+  "existence_status": "Street imagery shows a mixed paved/landscaped apron around shafts beneath the ramp/mainline.",
+  "width_status": "1.8m centre-to-curb allowance is a provisional proportional assumption; previous local 2m estimate retained where wider. Existing inner access geometry still needs separate calibration.",
+  "opening_preserved": true,
+  "pedestrian_gap_west_preserved": true,
+  "estimated_added_area_m2": 709.2035276709398,
+  "survey_verified": false
+}

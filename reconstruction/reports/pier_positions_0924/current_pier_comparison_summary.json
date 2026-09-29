@@ -3,10 +3,10 @@
   "original_suspects": 124,
   "suspects_with_xy_comparison": 124,
   "total_xy_comparisons": 168,
-  "remaining_model_mask_overlaps": 51,
+  "remaining_model_mask_overlaps": 36,
   "remaining_median_opening_overlaps": 0,
   "added_missing_support_comparisons": 15,
-  "supports_outside_median": 124,
+  "supports_outside_median": 109,
   "supports_outside_ground_coverage": 73,
   "field_verified": 0,
   "actual_mesh_footprints": true,
@@ -16,5 +16,6 @@
   "huaisheng_opening_integrated": true,
   "actual_pier_meshes": 256,
   "huaisheng_opening_clear_of_adjacent_piers": true,
-  "huaisheng_profile_status": "Observed island support; outer curb positions estimated with 2m allowance, not field clearance proof."
+  "huaisheng_profile_status": "Observed island support; outer curb positions estimated with 2m allowance, not field clearance proof.",
+  "eastern_apron_profiles": "Provisional curb offsets around observed shaft rows; model-mask clearance is not field proof."
 }
