@@ -1,0 +1,155 @@
+{
+  "targets": [
+    {
+      "id": "STATION_FOOTBRIDGE_EAST_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_349",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "ff___MA_weEO7gJ-dj-I3A",
+          "lat": 25.0485998,
+          "lon": 121.516809,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 910,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 336.86989764584405,
+          "camera_xy": [
+            651.0073833683632,
+            800.6506905018223
+          ],
+          "direction": [
+            -0.3963308088878239,
+            0.9181077768575556
+          ],
+          "forward_distance_m": 22.107481571682435,
+          "perpendicular_ray_residual_m": 2.3092638912203256e-14
+        },
+        {
+          "pano": "D9e1WtrxhXvTD4cHdDKjQw",
+          "lat": 25.0486397,
+          "lon": 121.516559,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 551,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 46.11364704562316,
+          "camera_xy": [
+            625.7647323250694,
+            804.9738901708051
+          ],
+          "direction": [
+            0.7180638240636837,
+            0.6959772586593896
+          ],
+          "forward_distance_m": 22.95168540346156,
+          "perpendicular_ray_residual_m": 8.881784197001252e-15
+        }
+      ],
+      "shape_note": "Flared concrete expressway columns adjacent to pedestrian overpass. Overpass partially obscures shaft; matching requires additional check.",
+      "candidate_model_xy": [
+        642.2455073145857,
+        820.947741259519
+      ],
+      "intersection_angle_deg": 69.2438557472436,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.7101655489613027,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        634.987548828125,
+        810.3970336914062
+      ],
+      "delta_xy": [
+        7.257958486460666,
+        10.550707568112784
+      ],
+      "comparison_object": "SV_XY_EST_STATION_FOOTBRIDGE_EAST_NORTH_MODEL349",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "STATION_FOOTBRIDGE_EAST_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_348",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "ff___MA_weEO7gJ-dj-I3A",
+          "lat": 25.0485998,
+          "lon": 121.516809,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 685,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 307.1250163489018,
+          "camera_xy": [
+            651.0073833683632,
+            800.6506905018223
+          ],
+          "direction": [
+            -0.7996205122586288,
+            0.6005056505772848
+          ],
+          "forward_distance_m": 12.754533465248318,
+          "perpendicular_ray_residual_m": 5.595524044110789e-14
+        },
+        {
+          "pano": "D9e1WtrxhXvTD4cHdDKjQw",
+          "lat": 25.0486397,
+          "lon": 121.516559,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 755,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 77.71579270637693,
+          "camera_xy": [
+            625.7647323250694,
+            804.9738901708051
+          ],
+          "direction": [
+            0.9762846884950672,
+            0.21649066263949948
+          ],
+          "forward_distance_m": 15.409300829435425,
+          "perpendicular_ray_residual_m": 2.0872192862952943e-14
+        }
+      ],
+      "shape_note": "Flared concrete expressway columns adjacent to pedestrian overpass. Overpass partially obscures shaft; matching requires additional check.",
+      "candidate_model_xy": [
+        640.8085967852616,
+        808.309859918181
+      ],
+      "intersection_angle_deg": 49.4091166980742,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.5885885419995451,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        633.900634765625,
+        804.4964599609375
+      ],
+      "delta_xy": [
+        6.907962019636557,
+        3.8133999572435187
+      ],
+      "comparison_object": "SV_XY_EST_STATION_FOOTBRIDGE_EAST_SOUTH_MODEL348",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
