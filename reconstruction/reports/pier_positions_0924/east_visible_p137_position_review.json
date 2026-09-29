@@ -1,0 +1,201 @@
+{
+  "targets": [
+    {
+      "id": "EAST_VISIBLE_P137_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_527",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "JDzQHdf53-iyGiEgCwyGgg",
+          "lat": 25.0480666,
+          "lon": 121.5202052,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 974,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 342.854475645103,
+          "camera_xy": [
+            993.9216657080151,
+            742.9039357926529
+          ],
+          "direction": [
+            -0.2984720643288901,
+            0.9544183709544001
+          ],
+          "forward_distance_m": 21.32538660055856,
+          "perpendicular_ray_residual_m": 3.197442310920451e-14
+        },
+        {
+          "pano": "dwnmAqivRESJAtK18Sb9vw",
+          "lat": 25.0481383,
+          "lon": 121.5197849,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 710,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 71.0035408517495,
+          "camera_xy": [
+            951.4813800844458,
+            750.6828165211598
+          ],
+          "direction": [
+            0.9442809925923231,
+            0.32914040625370955
+          ],
+          "forward_distance_m": 38.20393902375594,
+          "perpendicular_ray_residual_m": 1.7763568394002505e-14
+        },
+        {
+          "pano": "ITMNDoAs5tIRJaxFVBLaKg",
+          "lat": 25.0480916,
+          "lon": 121.5200615,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 305,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 24.471630609557906,
+          "camera_xy": [
+            979.4111769663708,
+            745.6173272306563
+          ],
+          "direction": [
+            0.41074050886185304,
+            0.91175228783914
+          ],
+          "forward_distance_m": 19.428933113534203,
+          "perpendicular_ray_residual_m": 0.18119692033839563
+        }
+      ],
+      "shape_note": "Portal pair immediately east of visibly marked P137 south shaft. North rectangular, south round; section dimensions pending.",
+      "candidate_model_xy": [
+        987.5566335467347,
+        763.2572765319308
+      ],
+      "intersection_angle_deg": 88.14924489704684,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.7868908074932904,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        994.49755859375,
+        751.2802124023438
+      ],
+      "delta_xy": [
+        -6.940925047015298,
+        11.977064129587006
+      ],
+      "comparison_object": "SV_XY_EST_EAST_VISIBLE_P137_NORTH_MODEL527",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "EAST_VISIBLE_P137_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_526",
+      "actual_visible_label": "P138",
+      "views": [
+        {
+          "pano": "JDzQHdf53-iyGiEgCwyGgg",
+          "lat": 25.0480666,
+          "lon": 121.5202052,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 725,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 313.2848664849022,
+          "camera_xy": [
+            993.9216657080151,
+            742.9039357926529
+          ],
+          "direction": [
+            -0.7305850465254999,
+            0.6828217115714269
+          ],
+          "forward_distance_m": 11.97900977625701,
+          "perpendicular_ray_residual_m": 3.907985046680551e-14
+        },
+        {
+          "pano": "dwnmAqivRESJAtK18Sb9vw",
+          "lat": 25.0481383,
+          "lon": 121.5197849,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 844,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 89.5387822595581,
+          "camera_xy": [
+            951.4813800844458,
+            750.6828165211598
+          ],
+          "direction": [
+            0.9999292897625973,
+            0.01189182386633437
+          ],
+          "forward_distance_m": 33.69098250622448,
+          "perpendicular_ray_residual_m": 3.497202527569243e-15
+        },
+        {
+          "pano": "ITMNDoAs5tIRJaxFVBLaKg",
+          "lat": 25.0480916,
+          "lon": 121.5200615,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 505,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 43.94695311096566,
+          "camera_xy": [
+            979.4111769663708,
+            745.6173272306563
+          ],
+          "direction": [
+            0.6912190403574616,
+            0.722645305974729
+          ],
+          "forward_distance_m": 7.930672407495514,
+          "perpendicular_ray_residual_m": 0.3832745521762173
+        }
+      ],
+      "shape_note": "Portal pair immediately east of visibly marked P137 south shaft. North rectangular, south round; section dimensions pending.",
+      "candidate_model_xy": [
+        985.169980293299,
+        751.0834637510076
+      ],
+      "intersection_angle_deg": 43.74590436594829,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.089032724746149,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        993.3065185546875,
+        745.3995361328125
+      ],
+      "delta_xy": [
+        -8.136538261388523,
+        5.683927618195071
+      ],
+      "comparison_object": "SV_XY_EST_EAST_VISIBLE_P137_SOUTH_MODEL526",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
