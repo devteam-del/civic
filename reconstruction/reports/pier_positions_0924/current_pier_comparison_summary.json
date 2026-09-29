@@ -1,8 +1,8 @@
 {
   "scope": "Current comparison geometry only. Model-mask clearance is not independent field validation.",
   "original_suspects": 124,
-  "suspects_with_xy_comparison": 122,
-  "total_xy_comparisons": 166,
+  "suspects_with_xy_comparison": 124,
+  "total_xy_comparisons": 168,
   "remaining_model_mask_overlaps": 75,
   "remaining_median_opening_overlaps": 0,
   "added_missing_support_comparisons": 15,

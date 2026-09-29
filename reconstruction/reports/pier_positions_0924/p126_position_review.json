@@ -1,0 +1,155 @@
+{
+  "targets": [
+    {
+      "id": "P126_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_345",
+      "actual_visible_label": "P126",
+      "views": [
+        {
+          "pano": "Fjv4SMBu-sf4A7kO1RmSXw",
+          "lat": 25.0489032,
+          "lon": 121.516155,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 441,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 271.06715770477956,
+          "camera_xy": [
+            584.8885295536473,
+            834.0050364023792
+          ],
+          "direction": [
+            -0.9998903369914737,
+            0.014809253562464212
+          ],
+          "forward_distance_m": 23.778696276083,
+          "perpendicular_ray_residual_m": 1.149080830487037e-14
+        },
+        {
+          "pano": "ip38ubFy0LGqZwVEY0ZJyQ",
+          "lat": 25.0489569,
+          "lon": 121.5159915,
+          "date": "2025-05",
+          "view_heading": 210,
+          "target_pixel_x": 792,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 232.89055165624833,
+          "camera_xy": [
+            568.3682258886689,
+            839.8902130038365
+          ],
+          "direction": [
+            -0.7951772840297918,
+            -0.6063770171790844
+          ],
+          "forward_distance_m": 9.1247387387141,
+          "perpendicular_ray_residual_m": 1.7763568394002505e-14
+        }
+      ],
+      "shape_note": "Northern P126 label readable at Y9 entrance. Southern counterpart visible beneath central ramp, upper shaft partly obscured. Two-view provisional estimate.",
+      "candidate_model_xy": [
+        561.1124409209368,
+        834.3571811449166
+      ],
+      "intersection_angle_deg": 38.17653497009897,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.9344958562205119,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        563.4102172851562,
+        823.5816040039062
+      ],
+      "delta_xy": [
+        -2.2977763642194304,
+        10.77557714101033
+      ],
+      "comparison_object": "SV_XY_EST_P126_NORTH_MODEL345",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "P126_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_344",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "Fjv4SMBu-sf4A7kO1RmSXw",
+          "lat": 25.0489032,
+          "lon": 121.516155,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 134,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 245.43042262052657,
+          "camera_xy": [
+            584.8885295536473,
+            834.0050364023792
+          ],
+          "direction": [
+            -0.9078638834437491,
+            -0.4192650344810962
+          ],
+          "forward_distance_m": 29.475285296579653,
+          "perpendicular_ray_residual_m": 1.5987211554602254e-14
+        },
+        {
+          "pano": "ip38ubFy0LGqZwVEY0ZJyQ",
+          "lat": 25.0489569,
+          "lon": 121.5159915,
+          "date": "2025-05",
+          "view_heading": 210,
+          "target_pixel_x": 637,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 209.5225462226904,
+          "camera_xy": [
+            568.3682258886689,
+            839.8902130038365
+          ],
+          "direction": [
+            -0.48944332212115893,
+            -0.8720351107788055
+          ],
+          "forward_distance_m": 20.920181862144435,
+          "perpendicular_ray_residual_m": 3.907985046680551e-14
+        }
+      ],
+      "shape_note": "Northern P126 label readable at Y9 entrance. Southern counterpart visible beneath central ramp, upper shaft partly obscured. Two-view provisional estimate.",
+      "candidate_model_xy": [
+        558.1289825786821,
+        821.6470798961686
+      ],
+      "intersection_angle_deg": 35.907805940121975,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.5101035807635823,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        562.3233032226562,
+        817.680908203125
+      ],
+      "delta_xy": [
+        -4.194320643974152,
+        3.966171693043634
+      ],
+      "comparison_object": "SV_XY_EST_P126_SOUTH_MODEL344",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
