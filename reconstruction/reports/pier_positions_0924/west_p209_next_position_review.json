@@ -1,0 +1,201 @@
+{
+  "targets": [
+    {
+      "id": "WEST_P209_NEXT_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_122",
+      "actual_visible_label": null,
+      "shape_note": "Rectangular shaft west of previous comparison; planted medians, construction hoarding beside north frontage.",
+      "views": [
+        {
+          "pano": "aGfEpvO7kgTE70fWfbkqbg",
+          "lat": 25.0452455,
+          "lon": 121.5340188,
+          "date": "2025-04",
+          "view_heading": 260,
+          "target_pixel_x": 786,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 277.28581387025554,
+          "camera_xy": [
+            2388.9976970326798,
+            435.85356003897033
+          ],
+          "direction": [
+            -0.9924187123508257,
+            0.12290280458935499
+          ],
+          "forward_distance_m": 43.83328185892606,
+          "perpendicular_ray_residual_m": 3.2862601528904634e-14
+        },
+        {
+          "pano": "Jp9c0sgxTssnLaOMpx-aNg",
+          "lat": 25.0451146,
+          "lon": 121.5336574,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 950,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 340.73210669970916,
+          "camera_xy": [
+            2352.5874516156478,
+            421.21042434404217
+          ],
+          "direction": [
+            -0.33370641198677586,
+            0.9426770553052154
+          ],
+          "forward_distance_m": 21.2483892092404,
+          "perpendicular_ray_residual_m": 6.483702463810914e-14
+        },
+        {
+          "pano": "mg8uGWmROsxmOz9X-JTgZQ",
+          "lat": 25.0452729,
+          "lon": 121.5330776,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 825,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 87.19812794850912,
+          "camera_xy": [
+            2294.0129926279346,
+            438.51400457173696
+          ],
+          "direction": [
+            0.9986041841744369,
+            0.05281745307478742
+          ],
+          "forward_distance_m": 51.55589548818618,
+          "perpendicular_ray_residual_m": 0.003742875740315288
+        }
+      ],
+      "candidate_model_xy": [
+        2345.4967278921335,
+        441.240793313788
+      ],
+      "intersection_angle_deg": 63.44644381683974,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.135012278349695,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2320.014404296875,
+        453.8503112792969
+      ],
+      "delta_xy": [
+        25.48232359525855,
+        -12.609517965508871
+      ],
+      "comparison_object": "SV_XY_EST_WEST_P209_NEXT_NORTH_MODEL122",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "WEST_P209_NEXT_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_123",
+      "actual_visible_label": null,
+      "shape_note": "Rectangular shaft west of previous comparison; planted medians, construction hoarding beside north frontage.",
+      "views": [
+        {
+          "pano": "aGfEpvO7kgTE70fWfbkqbg",
+          "lat": 25.0452455,
+          "lon": 121.5340188,
+          "date": "2025-04",
+          "view_heading": 260,
+          "target_pixel_x": 681,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 264.99439091703977,
+          "camera_xy": [
+            2388.9976970326798,
+            435.85356003897033
+          ],
+          "direction": [
+            -0.9958340054109989,
+            -0.09118461310488085
+          ],
+          "forward_distance_m": 46.580155768246186,
+          "perpendicular_ray_residual_m": 7.105427357601002e-15
+        },
+        {
+          "pano": "Jp9c0sgxTssnLaOMpx-aNg",
+          "lat": 25.0451146,
+          "lon": 121.5336574,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 746,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 316.40677214690265,
+          "camera_xy": [
+            2352.5874516156478,
+            421.21042434404217
+          ],
+          "direction": [
+            -0.692385357153997,
+            0.7215279046570077
+          ],
+          "forward_distance_m": 14.407955874939256,
+          "perpendicular_ray_residual_m": 1.509903313490213e-14
+        },
+        {
+          "pano": "mg8uGWmROsxmOz9X-JTgZQ",
+          "lat": 25.0452729,
+          "lon": 121.5330776,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 921,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 97.97401601178629,
+          "camera_xy": [
+            2294.0129926279346,
+            438.51400457173696
+          ],
+          "direction": [
+            0.9908699855206615,
+            -0.1348208878263456
+          ],
+          "forward_distance_m": 49.086216233841384,
+          "perpendicular_ray_residual_m": 0.2926627775735744
+        }
+      ],
+      "candidate_model_xy": [
+        2342.611593941319,
+        431.6061665568777
+      ],
+      "intersection_angle_deg": 51.41253224293729,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.310259267382912,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2318.287353515625,
+        448.1042175292969
+      ],
+      "delta_xy": [
+        24.324240425693915,
+        -16.49805097241915
+      ],
+      "comparison_object": "SV_XY_EST_WEST_P209_NEXT_SOUTH_MODEL123",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

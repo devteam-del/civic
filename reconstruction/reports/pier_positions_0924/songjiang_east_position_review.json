@@ -1,0 +1,201 @@
+{
+  "targets": [
+    {
+      "id": "SONGJIANG_EAST_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_203",
+      "actual_visible_label": null,
+      "shape_note": "Rectangular mainline shaft on east-side median nose at Songjiang junction; north side construction hoarding.",
+      "views": [
+        {
+          "pano": "F6MWwUC2lYD0eO13fTOUog",
+          "lat": 25.0453235,
+          "lon": 121.533735,
+          "date": "2025-04",
+          "view_heading": 260,
+          "target_pixel_x": 805,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 279.37634173741606,
+          "camera_xy": [
+            2360.326483590471,
+            444.38028854429825
+          ],
+          "direction": [
+            -0.9872745550777738,
+            0.15902500714033507
+          ],
+          "forward_distance_m": 55.34121245151075,
+          "perpendicular_ray_residual_m": 1.7763568394002505e-15
+        },
+        {
+          "pano": "mg8uGWmROsxmOz9X-JTgZQ",
+          "lat": 25.0452729,
+          "lon": 121.5330776,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 500,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 38.74949449286676,
+          "camera_xy": [
+            2294.0129926279346,
+            438.51400457173696
+          ],
+          "direction": [
+            0.6228388202268242,
+            0.782350179918467
+          ],
+          "forward_distance_m": 18.74725801091551,
+          "perpendicular_ray_residual_m": 1.3677947663381929e-13
+        },
+        {
+          "pano": "htQxClxGohJNBfAvFaUo2g",
+          "lat": 25.0453892,
+          "lon": 121.5325893,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 833,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 88.19625354817049,
+          "camera_xy": [
+            2244.6898865979038,
+            451.20201337578726
+          ],
+          "direction": [
+            0.9993728527674436,
+            0.035410466693640466
+          ],
+          "forward_distance_m": 61.031444538342576,
+          "perpendicular_ray_residual_m": 0.18235442339443364
+        }
+      ],
+      "candidate_model_xy": [
+        2305.6895126899412,
+        453.18092524955455
+      ],
+      "intersection_angle_deg": 60.626570869096255,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.3332504128278466,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2283.987548828125,
+        453.37152099609375
+      ],
+      "delta_xy": [
+        21.70196386181624,
+        -0.19059574653920208
+      ],
+      "comparison_object": "SV_XY_EST_SONGJIANG_EAST_NORTH_MODEL203",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "SONGJIANG_EAST_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_202",
+      "actual_visible_label": null,
+      "shape_note": "Rectangular mainline shaft on east-side median nose at Songjiang junction; north side construction hoarding.",
+      "views": [
+        {
+          "pano": "F6MWwUC2lYD0eO13fTOUog",
+          "lat": 25.0453235,
+          "lon": 121.533735,
+          "date": "2025-04",
+          "view_heading": 260,
+          "target_pixel_x": 717,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 269.32044577703385,
+          "camera_xy": [
+            2360.326483590471,
+            444.38028854429825
+          ],
+          "direction": [
+            -0.9998750961925315,
+            -0.0158048098367553
+          ],
+          "forward_distance_m": 57.53425127587359,
+          "perpendicular_ray_residual_m": 3.0309088572266774e-14
+        },
+        {
+          "pano": "mg8uGWmROsxmOz9X-JTgZQ",
+          "lat": 25.0452729,
+          "lon": 121.5330776,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 645,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 60.795723552739275,
+          "camera_xy": [
+            2294.0129926279346,
+            438.51400457173696
+          ],
+          "direction": [
+            0.8709563805828309,
+            0.4913603393865391
+          ],
+          "forward_distance_m": 10.088250260968717,
+          "perpendicular_ray_residual_m": 1.2878587085651816e-13
+        },
+        {
+          "pano": "htQxClxGohJNBfAvFaUo2g",
+          "lat": 25.0453892,
+          "lon": 121.5325893,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 916,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 97.47617956136136,
+          "camera_xy": [
+            2244.6898865979038,
+            451.20201337578726
+          ],
+          "direction": [
+            0.9920035573728795,
+            -0.1262099130795678
+          ],
+          "forward_distance_m": 58.62059665652176,
+          "perpendicular_ray_residual_m": 0.3352229141122338
+        }
+      ],
+      "candidate_model_xy": [
+        2302.7994185616417,
+        443.470970643783
+      ],
+      "intersection_angle_deg": 28.524445407188466,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.4330212727219473,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2282.232666015625,
+        447.6338195800781
+      ],
+      "delta_xy": [
+        20.566752546016687,
+        -4.16284893629512
+      ],
+      "comparison_object": "SV_XY_EST_SONGJIANG_EAST_SOUTH_MODEL202",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
