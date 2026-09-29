@@ -1,0 +1,14 @@
+{
+  "comparison_object": "SV_STATION_MEDIAN_OPENING_EST",
+  "original_preserved": "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_0",
+  "geometry_source": "UB_MEDIAN_0_WITH_STATION_UTURN_EST",
+  "existence_evidence": "2025-05 Street View visibly shows a paved vehicle opening between planted pier islands",
+  "source_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=PdYrpyY5JzRWty-6BTCaYw&heading=100&pitch=0&fov=90",
+  "supplementary_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=thep3S5iPBSW9exGL5CO_g&heading=80&pitch=0&fov=90",
+  "dimensions_status": "Existing 23m rotated cut reused provisionally; endpoints not triangulated this pass",
+  "estimated_cut_area_m2": 276.43194485784545,
+  "cut_road_coverage_fraction": 1.0,
+  "survey_verified": false,
+  "pier_positions_changed": false,
+  "heights_changed": false
+}

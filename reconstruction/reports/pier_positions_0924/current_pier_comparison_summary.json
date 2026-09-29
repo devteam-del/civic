@@ -8,5 +8,8 @@
   "added_missing_support_comparisons": 15,
   "supports_outside_median": 148,
   "supports_outside_ground_coverage": 73,
-  "field_verified": 0
+  "field_verified": 0,
+  "ground_source": "live_comparison_ground_footprints.json exported from actual comparison scene",
+  "ground_manifest": "live_comparison_ground_manifest.json",
+  "station_opening_integrated": true
 }

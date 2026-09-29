@@ -6,13 +6,10 @@ from shapely import affinity
 base=Path(sys.argv[1]);out=Path(sys.argv[2]);r24=base/'PierPositions_20260924';r23=base/'PierPositions_20260923'
 source=json.loads((base/'Underbridge_20260922'/'pier_road_footprints.json').read_text())
 review=json.loads((base/'Underbridge_20260922'/'pier_road_overlap_review.json').read_text())
-patch=json.loads((r24/'p246_247_median_comparison.json').read_text())
 def geo(o):return unary_union([Polygon(f).buffer(0) for f in o['faces'] if len(f)>=3])
-entry=json.loads((r24/'fudun_entry_plan.json').read_text())
-road=unary_union([geo(o) for o in source['roads'] if o['name']!=entry['source_road']]+[shape(entry['road_footprint'])]);median=unary_union([geo(o) for o in source['medians'] if o['name']!=patch['source_median']]+[shape(entry['median_footprint'])])
-junction=json.loads((r24/'fuxing_service_ground_comparison.json').read_text())
-median=unary_union([geo(o) for o in source['medians'] if o['name'] not in [patch['source_median'],'CAL_GROUND_MEDIAN_WORKING_ESTIMATED_13',*junction['omit_from_working_scene']]]+[shape(p['footprint']) for p in junction['patches'] if 'MEDIAN' in p['new_name']])
-road=unary_union([geo(o) for o in source['roads'] if o['name']!=entry['source_road']]+[shape(p['footprint']) for p in junction['patches'] if p['new_name']=='SV_FUXING_ROAD_EST'])
+live=json.loads((r24/'live_comparison_ground_footprints.json').read_text())
+assert live['scene']=='CIVIC_PIER_XY_REVIEW_20260923'
+road=unary_union([geo(o) for o in live['roads']]);median=unary_union([geo(o) for o in live['medians']])
 openings=unary_union([Polygon(ring) for poly in (median.geoms if median.geom_type=='MultiPolygon' else [median]) for ring in poly.interiors])
 ground_coverage=road.union(median)
 records={}
