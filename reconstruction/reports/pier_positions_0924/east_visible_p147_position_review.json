@@ -1,0 +1,199 @@
+{
+  "targets": [
+    {
+      "id": "EAST_VISIBLE_P147_NORTH",
+      "actual_visible_label": null,
+      "shape_note": "Round column east of visible P147, immediately beside Zhonglin underground parking ramp walls.",
+      "views": [
+        {
+          "pano": "ZgE-HFiWqHTECOSw8S6Kgg",
+          "lat": 25.0477891,
+          "lon": 121.5230901,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 674,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 65.3952645682131,
+          "camera_xy": [
+            1285.1372755461202,
+            713.28894987226
+          ],
+          "direction": [
+            0.9075849687836056,
+            0.4198684608756196
+          ],
+          "forward_distance_m": 32.65721725861598,
+          "perpendicular_ray_residual_m": 2.842170943040401e-14
+        },
+        {
+          "pano": "s7Uf5ewsMHU9KzuJmKmakA",
+          "lat": 25.0477779,
+          "lon": 121.5232867,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 407,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 33.58957681438318,
+          "camera_xy": [
+            1304.9797671566623,
+            712.1250952193956
+          ],
+          "direction": [
+            0.5500135766655483,
+            0.8351557133155296
+          ],
+          "forward_distance_m": 17.81175649348651,
+          "perpendicular_ray_residual_m": 1.2434497875801753e-14
+        },
+        {
+          "pano": "UExxxSsr_l7KGrHEQvZveA",
+          "lat": 25.0477388,
+          "lon": 121.5235268,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 796,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 323.4286928087454,
+          "camera_xy": [
+            1329.2235398429502,
+            707.887891473815
+          ],
+          "direction": [
+            -0.5989263368360029,
+            0.8008041227692367
+          ],
+          "forward_distance_m": 23.95833178210802,
+          "perpendicular_ray_residual_m": 0.12211338187408316
+        }
+      ],
+      "model_pier_candidate": "UNVERIFIED_Pier_282",
+      "candidate_model_xy": [
+        1314.7764750523406,
+        727.0006854191158
+      ],
+      "intersection_angle_deg": 31.805772454910766,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.7176584654095481,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        1302.7940673828125,
+        730.1119384765625
+      ],
+      "delta_xy": [
+        11.98240766952813,
+        -3.1112530574466746
+      ],
+      "comparison_object": "SV_XY_EST_EAST_VISIBLE_P147_NORTH_MODEL282",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "EAST_VISIBLE_P147_SOUTH",
+      "actual_visible_label": null,
+      "shape_note": "Round column east of visible P147, immediately beside Zhonglin underground parking ramp walls.",
+      "views": [
+        {
+          "pano": "ZgE-HFiWqHTECOSw8S6Kgg",
+          "lat": 25.0477891,
+          "lon": 121.5230901,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 819,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 86.43758580446533,
+          "camera_xy": [
+            1285.1372755461202,
+            713.28894987226
+          ],
+          "direction": [
+            0.9978199819352218,
+            0.06599457288893966
+          ],
+          "forward_distance_m": 28.800565299603438,
+          "perpendicular_ray_residual_m": 1.3100631690576847e-14
+        },
+        {
+          "pano": "s7Uf5ewsMHU9KzuJmKmakA",
+          "lat": 25.0477779,
+          "lon": 121.5232867,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 733,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 71.21217347648164,
+          "camera_xy": [
+            1304.9797671566623,
+            712.1250952193956
+          ],
+          "direction": [
+            0.9454648255579436,
+            0.3257242140717929
+          ],
+          "forward_distance_m": 9.408375326055156,
+          "perpendicular_ray_residual_m": 1.0658141036401503e-14
+        },
+        {
+          "pano": "UExxxSsr_l7KGrHEQvZveA",
+          "lat": 25.0477388,
+          "lon": 121.5235268,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 618,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 296.50294026070173,
+          "camera_xy": [
+            1329.2235398429502,
+            707.887891473815
+          ],
+          "direction": [
+            -0.8966317019174653,
+            0.442777134816817
+          ],
+          "forward_distance_m": 16.994981255755405,
+          "perpendicular_ray_residual_m": 0.24898707223835892
+        }
+      ],
+      "model_pier_candidate": "UNVERIFIED_Pier_283",
+      "candidate_model_xy": [
+        1313.8750550930947,
+        715.1896308781673
+      ],
+      "intersection_angle_deg": 15.225496446714715,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.9003207447673067,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        1302.4403076171875,
+        724.1224975585938
+      ],
+      "delta_xy": [
+        11.434747475907216,
+        -8.9328666804264
+      ],
+      "comparison_object": "SV_XY_EST_EAST_VISIBLE_P147_SOUTH_MODEL283",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
