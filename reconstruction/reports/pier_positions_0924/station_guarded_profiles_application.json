@@ -1,0 +1,19 @@
+{
+  "patches": [
+    {
+      "object": "SV_STATION_GUARDED_PROFILE_MEDIAN_EST",
+      "manifold": true,
+      "volume_m3": 994.9661234443288,
+      "ramp_hole_fill_m2": 0.0
+    },
+    {
+      "object": "SV_JIANGUO_EAST_GUARDED_MEDIAN_EST",
+      "manifold": true,
+      "volume_m3": 623.6096438211789,
+      "ramp_hole_fill_m2": 0.0
+    }
+  ],
+  "originals_preserved": true,
+  "junction_gap_preserved": true,
+  "survey_verified": false
+}

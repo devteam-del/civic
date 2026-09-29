@@ -1,0 +1,18 @@
+{
+  "patches": [
+    {
+      "name": "SV_FUXING_WEST_GUARDED_MEDIAN_EST",
+      "source_object": "SV_FUXING_SERVICE_MEDIAN_EST",
+      "ramp_hole_fill_m2": 0.0,
+      "width_status": "1.8m shaft-centre curb allowance; west endpoint x3226 estimated. Planted and paved service platform visibly continuous; absolute edge remains unmeasured.",
+      "survey_verified": false,
+      "added_area_m2": 360.71693464818713
+    }
+  ],
+  "sources": [
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=GNaYshgbXGqT6PZXF7RvSw&heading=280&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=DR6MCGZceRhZANA1l07MJQ&heading=260&pitch=0&fov=90"
+  ],
+  "unavailable_previous_pano": "_ANyhDdl75_b8UwXWKHkGw",
+  "status": "Working geometry estimate, not independent field clearance proof."
+}
