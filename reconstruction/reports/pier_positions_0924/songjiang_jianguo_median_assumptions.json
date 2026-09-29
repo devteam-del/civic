@@ -1,0 +1,111 @@
+{
+  "patches": [
+    {
+      "name": "SV_SONGJIANG_JIANGUO_WEST_NORTH_MEDIAN_EST",
+      "z_min": 0,
+      "z_max": 0.18,
+      "estimated_width_m": 2.8,
+      "width_status": "Conservative visual-proportion assumption; not metrically measured or field verified.",
+      "source_records": [
+        "songjiang_east_position_review.json",
+        "west_p209_next_position_review.json",
+        "west_p209_position_review.json",
+        "p209_position_review.json",
+        "local_junction_west_position_review.json"
+      ],
+      "source_piers": [
+        "SV_XY_EST_SONGJIANG_EAST_NORTH_MODEL203",
+        "SV_XY_EST_WEST_P209_NEXT_NORTH_MODEL122",
+        "SV_XY_EST_WEST_P209_NORTH_MODEL207",
+        "SV_XY_EST_P209_NORTH_MODEL118",
+        "SV_XY_EST_CIVIC_LOCAL_JUNCTION_WEST_NORTH_MODEL211"
+      ],
+      "existence_evidence": "Street views show separate planted islands around the north and south pier rows, with a carriageway between them.",
+      "endpoint_status": "Ends at outermost pier plus buffer, except existing reviewed Jianguo tip. Full curb noses and local access cuts remain pending.",
+      "survey_verified": false,
+      "topology_status": "Local junction between EAST and WEST patches left open; north-south carriageway gap left open."
+    },
+    {
+      "name": "SV_SONGJIANG_JIANGUO_WEST_SOUTH_MEDIAN_EST",
+      "z_min": 0,
+      "z_max": 0.18,
+      "estimated_width_m": 3.6,
+      "width_status": "Conservative visual-proportion assumption; not metrically measured or field verified.",
+      "source_records": [
+        "songjiang_east_position_review.json",
+        "west_p209_next_position_review.json",
+        "west_p209_position_review.json",
+        "p209_position_review.json",
+        "local_junction_west_position_review.json"
+      ],
+      "source_piers": [
+        "SV_XY_EST_SONGJIANG_EAST_SOUTH_MODEL202",
+        "SV_XY_EST_WEST_P209_NEXT_SOUTH_MODEL123",
+        "SV_XY_EST_WEST_P209_SOUTH_MODEL206",
+        "SV_XY_EST_P209_SOUTH_MODEL119",
+        "SV_XY_EST_CIVIC_LOCAL_JUNCTION_WEST_SOUTH_MODEL210"
+      ],
+      "existence_evidence": "Street views show separate planted islands around the north and south pier rows, with a carriageway between them.",
+      "endpoint_status": "Ends at outermost pier plus buffer, except existing reviewed Jianguo tip. Full curb noses and local access cuts remain pending.",
+      "survey_verified": false,
+      "topology_status": "Local junction between EAST and WEST patches left open; north-south carriageway gap left open."
+    },
+    {
+      "name": "SV_SONGJIANG_JIANGUO_EAST_NORTH_MEDIAN_EST",
+      "z_min": 0,
+      "z_max": 0.18,
+      "estimated_width_m": 2.8,
+      "width_status": "Conservative visual-proportion assumption; not metrically measured or field verified.",
+      "source_records": [
+        "local_junction_east_position_review.json",
+        "west_p214_next_position_review.json",
+        "west_p214_position_review.json",
+        "p214_position_review.json",
+        "jianguo_west_edge_position_review.json"
+      ],
+      "source_piers": [
+        "SV_XY_EST_CIVIC_LOCAL_JUNCTION_EAST_NORTH_MODEL114",
+        "SV_XY_EST_WEST_P214_NEXT_NORTH_MODEL215",
+        "SV_XY_EST_WEST_P214_NORTH_MODEL110",
+        "SV_XY_EST_P214_NORTH_MODEL219",
+        "SV_XY_EST_JIANGUO_WEST_EDGE_NORTH_MODEL106"
+      ],
+      "existence_evidence": "Street views show separate planted islands around the north and south pier rows, with a carriageway between them.",
+      "endpoint_status": "Ends at outermost pier plus buffer, except existing reviewed Jianguo tip. Full curb noses and local access cuts remain pending.",
+      "survey_verified": false,
+      "topology_status": "Local junction between EAST and WEST patches left open; north-south carriageway gap left open."
+    },
+    {
+      "name": "SV_SONGJIANG_JIANGUO_EAST_SOUTH_MEDIAN_EST",
+      "z_min": 0,
+      "z_max": 0.18,
+      "estimated_width_m": 3.6,
+      "width_status": "Conservative visual-proportion assumption; not metrically measured or field verified.",
+      "source_records": [
+        "local_junction_east_position_review.json",
+        "west_p214_next_position_review.json",
+        "west_p214_position_review.json",
+        "p214_position_review.json",
+        "jianguo_west_edge_position_review.json"
+      ],
+      "source_piers": [
+        "SV_XY_EST_CIVIC_LOCAL_JUNCTION_EAST_SOUTH_MODEL115",
+        "SV_XY_EST_WEST_P214_NEXT_SOUTH_MODEL214",
+        "SV_XY_EST_WEST_P214_SOUTH_MODEL111",
+        "SV_XY_EST_P214_SOUTH_MODEL218",
+        "SV_XY_EST_JIANGUO_WEST_EDGE_SOUTH_MODEL107"
+      ],
+      "existence_evidence": "Street views show separate planted islands around the north and south pier rows, with a carriageway between them.",
+      "endpoint_status": "Ends at outermost pier plus buffer, except existing reviewed Jianguo tip. Full curb noses and local access cuts remain pending.",
+      "survey_verified": false,
+      "topology_status": "Local junction between EAST and WEST patches left open; north-south carriageway gap left open."
+    }
+  ],
+  "sources": [
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=TmJaZc2pavLdf2zfcodVMA&heading=60&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=mg8uGWmROsxmOz9X-JTgZQ&heading=60&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=3Vq9E0LHU4N9sIW2U3PM2A&heading=300&pitch=0&fov=90"
+  ],
+  "date": "2025-04",
+  "status": "Estimated modelling comparison; unresolved field-clearance flags must remain false."
+}

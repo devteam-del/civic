@@ -3,22 +3,14 @@
   "original_suspects": 124,
   "suspects_with_xy_comparison": 124,
   "total_xy_comparisons": 168,
-  "remaining_model_mask_overlaps": 73,
+  "remaining_model_mask_overlaps": 55,
   "remaining_median_opening_overlaps": 0,
   "added_missing_support_comparisons": 15,
-  "supports_outside_median": 146,
+  "supports_outside_median": 128,
   "supports_outside_ground_coverage": 73,
   "field_verified": 0,
-  "ground_source": "live scene snapshot",
-  "station_opening_integrated": true,
-  "jianguo_west_south_estimated_island_added": true,
-  "geometric_proximity_check": {
-    "supports": 256,
-    "pairs_under_3m": 0
-  },
-  "mesh_qa": {
-    "nonmanifold_edges": 0,
-    "volume_m3": 40.493135105019746
-  },
-  "caution": "Two fewer model-mask conflicts follow an estimated island patch; this is not independent proof of field clearance."
+  "actual_mesh_footprints": true,
+  "split_median_patches": 4,
+  "field_clearance_status": "Unresolved: model-mask improvement uses estimated island boundaries and is not independent field proof.",
+  "p215_section_status": "Rectangular section estimated from visible edges; XY and Z retained."
 }
