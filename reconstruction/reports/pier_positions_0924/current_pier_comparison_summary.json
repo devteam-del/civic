@@ -12,5 +12,8 @@
   "actual_mesh_footprints": true,
   "split_median_patches": 4,
   "field_clearance_status": "Unresolved: model-mask improvement uses estimated island boundaries and is not independent field proof.",
-  "p215_section_status": "Rectangular section estimated from visible edges; XY and Z retained."
+  "p215_section_status": "Rectangular section estimated from visible edges; XY and Z retained.",
+  "huaisheng_opening_integrated": true,
+  "actual_pier_meshes": 256,
+  "huaisheng_opening_clear_of_adjacent_piers": true
 }

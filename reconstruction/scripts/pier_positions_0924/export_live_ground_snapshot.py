@@ -16,7 +16,7 @@ def export(obj):
 roads=[o for o in scene.objects if o.type=='MESH' and (o.name.startswith('CAL_GROUND_ROADS_OFFICIAL_XY_') or o.name=='SV_FUXING_ROAD_EST')]
 medians=[o for o in scene.objects if o.type=='MESH' and (o.name.startswith('CAL_GROUND_MEDIAN_WORKING_ESTIMATED_') or o.name.startswith('SV_') and 'MEDIAN' in o.name)]
 assert len(roads)>0 and len(medians)>0
-pier_names={o.name for o in scene.objects if o.type=='MESH' and o.name.startswith('UNVERIFIED_Pier_')}
+pier_names={o.name for o in scene.objects if o.type=='MESH' and o.name.startswith('UNVERIFIED_Pier_') and o.name.rsplit('_',1)[-1].isdigit()}
 for folder in [root,root.parent/'PierPositions_20260923']:
  for path in folder.glob('*position_review.json'):
   rec=json.loads(path.read_text())
@@ -30,6 +30,6 @@ payload={'scene':scene.name,'roads':[export(o) for o in roads],'medians':[export
 
 text=json.dumps(payload,sort_keys=True)
 (root/'live_comparison_ground_footprints.json').write_text(text)
-manifest={'scene':scene.name,'sha256':hashlib.sha256(text.encode()).hexdigest(),'road_objects':len(roads),'median_objects':len(medians),'road_names':sorted(o.name for o in roads),'median_names':sorted(o.name for o in medians),'scope':'Model footprint audit, not surveyed traffic-lane boundaries; raw geometry retained locally.'}
+manifest={'scene':scene.name,'sha256':hashlib.sha256(text.encode()).hexdigest(),'road_objects':len(roads),'median_objects':len(medians),'pier_meshes':len(pier_names),'road_names':sorted(o.name for o in roads),'median_names':sorted(o.name for o in medians),'scope':'Model footprint audit, not surveyed traffic-lane boundaries; raw geometry retained locally.'}
 (root/'live_comparison_ground_manifest.json').write_text(json.dumps(manifest,indent=2))
 result={k:v for k,v in manifest.items() if not k.endswith('_names')}
