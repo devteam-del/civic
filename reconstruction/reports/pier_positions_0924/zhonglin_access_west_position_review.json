@@ -1,0 +1,206 @@
+{
+  "targets": [
+    {
+      "id": "ZHONGLIN_ACCESS_WEST_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_288",
+      "actual_visible_label": null,
+      "shape_note": "Round columns immediately west of parking access intersection. North and south islands separated by central drive aisle.",
+      "views": [
+        {
+          "pano": "-WmQYYv_MpykCU0KH86NHw",
+          "lat": 25.0477947,
+          "lon": 121.5224961,
+          "date": "2025-02",
+          "view_heading": 300,
+          "target_pixel_x": 707,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 308.1273473680549,
+          "camera_xy": [
+            1225.1980076243342,
+            713.6776097467827
+          ],
+          "direction": [
+            -0.7890192125261162,
+            0.6143685231721002
+          ],
+          "forward_distance_m": 33.46544826420852,
+          "perpendicular_ray_residual_m": 9.237055564881302e-14
+        },
+        {
+          "pano": "A1INyU_mtrtr7HQ7Mi628Q",
+          "lat": 25.0478391,
+          "lon": 121.5222908,
+          "date": "2025-05",
+          "view_heading": 330,
+          "target_pixel_x": 706,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 340.38885781546963,
+          "camera_xy": [
+            1204.4634665737487,
+            718.5156123693998
+          ],
+          "direction": [
+            -0.33926916362494,
+            0.9406893401188481
+          ],
+          "forward_distance_m": 16.713398073343342,
+          "perpendicular_ray_residual_m": 9.947598300641403e-14
+        },
+        {
+          "pano": "ou2ErwddbzjJ86pJUdSlnA",
+          "lat": 25.0478106,
+          "lon": 121.5227409,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 580,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 290.5376777919744,
+          "camera_xy": [
+            1249.8924570189201,
+            715.5342115747309
+          ],
+          "direction": [
+            -0.9377903306214134,
+            0.3472020964697365
+          ],
+          "forward_distance_m": 54.414358577745716,
+          "perpendicular_ray_residual_m": 0.201818221667871
+        }
+      ],
+      "candidate_model_xy": [
+        1198.793125988075,
+        734.2377277741568
+      ],
+      "intersection_angle_deg": 32.26159578918777,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.6843363312787334,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "crosscheck_note": "South primary angle 12.88 degrees and distant-view residual 0.70m; retain provisional status. North angle 32.26 degrees, residual 0.20m. Not surveyed.",
+      "original_xy": [
+        1197.7796630859375,
+        736.3148803710938
+      ],
+      "delta_xy": [
+        1.0134629021374622,
+        -2.0771525969369122
+      ],
+      "comparison_object": "SV_XY_EST_ZHONGLIN_ACCESS_WEST_NORTH_MODEL288",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "ZHONGLIN_ACCESS_WEST_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_289",
+      "actual_visible_label": "P144",
+      "shape_note": "Round columns immediately west of parking access intersection. North and south islands separated by central drive aisle.",
+      "views": [
+        {
+          "pano": "-WmQYYv_MpykCU0KH86NHw",
+          "lat": 25.0477947,
+          "lon": 121.5224961,
+          "date": "2025-02",
+          "view_heading": 300,
+          "target_pixel_x": 545,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 288.55300551732023,
+          "camera_xy": [
+            1225.1980076243342,
+            713.6776097467827
+          ],
+          "direction": [
+            -0.9492515569854669,
+            0.31451785571039825
+          ],
+          "forward_distance_m": 29.638648948798597,
+          "perpendicular_ray_residual_m": 3.552713678800501e-15
+        },
+        {
+          "pano": "A1INyU_mtrtr7HQ7Mi628Q",
+          "lat": 25.0478391,
+          "lon": 121.5222908,
+          "date": "2025-05",
+          "view_heading": 330,
+          "target_pixel_x": 444,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 301.4341632062534,
+          "camera_xy": [
+            1204.4634665737487,
+            718.5156123693998
+          ],
+          "direction": [
+            -0.855247125444142,
+            0.5182203724474097
+          ],
+          "forward_distance_m": 8.65246124874652,
+          "perpendicular_ray_residual_m": 1.7763568394002505e-15
+        },
+        {
+          "pano": "ou2ErwddbzjJ86pJUdSlnA",
+          "lat": 25.0478106,
+          "lon": 121.5227409,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 491,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 277.5158799814228,
+          "camera_xy": [
+            1249.8924570189201,
+            715.5342115747309
+          ],
+          "direction": [
+            -0.9919066773916386,
+            0.1269690645231342
+          ],
+          "forward_distance_m": 53.34928098682855,
+          "perpendicular_ray_residual_m": 0.6972169877112826
+        }
+      ],
+      "label_observation": {
+        "pano": "l3QO6stnZyRizMg6S4SqMw",
+        "date": "2024-12",
+        "note": "Label read in older panorama; primary position uses 2025 observations."
+      },
+      "candidate_model_xy": [
+        1197.0634739627415,
+        722.999494060312
+      ],
+      "intersection_angle_deg": 12.88124348788803,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 3.5289141020266683,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "crosscheck_note": "South primary angle 12.88 degrees and distant-view residual 0.70m; retain provisional status. North angle 32.26 degrees, residual 0.20m. Not surveyed.",
+      "original_xy": [
+        1197.4259033203125,
+        730.3252563476562
+      ],
+      "delta_xy": [
+        -0.36242935757104533,
+        -7.325762287344219
+      ],
+      "comparison_object": "SV_XY_EST_ZHONGLIN_ACCESS_WEST_SOUTH_MODEL289",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
