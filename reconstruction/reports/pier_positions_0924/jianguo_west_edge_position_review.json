@@ -49,6 +49,29 @@
           ],
           "forward_distance_m": 59.436890739396816,
           "perpendicular_ray_residual_m": 2.6645352591003757e-14
+        },
+        {
+          "pano": "_5Ebb39w9DkSUk1Fe2o1Jw",
+          "lat": 25.0446665,
+          "lon": 121.5361952,
+          "date": "2025-04",
+          "view_heading": 21.757081360732055,
+          "target_pixel_x": 606,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 17.612115471495116,
+          "camera_xy": [
+            2608.863765768788,
+            372.5887464412878
+          ],
+          "direction": [
+            0.2987916850833327,
+            0.9543183582668116
+          ],
+          "forward_distance_m": 18.653877704313075,
+          "perpendicular_ray_residual_m": 0.1597148111880955
         }
       ],
       "candidate_model_xy": [
@@ -76,7 +99,7 @@
     {
       "id": "JIANGUO_WEST_EDGE_SOUTH",
       "model_pier_candidate": "UNVERIFIED_Pier_107",
-      "actual_visible_label": null,
+      "actual_visible_label": "P215",
       "shape_note": "Rectangular mainline shaft at western edge of Jianguo junction. Base on landscaped median; separate from crossing viaduct.",
       "views": [
         {
@@ -122,6 +145,29 @@
           ],
           "forward_distance_m": 57.544971232175726,
           "perpendicular_ray_residual_m": 1.4654943925052066e-14
+        },
+        {
+          "pano": "_5Ebb39w9DkSUk1Fe2o1Jw",
+          "lat": 25.0446665,
+          "lon": 121.5361952,
+          "date": "2025-04",
+          "view_heading": 21.757081360732055,
+          "target_pixel_x": 755,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 35.529778490474655,
+          "camera_xy": [
+            2608.863765768788,
+            372.5887464412878
+          ],
+          "direction": [
+            0.577896182054782,
+            0.8161102883596716
+          ],
+          "forward_distance_m": 8.747264368082254,
+          "perpendicular_ray_residual_m": 0.044117001354319285
         }
       ],
       "candidate_model_xy": [
