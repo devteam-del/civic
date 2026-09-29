@@ -1,0 +1,101 @@
+{
+  "targets": [
+    {
+      "id": "WEST_BLUE_PORTAL_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_238",
+      "shape_note": "Rectangular painted shaft beside plant room; two 2025 primary views and 2024 crosscheck.",
+      "historical_label_note": "2022-03 pano MKpLQlvo9Fn0l4FHlJemYQ shows P223.23-like text; not used for primary geometry.",
+      "views": [
+        {
+          "pano": "NfN9c34laNEaExIh-8h8xA",
+          "lat": 25.0445263,
+          "lon": 121.5389795,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 790,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 82.61986494804043,
+          "camera_xy": [
+            2889.879700544925,
+            358.17571651945116
+          ],
+          "direction": [
+            0.9911961824299295,
+            0.13240138948037472
+          ],
+          "forward_distance_m": 38.85037256598265,
+          "perpendicular_ray_residual_m": 2.7533531010703882e-14
+        },
+        {
+          "pano": "10_8sJ_jZrdAqmLV7dgBCw",
+          "lat": 25.0445097,
+          "lon": 121.5393197,
+          "date": "2025-04",
+          "view_heading": 30,
+          "target_pixel_x": 650,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 31.591140271194586,
+          "camera_xy": [
+            2924.215478566747,
+            356.47379949796505
+          ],
+          "direction": [
+            0.5204545553420591,
+            0.8538893697802424
+          ],
+          "forward_distance_m": 8.017151370340049,
+          "perpendicular_ray_residual_m": 9.992007221626409e-14
+        },
+        {
+          "pano": "qlNEhY2vapGKjolnhyIrxQ",
+          "lat": 25.0444271,
+          "lon": 121.539217,
+          "date": "2024-09",
+          "view_heading": 30,
+          "target_pixel_x": 720,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 42.52880770915151,
+          "camera_xy": [
+            2913.88882576258,
+            347.28323466922984
+          ],
+          "direction": [
+            0.6730184409286312,
+            0.7396257013990215
+          ],
+          "forward_distance_m": 21.619117826778343,
+          "perpendicular_ray_residual_m": 0.06874993419906517
+        }
+      ],
+      "candidate_model_xy": [
+        2928.3880415183075,
+        363.31955982901746
+      ],
+      "intersection_angle_deg": 51.028871337009114,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.0290707803453913,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2911.93701171875,
+        361.4731750488281
+      ],
+      "delta_xy": [
+        16.451029799557546,
+        1.8463847801893394
+      ],
+      "comparison_object": "SV_XY_EST_WEST_BLUE_PORTAL_SOUTH_MODEL238",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

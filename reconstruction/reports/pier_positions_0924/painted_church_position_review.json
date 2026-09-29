@@ -1,0 +1,173 @@
+{
+  "targets": [
+    {
+      "id": "PAINTED_CHURCH_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_091",
+      "shape_note": "Rectangular shaft painted with a church, next west of west-blue portal.",
+      "views": [
+        {
+          "pano": "NfN9c34laNEaExIh-8h8xA",
+          "lat": 25.0445263,
+          "lon": 121.5389795,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 586,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 51.46923439005187,
+          "camera_xy": [
+            2889.879700544925,
+            358.17571651945116
+          ],
+          "direction": [
+            0.779786000568807,
+            0.6260461590944428
+          ],
+          "forward_distance_m": 10.581437116368868,
+          "perpendicular_ray_residual_m": 1.5987211554602254e-14
+        },
+        {
+          "pano": "10_8sJ_jZrdAqmLV7dgBCw",
+          "lat": 25.0445097,
+          "lon": 121.5393197,
+          "date": "2025-04",
+          "view_heading": 290,
+          "target_pixel_x": 627,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 287.93188437685603,
+          "camera_xy": [
+            2924.215478566747,
+            356.47379949796505
+          ],
+          "direction": [
+            -0.9526429425366562,
+            0.30409114428917733
+          ],
+          "forward_distance_m": 27.381215277910677,
+          "perpendicular_ray_residual_m": 4.529709940470639e-14
+        }
+      ],
+      "candidate_model_xy": [
+        2898.1309570741687,
+        364.80018458385325
+      ],
+      "intersection_angle_deg": 56.46250734253624,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.7198080339503591,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2876.51220703125,
+        380.2973937988281
+      ],
+      "delta_xy": [
+        21.61875004291869,
+        -15.497209214974873
+      ],
+      "comparison_object": "SV_XY_EST_PAINTED_CHURCH_SOUTH_MODEL091",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "PAINTED_CHURCH_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_090",
+      "shape_note": "Rectangular shaft; planted verge and decorative rock partly obscure base.",
+      "views": [
+        {
+          "pano": "kPznn-dd5_zfp-H7LCd-Wg",
+          "lat": 25.0447079,
+          "lon": 121.5393891,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 684,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 266.9682567413785,
+          "camera_xy": [
+            2931.1308791756005,
+            378.4555092824948
+          ],
+          "direction": [
+            -0.9983815978313999,
+            -0.05686989635669063
+          ],
+          "forward_distance_m": 32.86430862307703,
+          "perpendicular_ray_residual_m": 3.26405569239796e-14
+        },
+        {
+          "pano": "b5jqL57lbcKVNVISUHXLbA",
+          "lat": 25.0447214,
+          "lon": 121.5390806,
+          "date": "2025-02",
+          "view_heading": 190,
+          "target_pixel_x": 754,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 207.57125877832243,
+          "camera_xy": [
+            2899.9952594644574,
+            379.8267786177093
+          ],
+          "direction": [
+            -0.4593158868909041,
+            -0.888272996352823
+          ],
+          "forward_distance_m": 3.6478190530923036,
+          "perpendicular_ray_residual_m": 1.5787371410169726e-13
+        },
+        {
+          "pano": "Ct-Ijg5Hrgng6Fqbt_1fNg",
+          "lat": 25.0447174,
+          "lon": 121.5391838,
+          "date": "2025-02",
+          "view_heading": 230,
+          "target_pixel_x": 819,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 256.43758580446536,
+          "camera_xy": [
+            2910.410576840288,
+            379.4252113412067
+          ],
+          "direction": [
+            -0.971172787664042,
+            -0.23837662742151033
+          ],
+          "forward_distance_m": 12.418951821344235,
+          "perpendicular_ray_residual_m": 0.12530825501651588
+        }
+      ],
+      "candidate_model_xy": [
+        2898.3197582208686,
+        376.58651945726615
+      ],
+      "intersection_angle_deg": 59.3968642749842,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.7243694130504734,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2876.638916015625,
+        386.29608154296875
+      ],
+      "delta_xy": [
+        21.680842205243607,
+        -9.7095620857026
+      ],
+      "comparison_object": "SV_XY_EST_PAINTED_CHURCH_NORTH_MODEL090",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
