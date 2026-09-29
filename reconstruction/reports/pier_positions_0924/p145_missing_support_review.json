@@ -1,0 +1,162 @@
+{
+  "targets": [
+    {
+      "id": "LINSEN_EAST_MISSING_P145_NORTH",
+      "model_pier_candidate": null,
+      "actual_visible_label": null,
+      "shape_note": "Round portal shaft east of Linsen junction. Near panorama confirms south label P145 and circular section; north lower shaft partly screened.",
+      "views": [
+        {
+          "pano": "A1INyU_mtrtr7HQ7Mi628Q",
+          "lat": 25.0478391,
+          "lon": 121.5222908,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 643,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 60.47745377730958,
+          "camera_xy": [
+            1204.4634665737487,
+            718.5156123693998
+          ],
+          "direction": [
+            0.8682528843322974,
+            0.4961218891045286
+          ],
+          "forward_distance_m": 27.520568717715108,
+          "perpendicular_ray_residual_m": 3.019806626980426e-14
+        },
+        {
+          "pano": "ou2ErwddbzjJ86pJUdSlnA",
+          "lat": 25.0478106,
+          "lon": 121.5227409,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 690,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 307.90716270295843,
+          "camera_xy": [
+            1249.8924570189201,
+            715.5342115747309
+          ],
+          "direction": [
+            -0.7913754736138479,
+            0.611330401470807
+          ],
+          "forward_distance_m": 27.211074888653503,
+          "perpendicular_ray_residual_m": 5.329070518200751e-15
+        }
+      ],
+      "occlusion_review_pending": true,
+      "occlusion_note": "Third close panorama north counterpart is hidden behind the southern shaft and equipment.",
+      "candidate_model_xy": [
+        1228.35827974137,
+        732.1691689108636
+      ],
+      "intersection_angle_deg": 67.42951815672845,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.8604546389549307,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "geometry_template": "SV_XY_EST_WEST_VISIBLE_P147_NORTH_MODEL541",
+      "geometry_status": "Inherited template dimensions and height; pending calibration",
+      "comparison_object": "SV_ADDED_EST_LINSEN_EAST_MISSING_P145_NORTH",
+      "resolved": false
+    },
+    {
+      "id": "LINSEN_EAST_MISSING_P145_SOUTH",
+      "model_pier_candidate": null,
+      "actual_visible_label": "P145",
+      "shape_note": "Round portal shaft east of Linsen junction. Near panorama confirms south label P145 and circular section; north lower shaft partly screened.",
+      "views": [
+        {
+          "pano": "A1INyU_mtrtr7HQ7Mi628Q",
+          "lat": 25.0478391,
+          "lon": 121.5222908,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 809,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 85.14744720820818,
+          "camera_xy": [
+            1204.4634665737487,
+            718.5156123693998
+          ],
+          "direction": [
+            0.9960816703151238,
+            0.08843814822933038
+          ],
+          "forward_distance_m": 22.990389635545665,
+          "perpendicular_ray_residual_m": 2.930988785010413e-14
+        },
+        {
+          "pano": "-WmQYYv_MpykCU0KH86NHw",
+          "lat": 25.0477947,
+          "lon": 121.5224961,
+          "date": "2025-02",
+          "view_heading": 0,
+          "target_pixel_x": 755,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 17.715792706376934,
+          "camera_xy": [
+            1225.1980076243342,
+            713.6776097467827
+          ],
+          "direction": [
+            0.30061415546660253,
+            0.953745841161628
+          ],
+          "forward_distance_m": 7.204466654016277,
+          "perpendicular_ray_residual_m": 2.0872192862952943e-14
+        },
+        {
+          "pano": "ou2ErwddbzjJ86pJUdSlnA",
+          "lat": 25.0478106,
+          "lon": 121.5227409,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 529,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 282.863725496424,
+          "camera_xy": [
+            1249.8924570189201,
+            715.5342115747309
+          ],
+          "direction": [
+            -0.9757553463708469,
+            0.21886412229670849
+          ],
+          "forward_distance_m": 23.080006795050497,
+          "perpendicular_ray_residual_m": 0.037670455847433004
+        }
+      ],
+      "primary_selection_note": "Near south-side view improves intersection angle; former second view retained as crosscheck.",
+      "candidate_model_xy": [
+        1227.3637722831186,
+        720.5488398558383
+      ],
+      "intersection_angle_deg": 67.4317442867275,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.5142685178269394,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "geometry_template": "SV_XY_EST_WEST_VISIBLE_P147_SOUTH_MODEL540",
+      "geometry_status": "Inherited template dimensions and height; pending calibration",
+      "comparison_object": "SV_ADDED_EST_LINSEN_EAST_MISSING_P145_SOUTH",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

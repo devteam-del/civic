@@ -1,9 +1,9 @@
 {
   "scene": "CIVIC_PIER_XY_REVIEW_20260923",
-  "sha256": "fcdc8046a655fbccbbe4fa91ae7a6818d25d2d98fdb24e5803b7e77f797af86a",
+  "sha256": "b63d614258de3d031f982c4785a8ef23e5d87db46d769c81af52f6b762db8b61",
   "road_objects": 79,
   "median_objects": 36,
-  "pier_meshes": 256,
+  "pier_meshes": 258,
   "road_names": [
     "CAL_GROUND_ROADS_OFFICIAL_XY_1",
     "CAL_GROUND_ROADS_OFFICIAL_XY_10",
@@ -86,9 +86,7 @@
     "SV_FUXING_ROAD_EST"
   ],
   "median_names": [
-    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_1",
     "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_19",
-    "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_2",
     "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_20",
     "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_21",
     "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_22",
@@ -121,7 +119,9 @@
     "SV_SONGJIANG_JIANGUO_WEST_NORTH_MEDIAN_EST",
     "SV_SONGJIANG_JIANGUO_WEST_SOUTH_MEDIAN_EST",
     "SV_STATION_MEDIAN_OPENING_EST",
-    "SV_YANJI_MEDIAN_OPENINGS_EST"
+    "SV_YANJI_MEDIAN_OPENINGS_EST",
+    "SV_ZHONGLIN_EAST_MEDIAN_PROFILE_EST",
+    "SV_ZHONGLIN_WEST_MEDIAN_PROFILE_EST"
   ],
   "scope": "Model footprint audit, not surveyed traffic-lane boundaries; raw geometry retained locally."
 }
