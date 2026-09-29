@@ -1,0 +1,180 @@
+{
+  "targets": [
+    {
+      "id": "CHENGDE_WEST_EDGE_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_347",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "J7m6ew9iu1m9M41xP2YrIQ",
+          "lat": 25.0486667,
+          "lon": 121.5163689,
+          "date": "2024-12",
+          "view_heading": 300,
+          "target_pixel_x": 915,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 330.3768089343898,
+          "camera_xy": [
+            606.5716439917702,
+            807.8913294081023
+          ],
+          "direction": [
+            -0.49760844617887223,
+            0.8674017721283767
+          ],
+          "forward_distance_m": 23.647669466640213,
+          "perpendicular_ray_residual_m": 4.796163466380676e-14
+        },
+        {
+          "pano": "Fjv4SMBu-sf4A7kO1RmSXw",
+          "lat": 25.0489032,
+          "lon": 121.516155,
+          "date": "2025-05",
+          "view_heading": 120,
+          "target_pixel_x": 638,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 119.68169338854864,
+          "camera_xy": [
+            584.8885295536473,
+            834.0050364023792
+          ],
+          "direction": [
+            0.8706728527282582,
+            -0.49186256568480263
+          ],
+          "forward_distance_m": 11.388702826790972,
+          "perpendicular_ray_residual_m": 5.240252676230739e-14
+        }
+      ],
+      "shape_note": "Flared portal adjoining Chengde west corner and large equipment enclosures. South hidden behind enclosure from northern carriageway. Two-view provisional comparison.",
+      "candidate_model_xy": [
+        594.8043639327238,
+        828.4033598101721
+      ],
+      "intersection_angle_deg": 30.695021898611344,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.1604556023592993,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        599.1989135742188,
+        816.9893188476562
+      ],
+      "delta_xy": [
+        -4.394549641494905,
+        11.414040962515855
+      ],
+      "comparison_object": "SV_XY_EST_CHENGDE_WEST_EDGE_NORTH_MODEL347",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "CHENGDE_WEST_EDGE_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_346",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "J7m6ew9iu1m9M41xP2YrIQ",
+          "lat": 25.0486667,
+          "lon": 121.5163689,
+          "date": "2024-12",
+          "view_heading": 300,
+          "target_pixel_x": 641,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 300.1221236981633,
+          "camera_xy": [
+            606.5716439917702,
+            807.8913294081023
+          ],
+          "direction": [
+            -0.8668670419780061,
+            0.4985393981746094
+          ],
+          "forward_distance_m": 17.703067325410082,
+          "perpendicular_ray_residual_m": 2.220446049250313e-14
+        },
+        {
+          "pano": "D9e1WtrxhXvTD4cHdDKjQw",
+          "lat": 25.0486397,
+          "lon": 121.516559,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 570,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 288.9964591482505,
+          "camera_xy": [
+            625.7647323250694,
+            804.9738901708051
+          ],
+          "direction": [
+            -0.946774784655963,
+            0.32189673365794624
+          ],
+          "forward_distance_m": 36.48100319038995,
+          "perpendicular_ray_residual_m": 3.197442310920451e-14
+        },
+        {
+          "pano": "Fjv4SMBu-sf4A7kO1RmSXw",
+          "lat": 25.0489032,
+          "lon": 121.516155,
+          "date": "2025-05",
+          "view_heading": 120,
+          "target_pixel_x": 966,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 162.16258929586525,
+          "visibility_note": "Only upper shaft visible above equipment room roof; horizontal centre uncertain. Crosscheck only.",
+          "camera_xy": [
+            584.8885295536473,
+            834.0050364023792
+          ],
+          "direction": [
+            0.30994682762084336,
+            -0.9507538924704833
+          ],
+          "forward_distance_m": 18.40076704615874,
+          "perpendicular_ray_residual_m": 0.66647053993497
+        }
+      ],
+      "shape_note": "Flared portal adjoining Chengde west corner and large equipment enclosures. South hidden behind enclosure from northern carriageway. Two-view provisional comparison.",
+      "candidate_model_xy": [
+        591.2254383854545,
+        816.7170059383568
+      ],
+      "intersection_angle_deg": 11.125744170246474,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 5.945747318339169,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "crosscheck_note": "Primary ray angle only 11.1 degrees; 0.67m residual at partially visible upper shaft. Retain broad position uncertainty and unresolved status.",
+      "original_xy": [
+        598.1119995117188,
+        811.088623046875
+      ],
+      "delta_xy": [
+        -6.886561126264269,
+        5.628382891481806
+      ],
+      "comparison_object": "SV_XY_EST_CHENGDE_WEST_EDGE_SOUTH_MODEL346",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
