@@ -1,0 +1,179 @@
+{
+  "targets": [
+    {
+      "id": "STATION_ACCESS_WEST_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_519",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "PdYrpyY5JzRWty-6BTCaYw",
+          "lat": 25.0483018,
+          "lon": 121.5187415,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 734,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 314.63383097156617,
+          "camera_xy": [
+            846.1292189248173,
+            768.3888765619942
+          ],
+          "direction": [
+            -0.7143002419529915,
+            0.6998393846775829
+          ],
+          "forward_distance_m": 29.912336589306026,
+          "perpendicular_ray_residual_m": 2.6645352591003757e-14
+        },
+        {
+          "pano": "thep3S5iPBSW9exGL5CO_g",
+          "lat": 25.048353,
+          "lon": 121.5183957,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 520,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 41.56505117707799,
+          "camera_xy": [
+            811.2151037102532,
+            773.9263228457412
+          ],
+          "direction": [
+            0.6605978639408275,
+            0.7507399430940223
+          ],
+          "forward_distance_m": 20.50827998538163,
+          "perpendicular_ray_residual_m": 4.618527782440651e-14
+        }
+      ],
+      "association_note": "Provisional western side of station access opening; replaces prior unconfirmed P123 association. Visible pair is connected across the median.",
+      "crosscheck_note": "North shaft hidden by south shaft in close isUGYM view. Only two unoccluded bearings available; association and absolute position remain provisional.",
+      "candidate_model_xy": [
+        824.7628296616967,
+        789.3227077949228
+      ],
+      "intersection_angle_deg": 86.93136601373403,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.6611061228234777,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        850.4009399414062,
+        775.5531616210938
+      ],
+      "delta_xy": [
+        -25.638110279709508,
+        13.769546173829099
+      ],
+      "comparison_object": "SV_XY_EST_STATION_ACCESS_WEST_NORTH_MODEL519",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "STATION_ACCESS_WEST_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_518",
+      "actual_visible_label": "P134",
+      "views": [
+        {
+          "pano": "PdYrpyY5JzRWty-6BTCaYw",
+          "lat": 25.0483018,
+          "lon": 121.5187415,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 602,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 293.9744249916333,
+          "camera_xy": [
+            846.1292189248173,
+            768.3888765619942
+          ],
+          "direction": [
+            -0.9152783376411402,
+            0.40282200119267425
+          ],
+          "forward_distance_m": 25.424902004211695,
+          "perpendicular_ray_residual_m": 1.4210854715202004e-14
+        },
+        {
+          "pano": "thep3S5iPBSW9exGL5CO_g",
+          "lat": 25.048353,
+          "lon": 121.5183957,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 692,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 68.21920924889906,
+          "camera_xy": [
+            811.2151037102532,
+            773.9263228457412
+          ],
+          "direction": [
+            0.9271815316167191,
+            0.3746123428677634
+          ],
+          "forward_distance_m": 12.557684527169267,
+          "perpendicular_ray_residual_m": 8.881784197001252e-15
+        },
+        {
+          "pano": "isUGYM-ykX0CZ-qSQPSprA",
+          "lat": 25.0483384,
+          "lon": 121.518495,
+          "date": "2025-05",
+          "view_heading": 30,
+          "target_pixel_x": 544,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 15.068582821862446,
+          "camera_xy": [
+            821.241001656954,
+            772.3475443809076
+          ],
+          "direction": [
+            0.25627206690870447,
+            0.9666046905133145
+          ],
+          "forward_distance_m": 6.487700918439748,
+          "perpendicular_ray_residual_m": 0.04682503358276113
+        }
+      ],
+      "association_note": "Provisional western side of station access opening; replaces prior unconfirmed P123 association. Visible pair is connected across the median.",
+      "candidate_model_xy": [
+        822.8583568837136,
+        778.6305864674583
+      ],
+      "intersection_angle_deg": 45.755069641758325,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.8612266630748693,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        849.4542236328125,
+        769.6283569335938
+      ],
+      "delta_xy": [
+        -26.595866749098946,
+        9.002229533864579
+      ],
+      "comparison_object": "SV_XY_EST_STATION_ACCESS_WEST_SOUTH_MODEL518",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

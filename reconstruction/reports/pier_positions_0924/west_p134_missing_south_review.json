@@ -1,0 +1,97 @@
+{
+  "targets": [
+    {
+      "id": "WEST_P134_SOUTH",
+      "model_pier_candidate": null,
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "thep3S5iPBSW9exGL5CO_g",
+          "lat": 25.048353,
+          "lon": 121.5183957,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 606,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 294.60473543178693,
+          "camera_xy": [
+            811.2151037102532,
+            773.9263228457412
+          ],
+          "direction": [
+            -0.9107905496713031,
+            0.41286871355122734
+          ],
+          "forward_distance_m": 23.063734392482175,
+          "perpendicular_ray_residual_m": 2.1316282072803006e-14
+        },
+        {
+          "pano": "dT6rsCF6QU3LC81ufbpmZQ",
+          "lat": 25.0484129,
+          "lon": 121.5179998,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 779,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 81.11212874260254,
+          "camera_xy": [
+            771.2420746727665,
+            780.4081607348991
+          ],
+          "direction": [
+            0.9873937367612685,
+            0.15828331751836297
+          ],
+          "forward_distance_m": 19.208950803047937,
+          "perpendicular_ray_residual_m": 1.1546319456101628e-14
+        },
+        {
+          "pano": "isUGYM-ykX0CZ-qSQPSprA",
+          "lat": 25.0483384,
+          "lon": 121.518495,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 555,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 289.7308616648192,
+          "camera_xy": [
+            821.241001656954,
+            772.3475443809076
+          ],
+          "direction": [
+            -0.9425758989090917,
+            0.33399202804216443
+          ],
+          "forward_distance_m": 32.957806965455745,
+          "perpendicular_ray_residual_m": 0.09911989584957404
+        }
+      ],
+      "shape_note": "Portal above planted area and skylight/equipment enclosure west of P134. Section profile and dimensions pending.",
+      "candidate_model_xy": [
+        790.2088723854514,
+        783.4486171940525
+      ],
+      "intersection_angle_deg": 33.492438609841145,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.2807237153899362,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "geometry_template": "SV_XY_EST_WEST_P134_NORTH_MODEL310",
+      "association_note": "Legacy 311 absent. Observed south shaft added separately; no claim of exact survey position or dimensions.",
+      "comparison_object": "SV_ADDED_EST_WEST_P134_SOUTH",
+      "resolved": false,
+      "geometry_status": "Inherited template dimensions and height; pending calibration"
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
