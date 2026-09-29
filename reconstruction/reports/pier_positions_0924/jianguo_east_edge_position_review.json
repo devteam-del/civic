@@ -1,0 +1,239 @@
+{
+  "targets": [
+    {
+      "id": "JIANGUO_EAST_EDGE_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_102",
+      "actual_visible_label": null,
+      "shape_note": "Rectangular mainline shaft on east side of Jianguo junction, beside landscaped median and underground facility wall. Legacy association provisional.",
+      "views": [
+        {
+          "pano": "6jlQJ82IUGt51X7XGj-AlQ",
+          "lat": 25.0447917,
+          "lon": 121.5376728,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 702,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 269.77174735202084,
+          "camera_xy": [
+            2757.908142918295,
+            387.0483415898538
+          ],
+          "direction": [
+            -0.9999683369719674,
+            -0.007957704035577905
+          ],
+          "forward_distance_m": 58.54275154972729,
+          "perpendicular_ray_residual_m": 1.4210854715202004e-14
+        },
+        {
+          "pano": "C0ErFunaxlWpr9M3Oo4Hyg",
+          "lat": 25.0446099,
+          "lon": 121.5372814,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 745,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 316.26020470831196,
+          "camera_xy": [
+            2718.49333276374,
+            366.7542157334148
+          ],
+          "direction": [
+            -0.6942480385974165,
+            0.719735827164134
+          ],
+          "forward_distance_m": 27.549357997508917,
+          "perpendicular_ray_residual_m": 6.927791673660977e-14
+        },
+        {
+          "pano": "Y3YXY7-SlZ5-QFp9zNLfSA",
+          "lat": 25.0446354,
+          "lon": 121.536824,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 624,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 57.455195620186906,
+          "camera_xy": [
+            2672.3274571618763,
+            369.3955361544411
+          ],
+          "direction": [
+            0.840829901178442,
+            0.5412994340328202
+          ],
+          "forward_distance_m": 32.039142792225334,
+          "perpendicular_ray_residual_m": 0.18532917889612044
+        },
+        {
+          "pano": "2CaEpfc91kckgtSG76-XUA",
+          "lat": 25.0448022,
+          "lon": 121.5374745,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 692,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 268.21920924889906,
+          "camera_xy": [
+            2737.893776716177,
+            388.13187783864566
+          ],
+          "direction": [
+            -0.9993856986414084,
+            -0.035046046153940566
+          ],
+          "forward_distance_m": 38.55716522493255,
+          "perpendicular_ray_residual_m": 0.19824773086528258
+        }
+      ],
+      "candidate_model_xy": [
+        2699.3672450093513,
+        386.5824756995927
+      ],
+      "intersection_angle_deg": 46.48862181360749,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.0059264698591948,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2665.158203125,
+        392.85284423828125
+      ],
+      "delta_xy": [
+        34.209041884351336,
+        -6.270368538688558
+      ],
+      "comparison_object": "SV_XY_EST_JIANGUO_EAST_EDGE_NORTH_MODEL102",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "JIANGUO_EAST_EDGE_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_103",
+      "actual_visible_label": null,
+      "shape_note": "Rectangular mainline shaft on east side of Jianguo junction, beside landscaped median and underground facility wall. Legacy association provisional.",
+      "views": [
+        {
+          "pano": "6jlQJ82IUGt51X7XGj-AlQ",
+          "lat": 25.0447917,
+          "lon": 121.5376728,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 630,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 258.4088597288054,
+          "camera_xy": [
+            2757.908142918295,
+            387.0483415898538
+          ],
+          "direction": [
+            -0.9788001129793159,
+            -0.20481781863812148
+          ],
+          "forward_distance_m": 60.218947871143754,
+          "perpendicular_ray_residual_m": 4.085620730620576e-14
+        },
+        {
+          "pano": "C0ErFunaxlWpr9M3Oo4Hyg",
+          "lat": 25.0446099,
+          "lon": 121.5372814,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 592,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 292.40535663140855,
+          "camera_xy": [
+            2718.49333276374,
+            366.7542157334148
+          ],
+          "direction": [
+            -0.9260167342781168,
+            0.3774824603036433
+          ],
+          "forward_distance_m": 21.087634923183842,
+          "perpendicular_ray_residual_m": 8.260059303211165e-14
+        },
+        {
+          "pano": "Y3YXY7-SlZ5-QFp9zNLfSA",
+          "lat": 25.0446354,
+          "lon": 121.536824,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 763,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 78.86358755562412,
+          "camera_xy": [
+            2672.3274571618763,
+            369.3955361544411
+          ],
+          "direction": [
+            0.9803960409627994,
+            0.19703705962196222
+          ],
+          "forward_distance_m": 27.16417402671673,
+          "perpendicular_ray_residual_m": 0.034126092031595334
+        },
+        {
+          "pano": "2CaEpfc91kckgtSG76-XUA",
+          "lat": 25.0448022,
+          "lon": 121.5374745,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 585,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 251.31364541876334,
+          "camera_xy": [
+            2737.893776716177,
+            388.13187783864566
+          ],
+          "direction": [
+            -0.9460063833225365,
+            -0.3241479950778875
+          ],
+          "forward_distance_m": 41.175325590577884,
+          "perpendicular_ray_residual_m": 0.07457725108521096
+        }
+      ],
+      "candidate_model_xy": [
+        2698.965829938524,
+        374.71442804620335
+      ],
+      "intersection_angle_deg": 33.99666191591418,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.5986807205285114,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2664.860107421875,
+        386.8603210449219
+      ],
+      "delta_xy": [
+        34.105722516649166,
+        -12.145892998718523
+      ],
+      "comparison_object": "SV_XY_EST_JIANGUO_EAST_EDGE_SOUTH_MODEL103",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
