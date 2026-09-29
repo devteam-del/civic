@@ -1,0 +1,22 @@
+{
+  "name": "SV_HUAISHENG_PROFILE_MEDIAN_EST",
+  "source_object": "SV_HUAISHENG_UTURN_MEDIAN_EST",
+  "z_min": 0,
+  "z_max": 0.18,
+  "source_records": [
+    "huaisheng_footbridge_position_review.json",
+    "huaisheng_west_position_review.json",
+    "huaisheng_position_review.json",
+    "antong_west_position_review.json"
+  ],
+  "sources": [
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=D93ruj14fi2oZZ0vJUEfBw&heading=60&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=eV_i_SzovWajM8hzjh1XTw&heading=220&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=prIvsXdMJmC7MzOTUvY5jg&heading=300&pitch=0&fov=90"
+  ],
+  "existence_status": "Ground views show the paired shafts supported within planted/equipment islands; earlier GIS median edge left south shafts outside.",
+  "width_status": "Outer edges use provisional 2m centre-to-curb allowances; this does not independently validate pier clearance. Detailed curb survey remains pending.",
+  "opening_preserved": true,
+  "added_area_m2": 408.42167831612915,
+  "survey_verified": false
+}
