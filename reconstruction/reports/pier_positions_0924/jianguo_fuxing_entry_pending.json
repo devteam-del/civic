@@ -1,0 +1,18 @@
+{
+  "status": "Pending ramp geometry and shaft-section calibration",
+  "source_pano": "XrffEieanJBacXdxbKxAXg",
+  "date": "2025-02",
+  "visible_entrance_label": "Jianguo-Fuxing / 建國－復興",
+  "supports": [
+    "SV_XY_EST_WEST_PORTAL_NORTH_MODEL082",
+    "SV_XY_EST_WEST_PORTAL_SOUTH_MODEL083"
+  ],
+  "observed_features": [
+    "Vehicle entry descends between portal supports",
+    "North-side stair entrance beside surface roadway",
+    "Portal crossbeam curved soffit",
+    "Keep ramp void separate from planted median"
+  ],
+  "warning": "Do not clear road-mask overlaps by filling the ramp opening. Existing shaft proxies are not calibrated rectangular sections.",
+  "resolved": false
+}

@@ -1,0 +1,65 @@
+{
+  "p240_p241_checks": [
+    {
+      "pier": "UNVERIFIED_Pier_658",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_659",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "P241_NORTH",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "P241_SOUTH",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    }
+  ],
+  "p240_p241_openings": {
+    "footprint": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            3523.0,
+            350.0
+          ],
+          [
+            3523.0,
+            480.0
+          ],
+          [
+            3508.0,
+            480.0
+          ],
+          [
+            3508.0,
+            350.0
+          ],
+          [
+            3523.0,
+            350.0
+          ]
+        ]
+      ]
+    },
+    "status": "Proportional U-turn gap between observed P240 and P241. Endpoints3508-3523 are estimates, not surveyed.",
+    "panos": [
+      "Muuuf5-YifGP09BhFsX-tQ",
+      "jkqZVAL68EL_J3q7M0ZItQ",
+      "KafJiQnwhzpKAS2IHVcMwQ"
+    ],
+    "satellite_context": "No independent satellite curb measurement; bridge deck occludes curbs."
+  },
+  "assumptions": "Street View establishes parking ramp, planted strips and Yanji through crossing. Curbs offset2m from estimated shafts, ramp inner walls offset2.3m, opening endpoints and crossing widths are proportional assumptions awaiting independent curb picks. Existing holes retained. This is not surveyed and model clearance is not field verification. Additional ramp-east curb envelope uses2m shaft offsets based on visible planted strip proportions. Preserve prior local crossing and existing holes. Not independent field clearance proof. Additional ramp-east curb envelope uses2m shaft offsets based on visible planted strip proportions. Preserve prior local crossing and existing holes. Not independent field clearance proof. Fudun west profile uses2m shaft offsets; existing parking ramp holes retained; crossing/turning gaps remain proportional estimates. P240/P241 local profile uses2m shaft offsets; existing ramp holes retained; U-turn boundaries remain proportional estimates."
+}

@@ -1,0 +1,266 @@
+{
+  "targets": [
+    {
+      "id": "DUNHUA_WEST_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_441",
+      "target": "West edge of Dunhua intersection, east of sculpture; own label unread; no model association yet",
+      "views": [
+        {
+          "pano": "SZqEPEzJAb3DnwU1bIR4jA",
+          "lat": 25.0447803,
+          "lon": 121.5486804,
+          "date": "2025-01",
+          "heading": 293.5,
+          "camera_xy": [
+            3868.6515930070395,
+            390.2449100703004
+          ],
+          "direction": [
+            -0.9186696113716372,
+            0.3950267650960945
+          ],
+          "forward_distance_m": 19.595563942106224,
+          "perpendicular_ray_residual_m": 6.217248937900877e-14
+        },
+        {
+          "pano": "p6Nzhctd0Mr5qxprGn2BzA",
+          "lat": 25.0448037,
+          "lon": 121.5485504,
+          "date": "2025-05",
+          "heading": 317.1,
+          "camera_xy": [
+            3855.523231094302,
+            392.7836421270469
+          ],
+          "direction": [
+            -0.6836853276791023,
+            0.7297769335326504
+          ],
+          "forward_distance_m": 7.128260621167864,
+          "perpendicular_ray_residual_m": 1.0835776720341528e-13
+        }
+      ],
+      "candidate_model_xy": [
+        3850.6497438957367,
+        397.98568230458426
+      ],
+      "intersection_angle_deg": 23.600053523022613,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.249423285417552,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3890.34033203125,
+        403.7281494140625
+      ],
+      "delta_xy": [
+        -39.69058813551328,
+        -5.742467109478241
+      ],
+      "comparison_object": "SV_XY_EST_DUNHUA_WEST_SOUTH_MODEL441",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "DUNHUA_WEST_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_440",
+      "target": "West edge of Dunhua intersection, east of sculpture; own label unread; no model association yet",
+      "views": [
+        {
+          "pano": "SZqEPEzJAb3DnwU1bIR4jA",
+          "lat": 25.0447803,
+          "lon": 121.5486804,
+          "date": "2025-01",
+          "heading": 318.5,
+          "camera_xy": [
+            3868.6515930070395,
+            390.2449100703004
+          ],
+          "direction": [
+            -0.6656519156069273,
+            0.746262371588457
+          ],
+          "forward_distance_m": 24.963035684639166,
+          "perpendicular_ray_residual_m": 1.8474111129762605e-13
+        },
+        {
+          "pano": "p6Nzhctd0Mr5qxprGn2BzA",
+          "lat": 25.0448037,
+          "lon": 121.5485504,
+          "date": "2025-05",
+          "heading": 348,
+          "camera_xy": [
+            3855.523231094302,
+            392.7836421270469
+          ],
+          "direction": [
+            -0.2118758426124463,
+            0.9772965912747603
+          ],
+          "forward_distance_m": 16.464031798506532,
+          "perpendicular_ray_residual_m": 2.2737367544323206e-13
+        }
+      ],
+      "candidate_model_xy": [
+        3852.0349004841955,
+        408.87388428236665
+      ],
+      "intersection_angle_deg": 29.500053928490548,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.522831391743925,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3891.017822265625,
+        409.6898193359375
+      ],
+      "delta_xy": [
+        -38.98292178142947,
+        -0.815935053570854
+      ],
+      "comparison_object": "SV_XY_EST_DUNHUA_WEST_NORTH_MODEL440",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "DUNHUA_EAST_SOUTH",
+      "actual_visible_label": "P252",
+      "model_pier_candidate": "UNVERIFIED_Pier_439",
+      "target": "East edge of Dunhua intersection, at beginning of raised ramp; own label unread",
+      "views": [
+        {
+          "pano": "SZqEPEzJAb3DnwU1bIR4jA",
+          "lat": 25.0447803,
+          "lon": 121.5486804,
+          "date": "2025-01",
+          "heading": 92.3,
+          "camera_xy": [
+            3868.6515930070395,
+            390.2449100703004
+          ],
+          "direction": [
+            0.9993489271712646,
+            -0.036079381392182384
+          ],
+          "forward_distance_m": 60.88067962147438,
+          "perpendicular_ray_residual_m": 2.1316282072803006e-14
+        },
+        {
+          "pano": "GbJKRc8OwOpiB_OT3Pcgyg",
+          "lat": 25.0447164,
+          "lon": 121.5491165,
+          "date": "2025-05",
+          "heading": 74.6,
+          "camera_xy": [
+            3912.685672919916,
+            383.34549372916047
+          ],
+          "direction": [
+            0.9630096826731303,
+            0.2694667903059615
+          ],
+          "forward_distance_m": 17.45253682771734,
+          "perpendicular_ray_residual_m": 4.529709940470639e-14
+        }
+      ],
+      "candidate_model_xy": [
+        3929.4926348722174,
+        388.048372810822
+      ],
+      "intersection_angle_deg": 17.700185270189724,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 5.019307414476779,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3925.18896484375,
+        399.769287109375
+      ],
+      "delta_xy": [
+        4.3036700284674225,
+        -11.720914298552998
+      ],
+      "comparison_object": "SV_XY_EST_DUNHUA_EAST_SOUTH_MODEL439",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false,
+      "label_observation": {
+        "pano": "9qXinbwjRCQlWqaTDpGXyg",
+        "lat": 25.0446858,
+        "lon": 121.5492392,
+        "date": "2025-04",
+        "heading": 88,
+        "note": "P252 clearly visible on east junction south shaft, left foreground; not a triangulation view for this target"
+      }
+    },
+    {
+      "id": "DUNHUA_EAST_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_438",
+      "target": "East edge of Dunhua intersection, at beginning of raised ramp; own label unread",
+      "views": [
+        {
+          "pano": "SZqEPEzJAb3DnwU1bIR4jA",
+          "lat": 25.0447803,
+          "lon": 121.5486804,
+          "date": "2025-01",
+          "heading": 82.1,
+          "camera_xy": [
+            3868.6515930070395,
+            390.2449100703004
+          ],
+          "direction": [
+            0.9899439311187325,
+            0.14146028856605064
+          ],
+          "forward_distance_m": 63.67731066588226,
+          "perpendicular_ray_residual_m": 0.0
+        },
+        {
+          "pano": "GbJKRc8OwOpiB_OT3Pcgyg",
+          "lat": 25.0447164,
+          "lon": 121.5491165,
+          "date": "2025-05",
+          "heading": 50.3,
+          "camera_xy": [
+            3912.685672919916,
+            383.34549372916047
+          ],
+          "direction": [
+            0.7668007104885638,
+            0.641885247060745
+          ],
+          "forward_distance_m": 24.782041892825024,
+          "perpendicular_ray_residual_m": 1.7763568394002505e-14
+        }
+      ],
+      "candidate_model_xy": [
+        3931.688560250692,
+        399.2527208122062
+      ],
+      "intersection_angle_deg": 31.800186034582218,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 3.0224637843102555,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3925.86572265625,
+        405.73095703125
+      ],
+      "delta_xy": [
+        5.822837594441808,
+        -6.478236219043822
+      ],
+      "comparison_object": "SV_XY_EST_DUNHUA_EAST_NORTH_MODEL438",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks",
+  "association_note": "Provisional ordered correspondence: P250 comparison, west junction edge pair 441/440, east junction edge pair 439/438. Original 441/440 lie in the intersection. No actual pier labels read for junction pairs. Later close view confirms east south shaft P252; west labels still unread."
+}

@@ -1,0 +1,105 @@
+{
+  "status": "XY comparisons saved; not full reconstruction completion",
+  "observed_variants": [
+    {
+      "objects": [
+        "SV_XY_EST_HUAISHENG_FOOTBRIDGE_NORTH_MODEL078",
+        "SV_XY_EST_HUAISHENG_FOOTBRIDGE_SOUTH_MODEL079"
+      ],
+      "shape": "Rectangular shafts joined by portal crossbeam",
+      "source_panos": [
+        "eV_i_SzovWajM8hzjh1XTw",
+        "D93ruj14fi2oZZ0vJUEfBw",
+        "4Ucq9xiovJvNR2OeItBkag"
+      ],
+      "next_step": "Replace inherited cylinder proxies and calibrate cap after corridor XY stage; do not assume structural dimensions."
+    }
+  ],
+  "model_mask_checks": [
+    {
+      "pier": "UNVERIFIED_Pier_074",
+      "xy": [
+        3162.9060571974082,
+        374.11575466617774
+      ],
+      "original_suspect": true,
+      "streetview_xy_comparison": true,
+      "road_outside_comparison_median_m2": 0.0,
+      "model_mask_clear": true,
+      "median_opening_overlap_m2": 0.0,
+      "real_world_verified": false,
+      "resolved": false
+    },
+    {
+      "pier": "UNVERIFIED_Pier_075",
+      "xy": [
+        3163.888164053075,
+        361.5298983229785
+      ],
+      "original_suspect": true,
+      "streetview_xy_comparison": true,
+      "road_outside_comparison_median_m2": 3.105584904551506,
+      "model_mask_clear": false,
+      "median_opening_overlap_m2": 0.0,
+      "real_world_verified": false,
+      "resolved": false
+    },
+    {
+      "pier": "UNVERIFIED_Pier_078",
+      "xy": [
+        3093.37430609293,
+        369.0847754498375
+      ],
+      "original_suspect": true,
+      "streetview_xy_comparison": true,
+      "road_outside_comparison_median_m2": 0.0,
+      "model_mask_clear": true,
+      "median_opening_overlap_m2": 0.0,
+      "real_world_verified": false,
+      "resolved": false
+    },
+    {
+      "pier": "UNVERIFIED_Pier_079",
+      "xy": [
+        3093.5425642125533,
+        357.13730583333256
+      ],
+      "original_suspect": true,
+      "streetview_xy_comparison": true,
+      "road_outside_comparison_median_m2": 3.105584904551506,
+      "model_mask_clear": false,
+      "median_opening_overlap_m2": 0.0,
+      "real_world_verified": false,
+      "resolved": false
+    },
+    {
+      "pier": "UNVERIFIED_Pier_250",
+      "xy": [
+        3128.9017124098427,
+        358.56972768687234
+      ],
+      "original_suspect": true,
+      "streetview_xy_comparison": true,
+      "road_outside_comparison_median_m2": 3.105584904551506,
+      "model_mask_clear": false,
+      "median_opening_overlap_m2": 0.0,
+      "real_world_verified": false,
+      "resolved": false
+    },
+    {
+      "pier": "UNVERIFIED_Pier_251",
+      "xy": [
+        3127.8114636598098,
+        370.6725292439993
+      ],
+      "original_suspect": false,
+      "streetview_xy_comparison": true,
+      "road_outside_comparison_median_m2": 0.0,
+      "model_mask_clear": true,
+      "median_opening_overlap_m2": 0.0,
+      "real_world_verified": false,
+      "resolved": false
+    }
+  ],
+  "limitations": "Street View bearings are proportional estimates, not surveyed positions. Shaft dimensions, footing extents, cap heights and road-edge/opening alignment remain pending."
+}

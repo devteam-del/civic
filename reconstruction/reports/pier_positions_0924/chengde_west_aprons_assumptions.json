@@ -1,0 +1,45 @@
+{
+  "patches": [
+    {
+      "name": "SV_CHENGDE_WEST_NORTH_MEDIAN_APRON_EST",
+      "z_min": 0.0,
+      "z_max": 0.18,
+      "estimated_width_m": 3.6,
+      "source_records": [
+        "p126_position_review.json",
+        "chengde_west_edge_position_review.json"
+      ],
+      "source_piers": [
+        "SV_XY_EST_P126_NORTH_MODEL345",
+        "SV_XY_EST_CHENGDE_WEST_EDGE_NORTH_MODEL347"
+      ],
+      "width_status": "Provisional 3.6m outer apron strips around observed shafts, not a survey of the entire courtyard.",
+      "existence_evidence": "2025-05 north-side views show shafts on planted/gravel raised ground beside equipment structures. South base is partly obscured by ramps and equipment.",
+      "scope": "Only exterior strips added; central Y9/equipment/entry zone and Chengde road crossing left untouched.",
+      "survey_verified": false
+    },
+    {
+      "name": "SV_CHENGDE_WEST_SOUTH_MEDIAN_APRON_EST",
+      "z_min": 0.0,
+      "z_max": 0.18,
+      "estimated_width_m": 3.6,
+      "source_records": [
+        "p126_position_review.json",
+        "chengde_west_edge_position_review.json"
+      ],
+      "source_piers": [
+        "SV_XY_EST_P126_SOUTH_MODEL344",
+        "SV_XY_EST_CHENGDE_WEST_EDGE_SOUTH_MODEL346"
+      ],
+      "width_status": "Provisional 3.6m outer apron strips around observed shafts, not a survey of the entire courtyard.",
+      "existence_evidence": "2025-05 north-side views show shafts on planted/gravel raised ground beside equipment structures. South base is partly obscured by ramps and equipment.",
+      "scope": "Only exterior strips added; central Y9/equipment/entry zone and Chengde road crossing left untouched.",
+      "survey_verified": false
+    }
+  ],
+  "sources": [
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=ip38ubFy0LGqZwVEY0ZJyQ&heading=210&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=Fjv4SMBu-sf4A7kO1RmSXw&heading=120&pitch=0&fov=90"
+  ],
+  "date": "2025-05"
+}

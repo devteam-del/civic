@@ -1,0 +1,114 @@
+{
+  "fudun_west_checks": [
+    {
+      "pier": "UNVERIFIED_Pier_460",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "WEST243_SOUTH",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_459",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_458",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_726",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_727",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_728",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_729",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    }
+  ],
+  "fudun_west_openings": {
+    "footprint": {
+      "type": "MultiPolygon",
+      "coordinates": [
+        [
+          [
+            [
+              3600.0,
+              350.0
+            ],
+            [
+              3600.0,
+              480.0
+            ],
+            [
+              3616.0,
+              480.0
+            ],
+            [
+              3616.0,
+              350.0
+            ],
+            [
+              3600.0,
+              350.0
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              3630.0,
+              350.0
+            ],
+            [
+              3630.0,
+              480.0
+            ],
+            [
+              3644.0,
+              480.0
+            ],
+            [
+              3644.0,
+              350.0
+            ],
+            [
+              3630.0,
+              350.0
+            ]
+          ]
+        ]
+      ]
+    },
+    "status": "Proportional crossing and turning gaps inferred from views around P243-P245. Boundaries are NOT surveyed.",
+    "panos": [
+      "ZSfVnofhfQk6MkCSSPibKQ",
+      "V1Ms-Pwo1NGzX82d62EMhA"
+    ],
+    "satellite_context": "North Bade Rd Sec2 Lane366 and south Civic Blvd Sec4 Lane48; bridge deck obscures actual underbridge curbs."
+  },
+  "assumptions": "Street View establishes parking ramp, planted strips and Yanji through crossing. Curbs offset2m from estimated shafts, ramp inner walls offset2.3m, opening endpoints and crossing widths are proportional assumptions awaiting independent curb picks. Existing holes retained. This is not surveyed and model clearance is not field verification. Additional ramp-east curb envelope uses2m shaft offsets based on visible planted strip proportions. Preserve prior local crossing and existing holes. Not independent field clearance proof. Additional ramp-east curb envelope uses2m shaft offsets based on visible planted strip proportions. Preserve prior local crossing and existing holes. Not independent field clearance proof. Fudun west profile uses2m shaft offsets; existing parking ramp holes retained; crossing/turning gaps remain proportional estimates."
+}

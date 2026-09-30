@@ -1,0 +1,19 @@
+{
+  "patches": [
+    {
+      "object": "SV_ZHONGLIN_WEST_MEDIAN_PROFILE_EST",
+      "manifold": true,
+      "volume_m3": 298.55423829547453,
+      "ramp_hole_fill_m2": 0.0
+    },
+    {
+      "object": "SV_ZHONGLIN_EAST_MEDIAN_PROFILE_EST",
+      "manifold": true,
+      "volume_m3": 380.57563049731124,
+      "ramp_hole_fill_m2": 0.0
+    }
+  ],
+  "originals_preserved": true,
+  "junction_gap_preserved": true,
+  "survey_verified": false
+}

@@ -1,0 +1,175 @@
+{
+  "targets": [
+    {
+      "id": "P270_SOUTH",
+      "actual_visible_label": "P270",
+      "model_pier_candidate": "UNVERIFIED_Pier_401",
+      "target": "P270 rectangular pair between louvred equipment enclosure and solid equipment wall. Southern second view exposes upper shaft only; lower shaft obscured.",
+      "observed_shape": "Rectangular, XY comparison only; southern center picking uncertainty elevated due wall occlusion.",
+      "views": [
+        {
+          "pano": "sWeNHAoBxYYOT6Z0QPGsfw",
+          "lat": 25.0445964,
+          "lon": 121.555714,
+          "date": "2025-04",
+          "view_heading": 350,
+          "target_pixel_x": 780,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 11.250505507133255,
+          "camera_xy": [
+            4578.471934295989,
+            372.7717307180026
+          ],
+          "direction": [
+            0.19106889709851546,
+            0.9815766279621562
+          ],
+          "forward_distance_m": 4.884064302343606,
+          "perpendicular_ray_residual_m": 4.376499163072367e-13
+        },
+        {
+          "pano": "TJg9yTUPo5P2q025UeOPtg",
+          "lat": 25.0446152,
+          "lon": 121.5558121,
+          "date": "2025-04",
+          "view_heading": 310,
+          "target_pixel_x": 486,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 286.8398372334491,
+          "camera_xy": [
+            4588.362335935314,
+            374.8947943852649
+          ],
+          "direction": [
+            -0.9583003172986135,
+            0.2857630169657658
+          ],
+          "forward_distance_m": 9.346974740619608,
+          "perpendicular_ray_residual_m": 1.021405182655144e-13
+        },
+        {
+          "pano": "GbLbS8eHqnLUAofhLPU6wA",
+          "lat": 25.0447999,
+          "lon": 121.5557105,
+          "date": "2025-01",
+          "view_heading": 210,
+          "target_pixel_x": 394,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 175.65390259993848,
+          "camera_xy": [
+            4578.026177921494,
+            395.3111721823032
+          ],
+          "direction": [
+            0.07987576929412432,
+            -0.9968048261719402
+          ],
+          "forward_distance_m": 17.798803216400533,
+          "perpendicular_ray_residual_m": 0.04288095743567322
+        }
+      ],
+      "candidate_model_xy": [
+        4579.405127075596,
+        377.56581408664726
+      ],
+      "intersection_angle_deg": 84.4107072099242,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.1954879269270679,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4586.74462890625,
+        390.8940734863281
+      ],
+      "delta_xy": [
+        -7.339501830653717,
+        -13.32825939968086
+      ],
+      "comparison_object": "SV_XY_EST_P270_SOUTH_MODEL401",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "P270_NORTH",
+      "actual_visible_label": "P270",
+      "model_pier_candidate": "UNVERIFIED_Pier_400",
+      "target": "P270 rectangular pair between louvred equipment enclosure and solid equipment wall. Southern second view exposes upper shaft only; lower shaft obscured.",
+      "observed_shape": "Rectangular, XY comparison only; southern center picking uncertainty elevated due wall occlusion.",
+      "views": [
+        {
+          "pano": "yQrFxNtWdgpvq7SCoSHDKg",
+          "lat": 25.0447812,
+          "lon": 121.5556117,
+          "date": "2025-01",
+          "view_heading": 140,
+          "target_pixel_x": 440,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 110.94539590092285,
+          "camera_xy": [
+            4568.065109585804,
+            393.1989022365939
+          ],
+          "direction": [
+            0.9353816585132688,
+            -0.353639863303003
+          ],
+          "forward_distance_m": 9.193922141887558,
+          "perpendicular_ray_residual_m": 1.6253665080512292e-13
+        },
+        {
+          "pano": "GbLbS8eHqnLUAofhLPU6wA",
+          "lat": 25.0447999,
+          "lon": 121.5557105,
+          "date": "2025-01",
+          "view_heading": 210,
+          "target_pixel_x": 540,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 194.47588900324575,
+          "camera_xy": [
+            4578.026177921494,
+            395.3111721823032
+          ],
+          "direction": [
+            -0.24599362217199336,
+            -0.9692714469387317
+          ],
+          "forward_distance_m": 5.533648321246978,
+          "perpendicular_ray_residual_m": 3.7614356074300304e-13
+        }
+      ],
+      "candidate_model_xy": [
+        4576.664935727124,
+        389.94756486711816
+      ],
+      "intersection_angle_deg": 83.53045355180294,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.20128719006837267,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4585.45361328125,
+        396.75360107421875
+      ],
+      "delta_xy": [
+        -8.78867755412557,
+        -6.80603620710059
+      ],
+      "comparison_object": "SV_XY_EST_P270_NORTH_MODEL400",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

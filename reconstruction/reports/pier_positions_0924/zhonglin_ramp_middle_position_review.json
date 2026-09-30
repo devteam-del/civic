@@ -1,0 +1,201 @@
+{
+  "targets": [
+    {
+      "id": "ZHONGLIN_RAMP_MIDDLE_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_535",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "FBm0naUGS3veHnmYKONp2Q",
+          "lat": 25.047858,
+          "lon": 121.5214724,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 570,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 48.996459148250494,
+          "camera_xy": [
+            1121.8757473968765,
+            720.2905078414854
+          ],
+          "direction": [
+            0.7521342724339717,
+            0.6590098908439994
+          ],
+          "forward_distance_m": 25.62574490821416,
+          "perpendicular_ray_residual_m": 1.7763568394002505e-15
+        },
+        {
+          "pano": "Yj32lueoQW2qFEYenoBAMQ",
+          "lat": 25.0478357,
+          "lon": 121.5218804,
+          "date": "2025-02",
+          "view_heading": 280,
+          "target_pixel_x": 927,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 311.45538164545803,
+          "camera_xy": [
+            1163.0540093869615,
+            717.9791913062509
+          ],
+          "direction": [
+            -0.7520199351345711,
+            0.6591403622599632
+          ],
+          "forward_distance_m": 29.127234484877246,
+          "perpendicular_ray_residual_m": 1.4210854715202004e-14
+        },
+        {
+          "pano": "SBu9uXniGhP4O-HNyevkIw",
+          "lat": 25.0478565,
+          "lon": 121.5215839,
+          "date": "2025-02",
+          "view_heading": 30,
+          "target_pixel_x": 612,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 25.55261514990951,
+          "camera_xy": [
+            1133.1271567595074,
+            720.1677332140413
+          ],
+          "direction": [
+            0.42785804335533295,
+            0.9038459463515593
+          ],
+          "forward_distance_m": 18.807306008166517,
+          "perpendicular_ray_residual_m": 0.02684695334401699
+        }
+      ],
+      "shape_note": "Round pair beside ramp retaining walls; preserve opening, do not fill ramp to clear mask overlap.",
+      "candidate_model_xy": [
+        1141.1497483989947,
+        737.1781271962437
+      ],
+      "intersection_angle_deg": 82.45874993094485,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.7260710037617517,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        1138.1243896484375,
+        727.7431030273438
+      ],
+      "delta_xy": [
+        3.0253587505571886,
+        9.435024168899986
+      ],
+      "comparison_object": "SV_XY_EST_ZHONGLIN_RAMP_MIDDLE_NORTH_MODEL535",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "ZHONGLIN_RAMP_MIDDLE_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_534",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "FBm0naUGS3veHnmYKONp2Q",
+          "lat": 25.047858,
+          "lon": 121.5214724,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 731,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 74.18593817503458,
+          "camera_xy": [
+            1121.8757473968765,
+            720.2905078414854
+          ],
+          "direction": [
+            0.9610935026433828,
+            0.2762232415577551
+          ],
+          "forward_distance_m": 19.095984130304192,
+          "perpendicular_ray_residual_m": 2.6645352591003757e-14
+        },
+        {
+          "pano": "Yj32lueoQW2qFEYenoBAMQ",
+          "lat": 25.0478357,
+          "lon": 121.5218804,
+          "date": "2025-02",
+          "view_heading": 280,
+          "target_pixel_x": 711,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 288.6054979101307,
+          "camera_xy": [
+            1163.0540093869615,
+            717.9791913062509
+          ],
+          "direction": [
+            -0.9489615752511322,
+            0.31539170676618894
+          ],
+          "forward_distance_m": 24.05285557513544,
+          "perpendicular_ray_residual_m": 8.260059303211165e-14
+        },
+        {
+          "pano": "SBu9uXniGhP4O-HNyevkIw",
+          "lat": 25.0478565,
+          "lon": 121.5215839,
+          "date": "2025-02",
+          "view_heading": 30,
+          "target_pixel_x": 804,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 54.49190102823157,
+          "camera_xy": [
+            1133.1271567595074,
+            720.1677332140413
+          ],
+          "direction": [
+            0.811787962911366,
+            0.5839523124983875
+          ],
+          "forward_distance_m": 8.916906821904268,
+          "perpendicular_ray_residual_m": 0.23464366850838925
+        }
+      ],
+      "shape_note": "Round pair beside ramp retaining walls; preserve opening, do not fill ramp to clear mask overlap.",
+      "candidate_model_xy": [
+        1140.228773671093,
+        725.5652624786934
+      ],
+      "intersection_angle_deg": 34.419387024203616,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.2734114744503,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        1137.6199951171875,
+        721.7642822265625
+      ],
+      "delta_xy": [
+        2.608778553905495,
+        3.8009802521308984
+      ],
+      "comparison_object": "SV_XY_EST_ZHONGLIN_RAMP_MIDDLE_SOUTH_MODEL534",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

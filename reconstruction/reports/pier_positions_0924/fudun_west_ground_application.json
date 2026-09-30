@@ -1,0 +1,17 @@
+{
+  "mesh_checks": [
+    {
+      "object": "SV_FUDUN_WEST_MEDIAN_EST",
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    {
+      "object": "SV_FUDUN_WEST_ROAD_EST",
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  ],
+  "source_preserved": true,
+  "median14_omitted_only_from_working_scene": true,
+  "curbs_estimated": true
+}

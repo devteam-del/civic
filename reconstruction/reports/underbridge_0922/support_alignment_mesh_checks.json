@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "pier": "UNVERIFIED_Pier_642_ALIGN_EST",
+      "nonmanifold_edges": 0,
+      "ground_error_m": 0.0,
+      "top_error_m": 1.9073486345888568e-07
+    },
+    {
+      "pier": "UNVERIFIED_Pier_643_ALIGN_EST",
+      "nonmanifold_edges": 0,
+      "ground_error_m": 0.0,
+      "top_error_m": 1.9073486345888568e-07
+    },
+    {
+      "pier": "UNVERIFIED_Pier_730_ALIGN_EST",
+      "nonmanifold_edges": 0,
+      "ground_error_m": 0.0,
+      "top_error_m": 1.9073486345888568e-07
+    },
+    {
+      "pier": "UNVERIFIED_Pier_731_ALIGN_EST",
+      "nonmanifold_edges": 0,
+      "ground_error_m": 0.0,
+      "top_error_m": 1.9073486345888568e-07
+    },
+    {
+      "pier": "UNVERIFIED_Pier_460_ALIGN_EST",
+      "nonmanifold_edges": 0,
+      "ground_error_m": 0.0,
+      "top_error_m": 1.9073486345888568e-07
+    }
+  ],
+  "model_only": true
+}

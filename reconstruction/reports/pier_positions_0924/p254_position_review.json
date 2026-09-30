@@ -1,0 +1,194 @@
+{
+  "targets": [
+    {
+      "id": "P254_SOUTH",
+      "actual_visible_label": "P254",
+      "model_pier_candidate": "UNVERIFIED_Pier_433",
+      "target": "Next mainline pair east of P253 comparison; P254 visible on south shaft; distinct ramp pier P115 on right is not this target",
+      "views": [
+        {
+          "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+          "lat": 25.0446013,
+          "lon": 121.5501896,
+          "date": "2025-04",
+          "view_heading": 0,
+          "target_pixel_x": 298,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 316.4688007143858,
+          "bearing_method": "Manual shaft center pixel in stable 90y perspective view; vertical FOV90 assumption, approximately2px picking uncertainty; not surveyed heading",
+          "camera_xy": [
+            4021.020418347912,
+            371.03623452281516
+          ],
+          "direction": [
+            -0.6916919949230905,
+            0.7221926226148501
+          ],
+          "forward_distance_m": 9.271868145984877,
+          "perpendicular_ray_residual_m": 5.5067062021407764e-14
+        },
+        {
+          "pano": "9eaEniJRlculGW1g9j3R_g",
+          "lat": 25.0446109,
+          "lon": 121.5500922,
+          "date": "2025-04",
+          "view_heading": 0,
+          "target_pixel_x": 859,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 31.31354327018972,
+          "bearing_method": "Manual shaft center pixel in stable 90y perspective view; vertical FOV90 assumption, approximately2px picking uncertainty; not surveyed heading",
+          "camera_xy": [
+            4011.187779876481,
+            372.0596245910911
+          ],
+          "direction": [
+            0.5162432016242609,
+            0.8564420335181668
+          ],
+          "forward_distance_m": 6.623547750580548,
+          "perpendicular_ray_residual_m": 7.815970093361102e-14
+        },
+        {
+          "pano": "Q6LD3ubEsA3SQ87fNQKQSQ",
+          "lat": 25.0446559,
+          "lon": 121.5495956,
+          "date": "2025-04",
+          "view_heading": 90,
+          "target_pixel_x": 635,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 89.20427644726072,
+          "bearing_method": "Manual shaft center pixel in stable 90y perspective view; vertical FOV90 assumption, approximately2px picking uncertainty; not surveyed heading",
+          "camera_xy": [
+            3961.0572577855205,
+            376.840447752397
+          ],
+          "direction": [
+            0.9998389012367203,
+            0.017949138523840315
+          ],
+          "forward_distance_m": 53.55726491419623,
+          "perpendicular_ray_residual_m": 0.06945641293909766
+        }
+      ],
+      "candidate_model_xy": [
+        4014.6071413733516,
+        377.73230929570303
+      ],
+      "intersection_angle_deg": 74.84478317865248,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.23537641622373912,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4029.527587890625,
+        386.6518249511719
+      ],
+      "delta_xy": [
+        -14.920446517273376,
+        -8.919515655468842
+      ],
+      "comparison_object": "SV_XY_EST_P254_SOUTH_MODEL433",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "P254_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_432",
+      "target": "Next mainline pair east of P253 comparison; P254 visible on south shaft; distinct ramp pier P115 on right is not this target",
+      "views": [
+        {
+          "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+          "lat": 25.0446013,
+          "lon": 121.5501896,
+          "date": "2025-04",
+          "view_heading": 0,
+          "target_pixel_x": 542,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 344.7718186619124,
+          "bearing_method": "Manual shaft center pixel in stable 90y perspective view; vertical FOV90 assumption, approximately2px picking uncertainty; not surveyed heading",
+          "camera_xy": [
+            4021.020418347912,
+            371.03623452281516
+          ],
+          "direction": [
+            -0.26658537946677313,
+            0.9638113069758814
+          ],
+          "forward_distance_m": 18.72073805516229,
+          "perpendicular_ray_residual_m": 1.412203687323199e-13
+        },
+        {
+          "pano": "9eaEniJRlculGW1g9j3R_g",
+          "lat": 25.0446109,
+          "lon": 121.5500922,
+          "date": "2025-04",
+          "view_heading": 0,
+          "target_pixel_x": 744,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 16.11341823308929,
+          "bearing_method": "Manual shaft center pixel in stable 90y perspective view; vertical FOV90 assumption, approximately2px picking uncertainty; not surveyed heading",
+          "camera_xy": [
+            4011.187779876481,
+            372.0596245910911
+          ],
+          "direction": [
+            0.27363126544684,
+            0.9618346690413904
+          ],
+          "forward_distance_m": 17.695212589067797,
+          "perpendicular_ray_residual_m": 1.341149413747189e-13
+        }
+      ],
+      "rejected_observations": [
+        {
+          "pano": "Q6LD3ubEsA3SQ87fNQKQSQ",
+          "lat": 25.0446559,
+          "lon": 121.5495956,
+          "date": "2025-04",
+          "view_heading": 90,
+          "target_pixel_x": 610,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 85.23635830927383,
+          "bearing_method": "Manual shaft center pixel in stable 90y perspective view; vertical FOV90 assumption, approximately2px picking uncertainty; not surveyed heading",
+          "rejection": "Distant occluded shaft correspondence inconsistent; do not use for positioning"
+        }
+      ],
+      "candidate_model_xy": [
+        4016.029743289578,
+        389.0794935353142
+      ],
+      "intersection_angle_deg": 31.341640729252056,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.2547380973347475,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4030.308837890625,
+        392.60076904296875
+      ],
+      "delta_xy": [
+        -14.279094601046836,
+        -3.5212755076545363
+      ],
+      "comparison_object": "SV_XY_EST_P254_NORTH_MODEL432",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

@@ -1,0 +1,58 @@
+{
+  "status": "Provisional Street View and official-plan-informed entrance comparison; not surveyed",
+  "old_top_xy": [
+    3754.2989501953125,
+    411.0269012451172
+  ],
+  "new_top_xy": [
+    3761.590102697537,
+    414.53404589418926
+  ],
+  "rotation_rad": -3.0438946825469553,
+  "new_bottom_xy": [
+    3801.47958341913,
+    409.28249612972735
+  ],
+  "depth_and_length_unchanged": true,
+  "placement_basis": "Top center estimated 10m west and 8m north of observed splitter-island south shaft. Direction east-down follows official diagram; -7.5deg alignment estimated from local corridor.",
+  "source_ramp": "COMP_ACCESS_\u5fa9\u6566_2",
+  "source_median": "SV_MEDIAN_P246_P247_EST",
+  "source_road": "CAL_GROUND_ROADS_OFFICIAL_XY_0_FIX0",
+  "approach_basis": "Estimated curved feeder from south carriageway, following visible split near P248. Width 4.1m including margins is assumed.",
+  "checks": [
+    {
+      "pier": "UNVERIFIED_Pier_734",
+      "comparison_road_overlap_m2": 0.0,
+      "ramp_opening_clearance_m": 18.33015513880851,
+      "inside_median": true
+    },
+    {
+      "pier": "UNVERIFIED_Pier_735",
+      "comparison_road_overlap_m2": 0.0,
+      "ramp_opening_clearance_m": 18.3024969725167,
+      "inside_median": true
+    },
+    {
+      "pier": "UNVERIFIED_Pier_736",
+      "comparison_road_overlap_m2": 0.0,
+      "ramp_opening_clearance_m": 3.584835227913159,
+      "inside_median": true
+    },
+    {
+      "pier": "UNVERIFIED_Pier_737",
+      "comparison_road_overlap_m2": 0.0,
+      "ramp_opening_clearance_m": 2.5475515095356274,
+      "inside_median": true
+    }
+  ],
+  "field_verified": false,
+  "scope": "Ground masks, ramp XY and adjacent column XY. Underground slab/route connection remains a separate check.",
+  "whole_corridor_audit": {
+    "scope": "Current comparison geometry only. Model-mask clearance is not independent field validation.",
+    "original_suspects": 124,
+    "suspects_with_xy_comparison": 5,
+    "total_xy_comparisons": 9,
+    "remaining_model_mask_overlaps": 119,
+    "field_verified": 0
+  }
+}

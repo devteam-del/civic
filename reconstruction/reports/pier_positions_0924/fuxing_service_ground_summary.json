@@ -1,0 +1,30 @@
+{
+  "fuxing_service_checks": [
+    {
+      "pier": "UNVERIFIED_Pier_643",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    },
+    {
+      "pier": "UNVERIFIED_Pier_642",
+      "outside_median_m2": 0.0,
+      "opening_overlap_m2": 0.0,
+      "ramp_opening_overlap_m2": 0.0
+    }
+  ],
+  "fuxing_service_profile": {
+    "footprint": {
+      "type": "Polygon",
+      "coordinates": []
+    },
+    "status": "Local continuous island profile around revised P235-like pair; no opening introduced. Two-meter lateral offsets remain estimates.",
+    "panos": [
+      "cNnd3Y1IgM5BKnZCTSHUPQ",
+      "BwdbNYEooNtfbZuww25r8g",
+      "4NKKDkj7LTh70nLelXcPqw"
+    ],
+    "satellite_context": "No independent satellite curb measurement; bridge deck occludes curbs."
+  },
+  "assumptions": "Street View establishes parking ramp, planted strips and Yanji through crossing. Curbs offset2m from estimated shafts, ramp inner walls offset2.3m, opening endpoints and crossing widths are proportional assumptions awaiting independent curb picks. Existing holes retained. This is not surveyed and model clearance is not field verification. Additional ramp-east curb envelope uses2m shaft offsets based on visible planted strip proportions. Preserve prior local crossing and existing holes. Not independent field clearance proof. Additional ramp-east curb envelope uses2m shaft offsets based on visible planted strip proportions. Preserve prior local crossing and existing holes. Not independent field clearance proof. Fudun west profile uses2m shaft offsets; existing parking ramp holes retained; crossing/turning gaps remain proportional estimates. P240/P241 local profile uses2m shaft offsets; existing ramp holes retained; U-turn boundaries remain proportional estimates. P237-P239 profile uses2m shaft offsets; western island nose x3404 estimated from visible context, not measured. Existing holes retained. P236 island uses2m shaft offsets and east nose3362 from proportional Street View interpretation; not measured. Existing holes retained. Original tiny median10 merged into comparison island only. Revised P235-like pair island uses2m proportional shaft offsets over3315-3340. Existing holes retained, not independently measured."
+}

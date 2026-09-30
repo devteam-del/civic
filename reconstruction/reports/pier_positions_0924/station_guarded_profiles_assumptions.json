@@ -1,0 +1,47 @@
+{
+  "patches": [
+    {
+      "name": "SV_STATION_GUARDED_PROFILE_MEDIAN_EST",
+      "source_object": "SV_STATION_MEDIAN_OPENING_EST",
+      "width_status": "Estimated 1.8m shaft-centre curb allowance. Intersection endpoints and existing 23m U-turn exclusion provisional; all existing entrance guards preserved.",
+      "ramp_hole_fill_m2": 0.0,
+      "survey_verified": false,
+      "source_records": [
+        "station_footbridge_east_position_review.json",
+        "west_p130_position_review.json",
+        "p130_position_review.json",
+        "west_p132_position_review.json",
+        "p132_position_review.json",
+        "west_p134_position_review.json",
+        "station_access_west_position_review.json",
+        "west_p136_position_review.json",
+        "p136_position_review.json",
+        "p137_position_review.json",
+        "east_visible_p137_position_review.json",
+        "zhongshan_west_edge_position_review.json"
+      ],
+      "bounds": [
+        634.0,
+        742.6704596862686,
+        1023.0,
+        824.0389141849494
+      ],
+      "new_guarded_opening_area_m2": 495.16938016568633,
+      "estimated_west_end_x": 634,
+      "estimated_east_end_x": 1023
+    },
+    {
+      "name": "SV_JIANGUO_EAST_GUARDED_MEDIAN_EST",
+      "source_object": "SV_JIANGUO_EAST_APRON_MEDIAN_EST",
+      "width_status": "Restore existing estimated Jianfu parking ramp opening accidentally covered by outer apron expansion.",
+      "ramp_hole_fill_m2": 0.0,
+      "survey_verified": false,
+      "restored_opening_area_m2": 167.9999993216834
+    }
+  ],
+  "sources": [
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=D9e1WtrxhXvTD4cHdDKjQw&heading=60&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=thep3S5iPBSW9exGL5CO_g&heading=80&pitch=0&fov=90"
+  ],
+  "status": "Comparison estimates only. Openings inherited from model; absolute curb location and metric dimensions remain unverified."
+}

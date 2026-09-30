@@ -1,0 +1,42 @@
+import json,sys
+from pathlib import Path
+from shapely.geometry import Polygon,shape,Point
+from shapely.ops import unary_union
+from shapely import affinity
+base=Path(sys.argv[1]);out=Path(sys.argv[2]);r24=base/'PierPositions_20260924';r23=base/'PierPositions_20260923'
+source=json.loads((base/'Underbridge_20260922'/'pier_road_footprints.json').read_text())
+review=json.loads((base/'Underbridge_20260922'/'pier_road_overlap_review.json').read_text())
+def geo(o):return unary_union([Polygon(f).buffer(0) for f in o['faces'] if len(f)>=3])
+live=json.loads((r24/'live_comparison_ground_footprints.json').read_text())
+assert live['scene']=='CIVIC_PIER_XY_REVIEW_20260923'
+road=unary_union([geo(o) for o in live['roads']]);median=unary_union([geo(o) for o in live['medians']])
+openings=unary_union([Polygon(ring) for poly in (median.geoms if median.geom_type=='MultiPolygon' else [median]) for ring in poly.interiors])
+ground_coverage=road.union(median)
+records={}
+for p in [r23/'fuxing_642_position_review.json',r24/'p246_position_review.json',r24/'p247_position_review.json',r24/'p246_north_position_review.json',r24/'p247_north_position_review.json']:
+ d=json.loads(p.read_text());records[d['model_pier_candidate']]=d
+for filename in ['p248_position_review.json','east248_position_review.json','p250_position_review.json','dunhua_junction_position_review.json','east252_position_review.json','p254_position_review.json','east254_position_review.json','east254_next_position_review.json','p257_position_review.json','east257_position_review.json','p259_position_review.json','east259_position_review.json','east260_position_review.json','p262_position_review.json','east262_position_review.json','yanji_west_position_review.json','yanji_east_position_review.json','east265_position_review.json','p267_position_review.json','p268_position_review.json','p269_position_review.json','p270_position_review.json','p271_position_review.json','east271_position_review.json','east272_position_review.json','p274_position_review.json','guangfu_west_position_review.json','guangfu_east_position_review.json','p245_position_review.json','p244_position_review.json','p243_position_review.json','p242_position_review.json','p240_position_review.json','west240_position_review.json','west238_position_review.json','fuxing_west_edge_position_review.json','west236_position_review.json','p233_position_review.json','west233_position_review.json','antong_west_position_review.json','huaisheng_position_review.json','huaisheng_west_position_review.json','huaisheng_footbridge_position_review.json','west_footbridge_position_review.json','west_portal_position_review.json','ramp_merge_position_review.json','blue_portal_position_review.json','west_blue_portal_position_review.json','west_blue_portal_south_position_review.json','painted_church_position_review.json','painted_temple_position_review.json','ramp_screen_end_position_review.json','west_white_next_position_review.json','jianguo_east_edge_position_review.json','jianguo_west_edge_position_review.json','p214_position_review.json','west_p214_position_review.json','west_p214_next_position_review.json','local_junction_east_position_review.json','local_junction_west_position_review.json','p209_position_review.json','west_p209_position_review.json','west_p209_next_position_review.json','songjiang_east_position_review.json','east_visible_p147_position_review.json','ramp_east_portal_position_review.json','west_visible_p147_position_review.json','zhonglin_access_west_position_review.json','zhonglin_west_exit_position_review.json','zhonglin_ramp_middle_position_review.json','zhongshan_west_edge_position_review.json','east_visible_p137_position_review.json','p137_position_review.json','p136_position_review.json','west_p136_position_review.json','station_access_west_position_review.json','west_p134_position_review.json','p132_position_review.json','west_p132_position_review.json','p130_position_review.json','west_p130_position_review.json','station_footbridge_east_position_review.json','chengde_west_edge_position_review.json','p126_position_review.json']:
+ for rec in json.loads((r24/filename).read_text())['targets']:records[rec['model_pier_candidate']]=rec
+suspects={r['pier'] for r in review['piers'] if r['status']=='ROAD_OVERLAP_REVIEW'}
+live_piers={o['name']:geo(o) for o in live['piers']}
+rows=[]
+for o in source['piers']:
+ p=geo(o);name=o['name'];xy=list(p.centroid.coords[0]);d=records.get(name)
+ if d:
+  comparison_name=d.get('comparison_object') or d.get('application',{}).get('object')
+  assert comparison_name in live_piers,comparison_name
+  p=live_piers[comparison_name];xy=list(p.centroid.coords[0])
+ else:
+  assert name in live_piers,name
+  p=live_piers[name];xy=list(p.centroid.coords[0])
+ area=p.intersection(road).difference(median).area
+ rows.append({'pier':name,'xy':xy,'original_suspect':name in suspects,'streetview_xy_comparison':bool(d),'road_outside_comparison_median_m2':area,'model_mask_clear':area<1e-5,'outside_median_m2':p.difference(median).area,'outside_road_and_median_m2':p.difference(ground_coverage).area,'median_opening_overlap_m2':p.intersection(openings).area,'real_world_verified':False,'resolved':False})
+added_rows=[]
+for f in r24.glob('*missing*review.json'):
+ for rec in json.loads(f.read_text()).get('targets',[]):
+  if rec.get('comparison_object') and not rec.get('model_pier_candidate'):
+   assert rec['comparison_object'] in live_piers,rec['comparison_object']
+   p=live_piers[rec['comparison_object']]
+   added_rows.append({'object':rec['comparison_object'],'road_outside_comparison_median_m2':p.intersection(road).difference(median).area,'median_opening_overlap_m2':p.intersection(openings).area,'outside_median_m2':p.difference(median).area,'outside_road_and_median_m2':p.difference(ground_coverage).area,'actual_scene_footprint':True,'real_world_verified':False})
+result={'scope':'Current comparison geometry only. Model-mask clearance is not independent field validation.','original_suspects':len(suspects),'suspects_with_xy_comparison':sum(r['original_suspect'] and r['streetview_xy_comparison'] for r in rows),'total_xy_comparisons':len(records),'remaining_model_mask_overlaps':sum(r['road_outside_comparison_median_m2']>1e-5 for r in rows),'remaining_median_opening_overlaps':sum(r['median_opening_overlap_m2']>1e-5 for r in rows),'added_missing_support_comparisons':len(added_rows),'added_support_rows':added_rows,'supports_outside_median':sum(r['outside_median_m2']>1e-5 for r in rows),'supports_outside_ground_coverage':sum(r['outside_road_and_median_m2']>1e-5 for r in rows),'field_verified':0,'rows':rows}
+out.write_text(json.dumps(result,indent=2));print(json.dumps({k:v for k,v in result.items() if k not in ['rows','added_support_rows']}))

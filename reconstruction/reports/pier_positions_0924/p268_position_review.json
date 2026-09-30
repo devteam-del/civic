@@ -1,0 +1,183 @@
+{
+  "targets": [
+    {
+      "id": "P268_SOUTH",
+      "actual_visible_label": "P268",
+      "model_pier_candidate": "UNVERIFIED_Pier_405",
+      "target": "P268 southern rectangular mainline shaft, directly observed from southern carriageway with ramp behind",
+      "observed_shape": "Rectangular; existing circular mesh retained during XY stage",
+      "views": [
+        {
+          "pano": "ZXJHKhQHvHEclNDHIsMnCw",
+          "lat": 25.0444496,
+          "lon": 121.5550735,
+          "date": "2025-05",
+          "view_heading": 0,
+          "target_pixel_x": 541,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 344.6237487511738,
+          "camera_xy": [
+            4513.907846754283,
+            356.2459685071553
+          ],
+          "direction": [
+            -0.2691100052564419,
+            0.9631094460500725
+          ],
+          "forward_distance_m": 7.705330518153533,
+          "perpendicular_ray_residual_m": 2.722266856380884e-13
+        },
+        {
+          "pano": "uMiiMBjQnfaJBL6b000V9w",
+          "lat": 25.0444317,
+          "lon": 121.5549695,
+          "date": "2020-10",
+          "view_heading": 30,
+          "target_pixel_x": 716,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 41.92073853992231,
+          "camera_xy": [
+            4503.421661470743,
+            354.22020669158644
+          ],
+          "direction": [
+            0.6650442598816988,
+            0.7468039450876002
+          ],
+          "forward_distance_m": 12.649690035357384,
+          "perpendicular_ray_residual_m": 2.0694557179012918e-13
+        }
+      ],
+      "candidate_model_xy": [
+        4511.83426521804,
+        363.6670451141268
+      ],
+      "intersection_angle_deg": 57.29703483095468,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.3858545171049683,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4518.09716796875,
+        376.3408203125
+      ],
+      "comparison_object": "SV_XY_EST_P268_SOUTH_MODEL405",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false,
+      "delta_xy": [
+        -6.2629027507100545,
+        -12.673775198373221
+      ],
+      "previous_candidate_xy": [
+        4511.83426521804,
+        363.6670451141268
+      ]
+    },
+    {
+      "id": "EAST267_NORTH",
+      "actual_visible_label": "P268",
+      "model_pier_candidate": "UNVERIFIED_Pier_404",
+      "target": "Next northern rectangular mainline shaft after P267, opposite exercise enclosure; near ramp",
+      "views": [
+        {
+          "pano": "qxTY4M4Ymib4X5Vb-SNF-A",
+          "lat": 25.0446009,
+          "lon": 121.5547212,
+          "date": "2025-01",
+          "view_heading": 100,
+          "target_pixel_x": 548,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 85.66456458047988,
+          "camera_xy": [
+            4478.289633912176,
+            372.8590721849985
+          ],
+          "direction": [
+            0.9968202517263618,
+            0.07968303300071314
+          ],
+          "forward_distance_m": 31.197466081896284,
+          "perpendicular_ray_residual_m": 5.773159728050814e-15
+        },
+        {
+          "pano": "r_hm34u5yV8Lc1ZwDQkQ6Q",
+          "lat": 25.0446917,
+          "lon": 121.5550087,
+          "date": "2025-01",
+          "view_heading": 170,
+          "target_pixel_x": 607,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 164.76252393318748,
+          "camera_xy": [
+            4507.259075252764,
+            383.0356035499028
+          ],
+          "direction": [
+            0.2667759322266122,
+            -0.9637585807579728
+          ],
+          "forward_distance_m": 7.9798227472209415,
+          "perpendicular_ray_residual_m": 2.7977620220553945e-13
+        },
+        {
+          "pano": "jC1VQ0PtJ7uROzEv9nJf4g",
+          "lat": 25.0446428,
+          "lon": 121.5549177,
+          "date": "2025-01",
+          "view_heading": 140,
+          "target_pixel_x": 352,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 101.34019174590992,
+          "camera_xy": [
+            4498.09878048005,
+            377.5814792101732
+          ],
+          "direction": [
+            0.9812751939854768,
+            -0.1926109905191411
+          ],
+          "forward_distance_m": 11.508507007777775,
+          "perpendicular_ray_residual_m": 0.020211834345053692
+        }
+      ],
+      "refinement": "Replace shallow intersection with nearly transverse nearby view; previous near view retained as crosscheck.",
+      "candidate_model_xy": [
+        4509.387899905157,
+        375.3449809043409
+      ],
+      "intersection_angle_deg": 79.09784097474355,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.6066764968085698,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4516.86376953125,
+        382.2126770019531
+      ],
+      "comparison_object": "SV_XY_EST_EAST267_NORTH_MODEL404",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false,
+      "delta_xy": [
+        -7.475869626093299,
+        -6.8676960976122245
+      ],
+      "previous_candidate_xy": [
+        4509.462468177903,
+        375.3509416842586
+      ]
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

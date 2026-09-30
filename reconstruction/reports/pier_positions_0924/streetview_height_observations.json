@@ -1,0 +1,139 @@
+{
+  "status": "Provisional visible shaft lengths; GPS registration and front-face radius uncertainties unquantified. Do not label as surveyed heights.",
+  "anchors": [
+    {
+      "record": "p233_position_review.json",
+      "target": "P233_SOUTH",
+      "endpoint_definition": "ground-side visible front of shaft to underside of transverse concrete head",
+      "views": [
+        {
+          "pano": "GNaYshgbXGqT6PZXF7RvSw",
+          "date": "2025-04",
+          "heading": 309,
+          "pitch": 20,
+          "top_px": [
+            636,
+            132
+          ],
+          "base_px": [
+            637,
+            574
+          ],
+          "front_radius_est_m": 1.0
+        },
+        {
+          "pano": "8gp92s-Oet4WF_j0WKorfw",
+          "date": "2025-04",
+          "heading": 275,
+          "pitch": 20,
+          "top_px": [
+            642,
+            263
+          ],
+          "base_px": [
+            623,
+            530
+          ],
+          "front_radius_est_m": 1.0,
+          "occlusion_note": "Base partly obscured by equipment room; visible left shaft edge used."
+        }
+      ]
+    },
+    {
+      "record": "station_access_west_position_review.json",
+      "target": "STATION_ACCESS_WEST_SOUTH",
+      "views": [
+        {
+          "pano": "thep3S5iPBSW9exGL5CO_g",
+          "date": "2025-05",
+          "heading": 68,
+          "pitch": 20,
+          "top_px": [
+            642,
+            300
+          ],
+          "base_px": [
+            641,
+            562
+          ],
+          "front_radius_est_m": 1.0
+        },
+        {
+          "pano": "isUGYM-ykX0CZ-qSQPSprA",
+          "date": "2025-05",
+          "heading": 15,
+          "pitch": 20,
+          "top_px": [
+            645,
+            158
+          ],
+          "base_px": [
+            646,
+            675
+          ],
+          "front_radius_est_m": 1.0,
+          "endpoint_note": "visible collar junction; base visible behind protection posts"
+        }
+      ],
+      "occlusion_note": "Second eastern view PdYrpyY5JzRWty-6BTCaYw: truck hides base; do not use it for a height measurement."
+    },
+    {
+      "record": "p254_position_review.json",
+      "target": "P254_SOUTH",
+      "views": [
+        {
+          "pano": "mH5lm3Z4AqDNqXslfDrhHQ",
+          "date": "2025-04",
+          "heading": 317,
+          "pitch": 20,
+          "top_px": [
+            643,
+            166
+          ],
+          "base_px": [
+            644,
+            599
+          ],
+          "front_radius_est_m": 1.0
+        },
+        {
+          "pano": "9eaEniJRlculGW1g9j3R_g",
+          "date": "2025-04",
+          "heading": 31,
+          "pitch": 20,
+          "top_px": [
+            638,
+            85
+          ],
+          "base_px": [
+            641,
+            652
+          ],
+          "front_radius_est_m": 1.0
+        }
+      ]
+    },
+    {
+      "record": "guangfu_west_position_review.json",
+      "target": "GUANGFU_WEST_SOUTH",
+      "views": [
+        {
+          "pano": "NnKjizwkfo4CsLvitAR74g",
+          "date": "2025-04",
+          "heading": 287,
+          "pitch": 20,
+          "top_px": [
+            644,
+            307
+          ],
+          "base_px": [
+            643,
+            584
+          ],
+          "front_radius_est_m": 1.0
+        }
+      ],
+      "occlusion_note": "Opposite view has vehicles and equipment obscuring south base; single-view estimate only. Rectangular front-face offset assumed 1m."
+    }
+  ]
+}

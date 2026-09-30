@@ -1,0 +1,111 @@
+{
+  "targets": [
+    {
+      "id": "EAST274_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": null,
+      "target": "North shaft between P274 and Guangfu junction; possible missing legacy support. Do not assign next model pair without confirming junction pair.",
+      "observed_shape": "Rectangular; XY only, source circular shaft shape pending",
+      "views": [
+        {
+          "pano": "bclvR3wwBgw33iMwhea1pg",
+          "lat": 25.0450864,
+          "lon": 121.5570529,
+          "date": "2025-01",
+          "view_heading": 140,
+          "target_pixel_x": 339,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 100.10062962534472,
+          "camera_xy": [
+            4713.352581007911,
+            427.60269157724684
+          ],
+          "direction": [
+            0.9852149814218463,
+            -0.17132262075380172
+          ],
+          "forward_distance_m": 20.954953905596486,
+          "perpendicular_ray_residual_m": 3.9968028886505635e-15
+        },
+        {
+          "pano": "WgYxcAQZfYjc-G_IiOy_Fg",
+          "lat": 25.0451681,
+          "lon": 121.5575481,
+          "date": "2025-01",
+          "view_heading": 230,
+          "target_pixel_x": 747,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 246.553119124866,
+          "camera_xy": [
+            4763.284141014206,
+            436.8581085669505
+          ],
+          "direction": [
+            -0.9157818692087738,
+            -0.40167594902916987
+          ],
+          "forward_distance_m": 31.979695676657975,
+          "perpendicular_ray_residual_m": 1.0125233984581428e-13
+        },
+        {
+          "pano": "GZMhNyE7IicA0gM0V4WQJg",
+          "lat": 25.0450688,
+          "lon": 121.5569551,
+          "date": "2025-01",
+          "view_heading": 100,
+          "target_pixel_x": 598,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 93.3455749539934,
+          "camera_xy": [
+            4703.491959857641,
+            425.6125800785933
+          ],
+          "direction": [
+            0.998527487056525,
+            -0.054248111419486336
+          ],
+          "forward_distance_m": 30.547629608492795,
+          "perpendicular_ray_residual_m": 0.05728945183372125
+        }
+      ],
+      "candidate_model_xy": [
+        4733.997715530709,
+        424.01263395636494
+      ],
+      "intersection_angle_deg": 33.54771995288945,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.6037276963242602,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "comparison_object": "SV_ADDED_EST_EAST274_NORTH",
+      "geometry_status": "Inherited circular proxy; observed rectangular form and height pending later stage"
+    },
+    {
+      "id": "EAST274_SOUTH",
+      "candidate_model_xy": [
+        4735.442711177617,
+        412.42438724871437
+      ],
+      "actual_visible_label": null,
+      "real_world_verified": false,
+      "resolved": false,
+      "method": "Estimated paired-shaft offset interpolated between observed P274 and P276. South shaft obscured by equipment; NOT directly measured from imagery.",
+      "paired_offset": [
+        1.4449956469075005,
+        -11.588246707650569
+      ],
+      "height_changed": false,
+      "comparison_object": "SV_ADDED_EST_EAST274_SOUTH",
+      "geometry_status": "Inherited circular proxy; observed rectangular form and height pending later stage"
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks",
+  "issue": "Observed intermediate north shaft has no assigned legacy counterpart. South shaft obscured by equipment; do not fabricate a measured location. Preserve road-junction pair for separate observation."
+}

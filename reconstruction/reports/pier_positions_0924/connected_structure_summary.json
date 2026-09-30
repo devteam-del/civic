@@ -1,0 +1,53 @@
+{
+  "scene": "CIVIC_STRUCTURE_CONNECTED_EST_20260929",
+  "source_scene": "CIVIC_PIER_XY_REVIEW_20260923",
+  "height_profile_points": [
+    [
+      -670.938,
+      4.8
+    ],
+    [
+      822.8583568837136,
+      8.463159558257605
+    ],
+    [
+      3264.2529112721063,
+      12.649206260689038
+    ],
+    [
+      4014.6071413733516,
+      11.007105311208782
+    ],
+    [
+      4765.3699255741485,
+      6.537215659516217
+    ],
+    [
+      5869.264,
+      4.8
+    ]
+  ],
+  "assumptions": {
+    "height_reference": "Model ground datum; no absolute elevation control.",
+    "profile": "Linear interpolation between 4 observed estimates; terminal values inherited from old model.",
+    "bent_pairing": "Proximity estimate, not structural drawing.",
+    "cap_depth_m": 0.6,
+    "cap_longitudinal_width_m": 2.4,
+    "bearing_min_height_m": 0.2,
+    "bearing_plan_m": [
+      0.3,
+      1.0
+    ],
+    "deck_thickness_and_girders": "Inherited model sections; translated vertically without claiming surveyed dimensions.",
+    "ramps": "Existing mapped deck geometry retained; grade topology not independently verified."
+  },
+  "summary": {
+    "deformed_structure_objects": 450,
+    "bents": 131,
+    "shafts_adjusted": 258,
+    "bearing_pads": 1026,
+    "unconnected_groups": 0,
+    "field_verified": 0
+  },
+  "warnings": []
+}

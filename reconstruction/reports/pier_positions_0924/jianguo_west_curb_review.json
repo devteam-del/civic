@@ -1,0 +1,66 @@
+{
+  "targets": [
+    {
+      "id": "JIANGUO_WEST_SOUTH_ISLAND_EAST_TIP",
+      "model_pier_candidate": null,
+      "feature": "Apparent eastern tip of rounded gravel island curb. Rounded silhouette is viewpoint dependent; result is approximate, not a fixed surveyed corner.",
+      "views": [
+        {
+          "pano": "3Vq9E0LHU4N9sIW2U3PM2A",
+          "lat": 25.04465,
+          "lon": 121.5363069,
+          "date": "2025-04",
+          "view_heading": 350,
+          "target_pixel_x": 693,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 358.37504978321283,
+          "camera_xy": [
+            2620.1422689878427,
+            370.80578428266404
+          ],
+          "direction": [
+            -0.03231908400233454,
+            0.9994776019547662
+          ],
+          "forward_distance_m": 7.122808386558499,
+          "perpendicular_ray_residual_m": 3.419486915845482e-14
+        },
+        {
+          "pano": "_5Ebb39w9DkSUk1Fe2o1Jw",
+          "lat": 25.0446665,
+          "lon": 121.5361952,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 668,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 64.44738485009049,
+          "camera_xy": [
+            2608.863765768788,
+            372.5887464412878
+          ],
+          "direction": [
+            0.9004730300284128,
+            0.4349118556574986
+          ],
+          "forward_distance_m": 12.269440847249097,
+          "perpendicular_ray_residual_m": 8.881784197001252e-15
+        }
+      ],
+      "candidate_model_xy": [
+        2619.912066345265,
+        377.9248717280448
+      ],
+      "intersection_angle_deg": 66.07238437779154,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.32337977301434473,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

@@ -1,0 +1,227 @@
+{
+  "targets": [
+    {
+      "id": "WEST_SCREEN_WHITE_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": null,
+      "shape_note": "First unpainted rectangular north shaft west of painted ramp screen.",
+      "views": [
+        {
+          "pano": "krd0qx8DlR3HfAstLMoZOw",
+          "lat": 25.0447412,
+          "lon": 121.5386734,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 701,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 269.6171055672287,
+          "camera_xy": [
+            2858.897398371685,
+            381.8562870766961
+          ],
+          "direction": [
+            -0.9999431381493338,
+            -0.010663979935391317
+          ],
+          "forward_distance_m": 46.94655864688016,
+          "perpendicular_ray_residual_m": 1.1102230246251565e-15
+        },
+        {
+          "pano": "qcnBLenMbFh4WolbZO5JUA",
+          "lat": 25.0445533,
+          "lon": 121.5382546,
+          "date": "2025-04",
+          "view_heading": 340,
+          "target_pixel_x": 685,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 347.1250163489018,
+          "camera_xy": [
+            2816.720562917208,
+            360.87519609636894
+          ],
+          "direction": [
+            -0.2267010587640355,
+            0.9739643884430608
+          ],
+          "forward_distance_m": 21.02792880715117,
+          "perpendicular_ray_residual_m": 1.7497114868092467e-13
+        },
+        {
+          "pano": "57n7FZSDZtJ_x8M_naQerA",
+          "lat": 25.0447563,
+          "lon": 121.5383715,
+          "date": "2025-02",
+          "view_heading": 230,
+          "target_pixel_x": 865,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 262.0053832080835,
+          "camera_xy": [
+            2828.42707483996,
+            383.40759624256685
+          ],
+          "direction": [
+            -0.9897198777731956,
+            -0.1430194516162429
+          ],
+          "forward_distance_m": 16.597683616778774,
+          "perpendicular_ray_residual_m": 0.32518825870101864
+        },
+        {
+          "pano": "tNACzbYcYQwB4TEpf9mQlw",
+          "lat": 25.0445672,
+          "lon": 121.5381641,
+          "date": "2025-04",
+          "view_heading": 30,
+          "target_pixel_x": 535,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 13.73979529168804,
+          "camera_xy": [
+            2807.582388177271,
+            362.3785142154469
+          ],
+          "direction": [
+            0.2336471518201097,
+            0.9723214532480247
+          ],
+          "forward_distance_m": 19.473176139651226,
+          "perpendicular_ray_residual_m": 0.18381896808156295
+        }
+      ],
+      "candidate_model_xy": [
+        2811.953509193012,
+        381.3556499172501
+      ],
+      "intersection_angle_deg": 77.50808590110171,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.010132757488366,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "geometry_template": "SV_XY_EST_RAMP_SCREEN_END_NORTH_MODEL094",
+      "association_status": "No legacy 230/231 shafts exist; separate observed support comparison, no old model correspondence asserted.",
+      "comparison_object": "SV_ADDED_EST_WEST_SCREEN_WHITE_NORTH",
+      "resolved": false,
+      "geometry_status": "Inherited template dimensions and height; pending calibration"
+    },
+    {
+      "id": "WEST_SCREEN_WHITE_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": null,
+      "shape_note": "First unpainted rectangular south shaft west of painted ramp screen.",
+      "views": [
+        {
+          "pano": "1GWH9q7Cetukn5lspV245w",
+          "lat": 25.0445459,
+          "lon": 121.5386019,
+          "date": "2025-04",
+          "view_heading": 320,
+          "target_pixel_x": 365,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 282.62419250445186,
+          "camera_xy": [
+            2851.7687014872595,
+            360.1949932639977
+          ],
+          "direction": [
+            -0.9766868724811213,
+            0.21466893842157478
+          ],
+          "forward_distance_m": 41.27317427397546,
+          "perpendicular_ray_residual_m": 7.460698725481052e-14
+        },
+        {
+          "pano": "qcnBLenMbFh4WolbZO5JUA",
+          "lat": 25.0445533,
+          "lon": 121.5382546,
+          "date": "2025-04",
+          "view_heading": 340,
+          "target_pixel_x": 560,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 327.4711922908485,
+          "camera_xy": [
+            2816.720562917208,
+            360.87519609636894
+          ],
+          "direction": [
+            -0.5410735541433819,
+            0.840975272529846
+          ],
+          "forward_distance_m": 9.7266423181561,
+          "perpendicular_ray_residual_m": 2.0339285811132868e-13
+        },
+        {
+          "pano": "57n7FZSDZtJ_x8M_naQerA",
+          "lat": 25.0447563,
+          "lon": 121.5383715,
+          "date": "2025-02",
+          "view_heading": 230,
+          "target_pixel_x": 642,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 230.31830661145136,
+          "camera_xy": [
+            2828.42707483996,
+            383.40759624256685
+          ],
+          "direction": [
+            -0.7670567528270597,
+            -0.6415792530486059
+          ],
+          "forward_distance_m": 22.224735837161298,
+          "perpendicular_ray_residual_m": 0.12203145847113106
+        },
+        {
+          "pano": "tNACzbYcYQwB4TEpf9mQlw",
+          "lat": 25.0445672,
+          "lon": 121.5381641,
+          "date": "2025-04",
+          "view_heading": 30,
+          "target_pixel_x": 640,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 30.0,
+          "camera_xy": [
+            2807.582388177271,
+            362.3785142154469
+          ],
+          "direction": [
+            0.49655127873437516,
+            0.8680073891317152
+          ],
+          "forward_distance_m": 7.719600529807958,
+          "perpendicular_ray_residual_m": 0.04858057328154697
+        }
+      ],
+      "candidate_model_xy": [
+        2811.457733988242,
+        369.0550617706807
+      ],
+      "intersection_angle_deg": 44.84714434961609,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.2537781773826022,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "geometry_template": "SV_XY_EST_RAMP_SCREEN_END_SOUTH_MODEL095",
+      "association_status": "No legacy 230/231 shafts exist; separate observed support comparison, no old model correspondence asserted.",
+      "comparison_object": "SV_ADDED_EST_WEST_SCREEN_WHITE_SOUTH",
+      "resolved": false,
+      "geometry_status": "Inherited template dimensions and height; pending calibration"
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

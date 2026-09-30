@@ -1,0 +1,68 @@
+{
+  "targets": [
+    {
+      "id": "P234_SOUTH_OCCLUDED_ESTIMATE",
+      "model_pier_candidate": null,
+      "actual_visible_label": null,
+      "geometry_template": "SV_XY_EST_WEST236_SOUTH_MODEL642",
+      "views": [
+        {
+          "pano": "GNaYshgbXGqT6PZXF7RvSw",
+          "lat": 25.0446044,
+          "lon": 121.5427628,
+          "date": "2025-04",
+          "view_heading": 70,
+          "target_pixel_x": 630,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 68.40885972880541,
+          "camera_xy": [
+            3271.6052651060245,
+            368.3526742085381
+          ],
+          "direction": [
+            0.9283497156728454,
+            0.37170795715204596
+          ],
+          "forward_distance_m": 29.40296732998972,
+          "perpendicular_ray_residual_m": 3.375077994860476e-14
+        },
+        {
+          "pano": "8gp92s-Oet4WF_j0WKorfw",
+          "lat": 25.0446434,
+          "lon": 121.5428595,
+          "date": "2025-04",
+          "view_heading": 30,
+          "target_pixel_x": 939,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 69.71151517755197,
+          "camera_xy": [
+            3281.3456047349373,
+            372.711691958574
+          ],
+          "direction": [
+            0.9365598232538457,
+            0.3505077709077578
+          ],
+          "forward_distance_m": 18.74508845663215,
+          "perpendicular_ray_residual_m": 3.197442310920451e-14
+        }
+      ],
+      "candidate_model_xy": [
+        3298.9015014667584,
+        379.28199112897687
+      ],
+      "intersection_angle_deg": 1.3026142565300116,
+      "geometry_condition": "review_needed",
+      "angular_sensitivity_only_m": 69.03775572226225,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks",
+  "status": "Not applied: 1.30 degree primary ray intersection is too ill-conditioned; north-side tank/plant-room occlusion prevents independent south-shaft pick."
+}

@@ -1,0 +1,217 @@
+{
+  "targets": [
+    {
+      "id": "RAMP_SCREEN_END_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_094",
+      "shape_note": "Rectangular shaft at west end of painted central ramp screen.",
+      "views": [
+        {
+          "pano": "1SVGqz4g74a8t56EovQ5Cg",
+          "lat": 25.0447261,
+          "lon": 121.5389785,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 703,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 269.9262455066517,
+          "camera_xy": [
+            2889.6906311501943,
+            380.30633210025786
+          ],
+          "direction": [
+            -0.9999861087083024,
+            -0.0052709003431199875
+          ],
+          "forward_distance_m": 48.76186853151287,
+          "perpendicular_ray_residual_m": 9.936496070395151e-15
+        },
+        {
+          "pano": "bwW2NIhZXwNQlHAYRqNpFQ",
+          "lat": 25.0445351,
+          "lon": 121.5388013,
+          "date": "2025-04",
+          "view_heading": 290,
+          "target_pixel_x": 732,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 304.33543541952014,
+          "camera_xy": [
+            2871.894250981285,
+            359.078835294732
+          ],
+          "direction": [
+            -0.8279892630725294,
+            0.5607439524743978
+          ],
+          "forward_distance_m": 37.39759967702814,
+          "perpendicular_ray_residual_m": 1.2789769243681803e-13
+        },
+        {
+          "pano": "MKTcZy0HNGJfa6zI40SABQ",
+          "lat": 25.0445399,
+          "lon": 121.5387031,
+          "date": "2025-04",
+          "view_heading": 320,
+          "target_pixel_x": 603,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 314.1318714345895,
+          "camera_xy": [
+            2861.983100336088,
+            359.5710537275309
+          ],
+          "direction": [
+            -0.7205058520294432,
+            0.6934488569399522
+          ],
+          "forward_distance_m": 29.36991107940966,
+          "perpendicular_ray_residual_m": 0.15506904821612721
+        },
+        {
+          "pano": "1GWH9q7Cetukn5lspV245w",
+          "lat": 25.0445459,
+          "lon": 121.5386019,
+          "date": "2025-04",
+          "view_heading": 320,
+          "target_pixel_x": 711,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 331.15681744697554,
+          "camera_xy": [
+            2851.7687014872595,
+            360.1949932639977
+          ],
+          "direction": [
+            -0.48589721471358777,
+            0.8740159590840304
+          ],
+          "forward_distance_m": 22.619759411699032,
+          "perpendicular_ray_residual_m": 0.17347119445783576
+        }
+      ],
+      "candidate_model_xy": [
+        2840.929439984021,
+        380.04931315068393
+      ],
+      "intersection_angle_deg": 34.40926438145198,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.6960995893619204,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2806.09130859375,
+        387.78521728515625
+      ],
+      "delta_xy": [
+        34.83813139027097,
+        -7.735904134472321
+      ],
+      "comparison_object": "SV_XY_EST_RAMP_SCREEN_END_NORTH_MODEL094",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "RAMP_SCREEN_END_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_095",
+      "shape_note": "Rectangular blue painted column at west end of central ramp screen, planted verge below.",
+      "views": [
+        {
+          "pano": "bwW2NIhZXwNQlHAYRqNpFQ",
+          "lat": 25.0445351,
+          "lon": 121.5388013,
+          "date": "2025-04",
+          "view_heading": 290,
+          "target_pixel_x": 613,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 285.710846671181,
+          "camera_xy": [
+            2871.894250981285,
+            359.078835294732
+          ],
+          "direction": [
+            -0.9637112161389877,
+            0.2669469832905281
+          ],
+          "forward_distance_m": 32.78057997759079,
+          "perpendicular_ray_residual_m": 2.6645352591003757e-14
+        },
+        {
+          "pano": "1GWH9q7Cetukn5lspV245w",
+          "lat": 25.0445459,
+          "lon": 121.5386019,
+          "date": "2025-04",
+          "view_heading": 320,
+          "target_pixel_x": 536,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 303.8865817669107,
+          "camera_xy": [
+            2851.7687014872595,
+            360.1949932639977
+          ],
+          "direction": [
+            -0.8323558485778321,
+            0.5542415911299665
+          ],
+          "forward_distance_m": 13.77471320891151,
+          "perpendicular_ray_residual_m": 3.6415315207705135e-14
+        },
+        {
+          "pano": "MKTcZy0HNGJfa6zI40SABQ",
+          "lat": 25.0445399,
+          "lon": 121.5387031,
+          "date": "2025-04",
+          "view_heading": 320,
+          "target_pixel_x": 441,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 291.06715770477956,
+          "camera_xy": [
+            2861.983100336088,
+            359.5710537275309
+          ],
+          "direction": [
+            -0.9345835770361399,
+            0.3557436401881747
+          ],
+          "forward_distance_m": 23.199537021685035,
+          "perpendicular_ray_residual_m": 0.0057466791523888006
+        }
+      ],
+      "candidate_model_xy": [
+        2840.3032383853397,
+        367.8295122302638
+      ],
+      "intersection_angle_deg": 18.175818317360957,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.8923683577455357,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2805.964599609375,
+        381.7865905761719
+      ],
+      "delta_xy": [
+        34.33863877596468,
+        -13.957078345908087
+      ],
+      "comparison_object": "SV_XY_EST_RAMP_SCREEN_END_SOUTH_MODEL095",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

@@ -1,0 +1,199 @@
+{
+  "targets": [
+    {
+      "id": "CIVIC_LOCAL_JUNCTION_WEST_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_211",
+      "actual_visible_label": null,
+      "shape_note": "Rectangular mainline shaft at local junction west edge, on median nose clear of marked crosswalk.",
+      "views": [
+        {
+          "pano": "lywQQH8VeOTHWnvmVYrCPQ",
+          "lat": 25.0450126,
+          "lon": 121.5350106,
+          "date": "2025-04",
+          "view_heading": 260,
+          "target_pixel_x": 767,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 275.1467320787595,
+          "camera_xy": [
+            2489.178311680101,
+            410.4515904122929
+          ],
+          "direction": [
+            -0.9963151770196798,
+            0.08576752322554486
+          ],
+          "forward_distance_m": 53.99615649366769,
+          "perpendicular_ray_residual_m": 9.769962616701378e-15
+        },
+        {
+          "pano": "TmJaZc2pavLdf2zfcodVMA",
+          "lat": 25.0448352,
+          "lon": 121.5346834,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 769,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 319.71429451529804,
+          "camera_xy": [
+            2456.2394508629664,
+            390.6712151592183
+          ],
+          "direction": [
+            -0.649609127196268,
+            0.7602683617403153
+          ],
+          "forward_distance_m": 32.10904607861828,
+          "perpendicular_ray_residual_m": 8.881784197001252e-14
+        },
+        {
+          "pano": "mc4ARoq6Vr6H2le74g1BDQ",
+          "lat": 25.0449686,
+          "lon": 121.5341636,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 725,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 73.2848664849022,
+          "camera_xy": [
+            2403.72998397064,
+            405.2401886831162
+          ],
+          "direction": [
+            0.9566035597352096,
+            0.29139256940067176
+          ],
+          "forward_distance_m": 33.14562750362238,
+          "perpendicular_ray_residual_m": 0.1924817974860673
+        }
+      ],
+      "candidate_model_xy": [
+        2435.3811214647303,
+        415.0827070184537
+      ],
+      "intersection_angle_deg": 44.56769988627225,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.080082430139815,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2420.103271484375,
+        414.9504699707031
+      ],
+      "delta_xy": [
+        15.277849980355313,
+        0.13223704775055012
+      ],
+      "comparison_object": "SV_XY_EST_CIVIC_LOCAL_JUNCTION_WEST_NORTH_MODEL211",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "CIVIC_LOCAL_JUNCTION_WEST_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_210",
+      "actual_visible_label": null,
+      "shape_note": "Rectangular mainline shaft at local junction west edge, on median nose clear of marked crosswalk.",
+      "views": [
+        {
+          "pano": "lywQQH8VeOTHWnvmVYrCPQ",
+          "lat": 25.0450126,
+          "lon": 121.5350106,
+          "date": "2025-04",
+          "view_heading": 260,
+          "target_pixel_x": 682,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 265.11556662608655,
+          "camera_xy": [
+            2489.178311680101,
+            410.4515904122929
+          ],
+          "direction": [
+            -0.9960239760802208,
+            -0.0890855716339509
+          ],
+          "forward_distance_m": 55.9816205744057,
+          "perpendicular_ray_residual_m": 3.4638958368304884e-14
+        },
+        {
+          "pano": "TmJaZc2pavLdf2zfcodVMA",
+          "lat": 25.0448352,
+          "lon": 121.5346834,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 660,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 303.1798301198642,
+          "camera_xy": [
+            2456.2394508629664,
+            390.6712151592183
+          ],
+          "direction": [
+            -0.8391132751767275,
+            0.5439567183353705
+          ],
+          "forward_distance_m": 27.195583921602008,
+          "perpendicular_ray_residual_m": 8.704148513061227e-14
+        },
+        {
+          "pano": "mc4ARoq6Vr6H2le74g1BDQ",
+          "lat": 25.0449686,
+          "lon": 121.5341636,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 846,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 89.77914910356985,
+          "camera_xy": [
+            2403.72998397064,
+            405.2401886831162
+          ],
+          "direction": [
+            0.9999695590845057,
+            0.0078026216324577815
+          ],
+          "forward_distance_m": 29.690137343272564,
+          "perpendicular_ray_residual_m": 0.0074140742856007025
+        }
+      ],
+      "candidate_model_xy": [
+        2433.4192753681673,
+        405.46443574242704
+      ],
+      "intersection_angle_deg": 38.06440110213896,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.3595853945204444,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2418.677490234375,
+        409.1223449707031
+      ],
+      "delta_xy": [
+        14.741785133792291,
+        -3.6579092282760826
+      ],
+      "comparison_object": "SV_XY_EST_CIVIC_LOCAL_JUNCTION_WEST_SOUTH_MODEL210",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

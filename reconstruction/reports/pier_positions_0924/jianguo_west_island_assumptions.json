@@ -1,0 +1,21 @@
+{
+  "name": "SV_JIANGUO_WEST_SOUTH_MEDIAN_EST",
+  "z_min": 0,
+  "z_max": 0.18,
+  "source_piers": [
+    "SV_XY_EST_P214_SOUTH_MODEL218",
+    "SV_XY_EST_JIANGUO_WEST_EDGE_SOUTH_MODEL107"
+  ],
+  "evidence": "2025-04 views show southern shafts in a continuous planted/gravel island, with a separate carriageway between north and south shafts.",
+  "sources": [
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=3Vq9E0LHU4N9sIW2U3PM2A&heading=300&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=_5Ebb39w9DkSUk1Fe2o1Jw&heading=60&pitch=0&fov=90"
+  ],
+  "estimated_width_m": 3.6,
+  "end_x_estimate_m": 2619.912066345265,
+  "end_uncertainty_assumed_m": 1.5,
+  "western_extent_status": "Partial patch ends at P214; continuation west remains pending.",
+  "calibration_status": "Street View existence; width, height, rounded endpoints estimated. Not surveyed.",
+  "survey_verified": false,
+  "road_between_pier_rows_preserved": true
+}

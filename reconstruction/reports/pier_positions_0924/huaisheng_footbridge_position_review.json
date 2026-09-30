@@ -1,0 +1,218 @@
+{
+  "targets": [
+    {
+      "id": "HUAISHENG_FOOTBRIDGE_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_078",
+      "shape_note": "Rectangular shaft and portal crossbeam visible. Current cylinder is XY proxy only; section/cap reconstruction pending.",
+      "views": [
+        {
+          "pano": "eV_i_SzovWajM8hzjh1XTw",
+          "lat": 25.0446636,
+          "lon": 121.541221,
+          "date": "2025-02",
+          "view_heading": 250,
+          "target_pixel_x": 686,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 257.2816688075351,
+          "camera_xy": [
+            3116.0011843392053,
+            374.2867794781209
+          ],
+          "direction": [
+            -0.9745756744883272,
+            -0.2240585965671081
+          ],
+          "forward_distance_m": 23.217158850342614,
+          "perpendicular_ray_residual_m": 1.865174681370263e-14
+        },
+        {
+          "pano": "D93ruj14fi2oZZ0vJUEfBw",
+          "lat": 25.0444528,
+          "lon": 121.5410633,
+          "date": "2024-12",
+          "view_heading": 290,
+          "target_pixel_x": 1065,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 339.7334383305755,
+          "camera_xy": [
+            3100.1815930929074,
+            350.87368602028573
+          ],
+          "direction": [
+            -0.3501369666202435,
+            0.9366985131865933
+          ],
+          "forward_distance_m": 19.441783213254695,
+          "perpendicular_ray_residual_m": 2.1316282072803006e-14
+        },
+        {
+          "pano": "WsyJgHLp7lDi0b0JbF74_w",
+          "lat": 25.0447127,
+          "lon": 121.5417251,
+          "date": "2025-02",
+          "view_heading": 250,
+          "target_pixel_x": 716,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 261.9207385399223,
+          "camera_xy": [
+            3166.846415742595,
+            379.928959913765
+          ],
+          "direction": [
+            -0.9895039316128558,
+            -0.1445059490910356
+          ],
+          "forward_distance_m": 74.26799053031255,
+          "perpendicular_ray_residual_m": 0.1132062255458699
+        },
+        {
+          "pano": "4Ucq9xiovJvNR2OeItBkag",
+          "lat": 25.0443684,
+          "lon": 121.5406815,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 570,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 48.996459148250494,
+          "camera_xy": [
+            3061.6927563383765,
+            341.3710326547872
+          ],
+          "direction": [
+            0.7520410593714992,
+            0.6591162606243249
+          ],
+          "forward_distance_m": 42.09240475892317,
+          "perpendicular_ray_residual_m": 0.03995211426596512
+        }
+      ],
+      "candidate_model_xy": [
+        3093.37430609293,
+        369.0847754498375
+      ],
+      "intersection_angle_deg": 82.45183360867244,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.5780277494599172,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3088.09521484375,
+        378.335205078125
+      ],
+      "delta_xy": [
+        5.2790912491800555,
+        -9.25042962828752
+      ],
+      "comparison_object": "SV_XY_EST_HUAISHENG_FOOTBRIDGE_NORTH_MODEL078",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "HUAISHENG_FOOTBRIDGE_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_079",
+      "shape_note": "Rectangular shaft and portal crossbeam visible. Current cylinder is XY proxy only; section/cap reconstruction pending.",
+      "occlusion_note": "Third view uses shaft above staircase; pedestrian bridge/stair obscures part of shaft.",
+      "views": [
+        {
+          "pano": "eV_i_SzovWajM8hzjh1XTw",
+          "lat": 25.0446636,
+          "lon": 121.541221,
+          "date": "2025-02",
+          "view_heading": 250,
+          "target_pixel_x": 529,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 232.86372549642402,
+          "camera_xy": [
+            3116.0011843392053,
+            374.2867794781209
+          ],
+          "direction": [
+            -0.7947805369995091,
+            -0.6068969418334318
+          ],
+          "forward_distance_m": 28.257637273603542,
+          "perpendicular_ray_residual_m": 8.526512829121202e-14
+        },
+        {
+          "pano": "D93ruj14fi2oZZ0vJUEfBw",
+          "lat": 25.0444528,
+          "lon": 121.5410633,
+          "date": "2024-12",
+          "view_heading": 290,
+          "target_pixel_x": 797,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 313.5625507838344,
+          "camera_xy": [
+            3100.1815930929074,
+            350.87368602028573
+          ],
+          "direction": [
+            -0.7273725964949396,
+            0.6862427455851244
+          ],
+          "forward_distance_m": 9.127411332714686,
+          "perpendicular_ray_residual_m": 1.0391687510491465e-13
+        },
+        {
+          "pano": "4Ucq9xiovJvNR2OeItBkag",
+          "lat": 25.0443684,
+          "lon": 121.5406815,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 666,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 64.13085623327642,
+          "camera_xy": [
+            3061.6927563383765,
+            341.3710326547872
+          ],
+          "direction": [
+            0.8980420824065131,
+            0.43990955687160677
+          ],
+          "forward_distance_m": 35.538202035063684,
+          "perpendicular_ray_residual_m": 0.14774192867590052
+        }
+      ],
+      "candidate_model_xy": [
+        3093.5425642125533,
+        357.13730583333256
+      ],
+      "intersection_angle_deg": 80.69888886154833,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.5579702674842313,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3088.08837890625,
+        372.335205078125
+      ],
+      "delta_xy": [
+        5.454185306303316,
+        -15.197899244792438
+      ],
+      "comparison_object": "SV_XY_EST_HUAISHENG_FOOTBRIDGE_SOUTH_MODEL079",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

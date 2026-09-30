@@ -1,0 +1,13 @@
+{
+  "patches": [
+    {
+      "object": "SV_FUXING_WEST_GUARDED_MEDIAN_EST",
+      "manifold": true,
+      "volume_m3": 337.19713391598117,
+      "ramp_hole_fill_m2": 0.0
+    }
+  ],
+  "originals_preserved": true,
+  "junction_gap_preserved": true,
+  "survey_verified": false
+}

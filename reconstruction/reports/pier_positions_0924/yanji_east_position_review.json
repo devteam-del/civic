@@ -1,0 +1,160 @@
+{
+  "targets": [
+    {
+      "id": "YANJI_EAST_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_016",
+      "target": "Rectangular mainline pair immediately east of Yanji crossing. Legacy016/017 association based on order and nearest pair, not ramp classification; remains provisional.",
+      "observed_shape": "Rectangular section unlike circular legacy mesh; dimensions deferred.",
+      "views": [
+        {
+          "pano": "1H7Cfi9UWrMmmV9v9iwN2w",
+          "lat": 25.044237,
+          "lon": 121.5538035,
+          "date": "2025-04",
+          "view_heading": 70,
+          "target_pixel_x": 565,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 58.231711067979354,
+          "camera_xy": [
+            4385.852476861457,
+            332.171960742386
+          ],
+          "direction": [
+            0.8480221031951457,
+            0.5299608593966931
+          ],
+          "forward_distance_m": 24.227665469884133,
+          "perpendicular_ray_residual_m": 1.1368683772161603e-13
+        },
+        {
+          "pano": "1fFvxuRwCMM0-vQTI32Asg",
+          "lat": 25.0444798,
+          "lon": 121.5537687,
+          "date": "2025-05",
+          "view_heading": 110,
+          "target_pixel_x": 706,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 120.3888578154696,
+          "camera_xy": [
+            4382.230836144888,
+            359.0515788835808
+          ],
+          "direction": [
+            0.8646752775603215,
+            -0.5023312297438625
+          ],
+          "forward_distance_m": 27.949494071389065,
+          "perpendicular_ray_residual_m": 1.2612133559741778e-13
+        }
+      ],
+      "candidate_model_xy": [
+        4406.398072688737,
+        345.01167515598127
+      ],
+      "intersection_angle_deg": 62.15716343594652,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.9092347815420783,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4419.99462890625,
+        342.83013916015625
+      ],
+      "delta_xy": [
+        -13.596556217513353,
+        2.1815359958250156
+      ],
+      "comparison_object": "SV_XY_EST_YANJI_EAST_SOUTH_MODEL016",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "YANJI_EAST_NORTH",
+      "actual_visible_label": "P265",
+      "model_pier_candidate": "UNVERIFIED_Pier_017",
+      "target": "Rectangular mainline pair immediately east of Yanji crossing. Legacy016/017 association based on order and nearest pair, not ramp classification; remains provisional.",
+      "observed_shape": "Rectangular section unlike circular legacy mesh; dimensions deferred.",
+      "views": [
+        {
+          "pano": "1H7Cfi9UWrMmmV9v9iwN2w",
+          "lat": 25.044237,
+          "lon": 121.5538035,
+          "date": "2025-04",
+          "view_heading": 70,
+          "target_pixel_x": 410,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 37.42594286542749,
+          "camera_xy": [
+            4385.852476861457,
+            332.171960742386
+          ],
+          "direction": [
+            0.6044798345926988,
+            0.7966204426016091
+          ],
+          "forward_distance_m": 31.625221806058853,
+          "perpendicular_ray_residual_m": 2.3803181647963356e-13
+        },
+        {
+          "pano": "1fFvxuRwCMM0-vQTI32Asg",
+          "lat": 25.0444798,
+          "lon": 121.5537687,
+          "date": "2025-05",
+          "view_heading": 110,
+          "target_pixel_x": 540,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 94.47588900324574,
+          "camera_xy": [
+            4382.230836144888,
+            359.0515788835808
+          ],
+          "direction": [
+            0.9972613198382636,
+            -0.0739585015697633
+          ],
+          "forward_distance_m": 22.80089391869802,
+          "perpendicular_ray_residual_m": 6.661338147750939e-16
+        }
+      ],
+      "candidate_model_xy": [
+        4404.969285707741,
+        357.3652589349028
+      ],
+      "intersection_angle_deg": 57.049962185899275,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.0313550603513504,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4419.21044921875,
+        348.7785949707031
+      ],
+      "delta_xy": [
+        -14.24116351100929,
+        8.586663964199658
+      ],
+      "comparison_object": "SV_XY_EST_YANJI_EAST_NORTH_MODEL017",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false,
+      "label_evidence": {
+        "pano": "Gkwq1TwVE9-u-GnuyTBHhA",
+        "lat": 25.0444925,
+        "lon": 121.5539727,
+        "date": "2025-05",
+        "note": "Readable on close northern shaft; label identification only, not an additional triangulation ray"
+      }
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

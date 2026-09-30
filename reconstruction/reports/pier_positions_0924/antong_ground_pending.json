@@ -1,0 +1,27 @@
+{
+  "status": "Pending curb and opening calibration after XY comparisons",
+  "locations": [
+    {
+      "objects": [
+        "SV_XY_EST_P233_SOUTH_MODEL673"
+      ],
+      "issue": "Street View XY comparison falls beyond existing estimated median edge; do not shift shaft back to force model-mask clearance."
+    },
+    {
+      "objects": [
+        "SV_XY_EST_WEST233_NORTH_MODEL674",
+        "SV_ADDED_EST_WEST233_SOUTH"
+      ],
+      "issue": "Antong east island/junction mask and shaft bases disagree; verify visible curb/island noses and plant-room openings before ground edit."
+    },
+    {
+      "objects": [
+        "SV_ADDED_EST_P234_NORTH"
+      ],
+      "issue": "Missing north shaft added; south counterpart remains occluded/ill-conditioned."
+    }
+  ],
+  "limited_render": "antong_east_xy_est_plan.png",
+  "render_scope": "Only roadway, medians and comparison shafts; no full-scene validation",
+  "resolved": false
+}

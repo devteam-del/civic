@@ -1,0 +1,175 @@
+{
+  "targets": [
+    {
+      "id": "EAST271_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_397",
+      "target": "Next rectangular pair after P271 between planted median strips, before vehicle crossing; own label unread.",
+      "observed_shape": "Rectangular shaft with decorative bands. XY only.",
+      "views": [
+        {
+          "pano": "LBdnHvU6GYBVYHWf7_yI6Q",
+          "lat": 25.0448998,
+          "lon": 121.5562076,
+          "date": "2025-01",
+          "view_heading": 100,
+          "target_pixel_x": 843,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 129.4181682081701,
+          "camera_xy": [
+            4628.141371766152,
+            406.5828206130996
+          ],
+          "direction": [
+            0.7751360852032235,
+            -0.6317943094202583
+          ],
+          "forward_distance_m": 22.42337648457474,
+          "perpendicular_ray_residual_m": 4.263256414560601e-14
+        },
+        {
+          "pano": "SRliI6cnVt8aqMGLY_raqg",
+          "lat": 25.0449406,
+          "lon": 121.5564088,
+          "date": "2025-01",
+          "view_heading": 210,
+          "target_pixel_x": 502,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 189.0265065786792,
+          "camera_xy": [
+            4648.425183996569,
+            411.1855548013125
+          ],
+          "direction": [
+            -0.15282857013005222,
+            -0.9882527147202802
+          ],
+          "forward_distance_m": 18.992809804188447,
+          "perpendicular_ray_residual_m": 4.1744385725905886e-14
+        },
+        {
+          "pano": "NPDAE5CGhoeZiAaYt-GcEQ",
+          "lat": 25.0446718,
+          "lon": 121.5561072,
+          "date": "2025-04",
+          "view_heading": 70,
+          "target_pixel_x": 626,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 67.77295303258643,
+          "camera_xy": [
+            4618.114157670095,
+            381.2865137536674
+          ],
+          "direction": [
+            0.9241294879349944,
+            0.38207942829862634
+          ],
+          "forward_distance_m": 29.581188207496353,
+          "perpendicular_ray_residual_m": 0.18722298388184022
+        }
+      ],
+      "candidate_model_xy": [
+        4645.522540031443,
+        392.4158589521573
+      ],
+      "intersection_angle_deg": 59.60825424785796,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.7508677882017494,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4655.24560546875,
+        405.9873046875
+      ],
+      "delta_xy": [
+        -9.723065437307014,
+        -13.571445735342706
+      ],
+      "comparison_object": "SV_XY_EST_EAST271_SOUTH_MODEL397",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "EAST271_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_396",
+      "target": "Next rectangular pair after P271 between planted median strips, before vehicle crossing; own label unread.",
+      "observed_shape": "Rectangular shaft with decorative bands. XY only.",
+      "views": [
+        {
+          "pano": "LBdnHvU6GYBVYHWf7_yI6Q",
+          "lat": 25.0448998,
+          "lon": 121.5562076,
+          "date": "2025-01",
+          "view_heading": 100,
+          "target_pixel_x": 639,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 99.84084546625535,
+          "camera_xy": [
+            4628.141371766152,
+            406.5828206130996
+          ],
+          "direction": [
+            0.9859805968540113,
+            -0.16686000907169937
+          ],
+          "forward_distance_m": 15.144975813789925,
+          "perpendicular_ray_residual_m": 8.43769498715119e-15
+        },
+        {
+          "pano": "SRliI6cnVt8aqMGLY_raqg",
+          "lat": 25.0449406,
+          "lon": 121.5564088,
+          "date": "2025-01",
+          "view_heading": 210,
+          "target_pixel_x": 685,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 217.1250163489018,
+          "camera_xy": [
+            4648.425183996569,
+            411.1855548013125
+          ],
+          "direction": [
+            -0.6002721454218468,
+            -0.7997958185878776
+          ],
+          "forward_distance_m": 8.914556470776523,
+          "perpendicular_ray_residual_m": 4.973799150320701e-14
+        }
+      ],
+      "candidate_model_xy": [
+        4643.074024058372,
+        404.05572981141995
+      ],
+      "intersection_angle_deg": 62.71591214194282,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.40844234807416585,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4653.95458984375,
+        411.84674072265625
+      ],
+      "delta_xy": [
+        -10.880565785378167,
+        -7.791010911236299
+      ],
+      "comparison_object": "SV_XY_EST_EAST271_NORTH_MODEL396",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

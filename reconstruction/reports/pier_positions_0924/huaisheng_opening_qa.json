@@ -1,0 +1,23 @@
+{
+  "adjacent_pier_cut_checks": [
+    {
+      "object": "SV_XY_EST_HUAISHENG_FOOTBRIDGE_NORTH_MODEL078",
+      "cut_overlap_m2": 0
+    },
+    {
+      "object": "SV_XY_EST_HUAISHENG_FOOTBRIDGE_SOUTH_MODEL079",
+      "cut_overlap_m2": 0
+    },
+    {
+      "object": "SV_XY_EST_HUAISHENG_WEST_NORTH_MODEL251",
+      "cut_overlap_m2": 0
+    },
+    {
+      "object": "SV_XY_EST_HUAISHENG_WEST_SOUTH_MODEL250",
+      "cut_overlap_m2": 0
+    }
+  ],
+  "note": "Cut outline is an estimated working model; coverage is model geometry only.",
+  "removed_median_road_coverage_fraction": 1,
+  "removed_median_area_m2": 168.39967314193385
+}

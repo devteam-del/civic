@@ -1,0 +1,73 @@
+{
+  "source": "p215_corners_review.json",
+  "method": "Two triangulated south corners; visible opposite edges intersect perpendicular sides under rectangular-section assumption. Two opposite-edge depth estimates provide a consistency check.",
+  "south_corners": [
+    [
+      2612.4804798003115,
+      378.82443875592617
+    ],
+    [
+      2614.9848475247654,
+      378.7119218811308
+    ]
+  ],
+  "opposite_edges": [
+    {
+      "edge": "NE",
+      "depth_m": 1.9529378846900785,
+      "xy": [
+        2615.0725011964496,
+        380.66289169517154
+      ],
+      "view": {
+        "pano": "3Vq9E0LHU4N9sIW2U3PM2A",
+        "lat": 25.04465,
+        "lon": 121.5363069,
+        "date": "2025-04",
+        "view_heading": 350,
+        "target_pixel_x": 530,
+        "image_width": 1280,
+        "image_height": 720,
+        "assumed_focal_px": 360,
+        "heading": 333.00917670801385
+      }
+    },
+    {
+      "edge": "NW",
+      "depth_m": 1.9936459350656928,
+      "xy": [
+        2612.5699605705995,
+        380.81607559685693
+      ],
+      "view": {
+        "pano": "_5Ebb39w9DkSUk1Fe2o1Jw",
+        "lat": 25.0446665,
+        "lon": 121.5361952,
+        "date": "2025-04",
+        "view_heading": 60,
+        "target_pixel_x": 383,
+        "image_width": 1280,
+        "image_height": 720,
+        "assumed_focal_px": 360,
+        "heading": 24.477380231204044
+      }
+    }
+  ],
+  "width_m": 2.506894043712296,
+  "depth_estimate_m": 1.9732919098778856,
+  "depth_disagreement_m": 0.04070805037561431,
+  "center_model_xy": [
+    2613.7769472730315,
+    379.7538319822714
+  ],
+  "rotation_z_rad": -0.044898062830106646,
+  "survey_verified": false,
+  "shape_assumption": "Rectangular lower shaft; head flare and reinforcement casing not reconstructed by this calculation.",
+  "superseded_pixel_pick": {
+    "edge": "NW",
+    "initial_pixel_x": 402,
+    "revised_pixel_x": 383,
+    "reason": "Full-view inspection distinguished actual outer column edge from reinforcement-screen boundary. Initial opposite-depth disagreement 0.763m rejected."
+  },
+  "depth_uncertainty": "0.041m is internal consistency only, not absolute accuracy; panorama GPS/yaw, image edge selection and rectangular assumption remain unquantified."
+}

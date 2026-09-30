@@ -1,0 +1,12 @@
+{
+  "mesh_checks": [
+    {
+      "object": "SV_GUANGFU_EAST_MEDIAN_EST",
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  ],
+  "source_preserved": true,
+  "median14_omitted_only_from_working_scene": true,
+  "curbs_estimated": true
+}

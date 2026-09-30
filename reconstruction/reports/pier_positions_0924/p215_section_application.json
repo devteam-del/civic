@@ -1,0 +1,18 @@
+{
+  "object": "SV_XY_EST_JIANGUO_WEST_EDGE_SOUTH_MODEL107",
+  "section_width_m": 2.506894043712296,
+  "section_depth_m": 1.9732919098778856,
+  "xy_preserved": [
+    2613.954833984375,
+    379.7019958496094
+  ],
+  "z_range_preserved": [
+    0.0,
+    4.800000190734863
+  ],
+  "original_proxy_mesh_preserved": "UNVERIFIED_Pier_107_circular.001",
+  "section_center_difference_m": 0.1852853656443351,
+  "decision": "Retain prior triangulated XY. Section-derived center differs within uncertainty; no additional XY shift.",
+  "survey_verified": false,
+  "head_flare_pending": true
+}

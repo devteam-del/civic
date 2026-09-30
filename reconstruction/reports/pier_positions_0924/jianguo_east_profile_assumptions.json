@@ -1,0 +1,24 @@
+{
+  "name": "SV_JIANGUO_EAST_APRON_MEDIAN_EST",
+  "source_object": "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_6",
+  "z_min": 0,
+  "z_max": 0.18,
+  "sources": [
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=dMVEE6UYTNXGPO74I7fYNw&heading=300&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=kPznn-dd5_zfp-H7LCd-Wg&heading=190&pitch=0&fov=90"
+  ],
+  "source_records": [
+    "jianguo_east_edge_position_review.json",
+    "west_white_next_position_review.json",
+    "ramp_screen_end_position_review.json",
+    "painted_temple_position_review.json",
+    "painted_church_position_review.json",
+    "west_blue_portal_position_review.json",
+    "west_blue_portal_south_position_review.json"
+  ],
+  "existence_status": "Street imagery shows shafts on planted strips or raised paved aprons, with a bollard-controlled pedestrian crossing immediately east of the western blue portal shaft.",
+  "width_status": "Outer edges use provisional 1.8m allowances; eastern edge x=2930 leaves the existing eastern pedestrian gap open. This is an estimated ground envelope, not measured lane boundaries.",
+  "topology_status": "Mixed planting/paved apron; do not classify the whole mass as planting. Pedestrian gap remains east of x2930.",
+  "estimated_added_area_m2": 1118.632935287148,
+  "survey_verified": false
+}

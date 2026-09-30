@@ -1,0 +1,203 @@
+{
+  "targets": [
+    {
+      "id": "ZHONGLIN_WEST_EXIT_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_294",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "FBm0naUGS3veHnmYKONp2Q",
+          "lat": 25.047858,
+          "lon": 121.5214724,
+          "date": "2025-04",
+          "view_heading": 330,
+          "target_pixel_x": 681,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 334.99439091703977,
+          "camera_xy": [
+            1121.8757473968765,
+            720.2905078414854
+          ],
+          "direction": [
+            -0.426197332767721,
+            0.9046302192286528
+          ],
+          "forward_distance_m": 21.658449773935324,
+          "perpendicular_ray_residual_m": 3.375077994860476e-14
+        },
+        {
+          "pano": "KDlqhgAP6r2QIz0x_yWfSQ",
+          "lat": 25.0479197,
+          "lon": 121.5210879,
+          "date": "2025-02",
+          "view_heading": 60,
+          "target_pixel_x": 682,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 66.6544250460066,
+          "camera_xy": [
+            1083.0519291861374,
+            726.9752503831925
+          ],
+          "direction": [
+            0.9165982146451539,
+            0.39980959581945563
+          ],
+          "forward_distance_m": 32.28573240965854,
+          "perpendicular_ray_residual_m": 6.217248937900877e-14
+        },
+        {
+          "pano": "SBu9uXniGhP4O-HNyevkIw",
+          "lat": 25.0478565,
+          "lon": 121.5215839,
+          "date": "2025-02",
+          "view_heading": 300,
+          "target_pixel_x": 730,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 314.03624346792645,
+          "camera_xy": [
+            1133.1271567595074,
+            720.1677332140413
+          ],
+          "direction": [
+            -0.7215749900716518,
+            0.6923362865711254
+          ],
+          "forward_distance_m": 28.42929968067033,
+          "perpendicular_ray_residual_m": 0.04577074360029698
+        }
+      ],
+      "association_note": "Provisional nearest longitudinal pair, not verified by pier number.",
+      "shape_note": "Portal pair beside western parking ramp mouth; central opening and retaining walls must be calibrated separately. North shaft appears rectangular and south round.",
+      "candidate_model_xy": [
+        1112.6449738713416,
+        739.8833960086332
+      ],
+      "intersection_angle_deg": 88.33980170211072,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.6878282148534828,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        1093.2020263671875,
+        744.6162719726562
+      ],
+      "delta_xy": [
+        19.442947504154063,
+        -4.732875964023037
+      ],
+      "comparison_object": "SV_XY_EST_ZHONGLIN_WEST_EXIT_NORTH_MODEL294",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "ZHONGLIN_WEST_EXIT_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_295",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "FBm0naUGS3veHnmYKONp2Q",
+          "lat": 25.047858,
+          "lon": 121.5214724,
+          "date": "2025-04",
+          "view_heading": 330,
+          "target_pixel_x": 435,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 306.3970732485952,
+          "camera_xy": [
+            1121.8757473968765,
+            720.2905078414854
+          ],
+          "direction": [
+            -0.8072054777535594,
+            0.5902705453303999
+          ],
+          "forward_distance_m": 12.82210075884298,
+          "perpendicular_ray_residual_m": 1.7763568394002505e-15
+        },
+        {
+          "pano": "KDlqhgAP6r2QIz0x_yWfSQ",
+          "lat": 25.0479197,
+          "lon": 121.5210879,
+          "date": "2025-02",
+          "view_heading": 60,
+          "target_pixel_x": 835,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 88.44292862436335,
+          "camera_xy": [
+            1083.0519291861374,
+            726.9752503831925
+          ],
+          "direction": [
+            0.999518671559245,
+            0.031022978651993487
+          ],
+          "forward_distance_m": 28.487460066627897,
+          "perpendicular_ray_residual_m": 5.728750807065808e-14
+        },
+        {
+          "pano": "SBu9uXniGhP4O-HNyevkIw",
+          "lat": 25.0478565,
+          "lon": 121.5215839,
+          "date": "2025-02",
+          "view_heading": 300,
+          "target_pixel_x": 574,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 289.61114218453037,
+          "camera_xy": [
+            1133.1271567595074,
+            720.1677332140413
+          ],
+          "direction": [
+            -0.9432792725044425,
+            0.332000322384617
+          ],
+          "forward_distance_m": 22.929736155869822,
+          "perpendicular_ray_residual_m": 0.08332976351316379
+        }
+      ],
+      "association_note": "Provisional nearest longitudinal pair, not verified by pier number.",
+      "shape_note": "Portal pair beside western parking ramp mouth; central opening and retaining walls must be calibrated separately. North shaft appears rectangular and south round.",
+      "candidate_model_xy": [
+        1111.5256774280303,
+        727.8590162486889
+      ],
+      "intersection_angle_deg": 37.95398025281352,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.1178988482118157,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        1092.3199462890625,
+        738.6815795898438
+      ],
+      "delta_xy": [
+        19.20573113896785,
+        -10.822563341154819
+      ],
+      "comparison_object": "SV_XY_EST_ZHONGLIN_WEST_EXIT_SOUTH_MODEL295",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

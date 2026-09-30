@@ -1,0 +1,195 @@
+{
+  "targets": [
+    {
+      "id": "PAINTED_TEMPLE_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_235",
+      "shape_note": "Rectangular temple-painted shaft; upper shaft visible above central ramp screen.",
+      "views": [
+        {
+          "pano": "b5jqL57lbcKVNVISUHXLbA",
+          "lat": 25.0447214,
+          "lon": 121.5390806,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 683,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 266.8113922242292,
+          "camera_xy": [
+            2899.9952594644574,
+            379.8267786177093
+          ],
+          "direction": [
+            -0.998222293533464,
+            -0.05960077761901039
+          ],
+          "forward_distance_m": 29.82850967595227,
+          "perpendicular_ray_residual_m": 2.3092638912203256e-14
+        },
+        {
+          "pano": "NfN9c34laNEaExIh-8h8xA",
+          "lat": 25.0445263,
+          "lon": 121.5389795,
+          "date": "2025-04",
+          "view_heading": 290,
+          "target_pixel_x": 812,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 315.53743439063635,
+          "camera_xy": [
+            2889.879700544925,
+            358.17571651945116
+          ],
+          "direction": [
+            -0.7032807383018893,
+            0.7109122330734994
+          ],
+          "forward_distance_m": 27.95458961289328,
+          "perpendicular_ray_residual_m": 2.3092638912203256e-14
+        },
+        {
+          "pano": "eZIuJaziUsz2xtLuMRXG6Q",
+          "lat": 25.0445307,
+          "lon": 121.5388945,
+          "date": "2025-04",
+          "view_heading": 320,
+          "target_pixel_x": 705,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 330.2348027634232,
+          "camera_xy": [
+            2881.300692713054,
+            358.62892079723883
+          ],
+          "direction": [
+            -0.4999003980950571,
+            0.8660829013347414
+          ],
+          "forward_distance_m": 22.358732581581528,
+          "perpendicular_ray_residual_m": 0.11110106004206699
+        }
+      ],
+      "candidate_model_xy": [
+        2870.219776123043,
+        378.0489762458064
+      ],
+      "intersection_angle_deg": 48.72608366781856,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.2716406854132922,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2841.786865234375,
+        372.7692565917969
+      ],
+      "delta_xy": [
+        28.432910888668175,
+        5.2797196540095115
+      ],
+      "comparison_object": "SV_XY_EST_PAINTED_TEMPLE_NORTH_MODEL235",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "PAINTED_TEMPLE_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_234",
+      "shape_note": "Rectangular shaft with seated Buddha painting, adjoining decorated ramp screen.",
+      "views": [
+        {
+          "pano": "NfN9c34laNEaExIh-8h8xA",
+          "lat": 25.0445263,
+          "lon": 121.5389795,
+          "date": "2025-04",
+          "view_heading": 290,
+          "target_pixel_x": 651,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 291.75015983532415,
+          "camera_xy": [
+            2889.879700544925,
+            358.17571651945116
+          ],
+          "direction": [
+            -0.9302773337025954,
+            0.36685703264240427
+          ],
+          "forward_distance_m": 22.244492955911518,
+          "perpendicular_ray_residual_m": 3.108624468950438e-14
+        },
+        {
+          "pano": "bwW2NIhZXwNQlHAYRqNpFQ",
+          "lat": 25.0445351,
+          "lon": 121.5388013,
+          "date": "2025-04",
+          "view_heading": 350,
+          "target_pixel_x": 575,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 339.7651972365768,
+          "camera_xy": [
+            2871.894250981285,
+            359.078835294732
+          ],
+          "direction": [
+            -0.3496020555091503,
+            0.9368982883876867
+          ],
+          "forward_distance_m": 7.74623029320405,
+          "perpendicular_ray_residual_m": 1.3589129821411916e-13
+        },
+        {
+          "pano": "eZIuJaziUsz2xtLuMRXG6Q",
+          "lat": 25.0445307,
+          "lon": 121.5388945,
+          "date": "2025-04",
+          "view_heading": 320,
+          "target_pixel_x": 529,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 302.863725496424,
+          "camera_xy": [
+            2881.300692713054,
+            358.62892079723883
+          ],
+          "direction": [
+            -0.8421182913788099,
+            0.5392928548805684
+          ],
+          "forward_distance_m": 14.358391292882985,
+          "perpendicular_ray_residual_m": 0.042789037534507024
+        }
+      ],
+      "candidate_model_xy": [
+        2869.1861529483335,
+        366.3362651978917
+      ],
+      "intersection_angle_deg": 48.01511057619289,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.6835370838944115,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2841.277587890625,
+        366.79083251953125
+      ],
+      "delta_xy": [
+        27.90856505770853,
+        -0.4545673216395585
+      ],
+      "comparison_object": "SV_XY_EST_PAINTED_TEMPLE_SOUTH_MODEL234",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

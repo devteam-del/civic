@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "object": "SV_XY_EST_P247_MODEL732",
+      "world_z_identical": true,
+      "local_mesh_identical": true,
+      "old_absent_from_working": true
+    },
+    {
+      "object": "SV_XY_EST_P246_MODEL730",
+      "world_z_identical": true,
+      "local_mesh_identical": true,
+      "old_absent_from_working": true
+    },
+    {
+      "object": "SV_XY_EST_Pier_642",
+      "world_z_identical": true,
+      "local_mesh_identical": true,
+      "old_absent_from_working": true
+    }
+  ],
+  "scope": "XY comparisons only; road boundary conflicts unresolved"
+}

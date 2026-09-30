@@ -1,0 +1,10 @@
+{
+  "status": "Open review",
+  "issue": "Small existing road-surface hole visible north-west of estimated median nose in local plan QA; needs ground geometry classification and Street View check.",
+  "approx_model_xy": [
+    3402,
+    408
+  ],
+  "equipment_collision_status": "Not yet checked against equipment footprint geometry",
+  "resolved": false
+}

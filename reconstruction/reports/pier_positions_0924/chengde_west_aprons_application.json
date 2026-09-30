@@ -1,0 +1,18 @@
+{
+  "patches": [
+    {
+      "object": "SV_CHENGDE_WEST_NORTH_MEDIAN_APRON_EST",
+      "volume_m3": 23.997584866396892,
+      "manifold": true,
+      "estimated_width_m": 3.6
+    },
+    {
+      "object": "SV_CHENGDE_WEST_SOUTH_MEDIAN_APRON_EST",
+      "volume_m3": 23.510220821843177,
+      "manifold": true,
+      "estimated_width_m": 3.6
+    }
+  ],
+  "central_entry_zone_untouched": true,
+  "field_verified": false
+}

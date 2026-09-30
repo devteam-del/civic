@@ -1,0 +1,32 @@
+{
+  "patches": [
+    {
+      "object": "SV_SONGJIANG_JIANGUO_WEST_NORTH_MEDIAN_EST",
+      "volume_m3": 69.23597645389145,
+      "manifold": true,
+      "estimated_width_m": 2.8
+    },
+    {
+      "object": "SV_SONGJIANG_JIANGUO_WEST_SOUTH_MEDIAN_EST",
+      "volume_m3": 89.98518622568008,
+      "manifold": true,
+      "estimated_width_m": 3.6
+    },
+    {
+      "object": "SV_SONGJIANG_JIANGUO_EAST_NORTH_MEDIAN_EST",
+      "volume_m3": 69.82817890467572,
+      "manifold": true,
+      "estimated_width_m": 2.8
+    },
+    {
+      "object": "SV_SONGJIANG_JIANGUO_EAST_SOUTH_MEDIAN_EST",
+      "volume_m3": 94.31606423582684,
+      "manifold": true,
+      "estimated_width_m": 3.6
+    }
+  ],
+  "prior_partial_preserved_in": "CIVIC_P215_SECTION_QA_20260929",
+  "original_ground_preserved": true,
+  "pier_xy_and_height_unchanged": true,
+  "field_verified": false
+}

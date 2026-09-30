@@ -1,0 +1,210 @@
+{
+  "targets": [
+    {
+      "id": "WEST_P214_NEXT_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_215",
+      "actual_visible_label": null,
+      "shape_note": "Rectangular shaft, next western pair after west-P214 comparison. Bases in landscaped medians; lower shaft partially screened.",
+      "views": [
+        {
+          "pano": "FyAUfL50amAP060EdB36Dg",
+          "lat": 25.0449552,
+          "lon": 121.5354263,
+          "date": "2025-04",
+          "view_heading": 260,
+          "target_pixel_x": 623,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 257.92480189161176,
+          "camera_xy": [
+            2531.150192309202,
+            404.2595714703323
+          ],
+          "direction": [
+            -0.977038350920016,
+            -0.21306351360919537
+          ],
+          "forward_distance_m": 21.463100057757895,
+          "perpendicular_ray_residual_m": 7.993605777301127e-15
+        },
+        {
+          "pano": "UPKfuf0v1ndm02e9vSLrcA",
+          "lat": 25.0447459,
+          "lon": 121.5352844,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 946,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 340.3645365730974,
+          "camera_xy": [
+            2516.9233141993445,
+            381.0196286802811
+          ],
+          "direction": [
+            -0.33975832374347265,
+            0.9405127758021289
+          ],
+          "forward_distance_m": 19.84761904257941,
+          "perpendicular_ray_residual_m": 9.414691248821327e-14
+        },
+        {
+          "pano": "5nfLszVP5JEaATB28cvjBw",
+          "lat": 25.0449336,
+          "lon": 121.5356131,
+          "date": "2025-04",
+          "view_heading": 260,
+          "target_pixel_x": 683,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 266.8113922242292,
+          "camera_xy": [
+            2550.0089568712133,
+            401.94163837244207
+          ],
+          "direction": [
+            -0.9982238183815343,
+            -0.05957523324158995
+          ],
+          "forward_distance_m": 39.89263919150642,
+          "perpendicular_ray_residual_m": 0.12175913743697331
+        }
+      ],
+      "candidate_model_xy": [
+        2510.179920423139,
+        399.68656795908066
+      ],
+      "intersection_angle_deg": 82.43979212054118,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.5585720911998513,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2489.169921875,
+        400.1921081542969
+      ],
+      "delta_xy": [
+        21.00999854813881,
+        -0.5055401952162129
+      ],
+      "comparison_object": "SV_XY_EST_WEST_P214_NEXT_NORTH_MODEL215",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "WEST_P214_NEXT_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_214",
+      "actual_visible_label": null,
+      "shape_note": "Rectangular shaft, next western pair after west-P214 comparison. Bases in landscaped medians; lower shaft partially screened.",
+      "views": [
+        {
+          "pano": "FyAUfL50amAP060EdB36Dg",
+          "lat": 25.0449552,
+          "lon": 121.5354263,
+          "date": "2025-04",
+          "view_heading": 260,
+          "target_pixel_x": 438,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 236.7054298218182,
+          "camera_xy": [
+            2531.150192309202,
+            404.2595714703323
+          ],
+          "direction": [
+            -0.8336804496065197,
+            -0.5522471438983376
+          ],
+          "forward_distance_m": 26.940734921555453,
+          "perpendicular_ray_residual_m": 3.730349362740526e-14
+        },
+        {
+          "pano": "UPKfuf0v1ndm02e9vSLrcA",
+          "lat": 25.0447459,
+          "lon": 121.5352844,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 741,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 315.6717590638049,
+          "camera_xy": [
+            2516.9233141993445,
+            381.0196286802811
+          ],
+          "direction": [
+            -0.7015927068176856,
+            0.7125781878083507
+          ],
+          "forward_distance_m": 11.734851021498022,
+          "perpendicular_ray_residual_m": 7.993605777301127e-15
+        },
+        {
+          "pano": "TmJaZc2pavLdf2zfcodVMA",
+          "lat": 25.0448352,
+          "lon": 121.5346834,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 861,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 91.54530151749086,
+          "camera_xy": [
+            2456.2394508629664,
+            390.6712151592183
+          ],
+          "direction": [
+            0.9997350824627927,
+            -0.02301662210475267
+          ],
+          "forward_distance_m": 52.466564263866495,
+          "perpendicular_ray_residual_m": 0.0820062459337918
+        }
+      ],
+      "rejected_view": {
+        "pano": "5nfLszVP5JEaATB28cvjBw",
+        "lat": 25.0449336,
+        "lon": 121.5356131,
+        "date": "2025-04",
+        "view_heading": 260,
+        "target_pixel_x": 630,
+        "image_width": 1280,
+        "image_height": 720,
+        "assumed_focal_px": 360,
+        "heading": 258.4088597288054,
+        "reason": "Distant shaft center picked on wrong visible feature; disagrees with nearer two-view estimate by 3.83m. Not used in fit."
+      },
+      "candidate_model_xy": [
+        2508.6902283070694,
+        389.3816275553811
+      ],
+      "intersection_angle_deg": 78.96638625512962,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.5682142288114995,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2488.106689453125,
+        394.2870788574219
+      ],
+      "delta_xy": [
+        20.583538853944447,
+        -4.905451302040774
+      ],
+      "comparison_object": "SV_XY_EST_WEST_P214_NEXT_SOUTH_MODEL214",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

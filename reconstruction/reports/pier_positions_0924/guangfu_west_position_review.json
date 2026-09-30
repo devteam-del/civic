@@ -1,0 +1,219 @@
+{
+  "targets": [
+    {
+      "id": "GUANGFU_WEST_NORTH",
+      "actual_visible_label": "P276",
+      "model_pier_candidate": "UNVERIFIED_Pier_037",
+      "target": "North shaft on west side of Guangfu intersection, beside long louvered equipment room; separate from intermediate missing support.",
+      "observed_shape": "Rectangular; XY only, source circular shaft shape pending",
+      "views": [
+        {
+          "pano": "A-JUIn10_hi7dDNpLyxtww",
+          "lat": 25.0451584,
+          "lon": 121.5574543,
+          "date": "2025-01",
+          "view_heading": 70,
+          "target_pixel_x": 968,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 112.33699923393286,
+          "camera_xy": [
+            4753.823552999359,
+            435.7446758215646
+          ],
+          "direction": [
+            0.9265225386602322,
+            -0.37623926609884645
+          ],
+          "forward_distance_m": 11.893263365190974,
+          "perpendicular_ray_residual_m": 9.769962616701378e-14
+        },
+        {
+          "pano": "_G36_NzKikasV2eh0nq9jg",
+          "lat": 25.0452025,
+          "lon": 121.5576563,
+          "date": "2025-01",
+          "view_heading": 210,
+          "target_pixel_x": 736,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 224.93141717813756,
+          "camera_xy": [
+            4774.186502033501,
+            440.7134592669273
+          ],
+          "direction": [
+            -0.7033359111060601,
+            -0.710857648301408
+          ],
+          "forward_distance_m": 13.284651502262708,
+          "perpendicular_ray_residual_m": 1.7852386235972517e-13
+        },
+        {
+          "pano": "WgYxcAQZfYjc-G_IiOy_Fg",
+          "lat": 25.0451681,
+          "lon": 121.5575481,
+          "date": "2025-01",
+          "view_heading": 140,
+          "target_pixel_x": 774,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 160.41638485142394,
+          "camera_xy": [
+            4763.284141014206,
+            436.8581085669505
+          ],
+          "direction": [
+            0.33906179978804196,
+            -0.940764102166156
+          ],
+          "forward_distance_m": 5.785652265591391,
+          "perpendicular_ray_residual_m": 0.42827433356287026
+        },
+        {
+          "pano": "NnKjizwkfo4CsLvitAR74g",
+          "lat": 25.0449817,
+          "lon": 121.55766,
+          "date": "2025-04",
+          "view_heading": 310,
+          "target_pixel_x": 755,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 327.71579270637693,
+          "camera_xy": [
+            4774.660662485896,
+            416.2578468408283
+          ],
+          "direction": [
+            -0.537599407189375,
+            0.8432003779586632
+          ],
+          "forward_distance_m": 17.93622953669269,
+          "perpendicular_ray_residual_m": 0.20781128532119908
+        }
+      ],
+      "candidate_model_xy": [
+        4764.8429295654305,
+        431.26996314152495
+      ],
+      "intersection_angle_deg": 67.40566663319737,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.3962200734679702,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4761.97314453125,
+        425.83575439453125
+      ],
+      "delta_xy": [
+        2.869785034180495,
+        5.434208746993704
+      ],
+      "comparison_object": "SV_XY_EST_GUANGFU_WEST_NORTH_MODEL037",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "GUANGFU_WEST_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_036",
+      "target": "Southern shaft paired with readable P276 at Guangfu west junction. Rear shaft partly obscured; exposed upper edges used.",
+      "observed_shape": "Rectangular; XY only, source circular shaft shape pending",
+      "views": [
+        {
+          "pano": "_G36_NzKikasV2eh0nq9jg",
+          "lat": 25.0452025,
+          "lon": 121.5576563,
+          "date": "2025-01",
+          "view_heading": 210,
+          "target_pixel_x": 592,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 202.40535663140855,
+          "camera_xy": [
+            4774.186502033501,
+            440.7134592669273
+          ],
+          "direction": [
+            -0.377343043401874,
+            -0.9260735540961157
+          ],
+          "forward_distance_m": 23.364884058462096,
+          "perpendicular_ray_residual_m": 2.948752353404416e-13
+        },
+        {
+          "pano": "NnKjizwkfo4CsLvitAR74g",
+          "lat": 25.0449817,
+          "lon": 121.55766,
+          "date": "2025-04",
+          "view_heading": 310,
+          "target_pixel_x": 488,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 287.1094483437517,
+          "camera_xy": [
+            4774.660662485896,
+            416.2578468408283
+          ],
+          "direction": [
+            -0.9569490054562594,
+            0.2902560954679091
+          ],
+          "forward_distance_m": 9.708706377010891,
+          "perpendicular_ray_residual_m": 9.992007221626409e-14
+        },
+        {
+          "pano": "WgYxcAQZfYjc-G_IiOy_Fg",
+          "lat": 25.0451681,
+          "lon": 121.5575481,
+          "date": "2025-01",
+          "view_heading": 140,
+          "target_pixel_x": 889,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 174.67031791098054,
+          "camera_xy": [
+            4763.284141014206,
+            436.8581085669505
+          ],
+          "direction": [
+            0.09698867018642442,
+            -0.9952854856047431
+          ],
+          "forward_distance_m": 17.900713315789158,
+          "perpendicular_ray_residual_m": 0.351274267646807
+        }
+      ],
+      "candidate_model_xy": [
+        4765.3699255741485,
+        419.07585804586375
+      ],
+      "intersection_angle_deg": 84.70408725306747,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.46478156410633215,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4763.50048828125,
+        420.03338623046875
+      ],
+      "delta_xy": [
+        1.8694372928985103,
+        -0.9575281846049961
+      ],
+      "comparison_object": "SV_XY_EST_GUANGFU_WEST_SOUTH_MODEL036",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

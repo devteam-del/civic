@@ -1,0 +1,53 @@
+{
+  "patches": [
+    {
+      "name": "SV_ZHONGLIN_WEST_MEDIAN_PROFILE_EST",
+      "source_object": "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_2",
+      "source_records": [
+        "zhonglin_west_exit_position_review.json",
+        "zhonglin_ramp_middle_position_review.json",
+        "zhonglin_access_west_position_review.json"
+      ],
+      "ramp_hole_area_preserved_m2": 246.45693992078304,
+      "ramp_hole_fill_m2": 0.0,
+      "bounds": [
+        1078.489990234375,
+        720.9766375564875,
+        1202.0,
+        744.9249025124338
+      ],
+      "width_status": "1.8m shaft-centre-to-curb allowance, estimated. Junction end positions provisional; ramp holes preserved from existing model.",
+      "survey_verified": false
+    },
+    {
+      "name": "SV_ZHONGLIN_EAST_MEDIAN_PROFILE_EST",
+      "source_object": "CAL_GROUND_MEDIAN_WORKING_ESTIMATED_1",
+      "source_records": [
+        "p145_missing_support_review.json",
+        "west_visible_p147_position_review.json",
+        "east_visible_p147_position_review.json",
+        "ramp_east_portal_position_review.json"
+      ],
+      "ramp_hole_area_preserved_m2": 203.1134909056127,
+      "ramp_hole_fill_m2": 0.0,
+      "bounds": [
+        1224.0,
+        709.3413999806936,
+        1374.72998046875,
+        734.220161496101
+      ],
+      "width_status": "1.8m shaft-centre-to-curb allowance, estimated. Junction end positions provisional; ramp holes preserved from existing model.",
+      "survey_verified": false
+    }
+  ],
+  "sources": [
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=A1INyU_mtrtr7HQ7Mi628Q&heading=60&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=ou2ErwddbzjJ86pJUdSlnA&heading=60&pitch=0&fov=90",
+    "https://www.google.com/maps/@?api=1&map_action=pano&pano=-WmQYYv_MpykCU0KH86NHw&heading=0&pitch=0&fov=90"
+  ],
+  "estimated_junction_gap_x_m": [
+    1202,
+    1224
+  ],
+  "status": "Comparison geometry only; inner ramps and metric curb dimensions are not independently surveyed."
+}

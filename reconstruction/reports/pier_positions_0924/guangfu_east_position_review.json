@@ -1,0 +1,217 @@
+{
+  "targets": [
+    {
+      "id": "GUANGFU_EAST_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_387",
+      "target": "First mainline rectangular shaft pair east of Guangfu intersection, at median end before ramp.",
+      "views": [
+        {
+          "pano": "NnKjizwkfo4CsLvitAR74g",
+          "lat": 25.0449817,
+          "lon": 121.55766,
+          "date": "2025-04",
+          "view_heading": 70,
+          "target_pixel_x": 616,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 66.18592516570965,
+          "camera_xy": [
+            4774.660662485896,
+            416.2578468408283
+          ],
+          "direction": [
+            0.9131884940433601,
+            0.40753745146528547
+          ],
+          "forward_distance_m": 34.1211305176355,
+          "perpendicular_ray_residual_m": 8.704148513061227e-14
+        },
+        {
+          "pano": "-mhyRldoDgcRnniHnvmIoQ",
+          "lat": 25.0453575,
+          "lon": 121.5581797,
+          "date": "2025-01",
+          "view_heading": 250,
+          "target_pixel_x": 409,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 217.31306345898946,
+          "camera_xy": [
+            4826.9300373075885,
+            458.0999946411989
+          ],
+          "direction": [
+            -0.6028833795603764,
+            -0.797829324260433
+          ],
+          "forward_distance_m": 35.01564605186137,
+          "perpendicular_ray_residual_m": 1.9895196601282805e-13
+        },
+        {
+          "pano": "zyH9DSntVasw4pvxhP4nZA",
+          "lat": 25.0453204,
+          "lon": 121.5580663,
+          "date": "2025-01",
+          "view_heading": 210,
+          "target_pixel_x": 596,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 203.03174325862145,
+          "camera_xy": [
+            4815.504225463654,
+            453.94336840740976
+          ],
+          "direction": [
+            -0.38744178960636566,
+            -0.9218941694503857
+          ],
+          "forward_distance_m": 25.67473067613286,
+          "perpendicular_ray_residual_m": 0.28520021520247063
+        }
+      ],
+      "candidate_model_xy": [
+        4805.8196862783525,
+        430.16348541309975
+      ],
+      "intersection_angle_deg": 28.87308024344648,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.419922406810855,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4827.19091796875,
+        438.8498840332031
+      ],
+      "delta_xy": [
+        -21.371231690397508,
+        -8.686398620103375
+      ],
+      "comparison_object": "SV_XY_EST_GUANGFU_EAST_SOUTH_MODEL387",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "GUANGFU_EAST_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_386",
+      "target": "First mainline rectangular shaft pair east of Guangfu intersection, at median end before ramp.",
+      "views": [
+        {
+          "pano": "-mhyRldoDgcRnniHnvmIoQ",
+          "lat": 25.0453575,
+          "lon": 121.5581797,
+          "date": "2025-01",
+          "view_heading": 250,
+          "target_pixel_x": 515,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 230.8518625420604,
+          "camera_xy": [
+            4826.9300373075885,
+            458.0999946411989
+          ],
+          "direction": [
+            -0.7729050708036298,
+            -0.6345216714392315
+          ],
+          "forward_distance_m": 28.146027811868134,
+          "perpendicular_ray_residual_m": 2.842170943040401e-14
+        },
+        {
+          "pano": "d2NSNPM7PsHauo7o_9rbuQ",
+          "lat": 25.0452859,
+          "lon": 121.5579555,
+          "date": "2025-01",
+          "view_heading": 160,
+          "target_pixel_x": 739,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 175.37625124882618,
+          "camera_xy": [
+            4804.339575435459,
+            450.0758256738074
+          ],
+          "direction": [
+            0.08472186221466049,
+            -0.9964046397236818
+          ],
+          "forward_distance_m": 9.87058394960665,
+          "perpendicular_ray_residual_m": 4.196643033083092e-14
+        },
+        {
+          "pano": "zyH9DSntVasw4pvxhP4nZA",
+          "lat": 25.0453204,
+          "lon": 121.5580663,
+          "date": "2025-01",
+          "view_heading": 210,
+          "target_pixel_x": 686,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 217.28166880753508,
+          "camera_xy": [
+            4815.504225463654,
+            453.94336840740976
+          ],
+          "direction": [
+            -0.6024467998123643,
+            -0.7981590401642025
+          ],
+          "forward_distance_m": 17.159193677066845,
+          "perpendicular_ray_residual_m": 0.011408181594363853
+        },
+        {
+          "pano": "NnKjizwkfo4CsLvitAR74g",
+          "lat": 25.0449817,
+          "lon": 121.55766,
+          "date": "2025-04",
+          "view_heading": 70,
+          "target_pixel_x": 518,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 51.279051325282914,
+          "camera_xy": [
+            4774.660662485896,
+            416.2578468408283
+          ],
+          "direction": [
+            0.777616838806715,
+            0.6287384607324827
+          ],
+          "forward_distance_m": 38.80806891605141,
+          "perpendicular_ray_residual_m": 0.5365654454057172
+        }
+      ],
+      "candidate_model_xy": [
+        4805.175829688816,
+        440.24073002963723
+      ],
+      "intersection_angle_deg": 55.47551430134971,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.7586672478971365,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4826.322265625,
+        444.78668212890625
+      ],
+      "delta_xy": [
+        -21.14643593618439,
+        -4.545952099269016
+      ],
+      "comparison_object": "SV_XY_EST_GUANGFU_EAST_NORTH_MODEL386",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

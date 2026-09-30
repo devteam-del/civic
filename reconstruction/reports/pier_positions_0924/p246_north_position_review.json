@@ -1,0 +1,72 @@
+{
+  "target": "North-side shaft opposite visible P246 at west end of U-turn opening; own label unread",
+  "candidate_model_xy": [
+    3682.919631769857,
+    428.44398190866804
+  ],
+  "views": [
+    {
+      "pano": "akMOb0qFNqnQ6f7z51SldA",
+      "lat": 25.044956,
+      "lon": 121.5469716,
+      "heading": 326,
+      "date": "2024-12",
+      "camera_xy": [
+        3696.143794612183,
+        409.00831011305195
+      ],
+      "direction": [
+        -0.5625399727417565,
+        0.8267700883968312
+      ],
+      "perpendicular_ray_residual_m": 1.6697754290362354e-13,
+      "forward_distance_m": 23.507952293367797
+    },
+    {
+      "pano": "aBo2wQlsJzMEiNZ9NQDZew",
+      "lat": 25.0449653,
+      "lon": 121.5468703,
+      "heading": 351,
+      "date": "2024-12",
+      "camera_xy": [
+        3685.917812446677,
+        409.9971126880943
+      ],
+      "direction": [
+        -0.16042549354226676,
+        0.9870479527468359
+      ],
+      "perpendicular_ray_residual_m": 1.98507876802978e-13,
+      "forward_distance_m": 18.688929113563656
+    },
+    {
+      "pano": "uKMagVCBFOMP5Zreqyt1Gg",
+      "lat": 25.0449469,
+      "lon": 121.5470737,
+      "heading": 311,
+      "date": "2024-12",
+      "role": "third_view_crosscheck",
+      "camera_xy": [
+        3706.450413978736,
+        408.04199477364307
+      ],
+      "direction": [
+        -0.7573562168152385,
+        0.6530019608326681
+      ],
+      "perpendicular_ray_residual_m": 0.08592486977127933,
+      "forward_distance_m": 31.14372179647403
+    }
+  ],
+  "method": "Intersection of two visually centered December 2024 Street View bearings; geodesic heading projected to EPSG3826 then established model transform. Two primary bearings plus a third-view ray crosscheck, not survey validation.",
+  "uncertainty": "Not surveyed. Camera geolocation, panorama heading, target matching and visual centering errors remain unquantified. A 3m display ring is a review guide, not a statistical confidence interval.",
+  "real_world_verified": false,
+  "height_changed": false,
+  "original_xy": [
+    3675.69189453125,
+    421.53167724609375
+  ],
+  "model_pier_candidate": "UNVERIFIED_Pier_731",
+  "comparison_object": "SV_XY_EST_P246_NORTH_MODEL731",
+  "association_status": "Provisional same-span north-side correspondence; not independently numbered"
+}

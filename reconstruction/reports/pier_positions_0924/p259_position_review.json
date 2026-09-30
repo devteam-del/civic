@@ -1,0 +1,151 @@
+{
+  "targets": [
+    {
+      "id": "P259_SOUTH",
+      "actual_visible_label": "P259",
+      "model_pier_candidate": "UNVERIFIED_Pier_423",
+      "target": "Pair beside parking ramp hedge and vent boxes; P259 visible on south shaft",
+      "views": [
+        {
+          "pano": "rZ15HNibSMZkMVtt7zegbw",
+          "lat": 25.044413,
+          "lon": 121.5518025,
+          "date": "2024-12",
+          "view_heading": 0,
+          "target_pixel_x": 910,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 36.86989764584402,
+          "camera_xy": [
+            4183.857956016085,
+            350.84180004046914
+          ],
+          "direction": [
+            0.5967322748242057,
+            0.802440397900759
+          ],
+          "forward_distance_m": 7.517998554787697,
+          "perpendicular_ray_residual_m": 2.7489122089718876e-13
+        },
+        {
+          "pano": "l3aBLERj7ar_Ntb4exFefw",
+          "lat": 25.0444023,
+          "lon": 121.5519241,
+          "date": "2025-04",
+          "view_heading": 0,
+          "target_pixel_x": 252,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 312.8562391347766,
+          "camera_xy": [
+            4196.13306968282,
+            349.7066523834543
+          ],
+          "direction": [
+            -0.735831086999404,
+            0.6771651286099096
+          ],
+          "forward_distance_m": 10.58514844591992,
+          "perpendicular_ray_residual_m": 2.318145675417327e-13
+        }
+      ],
+      "candidate_model_xy": [
+        4188.3441883958085,
+        356.8745457921905
+      ],
+      "intersection_angle_deg": 84.01370940365311,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.2433541819316363,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4203.62060546875,
+        364.7219543457031
+      ],
+      "delta_xy": [
+        -15.276417072941513,
+        -7.8474085535126505
+      ],
+      "comparison_object": "SV_XY_EST_P259_SOUTH_MODEL423",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "P259_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_422",
+      "target": "Pair beside parking ramp hedge and vent boxes; P259 visible on south shaft",
+      "views": [
+        {
+          "pano": "rZ15HNibSMZkMVtt7zegbw",
+          "lat": 25.044413,
+          "lon": 121.5518025,
+          "date": "2024-12",
+          "view_heading": 0,
+          "target_pixel_x": 766,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 19.290046219188735,
+          "camera_xy": [
+            4183.857956016085,
+            350.84180004046914
+          ],
+          "direction": [
+            0.326498218254495,
+            0.9451978171137723
+          ],
+          "forward_distance_m": 18.097486372276265,
+          "perpendicular_ray_residual_m": 3.8458125573015423e-13
+        },
+        {
+          "pano": "l3aBLERj7ar_Ntb4exFefw",
+          "lat": 25.0444023,
+          "lon": 121.5519241,
+          "date": "2025-04",
+          "view_heading": 0,
+          "target_pixel_x": 516,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 340.99401580396324,
+          "camera_xy": [
+            4196.13306968282,
+            349.7066523834543
+          ],
+          "direction": [
+            -0.32952113591453097,
+            0.9441481986349374
+          ],
+          "forward_distance_m": 19.31990369489635,
+          "perpendicular_ray_residual_m": 3.8546943414985435e-13
+        }
+      ],
+      "candidate_model_xy": [
+        4189.766753071518,
+        367.94750465479103
+      ],
+      "intersection_angle_deg": 38.29608179657112,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.0483417624077416,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4204.15380859375,
+        370.6982727050781
+      ],
+      "delta_xy": [
+        -14.387055522232004,
+        -2.7507680502870926
+      ],
+      "comparison_object": "SV_XY_EST_P259_NORTH_MODEL422",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

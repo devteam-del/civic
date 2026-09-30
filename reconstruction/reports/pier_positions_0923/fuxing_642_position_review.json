@@ -1,0 +1,89 @@
+{
+  "target": "Roadside cylindrical pier west of visible P236, beside service-house west end",
+  "candidate_model_xy": [
+    3315.9688869055494,
+    386.75577180593325
+  ],
+  "views": [
+    {
+      "pano": "GNaYshgbXGqT6PZXF7RvSw",
+      "lat": 25.0446044,
+      "lon": 121.5427628,
+      "heading": 67.7,
+      "date": "2025-04",
+      "camera_xy": [
+        3271.6052651060245,
+        368.3526742085381
+      ],
+      "direction": [
+        0.9236800376325925,
+        0.38316470098255706
+      ],
+      "perpendicular_ray_residual_m": 2.4868995751603507e-14,
+      "forward_distance_m": 48.02920924136203
+    },
+    {
+      "pano": "4NKKDkj7LTh70nLelXcPqw",
+      "lat": 25.044701,
+      "lon": 121.5436636,
+      "heading": 279.2,
+      "date": "2025-01",
+      "camera_xy": [
+        3362.458978041954,
+        379.4176076790554
+      ],
+      "direction": [
+        -0.9877707430530127,
+        0.15591330657932662
+      ],
+      "perpendicular_ray_residual_m": 4.440892098500626e-15,
+      "forward_distance_m": 47.06566929965214
+    },
+    {
+      "pano": "2OrSAImf04uhBzzFvkc8jg",
+      "lat": 25.0446163,
+      "lon": 121.5428768,
+      "heading": 59.8,
+      "date": "2020-10",
+      "role": "historical_crosscheck_only",
+      "camera_xy": [
+        3283.1033336087226,
+        369.7169404897242
+      ],
+      "direction": [
+        0.8622494881242985,
+        0.5064837808157189
+      ],
+      "perpendicular_ray_residual_m": 1.9541461117398757,
+      "forward_distance_m": 36.96819821282565
+    }
+  ],
+  "method": "Intersection of two visually centered 2025 Street View bearings; geodesic heading projected to EPSG3826 then established model transform. Historical third view is a crosscheck only.",
+  "uncertainty": "Not surveyed. Camera geolocation, panorama heading, target matching and visual centering errors remain unquantified. A 3m display ring is a review guide, not a statistical confidence interval.",
+  "real_world_verified": false,
+  "height_changed": false,
+  "model_pier_candidate": "UNVERIFIED_Pier_642",
+  "original_xy": [
+    3305.7265625,
+    379.1428527832032
+  ],
+  "delta_xy": [
+    10.242324405549425,
+    7.612919022730068
+  ],
+  "association_status": "Provisional matching to nearest old roadside shaft; companion column and cap not relocated",
+  "model_footprint_check": {
+    "old_road_outside_median_m2": 3.105584904551506,
+    "new_road_outside_median_m2": 0.0,
+    "new_outside_median_m2": 0.0
+  },
+  "application": {
+    "scene": "CIVIC_PIER_XY_REVIEW_20260923",
+    "object": "SV_XY_EST_Pier_642",
+    "z_vertices_equal": true,
+    "mesh_vertices_unchanged": true,
+    "column_height_m": 4.800000190734863,
+    "cap_and_companion_unchanged": true,
+    "scope": "One provisional XY correction only; no height or deck edits"
+  }
+}

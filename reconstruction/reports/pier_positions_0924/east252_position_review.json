@@ -1,0 +1,131 @@
+{
+  "targets": [
+    {
+      "id": "EAST252_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_435",
+      "target": "First shaft pair east of visibly labelled P252 at raised-ramp side; own labels unread",
+      "views": [
+        {
+          "pano": "9qXinbwjRCQlWqaTDpGXyg",
+          "lat": 25.0446858,
+          "lon": 121.5492392,
+          "date": "2025-04",
+          "heading": 88,
+          "camera_xy": [
+            3925.080674767506,
+            380.00631093274677
+          ],
+          "direction": [
+            0.9992409189782757,
+            0.038956204120150474
+          ],
+          "forward_distance_m": 54.840195583844284,
+          "perpendicular_ray_residual_m": 9.325873406851315e-15
+        },
+        {
+          "pano": "Q6LD3ubEsA3SQ87fNQKQSQ",
+          "lat": 25.0446559,
+          "lon": 121.5495956,
+          "date": "2025-04",
+          "heading": 74.5,
+          "camera_xy": [
+            3961.0572577855205,
+            376.840447752397
+          ],
+          "direction": [
+            0.9625369504619006,
+            0.27115054673650374
+          ],
+          "forward_distance_m": 19.55455778097893,
+          "perpendicular_ray_residual_m": 2.3092638912203256e-14
+        }
+      ],
+      "candidate_model_xy": [
+        3979.879242199655,
+        382.1426767859
+      ],
+      "intersection_angle_deg": 13.500151536349659,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 6.486952964519222,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3994.754150390625,
+        391.217529296875
+      ],
+      "delta_xy": [
+        -14.874908190970018,
+        -9.074852510975006
+      ],
+      "comparison_object": "SV_XY_EST_EAST252_SOUTH_MODEL435",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "EAST252_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_434",
+      "target": "First shaft pair east of visibly labelled P252 at raised-ramp side; own labels unread",
+      "views": [
+        {
+          "pano": "9qXinbwjRCQlWqaTDpGXyg",
+          "lat": 25.0446858,
+          "lon": 121.5492392,
+          "date": "2025-04",
+          "heading": 76.5,
+          "camera_xy": [
+            3925.080674767506,
+            380.00631093274677
+          ],
+          "direction": [
+            0.9714142412002665,
+            0.2373907580200002
+          ],
+          "forward_distance_m": 58.22504272226715,
+          "perpendicular_ray_residual_m": 1.7763568394002505e-15
+        },
+        {
+          "pano": "Q6LD3ubEsA3SQ87fNQKQSQ",
+          "lat": 25.0446559,
+          "lon": 121.5495956,
+          "date": "2025-04",
+          "heading": 50.7,
+          "camera_xy": [
+            3961.0572577855205,
+            376.840447752397
+          ],
+          "direction": [
+            0.771260944819316,
+            0.6365190924052602
+          ],
+          "forward_distance_m": 26.688830563969546,
+          "perpendicular_ray_residual_m": 2.842170943040401e-14
+        }
+      ],
+      "candidate_model_xy": [
+        3981.6413104624103,
+        393.82839796033267
+      ],
+      "intersection_angle_deg": 25.800152191528078,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 3.6043739443740237,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3995.535400390625,
+        397.1664733886719
+      ],
+      "delta_xy": [
+        -13.894089928214726,
+        -3.3380754283392093
+      ],
+      "comparison_object": "SV_XY_EST_EAST252_NORTH_MODEL434",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

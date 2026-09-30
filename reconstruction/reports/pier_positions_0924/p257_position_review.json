@@ -1,0 +1,151 @@
+{
+  "targets": [
+    {
+      "id": "P257_SOUTH",
+      "actual_visible_label": "P257",
+      "model_pier_candidate": "UNVERIFIED_Pier_427",
+      "target": "Pair beside semi-circular low landscape curbs and small enclosure east of P256",
+      "views": [
+        {
+          "pano": "qW5wQ6xlNLKJE7jPZ8_Beg",
+          "lat": 25.0444841,
+          "lon": 121.5511214,
+          "date": "2025-04",
+          "view_heading": 0,
+          "target_pixel_x": 843,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 29.418168208170094,
+          "camera_xy": [
+            4115.098190528273,
+            358.4371364174245
+          ],
+          "direction": [
+            0.4876277417545272,
+            0.873051651090232
+          ],
+          "forward_distance_m": 8.04732169812537,
+          "perpendicular_ray_residual_m": 6.350475700855895e-14
+        },
+        {
+          "pano": "EjbJn3qzXChS7SVa4BTX0A",
+          "lat": 25.044505,
+          "lon": 121.5508902,
+          "date": "2025-04",
+          "view_heading": 85,
+          "target_pixel_x": 610,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 80.23635830927383,
+          "camera_xy": [
+            4091.759105188683,
+            360.6571351344471
+          ],
+          "direction": [
+            0.9848170540514604,
+            0.17359542058880176
+          ],
+          "forward_distance_m": 27.683499726432245,
+          "perpendicular_ray_residual_m": 1.7763568394002505e-14
+        }
+      ],
+      "candidate_model_xy": [
+        4119.022287835102,
+        365.4628639128271
+      ],
+      "intersection_angle_deg": 50.81829055093816,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.7776041858975055,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4133.84814453125,
+        372.9546203613281
+      ],
+      "delta_xy": [
+        -14.825856696147639,
+        -7.4917564485010075
+      ],
+      "comparison_object": "SV_XY_EST_P257_SOUTH_MODEL427",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "P257_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_426",
+      "target": "Pair beside semi-circular low landscape curbs and small enclosure east of P256",
+      "views": [
+        {
+          "pano": "qW5wQ6xlNLKJE7jPZ8_Beg",
+          "lat": 25.0444841,
+          "lon": 121.5511214,
+          "date": "2025-04",
+          "view_heading": 0,
+          "target_pixel_x": 744,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 16.11341823308929,
+          "camera_xy": [
+            4115.098190528273,
+            358.4371364174245
+          ],
+          "direction": [
+            0.2736239693903661,
+            0.9618367446583957
+          ],
+          "forward_distance_m": 19.405782162596143,
+          "perpendicular_ray_residual_m": 1.652011860642233e-13
+        },
+        {
+          "pano": "EjbJn3qzXChS7SVa4BTX0A",
+          "lat": 25.044505,
+          "lon": 121.5508902,
+          "date": "2025-04",
+          "view_heading": 85,
+          "target_pixel_x": 475,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 60.37643521383639,
+          "camera_xy": [
+            4091.759105188683,
+            360.6571351344471
+          ],
+          "direction": [
+            0.8672718755378738,
+            0.49783480583524764
+          ],
+          "forward_distance_m": 33.03343886976271,
+          "perpendicular_ray_residual_m": 9.592326932761353e-14
+        }
+      ],
+      "candidate_model_xy": [
+        4120.408077672728,
+        377.1023307602459
+      ],
+      "intersection_angle_deg": 44.2631165042977,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.2756844045640994,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4134.62939453125,
+        378.903564453125
+      ],
+      "delta_xy": [
+        -14.221316858522187,
+        -1.8012336928791228
+      ],
+      "comparison_object": "SV_XY_EST_P257_NORTH_MODEL426",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

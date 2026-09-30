@@ -1,0 +1,151 @@
+{
+  "targets": [
+    {
+      "id": "P262_SOUTH",
+      "actual_visible_label": "P262",
+      "model_pier_candidate": "UNVERIFIED_Pier_417",
+      "target": "Mainline pair by east end of Yanji parking ramp; southern shaft P262 visible in March2022; north identified by paired transverse cap and sequence",
+      "views": [
+        {
+          "pano": "EtE1zVxTgl8sNr_LOvrrfA",
+          "lat": 25.0443434,
+          "lon": 121.5526809,
+          "date": "2025-05",
+          "view_heading": 70,
+          "target_pixel_x": 762,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 88.72094867471708,
+          "camera_xy": [
+            4272.526071259501,
+            343.494268579253
+          ],
+          "direction": [
+            0.9996513154706687,
+            0.02640544409325205
+          ],
+          "forward_distance_m": 27.51251377332013,
+          "perpendicular_ray_residual_m": 3.3639757646142243e-14
+        },
+        {
+          "pano": "xtJDxoL8Z8n-PTgLRyw_0w",
+          "lat": 25.0442745,
+          "lon": 121.5529236,
+          "date": "2022-03",
+          "view_heading": 340,
+          "target_pixel_x": 943,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 20.08620123762529,
+          "camera_xy": [
+            4297.047380463087,
+            335.96255125455014
+          ],
+          "direction": [
+            0.3395925249324865,
+            0.9405726537647043
+          ],
+          "forward_distance_m": 8.779967646257852,
+          "perpendicular_ray_residual_m": 4.121147867408581e-13
+        }
+      ],
+      "candidate_model_xy": [
+        4300.028991844905,
+        344.22074872355927
+      ],
+      "intersection_angle_deg": 68.6348531897085,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.6088481639448724,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4308.626953125,
+        356.17425537109375
+      ],
+      "delta_xy": [
+        -8.59796128009475,
+        -11.953506647534482
+      ],
+      "comparison_object": "SV_XY_EST_P262_SOUTH_MODEL417",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "P262_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_416",
+      "target": "Mainline pair by east end of Yanji parking ramp; southern shaft P262 visible in March2022; north identified by paired transverse cap and sequence",
+      "views": [
+        {
+          "pano": "EtE1zVxTgl8sNr_LOvrrfA",
+          "lat": 25.0443434,
+          "lon": 121.5526809,
+          "date": "2025-05",
+          "view_heading": 70,
+          "target_pixel_x": 620,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 66.82016988013577,
+          "camera_xy": [
+            4272.526071259501,
+            343.494268579253
+          ],
+          "direction": [
+            0.9176584123824004,
+            0.39737015260813463
+          ],
+          "forward_distance_m": 30.942887935444936,
+          "perpendicular_ray_residual_m": 1.2789769243681803e-13
+        },
+        {
+          "pano": "CiREkvxUouFy02FpQjYIFg",
+          "lat": 25.0443294,
+          "lon": 121.5528048,
+          "date": "2024-12",
+          "view_heading": 0,
+          "target_pixel_x": 1058,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 49.26352091175282,
+          "camera_xy": [
+            4285.034780218262,
+            341.994620770073
+          ],
+          "direction": [
+            0.7550463632298571,
+            0.6556714035043518
+          ],
+          "forward_distance_m": 21.04015492591573,
+          "perpendicular_ray_residual_m": 1.9895196601282805e-13
+        }
+      ],
+      "candidate_model_xy": [
+        4300.921072676868,
+        355.79004868029705
+      ],
+      "intersection_angle_deg": 17.556702319143962,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 3.3527715779852394,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        4308.87353515625,
+        362.1691589355469
+      ],
+      "delta_xy": [
+        -7.95246247938212,
+        -6.379110255249827
+      ],
+      "comparison_object": "SV_XY_EST_P262_NORTH_MODEL416",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

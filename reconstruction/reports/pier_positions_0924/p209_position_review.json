@@ -1,0 +1,243 @@
+{
+  "targets": [
+    {
+      "id": "P209_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_118",
+      "actual_visible_label": "P209",
+      "shape_note": "Rectangular shaft west of local junction, planted median; southern label P209 visible in mc4 panorama.",
+      "views": [
+        {
+          "pano": "zh-85Nl-4uUCqycld2D8yg",
+          "lat": 25.0451438,
+          "lon": 121.5344073,
+          "date": "2025-04",
+          "view_heading": 260,
+          "target_pixel_x": 700,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 267.2878730270296,
+          "camera_xy": [
+            2428.244184621153,
+            424.7434683975819
+          ],
+          "direction": [
+            -0.9986851873002184,
+            -0.05126301461217002
+          ],
+          "forward_distance_m": 23.703329129270553,
+          "perpendicular_ray_residual_m": 1.7985612998927536e-14
+        },
+        {
+          "pano": "mc4ARoq6Vr6H2le74g1BDQ",
+          "lat": 25.0449686,
+          "lon": 121.5341636,
+          "date": "2025-04",
+          "view_heading": 0,
+          "target_pixel_x": 658,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 2.862405226111747,
+          "camera_xy": [
+            2403.72998397064,
+            405.2401886831162
+          ],
+          "direction": [
+            0.045993972515910655,
+            0.9989417172649292
+          ],
+          "forward_distance_m": 18.307550171222534,
+          "perpendicular_ray_residual_m": 1.7696955012524995e-13
+        },
+        {
+          "pano": "oikrmOUTcOqyeXuFU4XpjQ",
+          "lat": 25.0450951,
+          "lon": 121.5346057,
+          "date": "2025-04",
+          "view_heading": 260,
+          "target_pixel_x": 775,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 276.05304688903436,
+          "camera_xy": [
+            2448.2852727332465,
+            419.42826567987487
+          ],
+          "direction": [
+            -0.9948336015364727,
+            0.10151898962248622
+          ],
+          "forward_distance_m": 43.903649594505495,
+          "perpendicular_ray_residual_m": 0.35880928913777765
+        }
+      ],
+      "rejected_view": {
+        "pano": "Jp9c0sgxTssnLaOMpx-aNg",
+        "lat": 25.0451146,
+        "lon": 121.5336574,
+        "date": "2025-04",
+        "view_heading": 60,
+        "target_pixel_x": 885,
+        "image_width": 1280,
+        "image_height": 720,
+        "assumed_vertical_fov_deg": 90,
+        "assumed_focal_px": 360.00000000000006,
+        "heading": 94.23746277685754,
+        "reason": "P209 north hidden behind nearer south shaft; selected farther shaft was wrong association. Not used."
+      },
+      "candidate_model_xy": [
+        2404.572020930049,
+        423.52836429007107
+      ],
+      "intersection_angle_deg": 84.4253671521225,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.5493136195860638,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2387.587646484375,
+        433.5051574707031
+      ],
+      "delta_xy": [
+        16.984374445673893,
+        -9.976793180632058
+      ],
+      "comparison_object": "SV_XY_EST_P209_NORTH_MODEL118",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false,
+      "label_observation": {
+        "pano": "5FXaQ23aqxrCaqXmFL6l8Q",
+        "date": "2025-04",
+        "note": "P209 north label visible at left foreground."
+      }
+    },
+    {
+      "id": "P209_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_119",
+      "actual_visible_label": "P209",
+      "shape_note": "Rectangular shaft west of local junction, planted median; southern label P209 visible in mc4 panorama.",
+      "views": [
+        {
+          "pano": "zh-85Nl-4uUCqycld2D8yg",
+          "lat": 25.0451438,
+          "lon": 121.5344073,
+          "date": "2025-04",
+          "view_heading": 260,
+          "target_pixel_x": 540,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 247.96767030297755,
+          "camera_xy": [
+            2428.244184621153,
+            424.7434683975819
+          ],
+          "direction": [
+            -0.9254833694827218,
+            -0.37878824270416295
+          ],
+          "forward_distance_m": 28.58401843799451,
+          "perpendicular_ray_residual_m": 3.552713678800501e-15
+        },
+        {
+          "pano": "mc4ARoq6Vr6H2le74g1BDQ",
+          "lat": 25.0449686,
+          "lon": 121.5341636,
+          "date": "2025-04",
+          "view_heading": 0,
+          "target_pixel_x": 561,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 347.6229465020915,
+          "camera_xy": [
+            2403.72998397064,
+            405.2401886831162
+          ],
+          "direction": [
+            -0.21819890674140774,
+            0.9759043175931001
+          ],
+          "forward_distance_m": 8.89020516100622,
+          "perpendicular_ray_residual_m": 5.3512749786932545e-14
+        },
+        {
+          "pano": "oikrmOUTcOqyeXuFU4XpjQ",
+          "lat": 25.0450951,
+          "lon": 121.5346057,
+          "date": "2025-04",
+          "view_heading": 260,
+          "target_pixel_x": 668,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 263.4154175367777,
+          "camera_xy": [
+            2448.2852727332465,
+            419.42826567987487
+          ],
+          "direction": [
+            -0.9929427969034277,
+            -0.11859427506249387
+          ],
+          "forward_distance_m": 46.820698300626894,
+          "perpendicular_ray_residual_m": 0.0408677893277023
+        },
+        {
+          "pano": "Jp9c0sgxTssnLaOMpx-aNg",
+          "lat": 25.0451146,
+          "lon": 121.5336574,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 930,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360.00000000000006,
+          "heading": 98.85337434035333,
+          "camera_xy": [
+            2352.5874516156478,
+            421.21042434404217
+          ],
+          "direction": [
+            0.9886848171558892,
+            -0.15000777421662534
+          ],
+          "forward_distance_m": 49.74015538510918,
+          "perpendicular_ray_residual_m": 0.16907707653346904
+        }
+      ],
+      "candidate_model_xy": [
+        2401.790150923802,
+        413.9161782840306
+      ],
+      "intersection_angle_deg": 80.34462431295069,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.5545714746570023,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2385.849365234375,
+        427.7624816894531
+      ],
+      "delta_xy": [
+        15.940785689426775,
+        -13.846303405422532
+      ],
+      "comparison_object": "SV_XY_EST_P209_SOUTH_MODEL119",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

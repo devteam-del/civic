@@ -1,0 +1,194 @@
+{
+  "targets": [
+    {
+      "id": "P233_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_672",
+      "views": [
+        {
+          "pano": "GNaYshgbXGqT6PZXF7RvSw",
+          "lat": 25.0446044,
+          "lon": 121.5427628,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 874,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 333.02386755579664,
+          "camera_xy": [
+            3271.6052651060245,
+            368.3526742085381
+          ],
+          "direction": [
+            -0.4571908191511137,
+            0.8893686271079801
+          ],
+          "forward_distance_m": 19.86908105207037,
+          "perpendicular_ray_residual_m": 1.3145040611561853e-13
+        },
+        {
+          "pano": "DR6MCGZceRhZANA1l07MJQ",
+          "lat": 25.044861,
+          "lon": 121.5430394,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 601,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 253.81706983405175,
+          "camera_xy": [
+            3299.401963683563,
+            396.8872012333675
+          ],
+          "direction": [
+            -0.9592503979840341,
+            -0.2825573817253268
+          ],
+          "forward_distance_m": 38.44737525991437,
+          "perpendicular_ray_residual_m": 6.217248937900877e-14
+        },
+        {
+          "pano": "8gp92s-Oet4WF_j0WKorfw",
+          "lat": 25.0446434,
+          "lon": 121.5428595,
+          "date": "2025-04",
+          "view_heading": 290,
+          "target_pixel_x": 740,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 305.52411099675425,
+          "camera_xy": [
+            3281.3456047349373,
+            372.711691958574
+          ],
+          "direction": [
+            -0.8161958887957819,
+            0.5777752773465334
+          ],
+          "forward_distance_m": 23.05561517498866,
+          "perpendicular_ray_residual_m": 0.011081733082921374
+        }
+      ],
+      "candidate_model_xy": [
+        3262.5213036640484,
+        386.023611545715
+      ],
+      "intersection_angle_deg": 79.20691248524258,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.8415792866194833,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3263.252197265625,
+        392.2336120605469
+      ],
+      "delta_xy": [
+        -0.7308936015765539,
+        -6.210000514831847
+      ],
+      "comparison_object": "SV_XY_EST_P233_NORTH_MODEL672",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "P233_SOUTH",
+      "actual_visible_label": "P233",
+      "model_pier_candidate": "UNVERIFIED_Pier_673",
+      "views": [
+        {
+          "pano": "GNaYshgbXGqT6PZXF7RvSw",
+          "lat": 25.0446044,
+          "lon": 121.5427628,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 695,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 308.6863545812366,
+          "camera_xy": [
+            3271.6052651060245,
+            368.3526742085381
+          ],
+          "direction": [
+            -0.783080514066596,
+            0.6219203393435495
+          ],
+          "forward_distance_m": 9.38901390322793,
+          "perpendicular_ray_residual_m": 6.927791673660977e-14
+        },
+        {
+          "pano": "DR6MCGZceRhZANA1l07MJQ",
+          "lat": 25.044861,
+          "lon": 121.5430394,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 490,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 237.38013505195957,
+          "camera_xy": [
+            3299.401963683563,
+            396.8872012333675
+          ],
+          "direction": [
+            -0.8400951587585731,
+            -0.5424390511664954
+          ],
+          "forward_distance_m": 41.83937027252603,
+          "perpendicular_ray_residual_m": 7.105427357601002e-14
+        },
+        {
+          "pano": "8gp92s-Oet4WF_j0WKorfw",
+          "lat": 25.0446434,
+          "lon": 121.5428595,
+          "date": "2025-04",
+          "view_heading": 290,
+          "target_pixel_x": 546,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 275.36616902843383,
+          "camera_xy": [
+            3281.3456047349373,
+            372.711691958574
+          ],
+          "direction": [
+            -0.995984578828559,
+            0.0895249615230193
+          ],
+          "forward_distance_m": 17.15657403386089,
+          "perpendicular_ray_residual_m": 0.05596539210774676
+        }
+      ],
+      "candidate_model_xy": [
+        3264.2529112721063,
+        374.19189292133484
+      ],
+      "intersection_angle_deg": 71.30633432180507,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.858241800545262,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3263.958740234375,
+        386.27532958984375
+      ],
+      "delta_xy": [
+        0.29417103773130293,
+        -12.08343666850891
+      ],
+      "comparison_object": "SV_XY_EST_P233_SOUTH_MODEL673",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false,
+      "label_confirmation": "GNaYshgbXGqT6PZXF7RvSw, 2025-04, heading280: visible233 on south shaft"
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

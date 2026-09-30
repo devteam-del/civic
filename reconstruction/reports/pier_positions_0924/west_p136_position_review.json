@@ -1,0 +1,201 @@
+{
+  "targets": [
+    {
+      "id": "WEST_P136_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_306",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "VuDIJbb1MdeZ8i5VHTxpZw",
+          "lat": 25.0482145,
+          "lon": 121.5192862,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 794,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 323.1601627665509,
+          "camera_xy": [
+            901.1284020961067,
+            758.9299045038396
+          ],
+          "direction": [
+            -0.6026479476783548,
+            0.7980071748794411
+          ],
+          "forward_distance_m": 25.21104629626631,
+          "perpendicular_ray_residual_m": 6.217248937900877e-14
+        },
+        {
+          "pano": "PdYrpyY5JzRWty-6BTCaYw",
+          "lat": 25.0483018,
+          "lon": 121.5187415,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 738,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 75.2281813380876,
+          "camera_xy": [
+            846.1292189248173,
+            768.3888765619942
+          ],
+          "direction": [
+            0.9659640823500982,
+            0.25867622930901996
+          ],
+          "forward_distance_m": 41.20836228731893,
+          "perpendicular_ray_residual_m": 2.4868995751603507e-14
+        },
+        {
+          "pano": "fIoj0hi7Eld_y9QmyJJgbw",
+          "lat": 25.0481833,
+          "lon": 121.5194876,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 662,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 303.49705973929827,
+          "camera_xy": [
+            921.463626446386,
+            755.5520398291521
+          ],
+          "direction": [
+            -0.8360273639337373,
+            0.5486877497757776
+          ],
+          "forward_distance_m": 42.5951099202654,
+          "perpendicular_ray_residual_m": 0.14957105128111436
+        }
+      ],
+      "shape_note": "Portal at eastern edge of Taipei station access opening. Equipment rooms and paving boundaries need separate calibration.",
+      "candidate_model_xy": [
+        885.9350167868378,
+        779.0485003344778
+      ],
+      "intersection_angle_deg": 67.93174951393928,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.0509566583281067,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        886.4453735351562,
+        783.0196533203125
+      ],
+      "delta_xy": [
+        -0.5103567483184861,
+        -3.971152985834692
+      ],
+      "comparison_object": "SV_XY_EST_WEST_P136_NORTH_MODEL306",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "WEST_P136_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_307",
+      "actual_visible_label": null,
+      "views": [
+        {
+          "pano": "VuDIJbb1MdeZ8i5VHTxpZw",
+          "lat": 25.0482145,
+          "lon": 121.5192862,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 640,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 300.0,
+          "camera_xy": [
+            901.1284020961067,
+            758.9299045038396
+          ],
+          "direction": [
+            -0.867938364871253,
+            0.4966719186592046
+          ],
+          "forward_distance_m": 19.789833002192008,
+          "perpendicular_ray_residual_m": 3.730349362740526e-14
+        },
+        {
+          "pano": "PdYrpyY5JzRWty-6BTCaYw",
+          "lat": 25.0483018,
+          "lon": 121.5187415,
+          "date": "2025-05",
+          "view_heading": 60,
+          "target_pixel_x": 845,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 89.6591092359951,
+          "camera_xy": [
+            846.1292189248173,
+            768.3888765619942
+          ],
+          "direction": [
+            0.9999521339725975,
+            0.009784158811479869
+          ],
+          "forward_distance_m": 37.824638389469285,
+          "perpendicular_ray_residual_m": 2.992051051364797e-14
+        },
+        {
+          "pano": "fIoj0hi7Eld_y9QmyJJgbw",
+          "lat": 25.0481833,
+          "lon": 121.5194876,
+          "date": "2025-05",
+          "view_heading": 300,
+          "target_pixel_x": 575,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 90,
+          "assumed_focal_px": 360,
+          "heading": 289.7651972365768,
+          "camera_xy": [
+            921.463626446386,
+            755.5520398291521
+          ],
+          "direction": [
+            -0.9423780252950378,
+            0.3345499326573317
+          ],
+          "forward_distance_m": 39.76846221637196,
+          "perpendicular_ray_residual_m": 0.10358619568931893
+        }
+      ],
+      "shape_note": "Portal at eastern edge of Taipei station access opening. Equipment rooms and paving boundaries need separate calibration.",
+      "candidate_model_xy": [
+        883.952046799109,
+        768.7589588309835
+      ],
+      "intersection_angle_deg": 30.340659045239676,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.9280991695152705,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        885.4285888671875,
+        777.1065063476562
+      ],
+      "delta_xy": [
+        -1.4765420680785155,
+        -8.347547516672762
+      ],
+      "comparison_object": "SV_XY_EST_WEST_P136_SOUTH_MODEL307",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

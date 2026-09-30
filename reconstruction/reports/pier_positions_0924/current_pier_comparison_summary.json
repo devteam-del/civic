@@ -1,0 +1,13 @@
+{
+  "scope": "Current comparison geometry only. Model-mask clearance is not independent field validation.",
+  "original_suspects": 124,
+  "suspects_with_xy_comparison": 124,
+  "total_xy_comparisons": 168,
+  "remaining_model_mask_overlaps": 0,
+  "remaining_median_opening_overlaps": 0,
+  "added_missing_support_comparisons": 17,
+  "supports_outside_median": 73,
+  "supports_outside_ground_coverage": 73,
+  "field_verified": 0,
+  "limitation": "Mask clearance after estimated curb corrections is not independent field verification. 73 original supports outside ground coverage are not declared safe."
+}

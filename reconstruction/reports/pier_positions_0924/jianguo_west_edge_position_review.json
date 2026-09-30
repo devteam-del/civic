@@ -1,0 +1,197 @@
+{
+  "targets": [
+    {
+      "id": "JIANGUO_WEST_EDGE_NORTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_106",
+      "actual_visible_label": null,
+      "shape_note": "Rectangular mainline shaft at western edge of Jianguo junction. Base on landscaped median; separate from crossing viaduct.",
+      "views": [
+        {
+          "pano": "3Vq9E0LHU4N9sIW2U3PM2A",
+          "lat": 25.04465,
+          "lon": 121.5363069,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 983,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 343.6147390376176,
+          "camera_xy": [
+            2620.1422689878427,
+            370.80578428266404
+          ],
+          "direction": [
+            -0.28589543076873386,
+            0.9582608218358716
+          ],
+          "forward_distance_m": 20.48755528235918,
+          "perpendicular_ray_residual_m": 3.552713678800501e-15
+        },
+        {
+          "pano": "kVbZzJzuhXHaoWM-anP_DQ",
+          "lat": 25.044704,
+          "lon": 121.5356764,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 748,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 76.69924423399362,
+          "camera_xy": [
+            2556.4970178019016,
+            376.53509473523076
+          ],
+          "direction": [
+            0.972257330829537,
+            0.2339138359486764
+          ],
+          "forward_distance_m": 59.436890739396816,
+          "perpendicular_ray_residual_m": 2.6645352591003757e-14
+        },
+        {
+          "pano": "_5Ebb39w9DkSUk1Fe2o1Jw",
+          "lat": 25.0446665,
+          "lon": 121.5361952,
+          "date": "2025-04",
+          "view_heading": 21.757081360732055,
+          "target_pixel_x": 606,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 17.612115471495116,
+          "camera_xy": [
+            2608.863765768788,
+            372.5887464412878
+          ],
+          "direction": [
+            0.2987916850833327,
+            0.9543183582668116
+          ],
+          "forward_distance_m": 18.653877704313075,
+          "perpendicular_ray_residual_m": 0.1597148111880955
+        }
+      ],
+      "candidate_model_xy": [
+        2614.2849705449944,
+        390.4382058449454
+      ],
+      "intersection_angle_deg": 86.91522556258315,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.1168726485736227,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2594.7353515625,
+        396.8810729980469
+      ],
+      "delta_xy": [
+        19.549618982494394,
+        -6.442867153101474
+      ],
+      "comparison_object": "SV_XY_EST_JIANGUO_WEST_EDGE_NORTH_MODEL106",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "JIANGUO_WEST_EDGE_SOUTH",
+      "model_pier_candidate": "UNVERIFIED_Pier_107",
+      "actual_visible_label": "P215",
+      "shape_note": "Rectangular mainline shaft at western edge of Jianguo junction. Base on landscaped median; separate from crossing viaduct.",
+      "views": [
+        {
+          "pano": "3Vq9E0LHU4N9sIW2U3PM2A",
+          "lat": 25.04465,
+          "lon": 121.5363069,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 811,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 325.4077181089485,
+          "camera_xy": [
+            2620.1422689878427,
+            370.80578428266404
+          ],
+          "direction": [
+            -0.5709915798990582,
+            0.8209559157983926
+          ],
+          "forward_distance_m": 10.8363913172117,
+          "perpendicular_ray_residual_m": 2.930988785010413e-14
+        },
+        {
+          "pano": "kVbZzJzuhXHaoWM-anP_DQ",
+          "lat": 25.044704,
+          "lon": 121.5356764,
+          "date": "2025-04",
+          "view_heading": 60,
+          "target_pixel_x": 824,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 87.07208023799276,
+          "camera_xy": [
+            2556.4970178019016,
+            376.53509473523076
+          ],
+          "direction": [
+            0.9984845201416145,
+            0.05503329026661889
+          ],
+          "forward_distance_m": 57.544971232175726,
+          "perpendicular_ray_residual_m": 1.4654943925052066e-14
+        },
+        {
+          "pano": "_5Ebb39w9DkSUk1Fe2o1Jw",
+          "lat": 25.0446665,
+          "lon": 121.5361952,
+          "date": "2025-04",
+          "view_heading": 21.757081360732055,
+          "target_pixel_x": 755,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_vertical_fov_deg": 75,
+          "assumed_focal_px": 469.16113422283405,
+          "heading": 35.529778490474655,
+          "camera_xy": [
+            2608.863765768788,
+            372.5887464412878
+          ],
+          "direction": [
+            0.577896182054782,
+            0.8161102883596716
+          ],
+          "forward_distance_m": 8.747264368082254,
+          "perpendicular_ray_residual_m": 0.044117001354319285
+        }
+      ],
+      "candidate_model_xy": [
+        2613.9547807892236,
+        379.70198384043533
+      ],
+      "intersection_angle_deg": 58.335368471949806,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 1.3103137452906646,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        2594.38671875,
+        390.89117431640625
+      ],
+      "delta_xy": [
+        19.568062039223605,
+        -11.189190475970918
+      ],
+      "comparison_object": "SV_XY_EST_JIANGUO_WEST_EDGE_SOUTH_MODEL107",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

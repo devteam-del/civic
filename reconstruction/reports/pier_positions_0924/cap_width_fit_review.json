@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "cap": "VC_EST_BENT_044_CAP",
+      "old_width_m": 2.400058686733246,
+      "new_width_m": 2.9345852971076964
+    }
+  ],
+  "bearing_heights_unchanged": true
+}

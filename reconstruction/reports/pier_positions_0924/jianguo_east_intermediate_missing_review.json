@@ -1,0 +1,233 @@
+{
+  "targets": [
+    {
+      "id": "JIANGUO_EAST_INTERMEDIATE_NORTH",
+      "actual_visible_label": "P217",
+      "model_pier_candidate": null,
+      "shape_note": "Rectangular intermediate support east of Jianguo junction.",
+      "views": [
+        {
+          "pano": "2nxzuGMC9-mZL8LDzxv5CA",
+          "lat": 25.0447715,
+          "lon": 121.5380719,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 698,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 269.152339049402,
+          "camera_xy": [
+            2798.188800536937,
+            384.9709728491676
+          ],
+          "direction": [
+            -0.9998238215520063,
+            -0.01877034515244148
+          ],
+          "forward_distance_m": 44.43361519335055,
+          "perpendicular_ray_residual_m": 4.551914400963142e-15
+        },
+        {
+          "pano": "mQF17Hv7Mm4EGCQ8w-x_wA",
+          "lat": 25.0445783,
+          "lon": 121.5379765,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 645,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 300.7957235527393,
+          "camera_xy": [
+            2788.6474168164273,
+            363.5327310015009
+          ],
+          "direction": [
+            -0.8610270845541159,
+            0.5085591014466648
+          ],
+          "forward_distance_m": 40.51487328710722,
+          "perpendicular_ray_residual_m": 1.4210854715202004e-14
+        },
+        {
+          "pano": "ZGQO2VJfdNJlnIQ5sDkneQ",
+          "lat": 25.0447815,
+          "lon": 121.5378723,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 673,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 265.2374760668125,
+          "camera_xy": [
+            2778.0434685791656,
+            385.9985457543291
+          ],
+          "direction": [
+            -0.9962094344262867,
+            -0.08698714134892505
+          ],
+          "forward_distance_m": 24.350354221946215,
+          "perpendicular_ray_residual_m": 0.25753671569786696
+        },
+        {
+          "pano": "SBceldoggCBjjeUi56InmQ",
+          "lat": 25.0445871,
+          "lon": 121.5377812,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 794,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 323.1601627665509,
+          "camera_xy": [
+            2768.9364810339607,
+            364.42912417190536
+          ],
+          "direction": [
+            -0.6027565827261306,
+            0.797925123041202
+          ],
+          "forward_distance_m": 24.871267602257706,
+          "perpendicular_ray_residual_m": 0.228276027094644
+        }
+      ],
+      "candidate_model_xy": [
+        2753.76301358895,
+        384.13693855561763
+      ],
+      "intersection_angle_deg": 31.643424511436308,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.8979586970589137,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "geometry_template": "SV_XY_EST_WEST_WHITE_NEXT_NORTH_MODEL098",
+      "association_status": "Observed intermediate support comparison without assigned legacy counterpart.",
+      "comparison_object": "SV_ADDED_EST_JIANGUO_EAST_INTERMEDIATE_NORTH",
+      "resolved": false,
+      "geometry_status": "Inherited template dimensions and height; pending calibration",
+      "label_observation": {
+        "pano": "6jlQJ82IUGt51X7XGj-AlQ",
+        "date": "2025-02",
+        "heading": 260,
+        "note": "Visible north shaft label; not surveyed coordinates."
+      }
+    },
+    {
+      "id": "JIANGUO_EAST_INTERMEDIATE_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": null,
+      "shape_note": "Rectangular intermediate support east of Jianguo junction.",
+      "views": [
+        {
+          "pano": "2nxzuGMC9-mZL8LDzxv5CA",
+          "lat": 25.0447715,
+          "lon": 121.5380719,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 600,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 253.65980825409008,
+          "camera_xy": [
+            2798.188800536937,
+            384.9709728491676
+          ],
+          "direction": [
+            -0.9584817122809145,
+            -0.2851540061493901
+          ],
+          "forward_distance_m": 46.03704275332849,
+          "perpendicular_ray_residual_m": 7.638334409421077e-14
+        },
+        {
+          "pano": "mQF17Hv7Mm4EGCQ8w-x_wA",
+          "lat": 25.0445783,
+          "lon": 121.5379765,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 535,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 283.73979529168804,
+          "camera_xy": [
+            2788.6474168164273,
+            363.5327310015009
+          ],
+          "direction": [
+            -0.9723211181798493,
+            0.23364854620024358
+          ],
+          "forward_distance_m": 35.56878401529616,
+          "perpendicular_ray_residual_m": 1.9539925233402755e-14
+        },
+        {
+          "pano": "ZGQO2VJfdNJlnIQ5sDkneQ",
+          "lat": 25.0447815,
+          "lon": 121.5378723,
+          "date": "2025-02",
+          "view_heading": 260,
+          "target_pixel_x": 511,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 240.28570548470194,
+          "camera_xy": [
+            2778.0434685791656,
+            385.9985457543291
+          ],
+          "direction": [
+            -0.866530478034042,
+            -0.499124163548605
+          ],
+          "forward_distance_m": 27.84490059342896,
+          "perpendicular_ray_residual_m": 0.29676666461626766
+        },
+        {
+          "pano": "SBceldoggCBjjeUi56InmQ",
+          "lat": 25.0445871,
+          "lon": 121.5377812,
+          "date": "2025-04",
+          "view_heading": 300,
+          "target_pixel_x": 619,
+          "image_width": 1280,
+          "image_height": 720,
+          "assumed_focal_px": 360,
+          "heading": 296.66152945623566,
+          "camera_xy": [
+            2768.9364810339607,
+            364.42912417190536
+          ],
+          "direction": [
+            -0.8954493936387431,
+            0.44516332219984994
+          ],
+          "forward_distance_m": 16.61885749648797,
+          "perpendicular_ray_residual_m": 0.017974986293831208
+        }
+      ],
+      "candidate_model_xy": [
+        2754.063136970377,
+        371.8433256767853
+      ],
+      "intersection_angle_deg": 30.08002707784742,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 2.936837848591031,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "geometry_template": "SV_XY_EST_WEST_WHITE_NEXT_SOUTH_MODEL099",
+      "association_status": "Observed intermediate support comparison without assigned legacy counterpart.",
+      "comparison_object": "SV_ADDED_EST_JIANGUO_EAST_INTERMEDIATE_SOUTH",
+      "resolved": false,
+      "geometry_status": "Inherited template dimensions and height; pending calibration"
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}

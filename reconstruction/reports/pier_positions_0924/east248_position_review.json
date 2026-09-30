@@ -1,0 +1,131 @@
+{
+  "targets": [
+    {
+      "id": "EAST248_SOUTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_736",
+      "target": "Roadside shaft one span east of P248, at parking-entry splitter island; own label not read",
+      "views": [
+        {
+          "pano": "xcMTnVSJPM35_LllKKVJ2w",
+          "lat": 25.0449147,
+          "lon": 121.5473797,
+          "heading": 87,
+          "date": "2024-12",
+          "camera_xy": [
+            3737.342205813087,
+            404.6002196009413
+          ],
+          "direction": [
+            0.9984096229087042,
+            0.05637574729703384
+          ],
+          "forward_distance_m": 34.30245071624468,
+          "perpendicular_ray_residual_m": 2.19824158875781e-14
+        },
+        {
+          "pano": "Qe2dOHcJSmTRKLtsEIicjg",
+          "lat": 25.0448727,
+          "lon": 121.5477668,
+          "heading": 323.3,
+          "date": "2024-12",
+          "camera_xy": [
+            3776.4219242802965,
+            400.10613733107635
+          ],
+          "direction": [
+            -0.6008663727455427,
+            0.7993494868351482
+          ],
+          "forward_distance_m": 8.041424519533827,
+          "perpendicular_ray_residual_m": 5.639932965095795e-14
+        }
+      ],
+      "candidate_model_xy": [
+        3771.590102697537,
+        406.53404589418926
+      ],
+      "intersection_angle_deg": 56.299833577303886,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.8252035206954877,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3782.549072265625,
+        404.9079284667969
+      ],
+      "delta_xy": [
+        -10.958969568087923,
+        1.626117427392387
+      ],
+      "comparison_object": "SV_XY_EST_EAST248_SOUTH_MODEL736",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    },
+    {
+      "id": "EAST248_NORTH",
+      "actual_visible_label": null,
+      "model_pier_candidate": "UNVERIFIED_Pier_737",
+      "target": "North-side same-span shaft across parking-entry splitter island, own label unread",
+      "views": [
+        {
+          "pano": "xcMTnVSJPM35_LllKKVJ2w",
+          "lat": 25.0449147,
+          "lon": 121.5473797,
+          "heading": 68.5,
+          "date": "2024-12",
+          "camera_xy": [
+            3737.342205813087,
+            404.6002196009413
+          ],
+          "direction": [
+            0.9289271679374846,
+            0.3702624969770017
+          ],
+          "forward_distance_m": 38.093706946793944,
+          "perpendicular_ray_residual_m": 3.197442310920451e-14
+        },
+        {
+          "pano": "Qe2dOHcJSmTRKLtsEIicjg",
+          "lat": 25.0448727,
+          "lon": 121.5477668,
+          "heading": 349,
+          "date": "2024-12",
+          "camera_xy": [
+            3776.4219242802965,
+            400.10613733107635
+          ],
+          "direction": [
+            -0.19478172680079456,
+            0.9808466133420151
+          ],
+          "forward_distance_m": 18.961938666152758,
+          "perpendicular_ray_residual_m": 1.234568003383174e-13
+        }
+      ],
+      "candidate_model_xy": [
+        3772.7284851234126,
+        418.7048906541713
+      ],
+      "intersection_angle_deg": 79.50016590647833,
+      "geometry_condition": "usable_for_provisional_comparison",
+      "angular_sensitivity_only_m": 0.8237315731716731,
+      "uncertainty": "Angular sensitivity is NOT a confidence interval. Camera GPS, panorama heading, absolute model registration and target matching errors remain unquantified.",
+      "real_world_verified": false,
+      "height_changed": false,
+      "original_xy": [
+        3783.20751953125,
+        410.8716125488281
+      ],
+      "delta_xy": [
+        -10.47903440783739,
+        7.833278105343197
+      ],
+      "comparison_object": "SV_XY_EST_EAST248_NORTH_MODEL737",
+      "association_status": "Provisional model association using shaft sequence, road side and visible landmarks",
+      "resolved": false
+    }
+  ],
+  "method": "Two primary geodesic bearings projected to model XY, with extra views as ray crosschecks"
+}
